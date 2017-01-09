@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Teachings sur aurelienberra.org</title>
+    <link>https://aurelberra.github.io/teaching/index.xml</link>
+    <language>fr-fr</language>
+    <author>Aurélien Berra</author>
+    <rights>Copyright (c) Aurélien Berra.</rights>
+    
+    <updated>2017-02-07">7 février 2017</updated>
+    
+    <item>
+      <title>Humanités numériques 1</title>
+      <link>https://aurelberra.github.io/teaching/2016/hn1/</link>
+      
+      <pubDate>2017-02-07">7 février 2017</pubDate>
+      <author>Aurélien Berra</author>
+      <guid>https://aurelberra.github.io/teaching/2016/hn1/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;HN1&lt;/span&gt; est le cours d&amp;rsquo;introduction aux humanités numériques du master Humanités classiques et humanités numériques – et ceci est un paragraphe d&amp;rsquo;essai.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Humanités numériques 3</title>
+      <link>https://aurelberra.github.io/teaching/2017/hn3/</link>
+      
+      <pubDate>2017-01-01">1 janvier 2017</pubDate>
+      <author>Aurélien Berra</author>
+      <guid>https://aurelberra.github.io/teaching/2017/hn3/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;HN3&lt;/span&gt; est la suite du cours d&amp;rsquo;introduction aux humanités numériques du master Humanités classiques et humanités numériques – et ceci est un paragraphe d&amp;rsquo;essai.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Humanités numériques 2</title>
+      <link>https://aurelberra.github.io/teaching/2016/hn2/</link>
+      
+      <pubDate>2016-09-01">1 septembre 2016</pubDate>
+      <author>Aurélien Berra</author>
+      <guid>https://aurelberra.github.io/teaching/2016/hn2/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;HN2&lt;/span&gt; est la suite du cours d&amp;rsquo;introduction aux humanités numériques du master Humanités classiques et humanités numériques – et ceci est un paragraphe d&amp;rsquo;essai.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
