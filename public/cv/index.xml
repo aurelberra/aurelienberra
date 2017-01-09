@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Cvs sur aurelienberra.org</title>
-    <link>https://aurelienberra.org/cv/index.xml</link>
+    <link>https://aurelberra.github.io/cv/index.xml</link>
     <language>fr-fr</language>
     <author>Aurélien Berra</author>
     <rights>Copyright (c) Aurélien Berra.</rights>
@@ -11,11 +11,11 @@
     
     <item>
       <title></title>
-      <link>https://aurelienberra.org/cv/cv/</link>
+      <link>https://aurelberra.github.io/cv/cv/</link>
       
       <pubDate>0001-01-01">1 janvier 1</pubDate>
       <author>Aurélien Berra</author>
-      <guid>https://aurelienberra.org/cv/cv/</guid>
+      <guid>https://aurelberra.github.io/cv/cv/</guid>
       <description>
 
 &lt;h1 id=&#34;2016&#34;&gt;2016&lt;/h1&gt;

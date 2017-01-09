@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Blogs sur aurelienberra.org</title>
-    <link>https://aurelienberra.org/blog/index.xml</link>
+    <link>https://aurelberra.github.io/blog/index.xml</link>
     <language>fr-fr</language>
     <author>Aurélien Berra</author>
     <rights>Copyright (c) Aurélien Berra.</rights>
@@ -11,11 +11,11 @@
     
     <item>
       <title>Essai 2</title>
-      <link>https://aurelienberra.org/blog/2016/b/</link>
+      <link>https://aurelberra.github.io/blog/2016/b/</link>
       
       <pubDate>2016-12-12">12 décembre 2016</pubDate>
       <author>Aurélien Berra</author>
-      <guid>https://aurelienberra.org/blog/2016/b/</guid>
+      <guid>https://aurelberra.github.io/blog/2016/b/</guid>
       <description>
 
 &lt;h2 id=&#34;longtemps&#34;&gt;Longtemps&lt;/h2&gt;
@@ -34,11 +34,11 @@
     
     <item>
       <title>Essai 1</title>
-      <link>https://aurelienberra.org/blog/2016/a/</link>
+      <link>https://aurelberra.github.io/blog/2016/a/</link>
       
       <pubDate>2016-11-30">30 novembre 2016</pubDate>
       <author>Aurélien Berra</author>
-      <guid>https://aurelienberra.org/blog/2016/a/</guid>
+      <guid>https://aurelberra.github.io/blog/2016/a/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor, &lt;em&gt;ipsum id tempor&lt;/em&gt; congue, &lt;strong&gt;ligula&lt;/strong&gt; justo vehicula velit, id pharetra elit orci at nunc. Phasellus turpis dolor, gravida vel viverra vitae, tincidunt ac velit. Vestibulum quis mauris id erat rutrum ultricies eget id augue.&lt;/p&gt;
 
 &lt;blockquote&gt;
