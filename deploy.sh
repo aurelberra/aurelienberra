@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -r public
-# git rm -r public
+git rm -r public
 # rm -rf <submodule> &&
 # git submodule update
 # rm -rf .git/modules/public
