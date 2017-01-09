@@ -9,7 +9,7 @@ hugo
 git add -A
 
 # Commit changes with provided argument or with date as message
-msg="rebuilding site `date`"
+msg="Rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
