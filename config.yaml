@@ -5,7 +5,9 @@ layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false # check
 pygmentsuseclasses: true # check
-baseurl: "https://aurelienberra.org" # OR baseurl: "http://aurelberra.github.io/aurelienberra.org"
+baseurl: "https://aurelberra.github.io"
+# baseurl: "http://aurelberra.github.io/aurelienberra.org"
+# baseurl: "https://aurelienberra.org"
 indexes:
   category: "categories"
 title: "Aurélien Berra"
