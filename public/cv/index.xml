@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Cvs sur aurelienberra.org</title>
+    <link>https://aurelberra.github.io/cv/index.xml</link>
+    <language>fr-fr</language>
+    <author>Aurélien Berra</author>
+    <rights>Copyright (c) Aurélien Berra.</rights>
+    
+    <updated>0001-01-01">1 janvier 1</updated>
+    
+    <item>
+      <title></title>
+      <link>https://aurelberra.github.io/cv/cv/</link>
+      
+      <pubDate>0001-01-01">1 janvier 1</pubDate>
+      <author>Aurélien Berra</author>
+      <guid>https://aurelberra.github.io/cv/cv/</guid>
+      <description>&lt;p&gt;Bientôt se trouvera ici la version PDF la plus à jour de mon CV, pour l&amp;rsquo;instant encore disponible à la page &lt;a href=&#34;http://u-paris10.academia.edu/berra/CurriculumVitae&#34;&gt;http://u-paris10.academia.edu/berra/CurriculumVitae&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
