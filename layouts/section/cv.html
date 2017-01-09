@@ -1,0 +1,37 @@
+{{ partial "head.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
+                <li><a href="{{ $baseurl }}/writing">Publications</a></li>
+                <li><a href="{{ $baseurl }}/talks">Interventions</a></li>
+                <li><a href="{{ $baseurl }}/teaching">Enseignement</a></li>
+				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
+                <li><span><a href="{{ $baseurl }}/cv">CV</a></span></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+</div>
+
+<div class="wrapper">
+
+<h2>CV</h2>
+<ul>
+<li>Ceci</li>
+<li>Cela</li>
+</ul>
+
+</div>
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>

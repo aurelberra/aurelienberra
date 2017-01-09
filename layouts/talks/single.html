@@ -1,0 +1,52 @@
+{{ partial "headwithcard.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
+                <li><a href="{{ $baseurl }}/writing">Publications</a></li>
+                <li><a href="{{ $baseurl }}/talks">Interventions</a></li>
+                <li><a href="{{ $baseurl }}/teaching">Enseignement</a></li>
+				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
+                <li><a href="{{ $baseurl }}/cv">CV</a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="units-row">
+<div class="unit-20">&nbsp;</div>
+<div class="unit-60">
+<h2><a href="">{{ .Title }}</a></h2></div>
+</div>
+<div class="units-row">
+<div class="unit-20 dateblock"><h4>{{ .Date.Format "January 2, 2006" }}</h4>
+{{ if (ge .Date.Unix .Now.Unix) }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}
+</div>
+<div class="unit-60">{{ .Content }}
+
+<hr>
+    {{ if .PrevInSection }}
+    <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title}}</a> /
+    {{ end }}
+    <a href="{{ $baseurl }}/talks">Liste des interventions</a>
+    {{ if .NextInSection }}
+    / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&gt;&gt;</a>
+    {{ end }}
+
+</div>
+</div>
+</div>
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>

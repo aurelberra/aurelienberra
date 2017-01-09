@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Cvs sur aurelienberra.org</title>
+    <link>https://aurelienberra.org/cv/index.xml</link>
+    <language>fr-fr</language>
+    <author>Aurélien Berra</author>
+    <rights>Copyright (c) Aurélien Berra.</rights>
+    
+    <updated>0001-01-01">1 janvier 1</updated>
+    
+    <item>
+      <title></title>
+      <link>https://aurelienberra.org/cv/cv/</link>
+      
+      <pubDate>0001-01-01">1 janvier 1</pubDate>
+      <author>Aurélien Berra</author>
+      <guid>https://aurelienberra.org/cv/cv/</guid>
+      <description>
+
+&lt;h1 id=&#34;2016&#34;&gt;2016&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ceci&lt;/li&gt;
+&lt;li&gt;Cela&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;2017&#34;&gt;2017&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ce site Web contiendra un lien vers la version PDF de mon CV.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

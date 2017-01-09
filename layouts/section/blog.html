@@ -1,0 +1,55 @@
+{{ partial "head.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
+                <li><a href="{{ $baseurl }}/writing">Publications</a></li>
+                <li><a href="{{ $baseurl }}/talks">Interventions</a></li>
+                <li><a href="{{ $baseurl }}/teaching">Enseignement</a></li>
+				<li><span><a href="{{ $baseurl }}/blog">Blog</a></span></li>
+                <li><a href="{{ $baseurl }}/cv">CV</a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+</div>
+
+<div class="wrapper">
+
+<h2>Billets</h2>
+<div class="units-row">
+<div class="unit-70">
+{{ range .Data.Pages.GroupByDate "2006" }}
+<div class="units-row">
+<div class="unit-10">
+<h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
+</div>
+<div class="unit-90">
+<p>
+{{ range .Pages }}
+{{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a><br />
+<!-- &ensp; &emsp; &#8275; &#8258; &xharr; &#10227; &olarr; &rarrlp; &rarrw; -->
+{{ end }}
+</p>
+
+</div>
+</div>
+{{ end }}
+</div>
+<div class="unit-30">
+<p>Liste des billets publiés sur ce site.</p>
+</div>
+</div>
+</div>
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>

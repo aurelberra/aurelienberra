@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://aurelienberra.org/talks/2017/hn_critique_2/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/teaching/2016/hn1/</loc>
+    <lastmod>2017-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/writing/livre/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/writing/article/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/teaching/2017/hn3/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/blog/2016/b/</loc>
+    <lastmod>2016-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/blog/2016/a/</loc>
+    <lastmod>2016-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/teaching/2016/hn2/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/talks/2017/hn_critique_1/</loc>
+    <lastmod>2016-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/cv/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/blog/</loc>
+    <lastmod>2016-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/cv/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/talks/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/teaching/</loc>
+    <lastmod>2017-02-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aurelienberra.org/writing/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
