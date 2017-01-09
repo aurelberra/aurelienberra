@@ -126,29 +126,5 @@
 </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://aurelberra.github.io/cv/cv/</link>
-      
-      <pubDate>0001-01-01">1 janvier 1</pubDate>
-      <author>Aurélien Berra</author>
-      <guid>https://aurelberra.github.io/cv/cv/</guid>
-      <description>
-
-&lt;h1 id=&#34;2016&#34;&gt;2016&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ceci&lt;/li&gt;
-&lt;li&gt;Cela&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;2017&#34;&gt;2017&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ce site Web contiendra un lien vers la version PDF de mon CV.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
