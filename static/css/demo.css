@@ -276,6 +276,5 @@ blockquote {
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.wrapper { width: 420px; }
-    form { float: center; }
-    .searchsite { float: center; }
+    .searchsite { float: center; text-align: center; }
 }
