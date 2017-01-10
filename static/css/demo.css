@@ -256,8 +256,7 @@ blockquote {
 /*	#header nav { float:none; text-align:center;}*/
 	/* #header nav ul li { margin: 0; margin-right: 1em; } */
     nav { font-size:100%; }
-    /*.hd {text-transform: capitalize;
-        font-family: 'Alegreya'; }*/
+    .hd { font-size:200%; }
 
 	#topbar .navbar {padding-bottom:12px; font-size:120%; }
 	#topbar .navbar li {float:left; margin-left:1.1em;}
