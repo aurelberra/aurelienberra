@@ -270,7 +270,7 @@ blockquote {
 	#footer nav ul li { margin: 0; margin-right: 1em;}
 	.dateblock {text-align:center;}
 	h1, h2, h3, h4, h5, form, input {text-align:center;}
-    .searchsite { float: center }
+    .searchsite { text-align:center; }
 }
 
 /* =Mobile (Landscape)
