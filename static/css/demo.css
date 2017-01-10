@@ -260,7 +260,7 @@ blockquote {
 
 	#topbar .navbar {padding-bottom: 12px; font-size: 120%;}
     #topbar .hd {font-size: 120%; float: center;}
-	#topbar .navbar li {margin-left: 1.1em; float: left;}
+	#topbar .navbar li {margin-left: 1.1em; float: none;}
     #banner {text-align: center; margin-bottom: 1.5em;}
 	#footer section, #footer nav {float: none; text-align:center;}
 	#footer nav ul { margin-top: 1em; text-align:center;}
