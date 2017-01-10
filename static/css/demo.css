@@ -20,7 +20,7 @@ h2, h3, h4, h5 {
 }
 h2, h3 {
 	text-transform: lowercase;
-	font-family: 'Alegreya SC', serif;
+	font-family: 'Alegreya', 'Alegreya SC', serif;
 	font-style: normal;
 }
 
