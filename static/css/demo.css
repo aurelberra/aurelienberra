@@ -255,11 +255,12 @@ blockquote {
 /*	#header h1 { float: none; text-align:center; font-size: 36px;}*/
 /*	#header nav { float:none; text-align:center;}*/
 	/* #header nav ul li { margin: 0; margin-right: 1em; } */
-    nav { font-size:100%; }
-    .hd { font-size:200%; }
+    /*nav { font-size:100%; }
+    .hd { font-size:200%; }*/
 
-	#topbar .navbar {padding-bottom:12px; font-size:200%; }
-	#topbar .navbar li {float:left; margin-left:1.1em;}
+	#topbar .navbar {padding-bottom:12px; font-size:150%;}
+    #topbar .hd {font-size:200%; margin-bottom: 1.5em;}
+	#topbar .navbar li {float:left; margin-left:1.1em; text-align:center;}
     #banner { text-align: center; margin-bottom: 1.5em; }
 	#footer section, #footer nav { float: none; text-align:center;}
 	#footer nav ul { margin-top: 1em; text-align:center;}
