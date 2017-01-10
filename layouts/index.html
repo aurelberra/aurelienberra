@@ -34,12 +34,12 @@
 <div class="units-row-end">
 <div class="unit-33 dateblock">
 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+<a href="{{ .Permalink }}"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></a>
 </div>
 <div class="unit-66">
 {{ if .Truncated }}
 {{ .Summary }}
-<p class="text-right"><a href="{{ .RelPermalink }}">Suite…</a></p>
+<p class="text-right"><a href="{{ .RelPermalink }}">…</a></p>
 {{ else }}
 {{ .Content }}
 {{ end }}
@@ -52,7 +52,7 @@
 <div class="units-row-end">
 <div class="unit-33 dateblock">&nbsp;</div>
 <div class="unit-66">
-<nav class="navbar navbar-right"><a href="blog">Liste des billets</a></nav>
+<nav class="navbar navbar-right"><a href="blog">Autres  billets</a></nav>
 </div>
 </div>
 
@@ -63,15 +63,15 @@
 <h2>Publications</h2>
 <ul class="compact fa-ul">
         {{ range first 5 (where .Data.Pages.ByDate "Section" "writing").Reverse }}
-        <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-<a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
+        <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
+<a href="{{ .Permalink }}" class="badge badge-small">Résumé</a>
 {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
         </li>
 		{{ end }}
 </ul>
 
 <footer class="group">
-<nav class="navbar navbar-right"><a href="writing">Liste des publications</a></nav>
+<nav class="navbar navbar-right"><a href="writing">Autres publications</a></nav>
 </footer>
 
 
@@ -93,7 +93,7 @@
 		{{ end }}
 </ul>
 <footer class="group">
-<nav class="navbar navbar-right"><a href="talks">Liste des interventions</a></nav>
+<nav class="navbar navbar-right"><a href="talks">Autres interventions</a></nav>
 </footer>
 
 <h2>Enseignement</h2>
@@ -115,7 +115,7 @@
         {{ range (where .Data.Pages.ByDate "Section" "teaching").Reverse }}
 	    {{ if (le .Date.Unix .Now.Unix) }}
 		{{ if (le .Now.Unix (add .Date.Unix .Params.duration)) }}
-        <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title }}</a> {{ partial "nowon.html" . }}
+        <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title }}</a> {{ partial "nowon.html" . }}
         <!-- ORIGINAL -->
         <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "nowon.html" . }}  -->
 </li>
@@ -127,9 +127,9 @@
 		{{ if (ge .Now.Unix $classend ) }}
 	    {{ if (le .Now.Unix (add $classend 10368000)) }}
 
-        <li><i class="fa-li fa {{ if eq .Params.host "coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="badge badge-small">passé</span>
+        <li><i class="fa-li fa {{ if eq .Params.host "coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="badge badge-small">passé</span>
             <!-- ORIGINAL -->
-            <!-- , {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">passé</span> -->
+            <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">passé</span> -->
 </li>
 		{{ end }}
 		{{ end }}
@@ -138,7 +138,7 @@
 
 
 <footer class="group">
-<nav class="navbar navbar-right"><a href="teaching">Liste des cours</a></nav>
+<nav class="navbar navbar-right"><a href="teaching">Autres cours</a></nav>
 </footer>
 </div>
 </div>
