@@ -3,34 +3,14 @@ metadataformat: "yaml"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
-builddrafts: false # check
+builddrafts: false
 pygmentsuseclasses: true # check
 baseurl: "https://aurelberra.github.io"
-# baseurl: "http://aurelberra.github.io/aurelienberra.org"
 # baseurl: "https://aurelienberra.org"
 indexes:
   category: "categories"
 title: "Aurélien Berra"
 canonifyurls: true
-menu:
-  main:
-      - Name: "Publications"
-        URL: "/writing"
-        Weight: 2
-      - Name: "Interventions"
-        URL: "/talks"
-        Weight: 3
-      - Name: "Enseignement"
-        URL: "/teaching"
-        Weight: 4
-      - Name: "Blog"
-        URL: "/blog"
-        Weight: 5
-      - Name: "CV"
-        URL: "/cv"
-        Weight: 6
-# permalinks:
-#   blog: /blog/archives/:year/:month/:day/:slug
 # blackfriday:
 #   angledQuotes: true
 ...

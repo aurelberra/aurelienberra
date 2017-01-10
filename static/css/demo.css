@@ -7,10 +7,10 @@ body {
 	background-color: #faf8f8;
 }
 
-form, input[type="search"], select[multiple="multiple"]  {font-family:  'Gentium Book Basic', 'Alegreya', 'Trebuchet MS', Helvetica, Arial, sans-serif;}
+form, input[type="search"], select[multiple="multiple"]  {font-family:  'Gentium Book Basic', 'PT Serif', 'Source Serif Pro', 'EB Garamond', 'Alegreya', 'Trebuchet MS', Helvetica, Arial, serif;}
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Gentium Book Basic', 'Alegreya', 'Trebuchet MS', Helvetica, Arial, serif;
+	font-family: 'Gentium Book Basic', 'PT Serif', 'Source Serif Pro', 'EB Garamond', 'Alegreya', 'Trebuchet MS', Helvetica, Arial, serif;
 	font-style: italic;
 	color: #b24;
 }
@@ -33,8 +33,6 @@ a {color: #b24;
 }
 a:hover {text-decoration:none;}
 
-
-
 /* =Code
 -----------------------------------------------------------------------------*/
 pre,
@@ -47,7 +45,6 @@ output {
   font-style: normal;
   font-family: "Source Code Pro", Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
-
 
 /* =Common
 -----------------------------------------------------------------------------*/
@@ -67,7 +64,6 @@ font-family: 'Alegreya SC'; }
 .caps {text-transform: lowercase;
 font-family: 'Alegreya SC'; }
 
-
 .compact { margin: 0 0 0 1.3em; }
 
 hr {border-top: 1px solid #ecc; margin-top:5ex; margin-bottom: 5ex;}
@@ -79,7 +75,7 @@ hr {border-top: 1px solid #ecc; margin-top:5ex; margin-bottom: 5ex;}
 .wrapper {
 	padding: 0 10px;
 	width: 94%;
-	max-width: 1300px;
+	max-width: 1300px; /* Reduce? */
 	margin: auto;
 }
 #outer {
@@ -108,9 +104,7 @@ hr {border-top: 1px solid #ecc; margin-top:5ex; margin-bottom: 5ex;}
 	margin:0ex;
 }
 
-
 #topbar .navbar {padding-bottom:14px; font-size:120%;}
-#topbar li a {color: #fff;}
 #topbar li a {color: #ecc;}
 #topbar li span a {color: #fff;}
 
@@ -137,9 +131,7 @@ header h1 {	font-size: 24px;
 	margin-bottom: 0;
 }
 
-
 #topbar form {float:right; display:inline-block; }
-
 
 /* =Promo
 -----------------------------------------------------------------------------*/
@@ -156,7 +148,6 @@ header h1 {	font-size: 24px;
 }
 #intro li {
 }
-
 
 /* =Feedback
 -----------------------------------------------------------------------------*/
@@ -175,7 +166,6 @@ header h1 {	font-size: 24px;
 
 /* =Blocks
 -----------------------------------------------------------------------------*/
-
 blockquote {
     font-style:normal;
     font-size: 1em;
@@ -204,7 +194,6 @@ blockquote {
 	padding-bottom: 1.5em;
 }
 
-
 /* =Partners
 -----------------------------------------------------------------------------*/
 #partners {
@@ -215,11 +204,12 @@ blockquote {
 }
 /* =Footer
 -----------------------------------------------------------------------------*/
+.dateblock {
+    text-align: right;
+    margin-top: 0.15em;
+}
 
-.dateblock {text-align: right;}
-
-/* Check */
-.dateblock h3 { margin-top: -0.15em; }
+.dateblock h3 { margin-top: -0.25em; }
 
 /* =Footer
 -----------------------------------------------------------------------------*/
@@ -250,16 +240,11 @@ blockquote {
 	margin-left: 2em;
 }
 
-
-
-
 /* =Tablet (Portrait)
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .wrapper { width: 748px; }
 }
-
-
 
 /* =Mobile (Portrait)
 -----------------------------------------------------------------------------*/
@@ -277,7 +262,6 @@ blockquote {
 	.dateblock {text-align:center;}
 	h1, h2, h3, h4, h5, form, input {text-align:center;}
 }
-
 
 /* =Mobile (Landscape)
 -----------------------------------------------------------------------------*/
