@@ -258,7 +258,7 @@ blockquote {
     /*nav { font-size:100%; }
     .hd { font-size:200%; }*/
 
-	#topbar .navbar {padding-bottom: 12px; font-size: 120%; float: none; text-align:center;}
+	#topbar .navbar {padding-bottom: 12px; font-size: 120%;}
     #topbar .hd {font-size: 120%;}
 	#topbar .navbar li {}
 	/*#topbar .navbar {padding-bottom: 12px; font-size: 120%;}
