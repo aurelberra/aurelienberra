@@ -50,8 +50,7 @@
 }
 @font-face {
     font-family: 'Alegreya SC';
-    src: local('AlegreyaSC-Regular') format('truetype'),
-         url('../fonts/alegreyasc-regular-webfont.woff2') format('woff2'),
+    src: url('../fonts/alegreyasc-regular-webfont.woff2') format('woff2'),
          url('../fonts/alegreyasc-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
