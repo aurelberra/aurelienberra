@@ -258,8 +258,8 @@ blockquote {
     /*nav { font-size:100%; }
     .hd { font-size:200%; }*/
 
-	#topbar .navbar {padding-bottom:12px; font-size:150%;}
-    #topbar .hd {font-size:200%; margin-bottom: 1.5em;}
+	#topbar .navbar {padding-bottom:12px; font-size:120%;}
+    #topbar .hd {font-size:150%; margin-bottom: 5em;}
 	#topbar .navbar li {float:left; margin-left:1.1em; text-align:center;}
     #banner { text-align: center; margin-bottom: 1.5em; }
 	#footer section, #footer nav { float: none; text-align:center;}
