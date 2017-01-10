@@ -1,3 +1,4 @@
+/* not working: wrong paths?*/
 @font-face {
     font-family: 'Alegreya';
     src: url('../fonts/alegreya-bold-webfont.woff2') format('woff2'),
@@ -49,7 +50,8 @@
     font-style: italic;
 }
 @font-face {
-    font-family: 'Alegreya SC';
+    /*font-family: 'Alegreya SC';*/
+    font-family: 'alegreya_scregular';
     src: url('../fonts/alegreyasc-regular-webfont.woff2') format('woff2'),
          url('../fonts/alegreyasc-regular-webfont.woff') format('woff');
     font-weight: normal;
