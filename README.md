@@ -1,2 +1,2 @@
 # aurelienberra
-The source code to my (future) website: aurelienberra.org
+The source code to my (future) website.
