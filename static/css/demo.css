@@ -267,7 +267,7 @@ blockquote {
     #banner {text-align: center; margin-bottom: 1.5em;}
 	#footer section, #footer nav {float: none; text-align:center;}
 	#footer nav ul { margin-top: 1em; text-align:center;}
-	#footer nav ul li { margin: 0; margin-right: 1em;}
+	#footer nav ul li { margin: 0; margin-right: 1em; text-align:center;}
 	.dateblock {text-align:center;}
 	h1, h2, h3, h4, h5, form, input {text-align:center;}
 }
