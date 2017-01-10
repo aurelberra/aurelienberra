@@ -2,7 +2,7 @@
 title: "CV"
 author: Aurélien Berra
 
-type: cv
+type: post
 date: 2017-01-10
 filter:
 - erb
