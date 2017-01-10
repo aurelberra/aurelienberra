@@ -50,7 +50,6 @@
     font-style: italic;
 }
 @font-face {
-    /*font-family: 'Alegreya SC';*/
     font-family: 'Alegreya SC';
     src: url('../fonts/alegreyasc-regular-webfont.woff2') format('woff2'),
          url('../fonts/alegreyasc-regular-webfont.woff') format('woff');
@@ -60,29 +59,29 @@
 
 @font-face {
     font-family: 'Gentium Book Basic';
-    src: url('genbkbasb-webfont.woff2') format('woff2'),
-         url('genbkbasb-webfont.woff') format('woff');
+    src: url('../fonts/genbkbasb-webfont.woff2') format('woff2'),
+         url('../fonts/genbkbasb-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Gentium Book Basic';
-    src: url('genbkbasbi-webfont.woff2') format('woff2'),
-         url('genbkbasbi-webfont.woff') format('woff');
+    src: url('../fonts/genbkbasbi-webfont.woff2') format('woff2'),
+         url('../fonts/genbkbasbi-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'Gentium Book Basic';
-    src: url('genbkbasi-webfont.woff2') format('woff2'),
-         url('genbkbasi-webfont.woff') format('woff');
+    src: url('../fonts/genbkbasi-webfont.woff2') format('woff2'),
+         url('../fonts/genbkbasi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'Gentium Book Basic';
-    src: url('genbkbasr-webfont.woff2') format('woff2'),
-         url('genbkbasr-webfont.woff') format('woff');
+    src: url('../fonts/genbkbasr-webfont.woff2') format('woff2'),
+         url('../fonts/genbkbasr-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
