@@ -1,7 +1,7 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
 body {
-	font-family: 'Alegreya', 'Gentium Book Basic', 'PT Serif', 'Source Serif Pro', 'EB Garamond', 'Alegreya', Times, Serif;
+	font-family: 'Gentium Book Basic', 'PT Serif', 'Source Serif Pro', 'EB Garamond', 'Alegreya', Times, Serif;
 	font-size: 1.05em;
 	line-height: 1.5em;
 	background-color: #faf8f8;
@@ -20,8 +20,8 @@ h2, h3, h4, h5 {
 }
 h2, h3 {
 	text-transform: lowercase;
-	font-family: 'Alegreya SC', serif;
-	font-style: normal;
+	font-family: 'Alegreya', serif;
+	font-style: italic;
 }
 
 .label-red {
