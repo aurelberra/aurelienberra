@@ -1,16 +1,17 @@
 ---
 metadataformat: "yaml"
+title: "Aurélien Berra"
+baseurl: "https://aurelberra.github.io"
+# baseurl: "https://aurelienberra.org"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true # check
-baseurl: "https://aurelberra.github.io"
-# baseurl: "https://aurelienberra.org"
+canonifyurls: true
 indexes:
   category: "categories"
-title: "Aurélien Berra"
-canonifyurls: true
+pluralizelisttitles: "false"
 # blackfriday:
 #   angledQuotes: true
 ...
