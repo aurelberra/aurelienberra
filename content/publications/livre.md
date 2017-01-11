@@ -1,4 +1,5 @@
 ---
+title: "Un livre"
 author: Aurélien Berra
 citation: "<em>Un livre</em>, une ville, une maison d’édition, 2017"
 comments: true
@@ -12,7 +13,6 @@ published: true
 status: Published in 2017
 subjects: acedia
 tag: acedia
-title: Un livre
 type: published
 kind: book
 ---
