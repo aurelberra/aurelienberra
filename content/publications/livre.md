@@ -1,6 +1,6 @@
 ---
-title: "Un livre"
-citation: "*Un livre*, une ville, une maison d’édition, 2017"
+title: "*Un livre*, Paris, Futuropolis, 2017"
+citation: "*Un livre*, Paris, Futuropolis, 2017"
 author: Aurélien Berra
 date: 2017-01-07
 publishdate: 2017-01-07 # check
@@ -9,10 +9,10 @@ status: Published in 2017 # check
 type: published # check
 published: true # check
 comments: true
-tag: acedia
-file:
-subjects: acedia
-doi:
+subjects: site métabibliographie exemple
+tag: essai livre édition
+# file:
+# doi:
 filter: # check
 - erb
 - markdown

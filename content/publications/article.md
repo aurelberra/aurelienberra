@@ -1,18 +1,20 @@
 ---
-title: "Un article *original* en effet"
-citation: "Un article **au titre original**, 2017"
+title: "Un article original"
+citation: "Un article original, 2017"
 author: Aurélien Berra
 date: 2017-01-07
 publishdate: 2017-01-07
 status: In Progress
 type: unpublished
 comments: true
-subjects: article
+subjects: exemple lorem-ipsum pseudo-latin
 tag: article
+# file:
+# doi:
 filter:
     - erb
     - markdown
     - rubypants
 ---
 
-Un commencement… Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : «&nbsp;Je m’endors.&nbsp;» Et, une demi-heure après, la pensée qu’il était temps de chercher le sommeil m’éveillait ; je voulais poser le volume que je croyais avoir encore dans les mains et souffler ma lumière ; je n’avais pas cessé en dormant de faire des réflexions sur ce que je venais de lire, mais ces réflexions avaient pris un tour un peu particulier ; il me semblait que j’étais moi-même ce dont parlait l’ouvrage : une église, un quatuor, la rivalité de François Ier et de Charles Quint. Cette croyance survivait pendant quelques secondes à mon réveil ; elle ne choquait pas ma raison mais pesait comme des écailles sur mes yeux et les empêchait de se rendre compte que le bougeoir n’était plus allumé. Puis elle commençait à me devenir inintelligible, comme après la métempsycose les pensées d’une existence antérieure ; le sujet du livre se détachait de moi, j’étais libre de m’y appliquer ou non ; aussitôt je recouvrais la vue et j’étais bien étonné de trouver autour de moi une obscurité, douce et reposante pour mes yeux, mais peut-être plus encore pour mon esprit, à qui elle apparaissait comme une chose sans cause, incompréhensible, comme une chose vraiment obscure. Je me demandais quelle heure il pouvait être ; j’entendais le sifflement des trains qui, plus ou moins éloigné, comme le chant d’un oiseau dans une forêt, relevant les distances, me décrivait l’étendue de la campagne déserte où le voyageur se hâte vers la station prochaine ; et le petit chemin qu’il suit va être gravé dans son souvenir par l’excitation qu’il doit à des lieux nouveaux, à des actes inaccoutumés, à la causerie récente et aux adieux sous la lampe étrangère qui le suivent encore dans le silence de la nuit, à la douceur prochaine du retour.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor, ipsum id tempor congue, ligula justo vehicula velit, id pharetra elit orci at nunc. Phasellus turpis dolor, gravida vel viverra vitae, tincidunt ac velit. Vestibulum quis mauris id erat rutrum ultricies eget id augue. Vivamus in nulla non magna lacinia dignissim. Donec varius tincidunt felis rhoncus venenatis. Mauris adipiscing hendrerit dictum. Suspendisse ornare lorem nec nunc rhoncus semper. Nam porttitor ligula sed eros tempor aliquam. Morbi magna lorem, accumsan et imperdiet porttitor, egestas eget odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas at metus ac lectus vehicula consectetur. Pellentesque vulputate auctor nisl, vel vestibulum massa porta et. Nam tristique risus at libero pretium euismod. Cras laoreet, arcu vel condimentum tempor, purus risus fringilla massa, et aliquet metus elit ut nibh.
