@@ -20,7 +20,7 @@
 
 <div class="wrapper">
 
-    <h2>{{ .Title }}</h2>
+    <h2>{{ .Title | markdownify }}</h2>
      {{ .Content }}
 
 </div>
