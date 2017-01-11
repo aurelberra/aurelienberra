@@ -16,7 +16,7 @@ defaultcontentlanguage: "fr"
 # blackfriday:
 #   angledQuotes: true
 permalinks:
-  post: /:year/:month/:title/
+  blog: /blog/:year/:month/:title/
 menu:
   main:
       - Name: "Curriculum vitæ"
