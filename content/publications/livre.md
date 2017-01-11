@@ -1,6 +1,6 @@
 ---
 author: Aurélien Berra
-citation: '<em>Un livre</em>, une ville, une maison d'édition, 2017'
+citation: 'Essai'
 comments: true
 date: 2017-01-07
 filter:
