@@ -31,11 +31,11 @@
 <div class="unit-60">{{ .Content }}
 
 <hr>
-    {{ if .PrevInSection }}
+    {{ if .PrevInSection | markdownify }}
     <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title}}</a> /
     {{ end }}
     <a href="{{ $baseurl }}/interventions">Liste des interventions</a>
-    {{ if .NextInSection }}
+    {{ if .NextInSection | markdownify }}
     / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&gt;&gt;</a>
     {{ end }}
 

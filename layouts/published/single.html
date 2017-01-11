@@ -34,11 +34,11 @@
 {{ partial "tweetlink_published.html" . }}
 
 <hr>
-{{ if .PrevInSection }}
+{{ if .PrevInSection | markdownify }}
 <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
 {{ end }}
 <a href="{{ $baseurl }}/publications/#{{ .Date.Format "2006" }}">Liste des publications</a>
-{{ if .NextInSection }}
+{{ if .NextInSection | markdownify }}
 / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
 {{ end }}
 
