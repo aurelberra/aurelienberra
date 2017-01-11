@@ -32,4 +32,7 @@ menu:
       - Name: "Blog"
         URL: "/blog"
         Weight: 4
+      - Name: "XXX"
+        URL: "/xxx"
+        Weight: 5
 ...
