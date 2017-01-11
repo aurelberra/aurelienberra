@@ -30,11 +30,11 @@
 
 
 <hr>
-    {{ if .PrevInSection | markdownify }}
+    {{ if .PrevInSection }}
     <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
     {{ end }}
     <a href="{{ $baseurl }}/publications">Liste des publications</a>
-    {{ if .NextInSection | markdownify }}
+    {{ if .NextInSection }}
     / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
     {{ end }}
 </div>
