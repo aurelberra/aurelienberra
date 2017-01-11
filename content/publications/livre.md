@@ -1,6 +1,6 @@
 ---
 title: "Un livre"
-citation: "<em>Un livre</em>, une ville, une maison d’édition, 2017"
+citation: "*Un livre*, une ville, une maison d’édition, 2017"
 author: Aurélien Berra
 date: 2017-01-07
 publishdate: 2017-01-07 # check
