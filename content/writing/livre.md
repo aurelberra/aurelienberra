@@ -1,6 +1,6 @@
 ---
 author: Aurélien Berra
-citation: 'Livre premier direct et sans détour, 2017'
+citation: '<em>Un livre</em>, une ville, une maison d'édition, 2017'
 comments: true
 date: 2017-01-07
 filter:
