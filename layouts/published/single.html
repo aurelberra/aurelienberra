@@ -35,11 +35,11 @@
 
 <hr>
 {{ if .PrevInSection }}
-<a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title}}</a> /
+<a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
 {{ end }}
 <a href="{{ $baseurl }}/publications/#{{ .Date.Format "2006" }}">Liste des publications</a>
 {{ if .NextInSection }}
-/ <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&gt;&gt;</a>
+/ <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
 {{ end }}
 
 </div>
