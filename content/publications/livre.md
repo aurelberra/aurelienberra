@@ -1,6 +1,6 @@
 ---
 author: Aurélien Berra
-citation: "Un <em>livre</em>, une ville, une maison d'édition, 2017"
+citation: "<em>Un livre</em>, une ville, une maison d’édition, 2017"
 comments: true
 date: 2017-01-07
 filter:
@@ -12,7 +12,7 @@ published: true
 status: Published in 2017
 subjects: acedia
 tag: acedia
-title: Livre premier direct et sans détour
+title: Un livre
 type: published
 kind: book
 ---
