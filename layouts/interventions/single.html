@@ -32,11 +32,11 @@
 
 <hr>
     {{ if .PrevInSection | markdownify }}
-    <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title}}</a> /
+    <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
     {{ end }}
     <a href="{{ $baseurl }}/interventions">Liste des interventions</a>
     {{ if .NextInSection | markdownify }}
-    / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&gt;&gt;</a>
+    / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
     {{ end }}
 
 </div>

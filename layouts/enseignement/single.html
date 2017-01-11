@@ -33,11 +33,11 @@
 
 <hr>
 {{ if .PrevInSection | markdownify }}
-<a href="{{.PrevInSection.Permalink}}"> &larr;&nbsp;{{.PrevInSection.Title}}</a> |
+<a href="{{.PrevInSection.Permalink}}"> &larr;&nbsp;{{.PrevInSection.Title | markdownify}}</a> |
 {{ end }}
 <a href="{{ $baseurl }}/class">Class Archive</a>
 {{ if .NextInSection | markdownify }}
-| <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&rarr;</a>
+| <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&rarr;</a>
 {{ end }}
 </div>
 
