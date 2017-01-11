@@ -8,9 +8,9 @@
 			<ul>
 				<li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
                 <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
-                <li><a href="{{ $baseurl }}/writing">Publications</a></li>
-                <!-- <li><a href="{{ $baseurl }}/talks">Interventions</a></li> -->
-                <li><a href="{{ $baseurl }}/teaching">Enseignement</a></li>
+                <li><a href="{{ $baseurl }}/publications">Publications</a></li>
+                <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
+                <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
 				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
 			</ul>
 		</nav>
@@ -37,7 +37,7 @@
 {{ if .PrevInSection }}
 <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title}}</a> /
 {{ end }}
-<a href="{{ $baseurl }}/writing/#{{ .Date.Format "2006" }}">Liste des publications</a>
+<a href="{{ $baseurl }}/publications/#{{ .Date.Format "2006" }}">Liste des publications</a>
 {{ if .NextInSection }}
 / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&gt;&gt;</a>
 {{ end }}

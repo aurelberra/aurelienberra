@@ -15,4 +15,21 @@ pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
 # blackfriday:
 #   angledQuotes: true
+menu:
+  main:
+      - Name: "Curriculum vitæ"
+        URL: "/cv"
+        Weight: 1
+      - Name: "Publications"
+        URL: "/publications" # writing
+        Weight: 2
+#      - Name: "Interventions"
+#        URL: "/interventions" # talks
+#        Weight: 3
+      - Name: "Enseignement"
+        URL: "/enseignement" # teaching
+        Weight: 3
+      - Name: "Blog"
+        URL: "/blog"
+        Weight: 4
 ...
