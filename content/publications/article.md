@@ -1,6 +1,6 @@
 ---
-title: "Un article *original* en effet"
-citation: "Un article <em>au titre original</em>, 2017"
+title: "Un article **original** en effet"
+citation: "Un article **au titre original**, 2017"
 author: Aurélien Berra
 date: 2017-01-07
 publishdate: 2017-01-07
