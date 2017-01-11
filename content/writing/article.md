@@ -1,10 +1,10 @@
 ---
-title: "Un article *in illo tempore*"
+title: "Un article in illo tempore"
 author: Aurélien Berra
 
 status: In Progress
 type: unpublished
-citation: "Un article au titre original et plein d’audace, avec une expression latine comme <em>in illo tempore</em>, 2017"
+citation: "Un article <em>au titre original</em>, 2017"
 comments: true
 date: 2017-01-07
 filter:
