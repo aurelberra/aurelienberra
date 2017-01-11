@@ -32,7 +32,7 @@
 <div class="unit-90">
 <ul class="fa-ul">
 {{ range .Pages }}
-<li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a> {{ partial "comingsoon.html" . }}
+<li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a> {{ partial "comingsoon.html" . }}
 <br>
 <time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>,
 {{ .Params.host | safeHTML }}

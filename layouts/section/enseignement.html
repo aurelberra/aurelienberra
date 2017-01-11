@@ -32,7 +32,7 @@
 <ul class="fa-ul">
 {{ range .Pages }}
         <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>,
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>,
         <time>{{ .Params.host }}
         <!-- <time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} – {{ .Params.enddate}}</time> -->
         <!-- de {{ .Date.Format "January" }} à {{ .Params.enddate | dateFormat "January" }}</time>,  -->
