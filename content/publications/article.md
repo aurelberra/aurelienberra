@@ -1,5 +1,5 @@
 ---
-title: "Un article *original*"
+title: "Un article *original* en effet"
 citation: "Un article <em>au titre original</em>, 2017"
 author: Aurélien Berra
 date: 2017-01-07
