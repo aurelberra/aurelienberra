@@ -1,6 +1,6 @@
 ---
 date: 2016-12-12
-description: "Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : Je m’endors."
+description: "Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : «&nbsp;Je m’endors.&nbsp;»"
 title: "Essai 2"
 ---
 
