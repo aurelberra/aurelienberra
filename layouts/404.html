@@ -48,8 +48,7 @@
         <h2>Blog</h2>
         <ul class="compact fa-ul">
           {{ range first 10 (where .Data.Pages.ByDate "Section" "blog").Reverse }}
-          <li><i class="fa-li fa fa-newspaper-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i> <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a>{{if not (isset .Params "grlog") }}, <time><em>{{ .Date.Format "January 2, 2006" }}</em></time>{{
-            end }} </li>
+          <li><i class="fa-li fa fa-newspaper-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i> <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a>{{if not (isset .Params "grlog") }}, <time><em>{{ .Date.Format "January 2, 2006" }}</em></time>{{ end }} </li>
           {{ end }}
         </ul>
 
