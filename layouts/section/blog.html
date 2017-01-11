@@ -31,7 +31,7 @@
 <div class="unit-90">
 <p>
 {{ range .Pages }}
-{{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a><br />
+{{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a><br />
 <!-- &ensp; &emsp; &#8275; &#8258; &xharr; &#10227; &olarr; &rarrlp; &rarrw; -->
 {{ end }}
 </p>
