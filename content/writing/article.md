@@ -1,5 +1,5 @@
 ---
-title: "Un article <em>in illo tempore</em>"
+title: "Un article *in illo tempore*"
 author: Aurélien Berra
 
 status: In Progress
