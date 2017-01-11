@@ -1,6 +1,7 @@
 {{ partial "head.html" . }} {{ $baseurl := .Site.BaseURL }}
 
 <body>
+
   <div id="topbar">
     <div class="wrapper">
       <header>
@@ -18,19 +19,20 @@
       </header>
     </div>
   </div>
+
   <div class="wrapper">
 
-    <div class="units-row">
+    <!-- <div class="units-row"> -->
 
-      <div class="unit-50">
-        <h2>Erreur 404…</h2>
-        <p class="big">
-          Aucune page ne correspond à votre requête et j’en suis désolé. C'est la fameuse <a href="https://fr.wikipedia.org/wiki/404_av._J.-C.">erreur 404</a>. Peut-être cela vous aidera-t-il de retourner à la <a href="https://aurelberra.github.io">page d’accueil de ce site</a>          ?
-        </p>
-        <!-- Une nouvelle recherche pourrait-elle vous aider ? -->
+    <!-- <div class="unit-50"> -->
+    <h2>Erreur 404…</h2>
+    <p class="big">
+      Aucune page ne correspond à votre requête et j’en suis désolé. C’est la fameuse <a href="https://fr.wikipedia.org/wiki/404_av._J.-C.">erreur 404</a>. Peut-être cela vous aidera-t-il de retourner à la <a href="https://aurelberra.github.io">page d’accueil de ce site</a>&nbsp;?
+    </p>
+    <!-- Une nouvelle recherche pourrait-elle vous aider ? -->
 
-        <!-- En attendant une solution, search box removed -->
-        <!-- <form method="get" action="https://duckduckgo.com/">
+    <!-- En attendant une solution, search box removed -->
+    <!-- <form method="get" action="https://duckduckgo.com/">
 	<input type="search" name="q" maxlength="255" placeholder="Rechercher sur ce site">
 	<input type="hidden" name="sites" value="aurelberra.github.io"/>
 	<input type="hidden" name="ka" value="Gentium Book Basic"/>
@@ -42,9 +44,10 @@
 	<input type="hidden" name="k1" value="-1"/>
 	<input type="hidden" name="kt" value="Gentium Book Basic"/>
 	<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form> -->
-      </div>
+  </div>
 
-      <div class="unit-50">
+  <!-- Keep error message only with link to home page -->
+  <!-- <div class="unit-50">
         <h2>Blog</h2>
         <ul class="compact fa-ul">
           {{ range first 10 (where .Data.Pages.ByDate "Section" "blog").Reverse }}
@@ -107,11 +110,11 @@
         </footer>
       </div>
     </div>
-
   </div>
-  <!-- /end .wrapper -->
+-->
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>
