@@ -33,7 +33,7 @@
     {{ range first 5 ((where .Data.Pages.ByDate "Section" "blog").Reverse) }}
 <div class="units-row-end">
 <div class="unit-33 dateblock">
-<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+<h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
 <a href="{{ .Permalink }}"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></a>
 </div>
 <div class="unit-66">
