@@ -36,8 +36,8 @@
         {{ .Content }} {{ partial "tweetlink_unpublished.html" . }}
 
         <hr> {{ if .PrevInSection }}
-        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{ .PrevInSection.Title | markdownify | markdownify }}</a> / {{ end }}
-        <a href="{{ $baseurl }}/publications">Liste des publications</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title | markdownify | markdownify }}&nbsp;&gt;</a> {{ end }}
+        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{ .PrevInSection.Title | markdownify }}</a> / {{ end }}
+        <a href="{{ $baseurl }}/publications">Liste des publications</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title | markdownify }}&nbsp;&gt;</a> {{ end }}
       </div>
 
     </div>

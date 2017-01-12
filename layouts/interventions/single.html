@@ -1,52 +1,43 @@
-{{ partial "head.html" . }}
-{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }} {{ $baseurl := .Site.BaseURL }}
+
 <body>
-<div id="topbar">
-<div class="wrapper">
-	<header>
-		<nav class="navbar">
-			<ul>
-				<li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
-                <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
-                <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-                <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
-                <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
-				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <ul>
+            <li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
+            <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
+            <li><a href="{{ $baseurl }}/publications">Publications</a></li>
+            <li><span></span><a href="{{ $baseurl }}/interventions">Interventions</a></span></li>
+            <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
+            <li><a href="{{ $baseurl }}/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
 
-<div class="wrapper">
-<div class="units-row">
-<div class="unit-20">&nbsp;</div>
-<div class="unit-60">
-<h2><a href="">{{ .Title | markdownify }}</a></h2></div>
-</div>
-<div class="units-row">
-<div class="unit-20 dateblock"><h4>{{ .Date.Format "January 2, 2006" }}</h4>
-{{ if (ge .Date.Unix .Now.Unix) }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}
-</div>
-<div class="unit-60">{{ .Content }}
+  <div class="wrapper">
+    <div class="units-row">
+      <div class="unit-20">&nbsp;</div>
+      <div class="unit-60">
+        <h2><a href="">{{ .Title | markdownify }}</a></h2></div>
+    </div>
+    <div class="units-row">
+      <div class="unit-20 dateblock">
+        <p>{{ .Date.Format "January 2, 2006" }}</p> {{ if (ge .Date.Unix .Now.Unix) }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}
+      </div>
+      <div class="unit-60">{{ .Content }}
 
-<hr>
-    {{ if .PrevInSection }}
-    <a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
-    {{ end }}
-    <a href="{{ $baseurl }}/interventions">Liste des interventions</a>
-    {{ if .NextInSection }}
-    / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
-    {{ end }}
+        <hr> {{ if .PrevInSection }}
+        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }} <a href="{{ $baseurl }}/interventions">Liste des interventions</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a>        {{ end }}
 
-</div>
-</div>
-</div>
+      </div>
+    </div>
+  </div>
 
-<hr class="separator">
-
-{{ partial "whatisthis.html" . }}
-
-{{ partial "foot.html" . }}
+  <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
 </body>
+
 </html>

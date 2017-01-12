@@ -1,54 +1,45 @@
-{{ partial "head.html" . }}
-{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }} {{ $baseurl := .Site.BaseURL }}
+
 <body>
-<div id="topbar">
-<div class="wrapper">
-	<header>
-		<nav class="navbar">
-			<ul>
-				<li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
-                <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
-                <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-                <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
-                <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
-				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <ul>
+            <li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
+            <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
+            <li><a href="{{ $baseurl }}/publications">Publications</a></li>
+            <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
+            <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
+            <li><a href="{{ $baseurl }}/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
 
-<div class="wrapper">
-<div class="units-row">
-<div class="unit-20">&nbsp;</div>
-<div class="unit-60"><h2>{{ .Title | markdownify }}</h2></div>
-</div>
-<div class="units-row">
-<div class="unit-20 dateblock">{{if not (isset .Params "grlog") }}<h4><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h4>
-  {{ else }}&nbsp;{{ end }}</div>
-<div class="unit-60">
-{{ .Content }}
+  <div class="wrapper">
+    <div class="units-row">
+      <div class="unit-20">&nbsp;</div>
+      <div class="unit-60">
+        <h2>{{ .Title | markdownify }}</h2></div>
+    </div>
+    <div class="units-row">
+      <div class="unit-20 dateblock">{{if not (isset .Params "grlog") }}
+        <h4><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h4> {{ else }}&nbsp;{{ end }}</div>
+      <div class="unit-60">
+        {{ .Content }} {{ partial "tweetlink.html" . }}
 
-{{ partial "tweetlink.html" . }}
+        <hr> {{ if .PrevInSection }}
+        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }}
+        <a href="{{ $baseurl }}/blog/#{{ .Date.Format " 2006 " }}">Liste des billets</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
 
-<hr>
-{{ if .PrevInSection }}
-<a href="{{.PrevInSection.Permalink}}">&lt;&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> /
-{{ end }}
-<a href="{{ $baseurl }}/blog/#{{ .Date.Format "2006" }}">Liste des billets</a>
-{{ if .NextInSection }}
-/ <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;&gt;</a>
-{{ end }}
+      </div>
 
-</div>
+    </div>
+  </div>
 
-</div>
-</div>
-
-<hr class="separator">
-
-{{ partial "whatisthis.html" . }}
-
-{{ partial "foot.html" . }}
+  <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
 </body>
+
 </html>

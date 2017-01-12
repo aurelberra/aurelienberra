@@ -1,55 +1,50 @@
-{{ partial "head.html" . }}
-{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }} {{ $baseurl := .Site.BaseURL }}
+
 <body>
-<div id="topbar">
-<div class="wrapper">
-	<header>
-		<nav class="navbar">
-			<ul>
-				<li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
-                <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
-                <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-                <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
-                <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
-				<li><span><a href="{{ $baseurl }}/blog">Blog</a></span></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <ul>
+            <li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
+            <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
+            <li><a href="{{ $baseurl }}/publications">Publications</a></li>
+            <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
+            <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
+            <li><span><a href="{{ $baseurl }}/blog">Blog</a></span></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
 
-<div class="wrapper">
+  <div class="wrapper">
 
-<h2>Billets</h2>
-<div class="units-row">
-<div class="unit-70">
-{{ range .Data.Pages.GroupByDate "2006" }}
-<div class="units-row">
-<div class="unit-10">
-<h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
-</div>
-<div class="unit-90">
-<p>
-{{ range .Pages }}
-{{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a><br />
-<!-- &ensp; &emsp; &#8275; &#8258; &xharr; &#10227; &olarr; &rarrlp; &rarrw; -->
-{{ end }}
-</p>
+    <h2>Billets</h2>
+    <div class="units-row">
+      <div class="unit-70">
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="units-row">
+          <div class="unit-10">
+            <h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
+          </div>
+          <div class="unit-90">
+            <p>
+              {{ range .Pages }} {{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a><br />
+              {{ end }}
+            </p>
 
-</div>
-</div>
-{{ end }}
-</div>
-<div class="unit-30">
-<p>Liste des billets publiés sur ce site.</p>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="unit-30">
+        <p>Liste des billets publiés sur ce site.</p>
+      </div>
+    </div>
+  </div>
 
-<hr class="separator">
-
-{{ partial "whatisthis.html" . }}
-
-{{ partial "foot.html" . }}
+  <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
 </body>
+
 </html>

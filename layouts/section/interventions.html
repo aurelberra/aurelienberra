@@ -1,58 +1,53 @@
-{{ partial "head.html" . }}
-{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }} {{ $baseurl := .Site.BaseURL }}
+
 <body>
-<div id="topbar">
-<div class="wrapper">
-	<header>
-		<nav class="navbar">
-			<ul>
-				<li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
-                <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
-                <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-<!-- Page and menu removed -->
-                <!-- <li><span><a href="{{ $baseurl }}/interventions">Interventions</a></span></li> -->
-                <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
-				<li><a href="{{ $baseurl }}/blog">Blog</a></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <ul>
+            <li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
+            <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
+            <li><a href="{{ $baseurl }}/publications">Publications</a></li>
+            <li><span><a href="{{ $baseurl }}/interventions">Interventions</a></span></li>
+            <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
+            <li><a href="{{ $baseurl }}/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
 
-<div class="wrapper">
+  <div class="wrapper">
 
-<h2>Interventions</h2>
-<div class="units-row">
-<div class="unit-70">
-{{ range .Data.Pages.GroupByDate "2006" }}
-<div class="units-row">
-<div class="unit-10">
-<h3>{{ .Key }}</h3>
-</div>
-<div class="unit-90">
-<ul class="fa-ul">
-{{ range .Pages }}
-<li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a> {{ partial "comingsoon.html" . }}
-<br>
-<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>,
-{{ .Params.host | safeHTML }}
-</li>
-{{ end }}
-</ul>
-</div>
-</div>
-{{ end }}
-</div>
-<div class="unit-30">
-<p>Cette page recense mes interventions dans divers cadres et fournit les liens pertinents.</p>
-</div>
-</div>
-</div>
+    <h2>Interventions</h2>
+    <div class="units-row">
+      <div class="unit-70">
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="units-row">
+          <div class="unit-10">
+            <h3>{{ .Key }}</h3>
+          </div>
+          <div class="unit-90">
+            <ul class="fa-ul">
+              {{ range .Pages }}
+              <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a> {{ partial "comingsoon.html" . }}
+                <br>
+                <time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, {{ .Params.host | safeHTML }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="unit-30">
+        <p>Cette page recense mes interventions dans divers cadres et fournit les liens pertinents.</p>
+      </div>
+    </div>
+  </div>
 
-<hr class="separator">
-
-{{ partial "whatisthis.html" . }}
-
-{{ partial "foot.html" . }}
+  <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
 </body>
+
 </html>
