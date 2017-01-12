@@ -6,10 +6,10 @@
       <header>
         <nav class="navbar">
           <ul>
-            <li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
+            <li class="hd"><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></li>
             <li><a href="{{ $baseurl }}/cv">Curriculum vitæ</a></li>
             <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-            <li><span></span><a href="{{ $baseurl }}/interventions">Interventions</a></span></li>
+            <li><span><a href="{{ $baseurl }}/interventions">Interventions</a></span></li>
             <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
             <li><a href="{{ $baseurl }}/blog">Blog</a></li>
           </ul>
@@ -26,12 +26,12 @@
     </div>
     <div class="units-row">
       <div class="unit-20 dateblock">
-        <p>{{ .Date.Format "January 2, 2006" }}</p> {{ if (ge .Date.Unix .Now.Unix) }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}
+        <p><time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ Date.Year }}</time>, {{ .Params.host | safeHTML }}</p> {{ if (ge .Date.Unix .Now.Unix) }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">à venir</span>{{ end }}{{ end }}
       </div>
       <div class="unit-60">{{ .Content }}
 
         <hr> {{ if .PrevInSection }}
-        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }} <a href="{{ $baseurl }}/interventions">Liste des interventions</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a>        {{ end }}
+        <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }} <a href="{{ $baseurl }}/interventions">Liste des interventions</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
 
       </div>
     </div>
