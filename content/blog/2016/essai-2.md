@@ -24,4 +24,4 @@ Je me demandais quelle heure il pouvait être ; j'entendais le sifflement des tr
     <figcaption>Burke</figcaption>
 </figure> -->
 
-![Burke](/static/images/IMG_0175.PNG)
+![Burke](/images/IMG_0175.PNG)
