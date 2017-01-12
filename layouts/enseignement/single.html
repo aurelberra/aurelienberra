@@ -31,7 +31,7 @@
     <div class="unit-60">{{ .Content }}
 
       <hr> {{ if .PrevInSection }}
-      <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> | {{ end }}
+      <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }}
       <a href="{{ $baseurl }}/enseignement">Liste des cours</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
     </div>
 
