@@ -77,7 +77,7 @@
           <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | markdownify | safeHTML }}</em></a>, {{ .Params.host | safeHTML }}, <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> {{ partial "comingsoon.html" . }}
           </li>
           {{ end }} {{ end }} {{ if (ge .Now.Unix .Date.Unix ) }} {{ if (le .Now.Unix (add .Date.Unix 12368000)) }}
-          <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | markdownify | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}).
+          <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | markdownify | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}).
           </li>
           {{ end }} {{ end }} {{ end }}
         </ul>
