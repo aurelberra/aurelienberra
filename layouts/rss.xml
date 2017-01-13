@@ -5,7 +5,7 @@
     <description>Publications récentes {{ with .Title | markdownify }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
     <language>fr-fr</language>
     <copyright>Copyright (c) Aurélien Berra.</copyright>
-    <lastBuildDate>{{ .Now.Format "Mon, 02 Jan 2006 15:04:05" }}</lastBuildDate>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }}</lastBuildDate>
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
