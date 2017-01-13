@@ -12,7 +12,7 @@
       <title>{{ .Title | markdownify }}</title>
       <link>{{ .Permalink }}</link>
       <author>aurelien.berra@u-paris10.fr</author>
-      <pubDate>{{Sat, 07 Sep 2002 00:00:01 GMT}} </pubDate>
+      <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
       <author>Aurélien Berra</author>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
