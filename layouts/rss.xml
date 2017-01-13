@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ with .Title | markdownify }}{{.}} sur {{ end }}{{ .Site.Title }}</title>
+    <title>{{ with .Title }}{{.}} sur {{ end }}{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Publications récentes {{ with .Title | markdownify }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
+    <description>Publications récentes {{ with .Title }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
     <language>fr-fr</language>
     <author>aurelien.berra@u-paris10.fr</author>
     <copyright>Copyright (c) Aurélien Berra.</copyright>
@@ -10,7 +10,7 @@
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
-      <title>{{ .Title | markdownify }}</title>
+      <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <author>aurelien.berra@u-paris10.fr</author>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }}</pubDate>
