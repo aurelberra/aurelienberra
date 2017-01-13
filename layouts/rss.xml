@@ -3,7 +3,7 @@
     <title>{{ with .Title }}{{.}} sur {{ end }}{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>Publications récentes {{ with .Title }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
-    <language>{{.}}</language>{{ with .Site.Author.email }}
+    <language>fr</language>
     <author>Aurélien Berra</author>
     <rights>Copyright (c) Aurélien Berra.</rights>
     <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</lastBuildDate>{{ end }}
