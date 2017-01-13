@@ -6,7 +6,7 @@
     <language>fr</language>
     <author>Aurélien Berra</author>
     <rights>Copyright (c) Aurélien Berra.</rights>
-    <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</lastBuildDate>{{ end }}
+    <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</lastBuildDate>
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
