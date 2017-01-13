@@ -4,15 +4,14 @@
     <link>{{ .Permalink }}</link>
     <description>Publications récentes {{ with .Title | markdownify }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
     <language>fr-fr</language>
-    <author>aurelien.berra@u-paris10.fr</author>
-    <!-- <author>Aurélien Berra</author> -->
-    <rights>Copyright (c) Aurélien Berra.</rights>
-    <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</lastBuildDate>
+    <copyright>Copyright (c) Aurélien Berra.</copyright>
+    <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ .Date.Month) }} {{ .Date.Year }}</lastBuildDate>
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
       <title>{{ .Title | markdownify }}</title>
       <link>{{ .Permalink }}</link>
+      <author>aurelien.berra@u-paris10.fr</author>
       <pubDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</pubDate>
       <author>Aurélien Berra</author>
       <guid>{{ .Permalink }}</guid>
