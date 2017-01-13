@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ with .Title }}{{.}} sur {{ end }}{{ .Site.Title }}</title>
+    <title>{{ with .Title | markdownify }}{{.}} sur {{ end }}{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Publications récentes {{ with .Title }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
-    <language>fr</language>
-    <author>Aurélien Berra</author>
+    <description>Publications récentes {{ with .Title | markdownify }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
+    <language>fr-fr</language>
+    <author>aurelien.berra@u-paris10.fr</author>
+    <!-- <author>Aurélien Berra</author> -->
     <rights>Copyright (c) Aurélien Berra.</rights>
     <lastBuildDate>{{ .Date.Format "2006-01-02" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</lastBuildDate>
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
