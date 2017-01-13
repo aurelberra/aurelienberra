@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>{{ .Title | markdownify }} sur aurelienberra.org</title>
+    <title>{{ .Title | markdownify }} sur https://aurelberra.github.io</title> <!-- aurelienberra.org -->
     <link>{{ .Permalink }}</link>
     <language>fr-fr</language>
     <author>Aurélien Berra</author>
