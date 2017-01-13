@@ -5,14 +5,14 @@
     <description>Publications récentes {{ with .Title | markdownify }}dans {{.}} {{ end }}sur {{ .Site.Title }}</description>
     <language>fr-fr</language>
     <copyright>Copyright (c) Aurélien Berra.</copyright>
-    <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
       <title>{{ .Title | markdownify }}</title>
       <link>{{ .Permalink }}</link>
       <author>aurelien.berra@u-paris10.fr</author>
-      <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <author>Aurélien Berra</author>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
