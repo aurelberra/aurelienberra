@@ -6,14 +6,14 @@
     <language>fr-FR</language>
     <author>aurelien.berra@u-paris10.fr (Aurélien Berra)</author>
     <copyright>Copyright (c) Aurélien Berra.</copyright>
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" | safeHTML }}</lastBuildDate>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }}</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     {{ range first 15 .Data.Pages }}
     <item>
       <title>{{ .Title | markdownify | safeHTML }}</title>
       <link>{{ .Permalink }}</link>
       <author>aurelien.berra@u-paris10.fr (Aurélien Berra)</author>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" | safeHTML }}</pubDate>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | markdownify | safeHTML }}</description>
     </item>
