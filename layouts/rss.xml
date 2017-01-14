@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Title }} sur aurelberra.github.io</title>
+    <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>Publications récentes sur aurelberra.github.io</description>
     <language>fr-FR</language>

@@ -8,4 +8,4 @@ duration: 7776000
 publishdate: 2017-01-07
 ---
 
-<span class="caps">HN2</span> est la suite du cours d'introduction aux humanités numériques du master Humanités classiques et humanités numériques – et ceci est un paragraphe d'essai.
+HN2 est la suite du cours d'introduction aux humanités numériques du master Humanités classiques et humanités numériques – et ceci est un paragraphe d'essai.
