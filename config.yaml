@@ -9,7 +9,7 @@ publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true # check
 canonifyurls: true
-cleanDestinationDir: true
+# cleanDestinationDir: true
 indexes:
   category: "categories"
 pluralizelisttitles: "false"
