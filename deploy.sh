@@ -2,6 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+echo -e "\033[0;32mFirst on repo aurelienberra\033[0m"
+
 git add -A # better than "git add ." according to man page
 
 # Commit changes with provided argument or with date as message
@@ -12,6 +14,8 @@ fi
 git commit -m "$msg"
 
 git push -u origin master
+
+echo -e "\033[0;32mThen on repo aurelberra.github.io\033[0m"
 
 # Build the project
 # build public folder in github pages repo worked for me
