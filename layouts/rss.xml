@@ -2,7 +2,7 @@
   <channel>
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Publications récentes sur aurelberra.github.io</description>
+    <description>Publications récentes sur aurelienberra.org</description>
     <language>fr-FR</language>
     <author>aurelien.berra@u-paris10.fr (Aurélien Berra)</author>
     <copyright>Copyright (c) Aurélien Berra.</copyright>
