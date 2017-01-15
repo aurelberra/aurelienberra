@@ -8,4 +8,4 @@ duration: 7776000
 publishdate: 2017-01-07
 ---
 
-HN1 est le cours d'introduction aux humanités numériques du master Humanités classiques et humanités numériques.
+HN1 est le cours d'introduction aux humanités numériques du master «&nbsp;Humanités classiques et humanités numériques&nbsp;».
