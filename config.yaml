@@ -1,8 +1,8 @@
 ---
 metadataformat: "yaml"
-title: "aurelienberra.org"
+title: "aurelienberra.org" # Aurélien Berra
 # baseurl: "https://aurelberra.github.io"
-baseurl: "https://aurelienberra.org" # Aurélien Berra
+baseurl: "https://aurelienberra.org"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
