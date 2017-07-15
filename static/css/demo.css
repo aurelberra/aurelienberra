@@ -291,7 +291,7 @@ blockquote {
   margin-top: 3ex;
   padding-bottom: 20px;
   font-size: 1em; /*.9em;*/
-  /*line-height: 1em;*/
+  line-height: .9em;
   padding-top: 1em;
   background-color: #b33;
   overflow: hidden;
