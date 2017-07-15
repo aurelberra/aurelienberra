@@ -5,8 +5,8 @@
 
 body {
   font-family: 'Gentium Book Basic', 'PT Serif', 'Source Serif Pro', 'EB Garamond', 'Alegreya', Times, Serif;
-  font-size: 1.6em; /*1.05em;*/
-  line-height: 1.5em;
+  font-size: 1.15em; /*1.05em;*/
+  line-height: 1.6em;
   background-color: #faf8f8;
 }
 
@@ -290,8 +290,8 @@ blockquote {
   color: #ecc;
   margin-top: 3ex;
   padding-bottom: 20px;
-  font-size: 1.2em; /*.9em;*/
-  line-height: 1.5em;
+  font-size: 1.1em; /*.9em;*/
+  /*line-height: 1.5em;*/
   padding-top: 1em;
   background-color: #b33;
   overflow: hidden;
