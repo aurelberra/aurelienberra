@@ -282,6 +282,10 @@ blockquote {
   margin-top: -0.25em;
 }
 
+.dateblock h4 {
+    font-style: normal;
+}
+
 
 /* =Footer
 -----------------------------------------------------------------------------*/
