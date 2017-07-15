@@ -26,7 +26,7 @@
     </div>
     <div class="units-row">
       <div class="unit-20 dateblock">{{if not (isset .Params "grlog") }}
-        <h4><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h4> {{ else }}&nbsp;{{ end }}</div>
+        <h3><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h3> {{ else }}&nbsp;{{ end }}</div>
       <div class="unit-60">
         {{ .Content }} {{ partial "tweetlink.html" . }}
 
