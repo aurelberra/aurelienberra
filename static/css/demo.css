@@ -49,7 +49,7 @@ a:hover {
 -----------------------------------------------------------------------------*/
 
 pre, code, kbd, samp, var, output {
-  font-size: 90%;
+  font-size: 80%;
   font-style: normal;
   font-family: "Source Code Pro", Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
