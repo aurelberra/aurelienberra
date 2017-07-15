@@ -2,7 +2,7 @@
 title: "Essai 1 : à propos de *Lorem ipsum dolor sit amet*"
 description: "*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor, ipsum id tempor congue, ligula justo vehicula velit, id pharetra elit orci at nunc.*"
 date: 2016-11-30
-categories: null
+draft: true
 ---
 
 Eheu, `lorem ipsum` dolor sit amet, consectetur adipiscing elit. Curabitur tempor, ipsum id tempor congue, ligula justo vehicula velit, id pharetra elit orci at nunc. Phasellus turpis dolor, gravida vel viverra vitae, tincidunt ac velit. Vestibulum quis mauris id erat rutrum ultricies eget id augue.
