@@ -1,7 +1,7 @@
 ---
 title: Curriculum vitæ
-date: 2017-01-10
-publishdate: 2017-01-10
+date: 2017-07-20
+publishdate: 2017-01-01
 ---
 
 Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PDF). Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) et encore sur [Academia.edu](http://u-paris10.academia.edu/berra/CurriculumVitae). Ce qui suit est un premier essai en HTML, mais il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX…
@@ -9,7 +9,9 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 ---
 
 <div id="TOC" style="text-align: left; font-family: 'Alegreya SC', serif; margin: 2em;">
-<a href="#domaines-de-recherche">Domaines de recherche</a> ~ <a href="#diplômes-et-formation">Diplômes et formation</a> ~ <a href="#emplois">Emplois</a>
+<a href="#domaines-de-recherche">Domaines de recherche</a>
+<br/>
+<a href="#diplômes-et-formation">Diplômes et formation</a> ~ <a href="#emplois">Emplois</a>
 <br/>
 <a href="#publications">Publications</a> ~ <a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
 <br/>
