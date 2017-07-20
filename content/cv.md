@@ -9,14 +9,14 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 ---
 
 
-## Domaines de recherche
+### Domaines de recherche
 
 * Énigme et discours obscur dans l’Antiquité
 * Athénée, *Les Deipnosophistes*&nbsp;: édition, traduction et commentaire
 * Démosthène&nbsp;: traduction
 * Humanités numériques, philologie numérique
 
-## Diplômes et formation
+### Diplômes et formation
 
 Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», École des hautes études en sciences sociales \[EHESS\]\
 [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob)
@@ -40,7 +40,7 @@ Classes préparatoires littéraires, lycée Henri-IV, Paris
 
 Baccalauréat en lettres et mathématiques, «&nbsp;Très bien&nbsp;», lycée Jean-Jaurès, Montreuil
 
-## Emplois
+### Emplois
 
 Maître de conférences, université Paris-Nanterre (antérieurement Paris-Ouest)
 
@@ -60,13 +60,13 @@ Allocataire de recherche normalien, EHESS
 
 Vacataire de recherche, Centre national de la recherche scientifique \[CNRS\]
 
-## Publications
+### Publications
 
-### Livres
+#### Livres
 
 [*Dixit. L’art de la parole dans l’Antiquité*](http://www.lesbelleslettres.com/livre/?GCOI=22510100269510), en collaboration avec Sophie Malick-Prunier et Jean-Pierre De Giorgio, Paris, Les Belles Lettres, collection «&nbsp;Signets&nbsp;», 2009
 
-#### (En préparation)
+##### (En préparation)
 
 *L’Énigme en Grèce ancienne*, Paris, Vrin, collection «&nbsp;Textes et traditions&nbsp;»
 
@@ -74,23 +74,23 @@ Vacataire de recherche, Centre national de la recherche scientifique \[CNRS\]
 
 Athénée, *Les Deipnosophistes. Livres IX et X*, Paris, Les Belles Lettres, Collection des universités de France
 
-### Édition d’ouvrages collectifs
+#### Édition d’ouvrages collectifs
 
 [*Médée. Versions et interprétations d’un mythe*](http://pufc.univ-fcomte.fr/fiche_ouvrage.php?id_titre=2063285264), textes édités et rassemblés en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, Besançon, Presses universitaires de Franche-Comté, 2016
 
-#### (En préparation)
+##### (En préparation)
 
 *Constructions numériques de l’autorité*, actes de journées d’étude édités en collaboration avec Pierre-Antoine Fabre et des membres du programme «&nbsp;Cultures savantes numériques&nbsp;» du Laboratoire d’excellence HASTEC
 
-### Publications dans des ouvrages collectifs
+#### Publications dans des ouvrages collectifs
 
-#### Chapitres de livres
+##### Chapitres de livres
 
 «&nbsp;[Faire des humanités numériques](https://press.openedition.org/238)&nbsp;», dans Pierre Mounier (éd.), *Read/Write Book 2*, Marseille, OpenEdition Press, 2012, p. 25-43
 
 «&nbsp;Manier le thésaurus grec&nbsp;», dans Christian Jacob (éd.), *Lieux de savoir. II. Les mains de l’intellect*, Paris, Albin Michel, 2011, p. 555-578
 
-#### Actes de colloques
+##### Actes de colloques
 
 «&nbsp;Les enseignements d’un séminaire de recherche en *Digital Humanities*&nbsp;» et introduction aux actes du symposium «&nbsp;[Comment s’apprennent les *Digital Humanities*&nbsp;?](https://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php?q=177)&nbsp;» édités en collaboration avec Claire Clivaz, actes du congrès de l’Association internationale de pédagogie universitaire, 2014
 
@@ -100,9 +100,9 @@ Athénée, *Les Deipnosophistes. Livres IX et X*, Paris, Les Belles Lettres, Col
 
 «&nbsp;Pythagoras’ Riddles. The Use of the Pythagorean *Akousmata*&nbsp;», dans Cezary Galewicz (éd.), *Texts of Power, the Power of the Text. Readings in Textual Authority Across History and Cultures*, Cracovie, Homini, 2006, p. 259-272
 
-### Articles
+#### Articles
 
-#### Articles publiés dans des revues à comité de lecture
+##### Articles publiés dans des revues à comité de lecture
 
 «&nbsp;Pour une histoire des humanités numériques&nbsp;», dans Alexandre Gefen (dir.), *Critique*, 819-820, «&nbsp;[Des chiffres et des lettres&nbsp;: les humanités numériques](https://www.cairn.info/revue-critique-2015-8-p-613.htm)&nbsp;», août-septembre 2015, p. 613-626
 
@@ -110,7 +110,7 @@ Athénée, *Les Deipnosophistes. Livres IX et X*, Paris, Les Belles Lettres, Col
 
 «&nbsp;Le Plutarque d’Athénée&nbsp;: masque, modèle et tradition&nbsp;», *Pallas*, 67, 2005, p. 139-152
 
-### Publications en ligne
+#### Publications en ligne
 
 [*Classiques et numériques*](https://classnum.hypotheses.org), carnet collectif du master Humanités classiques et humanités numériques, Paris-Nanterre
 
@@ -130,9 +130,9 @@ Contribution au manuel collaboratif [*The Programming Historian 2*](http://progr
 
 Co-rédaction du [*Manifeste des Digital Humanities*](https://tcp.hypotheses.org/318)
 
-## Colloques, journées d’étude et séminaires
+### Colloques, journées d’étude et séminaires
 
-### Organisation
+#### Organisation
 
 «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://enseignements-2016.ehess.fr/2016/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Patrice Bellot, Marin Dacos et Pierre Mounier, 6 séances, EHESS
 
@@ -180,7 +180,7 @@ Co-rédaction du [*Manifeste des Digital Humanities*](https://tcp.hypotheses.org
 
 «&nbsp;Médée. Versions et interprétations d’un mythe&nbsp;», journées d’étude organisées en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, [03-04.11.2005](https://calenda.org/190642) et [03.11.2006](https://calenda.org/192138), université Paris-Est et ENS
 
-### Interventions sur invitation
+#### Interventions sur invitation
 
 «&nbsp;Méthodes lettrées&nbsp;: recherches antiques et expérimentations numériques&nbsp;», colloque «&nbsp;Des humanités numériques littéraires&nbsp;?&nbsp;», à l’invitation de Didier Alexandre et Marc Douguet, Labex Obvil, 16.06.2017, Cerisy
 
@@ -254,7 +254,7 @@ Table ronde «&nbsp;Humanités numériques&nbsp;: les rôles des MSH&nbsp;», an
 
 «&nbsp;Le Plutarque d'Athénée&nbsp;: masque, modèle et tradition&nbsp;», journée d'étude «&nbsp;La tradition des *Moralia* de Plutarque, de l'Antiquité au début de la Renaissance&nbsp;» organisée par Pascal Payen et Olivier Guerrier pour l'«&nbsp;Équipe de recherche sur la réception de l'Antiquité&nbsp;: sources, mémoire, enjeux&nbsp;», à l'invitation de Françoise Frazier, 30.01.2004, université Toulouse II-Le Mirail
 
-### Autres interventions
+#### Autres interventions
 
 «&nbsp;How to Train Your Classicists&nbsp;? Embedding Digital Scholarly Editing in a Classics Master Programme&nbsp;», ESTS, 06.10.2016, université d'Anvers
 
@@ -354,7 +354,7 @@ Préparation du projet *Lieux de savoir*, atelier du GDRI «&nbsp;Les mondes let
 
 «&nbsp;L'organisation des études classiques en France, au Royaume-Uni, en Italie et en Russie&nbsp;», conférence à l'invitation d'Alexei Solopov, 09.2001, université d'État de Moscou
 
-## Enseignement
+### Enseignement
 
 Depuis 2003, environ 1900 heures de cours: langue, littérature et civilisation de la Grèce antique&nbsp;; méthodologie des études anciennes&nbsp;; rhétorique&nbsp;; humanités numériques
 
@@ -372,7 +372,7 @@ Formation à l’usage du système de gestion de contenu WordPress pour la plate
 
 Enseignement en licence, universités Paris-Est, de Caen, Paris-Ouest et d'Amiens
 
-## Affiliations
+### Affiliations
 
 [International Academy of Humanities Computing and Digital Humanities](http://www.cmcl.it/humanities_computing/)
 
@@ -404,9 +404,9 @@ GDRI 2523 Les mondes lettrés
 
 EA 3953 Philosophie et littérature: textes, traditions, idées, Paris-Est (associé)
 
-## Fonctions
+### Fonctions
 
-### Fonctions actuelles
+#### Fonctions actuelles
 
 Rédacteur en chef, revue *Humanités numériques*, Humanistica Conseil scientifique, [*Abécédaire des mondes lettrés*](http://abecedaire.enssib.fr), École nationale supérieure des sciences de l'information et des bibliothèques
 
@@ -472,7 +472,7 @@ Conseil scientifique du [portail français de la plateforme *Hypothèses*](https
 
 Assistant scientifique du projet éditorial [*Lieux de savoir*](https://lieuxdesavoir.hypotheses.org/a-propos)
 
-### Fonctions passées
+#### Fonctions passées
 
 Évaluation, maître de conférences, EHESS
 
@@ -540,9 +540,9 @@ Conseil national des universités, [Langues et littératures anciennes](http://w
 
 Directeur adjoint, département de grec, Paris-Ouest
 
-## Langues, traduction et édition
+### Langues, traduction et édition
 
-### Langues pratiquées
+#### Langues pratiquées
 
 Lecture, écriture, conversation: anglais et italien
 
@@ -550,7 +550,7 @@ Lecture: allemand, grec ancien et latin
 
 Niveaux divers: arabe, chinois, espagnol, grec moderne, japonais, polonais, russe et sanskrit
 
-### Traduction et édition
+#### Traduction et édition
 
 Traduction française de l'appel à communications du colloque *Digital Humanities* Traduction de l'anglais, de l'italien et de l'allemand dans le domaine des sciences humaines et sociales (histoire, philologie, anthropologie et philosophie): un livre et 17 articles traduits (Albin Michel et Belin&nbsp;; *Annales*, *Critique* et autres revues)
 
@@ -568,7 +568,7 @@ Dans la série des *Œuvres complètes* de Charles Darwin réalisée par l'Insti
 
 Lecteur pour les éditions du Seuil (littérature étrangère)
 
-## Compétences informatiques et numériques
+### Compétences informatiques et numériques
 
 Logiciels de bureautique (LibreOffice, OpenOffice, Microsoft Office, Apple Productivity Apps, Acrobat Pro), de bibliographie (Zotero, EndNote, Sente) et d'imagerie numérique (GIMP, Photoshop, Tesseract-OCR)
 
