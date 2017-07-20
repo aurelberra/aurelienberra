@@ -101,7 +101,7 @@ Athénée, *Les Deipnosophistes. Livres IX et X*, Paris, Les Belles Lettres, Col
 
 « *Obscuritas Lycophronea*. Les témoignages anciens sur Lycophron », dans Christophe Cusset et Évelyne Prioux (éd.), *Lycophron : éclats d’obscurité*, Saint-Étienne, Presses universitaires de Saint-Étienne, 2009, p. 259-318
 
-« Pythagoras’ Riddles. The Use of the Pythagorean *Akousmata* », dans Cezary Galewicz (éd.), *Texts of Power, the Power of the Text. Readings in Textual Authority Across History and Cultures*, Cracovie, Homini, 2006, p. 259-272
+« Pythagoras’ Riddles. The Use of the Pythagorean *Akousmata*&nbsp;», dans Cezary Galewicz (éd.), *Texts of Power, the Power of the Text. Readings in Textual Authority Across History and Cultures*, Cracovie, Homini, 2006, p. 259-272
 
 ### Articles
 
@@ -129,7 +129,9 @@ Co-rédaction de la déclaration [*Young Researchers in Digital Humanities : A M
 
 Co-rédaction de l’enquête *Who Are You, Digital Humanists ?*
 
-Contribution au manuel collaboratif [*The Programming Historian 2*](http ://programminghistorian.org) Co-rédaction du [*Manifeste des Digital Humanities*](https ://tcp.hypotheses.org/318)
+Contribution au manuel collaboratif [*The Programming Historian 2*](http ://programminghistorian.org)
+
+Co-rédaction du [*Manifeste des Digital Humanities*](https ://tcp.hypotheses.org/318)
 
 ## Colloques, journées d’étude et séminaires
 
