@@ -11,13 +11,10 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ## Domaines de recherche
 
-Énigme et discours obscur dans l’Antiquité
-
-Athénée, *Les Deipnosophistes*&nbsp;: édition, traduction et commentaire
-
-Démosthène&nbsp;: traduction
-
-Humanités numériques, philologie numérique
+* Énigme et discours obscur dans l’Antiquité
+* Athénée, *Les Deipnosophistes*&nbsp;: édition, traduction et commentaire
+* Démosthène&nbsp;: traduction
+* Humanités numériques, philologie numérique
 
 ## Diplômes et formation
 
