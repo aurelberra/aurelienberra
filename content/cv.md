@@ -8,12 +8,21 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ---
 
-<div style="text-align: center">
-<a href="#domaines-de-recherche">Domaines de recherche</a>&emsp;&emsp;<a href="#diplômes-et-formation">Diplômes et formation</a>&emsp;&emsp;<a href="#emplois">Emplois</a>&emsp;&emsp;<a href="#publications">
+<div style="text-align: left; font-family: 'Alegreya SC', serif; margin: 2em;">
+<a href="#domaines-de-recherche">Domaines de recherche</a>
 <br/>
-Publications</a>&emsp;&emsp;<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
+<a href="#diplômes-et-formation">Diplômes et formation</a>
 <br/>
-<a href="#enseignement">Enseignement</a>&emsp;&emsp;<a href="#affiliations">Affiliations</a>&emsp;&emsp;<a href="#fonctions">Fonctions</a>
+<a href="#emplois">Emplois</a>
+<br/><a href="#publications">Publications</a>
+<br/>
+<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
+<br/>
+<a href="#enseignement">Enseignement</a>
+<br/>
+<a href="#affiliations">Affiliations</a>
+<br/>
+<a href="#fonctions">Fonctions</a>
 <br/>
 <a href="#langues-traduction-et-édition">Langues, traduction et édition</a>
 <br/>
