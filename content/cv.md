@@ -36,28 +36,28 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ### Diplômes et formation
 
-* Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob) <!-- École des hautes études en sciences sociales [EHESS] -->
-* Diplôme d’études approfondies, «&nbsp;Très bien&nbsp;», EHESS&nbsp;: *La Section sur les énigmes des* Deipnosophistes *d’Athénée de Naucratis*
-* Séjour d’étude, Scuola Normale Superiore, Pise
-* Séjour d’étude, Merton College, Oxford
-* Agrégation de lettres classiques
-* Maîtrise de lettres, université Paris-Sorbonne
-* Licence de lettres classiques et licence d’anglais, université Paris-Sorbonne
-* Élève fonctionnaire stagiaire de l’École normale supérieure [ENS]
-* Classes préparatoires littéraires, lycée Henri-IV, Paris
-* Baccalauréat en lettres et mathématiques, «&nbsp;Très bien&nbsp;», lycée Jean-Jaurès, Montreuil
+* <span style="color:grey">2008</span> Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob) <!-- École des hautes études en sciences sociales [EHESS] -->
+* <span style="color:grey">2003</span> Diplôme d’études approfondies, «&nbsp;Très bien&nbsp;», EHESS&nbsp;: *La Section sur les énigmes des* Deipnosophistes *d’Athénée de Naucratis*
+* <span style="color:grey">2001-2002</span> Séjour d’étude, Scuola Normale Superiore, Pise
+* <span style="color:grey">2000-2001</span> Séjour d’étude, Merton College, Oxford
+* <span style="color:grey">2000</span> Agrégation de lettres classiques
+* <span style="color:grey">1999</span> Maîtrise de lettres, université Paris-Sorbonne
+* <span style="color:grey">1998</span> Licence de lettres classiques et licence d’anglais, université Paris-Sorbonne
+* <span style="color:grey">1997-2003</span> Élève fonctionnaire stagiaire de l’École normale supérieure [ENS]
+* <span style="color:grey">1994-1997</span> Classes préparatoires littéraires, lycée Henri-IV, Paris
+* <span style="color:grey">1994</span> Baccalauréat en lettres et mathématiques, «&nbsp;Très bien&nbsp;», lycée Jean-Jaurès, Montreuil
 
 ### Emplois
 
-* Maître de conférences, université Paris-Nanterre (antérieurement Paris-Ouest)
-* Chargé de conférences, EHESS
-* Attaché temporaire d’enseignement et de recherche, université d’Amiens
-* Vacataire de recherche, EHESS
-* Attaché temporaire d’enseignement et de recherche, université Paris-Ouest
-* Attaché temporaire d’enseignement et de recherche, université de Caen
-* Moniteur, université Paris-Est, Créteil
-* Allocataire de recherche normalien, EHESS
-* Vacataire de recherche, Centre national de la recherche scientifique [CNRS]
+* <span style="color:grey">2010-</span> Maître de conférences, université Paris-Nanterre (antérieurement Paris-Ouest)
+* <span style="color:grey">2010-2012</span> Chargé de conférences, EHESS
+* <span style="color:grey">2009-2010</span> Attaché temporaire d’enseignement et de recherche, université d’Amiens
+* <span style="color:grey">2008-2009</span> Vacataire de recherche, EHESS
+* <span style="color:grey">2007-2008</span> Attaché temporaire d’enseignement et de recherche, université Paris-Ouest
+* <span style="color:grey">2006-2007</span> Attaché temporaire d’enseignement et de recherche, université de Caen
+* <span style="color:grey">2003-2006</span> Moniteur, université Paris-Est, Créteil
+* <span style="color:grey">2003-2006</span> Allocataire de recherche normalien, EHESS
+* <span style="color:grey">2003-2005</span> Vacataire de recherche, Centre national de la recherche scientifique [CNRS]
 
 ### Publications
 
@@ -103,45 +103,45 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 #### Publications en ligne
 
-* [*Classiques et numériques*](https://classnum.hypotheses.org), carnet collectif du master Humanités classiques et humanités numériques, Paris-Nanterre
-* [*DARIAH Research and Education*](https://dariahre.hypotheses.org), carnet collectif, VCC 2, DARIAH
-* [*Lieux de savoir*](https://lieuxdesavoir.hypotheses.org/), carnet collectif du projet éditorial du même nom
-* [*Philologie à venir*](https://philologia.hypotheses.org), carnet accompagnant le séminaire *Digital Humanities* et le projet *Athénée numérique*
-* Co-rédaction de la déclaration [*Young Researchers in Digital Humanities&nbsp;: A Manifesto*](https://dhdhi.hypotheses.org/1855)
-* [*Séries de problèmes. Un genre au croisement des cultures*](https://problemata.hypotheses.org), carnet collectif du groupe de recherche «&nbsp;Séries de problèmes&nbsp;», HASTEC
-* Co-rédaction de l’enquête *Who Are You, Digital Humanists&nbsp;?*
-* Contribution au manuel collaboratif [*The Programming Historian 2*](http://programminghistorian.org)
-* Co-rédaction du [*Manifeste des Digital Humanities*](https://tcp.hypotheses.org/318)
+* <span style="color:grey">2015-</span> [*Classiques et numériques*](https://classnum.hypotheses.org), carnet collectif du master Humanités classiques et humanités numériques, Paris-Nanterre
+* <span style="color:grey">2014-</span> [*DARIAH Research and Education*](https://dariahre.hypotheses.org), carnet collectif, VCC 2, DARIAH
+* <span style="color:grey">2011-</span> [*Lieux de savoir*](https://lieuxdesavoir.hypotheses.org/), carnet collectif du projet éditorial du même nom
+* <span style="color:grey">2010-</span> [*Philologie à venir*](https://philologia.hypotheses.org), carnet accompagnant le séminaire *Digital Humanities* et le projet *Athénée numérique*
+* <span style="color:grey">2013</span> Co-rédaction de la déclaration [*Young Researchers in Digital Humanities&nbsp;: A Manifesto*](https://dhdhi.hypotheses.org/1855)
+* <span style="color:grey">2012-2015</span> [*Séries de problèmes. Un genre au croisement des cultures*](https://problemata.hypotheses.org), carnet collectif du groupe de recherche «&nbsp;Séries de problèmes&nbsp;», HASTEC
+* <span style="color:grey">2012</span> Co-rédaction de l’enquête *Who Are You, Digital Humanists&nbsp;?*
+* <span style="color:grey">2012</span> Contribution au manuel collaboratif [*The Programming Historian 2*](http://programminghistorian.org)
+* <span style="color:grey">2010</span> Co-rédaction du [*Manifeste des Digital Humanities*](https://tcp.hypotheses.org/318)
 
 ### Colloques, journées d’étude et séminaires
 
 #### Organisation
 
-* «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://enseignements-2016.ehess.fr/2016/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Patrice Bellot, Marin Dacos et Pierre Mounier, 6 séances, EHESS
+* <span style="color:grey">2016-2017</span> «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://enseignements-2016.ehess.fr/2016/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Patrice Bellot, Marin Dacos et Pierre Mounier, 6 séances, EHESS
 * «&nbsp;[Conception, écriture et circulation des textes à l’âge du livre manuscrit&nbsp;: approches comparatives](https://enseignements-2016.ehess.fr/2016/ue/1672/)&nbsp;», séminaire organisé en collaboration avec Christian Jacob et Filippo Ronconi, EHESS
 * «&nbsp;[E-Philologie. Les éditions électroniques et leur exploitation scientifique](https://ephilolog.hypotheses.org)&nbsp;», séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
-* «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://www.ehess.fr/fr/enseignement/enseignements/2015/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 4 séances, EHESS
+* <span style="color:grey">2015-2016</span> «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://www.ehess.fr/fr/enseignement/enseignements/2015/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 4 séances, EHESS
 * «&nbsp;[E-Philologie. Les éditions électroniques et leur exploitation scientifique](https://ephilolog.hypotheses.org)&nbsp;», séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
-* [THATCamp Paris 2015](https://tcp.hypotheses.org/category/thatcamp-paris-2015), 09-11.06.2015, Institut national d’histoire de l’art, Paris
+* <span style="color:grey">2015</span> [THATCamp Paris 2015](https://tcp.hypotheses.org/category/thatcamp-paris-2015), 09-11.06.2015, Institut national d’histoire de l’art, Paris
 * «&nbsp;[Séries de problèmes lettrés et ludiques](https://problemata.hypotheses.org/413)&nbsp;», journée d’étude organisée pour le groupe de recherche «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 28.05.2015, Centre Alexandre-Koyré, Paris
 * «&nbsp;[L’éditeur de textes est-il un auteur&nbsp;? Réflexions juridiques et scientifiques à propos de l’édition critique](https://calenda.org/315950)&nbsp;», colloque organisé en collaboration avec Sébastien Barret, Paul Bertrand, Matthieu Cassin et Maïeul Rouquette, 02-03.02.2015, Institut de recherche et d’histoire des textes, Paris
 * «&nbsp;[Dispositifs de lecture savante (humanisme et numérique)](https://lecture-savante.wix.com/paris-ouest)&nbsp;», journée d’étude organisée en collaboration avec Louise Merzeau, Anne Videau et Olivier Renaut, en partenariat avec l’Institut de recherche et d’innovation, Sens Public et l’université de Montréal, 22.01.2015, Pôle universitaire Léonard de Vinci, La Défense
-* «&nbsp;Apprendre et enseigner quand les humanités deviennent numériques&nbsp;», journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse, Marie-Véronique Leroi et Jean-Luc Minel, 05.12.2014, Paris
+* <span style="color:grey">2014</span> «&nbsp;Apprendre et enseigner quand les humanités deviennent numériques&nbsp;», journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse, Marie-Véronique Leroi et Jean-Luc Minel, 05.12.2014, Paris
 * «&nbsp;[Rethinking Text Reuse as Digital Classicists](https://wiki.digitalclassicist.org/Text_Reuse)&nbsp;», session organisée en collaboration avec Matteo Romanello et Alexandra Trachsel, colloque *Digital Humanities* 2014, 10.07.2014, ADHO, Lausanne
 * «&nbsp;[Énigmes, questions et réponses&nbsp;: le sens des séries](https://problemata.hypotheses.org/278)&nbsp;», journée d’étude organisée pour le groupe de recherche «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 17.06.2014, Centre Alexandre-Koyré, Paris
 * «&nbsp;[Comment s’apprennent les *Digital Humanities*&nbsp;?](http://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php?q=177)&nbsp;», symposium organisé en collaboration avec Claire Clivaz, congrès de l’Association internationale de pédagogie universitaire, 19.05.2014, Mons
-* «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1508)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 9 séances, EHESS
-* «&nbsp;[La preuve par l’original. Constructions numériques de l’autorité](https://calenda.org/268306)&nbsp;», journée d’étude organisée dans le cadre du programme «&nbsp;Cultures savantes numériques&nbsp;» (HASTEC) en collaboration avec Pierre-Antoine Fabre, 18.12.2013, Archives nationales, Pierrefitte-sur-Seine
+* <span style="color:grey">2013-2014</span> «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1508)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 9 séances, EHESS
+* <span style="color:grey">2013</span> «&nbsp;[La preuve par l’original. Constructions numériques de l’autorité](https://calenda.org/268306)&nbsp;», journée d’étude organisée dans le cadre du programme «&nbsp;Cultures savantes numériques&nbsp;» (HASTEC) en collaboration avec Pierre-Antoine Fabre, 18.12.2013, Archives nationales, Pierrefitte-sur-Seine
 * «&nbsp;Construire des vocabulaires à l’échelle de l’Europe. Référentiels, thésaurus et ontologies pour les humanités numériques&nbsp;», journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse et Jean-Luc Minel, 27.11.2013, Paris
 * «&nbsp;[Variance in Textual Scholarship and Genetic Criticism – La variance en philologie et dans la critique génétique](https://textualscholarship.eu/conference/previous-editions/)&nbsp;», dixième colloque de l’ESTS, organisé en collaboration avec Pierre-Marc De Biasi, Daniel Ferrer, Dirk Van Hulle et Wim Van Mierlo, 22-24.11.2013, ENS, Paris
 * «&nbsp;[Which changes are currently taking place in our research and academic culture&nbsp;?](https://dhiha.hypotheses.org/999)&nbsp;», session organisée en collaboration avec André Donk, Marten Düring, Sebastian Gießmann et Mareike König, colloque «&nbsp;Research Conditions and Digital Humanities&nbsp;: What are the Prospects for the Next Generation&nbsp;?&nbsp;», 11.06.2013, Institut historique allemand de Paris
 * «&nbsp;[ANHIMA et les humanités numériques](http://anhima.fr/spip.php?article969)&nbsp;», journée d’étude organisée en collaboration avec Christian Jacob et Agnès Tapin, 15.04.2013, ANHIMA
-* «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1212)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 14 séances, EHESS
-* «&nbsp;[Le papyrus et l’hypertexte. Athénée dans la cuisine du savoir – The Papyrus and the Hypertext. Athenaeus in the Scholarly Kitchen](https://philologia.hypotheses.org/athenaeus/athenee-papyrus-hypertexte-05-2012)&nbsp;», journée d’étude organisée en collaboration avec Christian Jacob, 05.05.2012, ANHIMA
+* <span style="color:grey">2012-2013</span> «&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1212)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 14 séances, EHESS
+* <span style="color:grey">2012</span> «&nbsp;[Le papyrus et l’hypertexte. Athénée dans la cuisine du savoir – The Papyrus and the Hypertext. Athenaeus in the Scholarly Kitchen](https://philologia.hypotheses.org/athenaeus/athenee-papyrus-hypertexte-05-2012)&nbsp;», journée d’étude organisée en collaboration avec Christian Jacob, 05.05.2012, ANHIMA
 * «&nbsp;Citizen Scholarship, the Resurgence of Philology and a Global Republic of Letters in the Digital New World&nbsp;», conférence de Gregory Crane, directeur du Perseus Project, 04.05.2012, ANHIMA et HASTEC
-* «&nbsp;[Édition savante et humanités numériques](https://philologia.hypotheses.org/934)&nbsp;», séminaire de 12 séances, EHESS
-* «&nbsp;[Textes anciens et humanités numériques](https://philologia.hypotheses.org/392)&nbsp;», séminaire de 6 séances, EHESS
-* «&nbsp;Médée. Versions et interprétations d’un mythe&nbsp;», journées d’étude organisées en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, [03-04.11.2005](https://calenda.org/190642) et [03.11.2006](https://calenda.org/192138), université Paris-Est et ENS
+* <span style="color:grey">2011-2012</span> «&nbsp;[Édition savante et humanités numériques](https://philologia.hypotheses.org/934)&nbsp;», séminaire de 12 séances, EHESS
+* <span style="color:grey">2010-2011</span> «&nbsp;[Textes anciens et humanités numériques](https://philologia.hypotheses.org/392)&nbsp;», séminaire de 6 séances, EHESS
+* <span style="color:grey">2005-2006</span> «&nbsp;Médée. Versions et interprétations d’un mythe&nbsp;», journées d’étude organisées en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, [03-04.11.2005](https://calenda.org/190642) et [03.11.2006](https://calenda.org/192138), université Paris-Est et ENS
 
 #### Interventions sur invitation
 
