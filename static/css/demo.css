@@ -51,8 +51,8 @@ ul {
 }
 
 li {
-  margin-left: 2em;
-  text-indent: -2em;
+  margin-left: 1em;
+  text-indent: -1em;
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
