@@ -8,8 +8,8 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ---
 
-<div id="TOC-list">
-<a href="#domaines-de-recherche">Domaines de recherche</a> · <a href="#diplômes-et-formation">Diplômes et formation</a> · <a href="#emplois">Emplois</a> · <a href="#publications">Publications</a> · <a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a> · <a href="#enseignement">Enseignement</a> · <a href="#affiliations">Affiliations</a> · <a href="#fonctions">Fonctions</a> · <a href="#langues-traduction-et-édition">Langues, traduction et édition</a> · <a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
+<div style="text-align: center">
+<a href="#domaines-de-recherche">Domaines de recherche</a> | <a href="#diplômes-et-formation">Diplômes et formation</a> | <a href="#emplois">Emplois</a> | <a href="#publications">Publications</a> | <a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a> | <a href="#enseignement">Enseignement</a> | <a href="#affiliations">Affiliations</a> | <a href="#fonctions">Fonctions</a> | <a href="#langues-traduction-et-édition">Langues, traduction et édition</a> | <a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
 </div>
 
 ---
