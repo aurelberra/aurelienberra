@@ -265,10 +265,12 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 #### Fonctions actuelles
 
-* Rédacteur en chef, revue *Humanités numériques*, Humanistica Conseil scientifique, [*Abécédaire des mondes lettrés*](http://abecedaire.enssib.fr), École nationale supérieure des sciences de l'information et des bibliothèques
+* Rédacteur en chef, revue *Humanités numériques*, Humanistica
+* Conseil scientifique, [*Abécédaire des mondes lettrés*](http://abecedaire.enssib.fr), École nationale supérieure des sciences de l'information et des bibliothèques
 * *Publications Committee*, représentant d'Humanistica, ADHO
 * *Executive Committee* et *Small Grants Committee*, [EADH](http://eadh.org)
-* *Programme Committee*, colloque *Digital Humanities* 2017, ADHO *Review Editor*, revue *Frontiers in Digital Humanities*, section *Digital Literary Studies*
+* *Programme Committee*, colloque *Digital Humanities* 2017, ADHO
+* *Review Editor*, revue *Frontiers in Digital Humanities*, section *Digital Literary Studies*
 * Équipe éditoriale, collection «&nbsp;[Humanités numériques plurielles](https://www.reseau-terra.eu/rubrique304.html)&nbsp;», Terra-HN Éditions
 * Comité scientifique, collection «&nbsp;[Humanités numériques et patrimoine – *Digital Humanities and Cultural Heritage*](XXX)&nbsp;», Éditions de l'université Grenoble-Alpes
 * Conseil scientifique, Maison des sciences de l'homme Alpes, CNRS et université Grenoble-Alpes
@@ -306,7 +308,10 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 * Comité de sélection, maître de conférences en italien, humanités numériques et études médiévales, université Grenoble-Alpes
 * Évaluation, collection «&nbsp;Parcours numériques&nbsp;», Presses de l'université de Montréal
 * Évaluation, revue *Encyclo*, université Paris VII
-* Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques&nbsp;: théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
+* Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris
+* Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris
+* Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques&nbsp;: théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille
+* *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
 * Comité d'évaluation, programme franco-allemand en sciences humaines et sociales, Agence nationale de la recherche et Deutsche Forschungsgemeinschaft
 * Entretien dans le cadre de la mission interministérielle en charge du rapport «&nbsp;[Les besoins et l’offre de formation aux métiers du numérique](http://www.enseignementsup-recherche.gouv.fr/cid101306/les-besoins-et-l-offre-de-formation-aux-metiers-du-numerique.html)&nbsp;»
 * Comité de sélection, maître de conférences en histoire grecque, anthropologie culturelle et histoire des textes, université de Nice
