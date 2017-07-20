@@ -46,7 +46,15 @@ a:hover {
 
 ul {
   list-style-type: none;
-  margin: 2em;
+  /*list-style-position:inside;*/
+  margin-left: 0em;
+}
+
+li {
+  margin-left: 2em;
+  text-indent: -2em;
+  line-height: 1.4em;
+  margin-bottom: 0.25em;
 }
 
 /* =Code
