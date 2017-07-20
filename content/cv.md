@@ -9,8 +9,7 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 ---
 
 <div style="text-align: center">
-<a href="#domaines-de-recherche">Domaines de recherche</a>&emsp;&emsp;<a href="#diplômes-et-formation">Diplômes et formation</a>&emsp;&emsp;<a href="#emplois">Emplois</a>&emsp;&emsp;<a href="#publications">Publications</a>&emsp;&emsp;<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
-<br/><a href="#enseignement">Enseignement</a>&emsp;&emsp;<a href="#affiliations">Affiliations</a>&emsp;&emsp;<a href="#fonctions">Fonctions</a>&emsp;&emsp;<a href="#langues-traduction-et-édition">Langues, traduction et édition</a>&emsp;&emsp;<a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
+<a href="#domaines-de-recherche">Domaines de recherche</a>&emsp;&emsp;<a href="#diplômes-et-formation">Diplômes et formation</a>&emsp;&emsp;<a href="#emplois">Emplois</a>&emsp;&emsp;<a href="#publications">Publications</a>&emsp;&emsp;<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>&emsp;&emsp;<a href="#enseignement">Enseignement</a>&emsp;&emsp;<a href="#affiliations">Affiliations</a>&emsp;&emsp;<a href="#fonctions">Fonctions</a>&emsp;&emsp;<a href="#langues-traduction-et-édition">Langues, traduction et édition</a>&emsp;&emsp;<a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
 </div>
 
 ---
