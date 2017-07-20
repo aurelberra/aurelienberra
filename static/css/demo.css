@@ -44,8 +44,8 @@ a:hover {
   text-decoration: none;
 }
 
-ul, ol {
-  line-height: 1.4em;
+ul, ol, li {
+  line-height: 0.7em;
 }
 
 /* =Code
