@@ -13,18 +13,18 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 Énigme et discours obscur dans l’Antiquité
 
-Athénée, *Les Deipnosophistes* : édition, traduction et commentaire
+Athénée, *Les Deipnosophistes*&nbsp;: édition, traduction et commentaire
 
-Démosthène : traduction
+Démosthène&nbsp;: traduction
 
 Humanités numériques, philologie numérique
 
 ## Diplômes et formation
 
-Doctorat, « Très honorable avec félicitations », École des hautes études en sciences sociales \[EHESS\]\
-[*Théorie et pratique de l’énigme en Grèce ancienne*](https ://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob)
+Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», École des hautes études en sciences sociales \[EHESS\]\
+[*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob)
 
-Diplôme d’études approfondies, « Très bien », EHESS\
+Diplôme d’études approfondies, «&nbsp;Très bien&nbsp;», EHESS\
 *La Section sur les énigmes des* Deipnosophistes *d’Athénée de Naucratis*
 
 Séjour d’étude, Scuola Normale Superiore, Pise
@@ -41,7 +41,7 @@ Licence de lettres classiques et licence d’anglais, université Paris-Sorbonne
 
 Classes préparatoires littéraires, lycée Henri-IV, Paris
 
-Baccalauréat en lettres et mathématiques, « Très bien », lycée Jean-Jaurès, Montreuil
+Baccalauréat en lettres et mathématiques, «&nbsp;Très bien&nbsp;», lycée Jean-Jaurès, Montreuil
 
 ## Emplois
 
@@ -67,309 +67,309 @@ Vacataire de recherche, Centre national de la recherche scientifique \[CNRS\]
 
 ### Livres
 
-[*Dixit. L’art de la parole dans l’Antiquité*](http ://www.lesbelleslettres.com/livre/ ?GCOI=22510100269510), en collaboration avec Sophie Malick-Prunier et Jean-Pierre De Giorgio, Paris, Les Belles Lettres, collection « Signets », 2009
+[*Dixit. L’art de la parole dans l’Antiquité*](http://www.lesbelleslettres.com/livre/?GCOI=22510100269510), en collaboration avec Sophie Malick-Prunier et Jean-Pierre De Giorgio, Paris, Les Belles Lettres, collection «&nbsp;Signets&nbsp;», 2009
 
 #### (En préparation)
 
-*L’Énigme en Grèce ancienne*, Paris, Vrin, collection « Textes et traditions »
+*L’Énigme en Grèce ancienne*, Paris, Vrin, collection «&nbsp;Textes et traditions&nbsp;»
 
-*Qu’est-ce que les humanités numériques ?*, en collaboration avec Pierre Mounier et Björn-Olav Dozo, Paris, OpenEdition Press, collection « L’Encyclopédie numérique »
+*Qu’est-ce que les humanités numériques&nbsp;?*, en collaboration avec Pierre Mounier et Björn-Olav Dozo, Paris, OpenEdition Press, collection «&nbsp;L’Encyclopédie numérique&nbsp;»
 
 Athénée, *Les Deipnosophistes. Livres IX et X*, Paris, Les Belles Lettres, Collection des universités de France
 
 ### Édition d’ouvrages collectifs
 
-[*Médée. Versions et interprétations d’un mythe*](http ://pufc.univ-fcomte.fr/fiche_ouvrage.php ?id_titre=2063285264), textes édités et rassemblés en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, Besançon, Presses universitaires de Franche-Comté, 2016
+[*Médée. Versions et interprétations d’un mythe*](http://pufc.univ-fcomte.fr/fiche_ouvrage.php?id_titre=2063285264), textes édités et rassemblés en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, Besançon, Presses universitaires de Franche-Comté, 2016
 
 #### (En préparation)
 
-*Constructions numériques de l’autorité*, actes de journées d’étude édités en collaboration avec Pierre-Antoine Fabre et des membres du programme « Cultures savantes numériques » du Laboratoire d’excellence HASTEC
+*Constructions numériques de l’autorité*, actes de journées d’étude édités en collaboration avec Pierre-Antoine Fabre et des membres du programme «&nbsp;Cultures savantes numériques&nbsp;» du Laboratoire d’excellence HASTEC
 
 ### Publications dans des ouvrages collectifs
 
 #### Chapitres de livres
 
-« [Faire des humanités numériques](https ://press.openedition.org/238) », dans Pierre Mounier (éd.), *Read/Write Book 2*, Marseille, OpenEdition Press, 2012, p. 25-43
+«&nbsp;[Faire des humanités numériques](https://press.openedition.org/238)&nbsp;», dans Pierre Mounier (éd.), *Read/Write Book 2*, Marseille, OpenEdition Press, 2012, p. 25-43
 
-« Manier le thésaurus grec », dans Christian Jacob (éd.), *Lieux de savoir. II. Les mains de l’intellect*, Paris, Albin Michel, 2011, p. 555-578
+«&nbsp;Manier le thésaurus grec&nbsp;», dans Christian Jacob (éd.), *Lieux de savoir. II. Les mains de l’intellect*, Paris, Albin Michel, 2011, p. 555-578
 
 #### Actes de colloques
 
-« Les enseignements d’un séminaire de recherche en *Digital Humanities* » et introduction aux actes du symposium « [Comment s’apprennent les *Digital Humanities* ?](https ://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php ?q=177) » édités en collaboration avec Claire Clivaz, actes du congrès de l’Association internationale de pédagogie universitaire, 2014
+«&nbsp;Les enseignements d’un séminaire de recherche en *Digital Humanities*&nbsp;» et introduction aux actes du symposium «&nbsp;[Comment s’apprennent les *Digital Humanities*&nbsp;?](https://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php?q=177)&nbsp;» édités en collaboration avec Claire Clivaz, actes du congrès de l’Association internationale de pédagogie universitaire, 2014
 
-« Athénée et le style », dans Pierre Chiron et Carlos Lévy (éd.), *Les Noms du style dans l’Antiquité gréco-romaine*, Louvain, Peeters, 2010, p. 253-278
+«&nbsp;Athénée et le style&nbsp;», dans Pierre Chiron et Carlos Lévy (éd.), *Les Noms du style dans l’Antiquité gréco-romaine*, Louvain, Peeters, 2010, p. 253-278
 
-« *Obscuritas Lycophronea*. Les témoignages anciens sur Lycophron », dans Christophe Cusset et Évelyne Prioux (éd.), *Lycophron : éclats d’obscurité*, Saint-Étienne, Presses universitaires de Saint-Étienne, 2009, p. 259-318
+«&nbsp;*Obscuritas Lycophronea*. Les témoignages anciens sur Lycophron&nbsp;», dans Christophe Cusset et Évelyne Prioux (éd.), *Lycophron&nbsp;: éclats d’obscurité*, Saint-Étienne, Presses universitaires de Saint-Étienne, 2009, p. 259-318
 
-« Pythagoras’ Riddles. The Use of the Pythagorean *Akousmata*&nbsp;», dans Cezary Galewicz (éd.), *Texts of Power, the Power of the Text. Readings in Textual Authority Across History and Cultures*, Cracovie, Homini, 2006, p. 259-272
+«&nbsp;Pythagoras’ Riddles. The Use of the Pythagorean *Akousmata*&nbsp;», dans Cezary Galewicz (éd.), *Texts of Power, the Power of the Text. Readings in Textual Authority Across History and Cultures*, Cracovie, Homini, 2006, p. 259-272
 
 ### Articles
 
 #### Articles publiés dans des revues à comité de lecture
 
-« Pour une histoire des humanités numériques », dans Alexandre Gefen (dir.), *Critique*, 819-820, « [Des chiffres et des lettres : les humanités numériques](https ://www.cairn.info/revue-critique-2015-8-p-613.htm) », août-septembre 2015, p. 613-626
+«&nbsp;Pour une histoire des humanités numériques&nbsp;», dans Alexandre Gefen (dir.), *Critique*, 819-820, «&nbsp;[Des chiffres et des lettres&nbsp;: les humanités numériques](https://www.cairn.info/revue-critique-2015-8-p-613.htm)&nbsp;», août-septembre 2015, p. 613-626
 
-« Le nom propre dans les énigmes grecques (Athénée, X et *Anthologie*, XIV) », *Lalies*, 27, 2007, p. 261-276
+«&nbsp;Le nom propre dans les énigmes grecques (Athénée, X et *Anthologie*, XIV)&nbsp;», *Lalies*, 27, 2007, p. 261-276
 
-« Le Plutarque d’Athénée : masque, modèle et tradition », *Pallas*, 67, 2005, p. 139-152
+«&nbsp;Le Plutarque d’Athénée&nbsp;: masque, modèle et tradition&nbsp;», *Pallas*, 67, 2005, p. 139-152
 
 ### Publications en ligne
 
-[*Classiques et numériques*](https ://classnum.hypotheses.org), carnet collectif du master Humanités classiques et humanités numériques, Paris-Nanterre
+[*Classiques et numériques*](https://classnum.hypotheses.org), carnet collectif du master Humanités classiques et humanités numériques, Paris-Nanterre
 
-[*DARIAH Research and Education*](https ://dariahre.hypotheses.org), carnet collectif, VCC 2, DARIAH
+[*DARIAH Research and Education*](https://dariahre.hypotheses.org), carnet collectif, VCC 2, DARIAH
 
-[*Lieux de savoir*](https ://lieuxdesavoir.hypotheses.org/), carnet collectif du projet éditorial du même nom
+[*Lieux de savoir*](https://lieuxdesavoir.hypotheses.org/), carnet collectif du projet éditorial du même nom
 
-[*Philologie à venir*](https ://philologia.hypotheses.org), carnet accompagnant le séminaire *Digital Humanities* et le projet *Athénée numérique*
+[*Philologie à venir*](https://philologia.hypotheses.org), carnet accompagnant le séminaire *Digital Humanities* et le projet *Athénée numérique*
 
-Co-rédaction de la déclaration [*Young Researchers in Digital Humanities : A Manifesto*](https ://dhdhi.hypotheses.org/1855)
+Co-rédaction de la déclaration [*Young Researchers in Digital Humanities&nbsp;: A Manifesto*](https://dhdhi.hypotheses.org/1855)
 
-[*Séries de problèmes. Un genre au croisement des cultures*](https ://problemata.hypotheses.org), carnet collectif du groupe de recherche « Séries de problèmes », HASTEC
+[*Séries de problèmes. Un genre au croisement des cultures*](https://problemata.hypotheses.org), carnet collectif du groupe de recherche «&nbsp;Séries de problèmes&nbsp;», HASTEC
 
-Co-rédaction de l’enquête *Who Are You, Digital Humanists ?*
+Co-rédaction de l’enquête *Who Are You, Digital Humanists&nbsp;?*
 
-Contribution au manuel collaboratif [*The Programming Historian 2*](http ://programminghistorian.org)
+Contribution au manuel collaboratif [*The Programming Historian 2*](http://programminghistorian.org)
 
-Co-rédaction du [*Manifeste des Digital Humanities*](https ://tcp.hypotheses.org/318)
+Co-rédaction du [*Manifeste des Digital Humanities*](https://tcp.hypotheses.org/318)
 
 ## Colloques, journées d’étude et séminaires
 
 ### Organisation
 
-« [*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https ://enseignements-2016.ehess.fr/2016/ue/1194/) », séminaire organisé en collaboration avec Patrice Bellot, Marin Dacos et Pierre Mounier, 6 séances, EHESS
+«&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://enseignements-2016.ehess.fr/2016/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Patrice Bellot, Marin Dacos et Pierre Mounier, 6 séances, EHESS
 
-« [Conception, écriture et circulation des textes à l’âge du livre manuscrit : approches comparatives](https ://enseignements-2016.ehess.fr/2016/ue/1672/) », séminaire organisé en collaboration avec Christian Jacob et Filippo Ronconi, EHESS
+«&nbsp;[Conception, écriture et circulation des textes à l’âge du livre manuscrit&nbsp;: approches comparatives](https://enseignements-2016.ehess.fr/2016/ue/1672/)&nbsp;», séminaire organisé en collaboration avec Christian Jacob et Filippo Ronconi, EHESS
 
-« [E-Philologie. Les éditions électroniques et leur exploitation scientifique](https ://ephilolog.hypotheses.org) », séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
+«&nbsp;[E-Philologie. Les éditions électroniques et leur exploitation scientifique](https://ephilolog.hypotheses.org)&nbsp;», séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
 
-« [*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https ://www.ehess.fr/fr/enseignement/enseignements/2015/ue/1194/) », séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 4 séances, EHESS
+«&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://www.ehess.fr/fr/enseignement/enseignements/2015/ue/1194/)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 4 séances, EHESS
 
-« [E-Philologie. Les éditions électroniques et leur exploitation scientifique](https ://ephilolog.hypotheses.org) », séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
+«&nbsp;[E-Philologie. Les éditions électroniques et leur exploitation scientifique](https://ephilolog.hypotheses.org)&nbsp;», séminaires, conférences et cours pratiques organisés en collaboration avec Jean-Baptiste Camps, Paolo D’Iorio et Daniel Stoëkl, EHESS, ENC, ENS, EPHE, dans le cadre de l’université Paris Sciences et Lettres (PSL)
 
-[THATCamp Paris 2015](https ://tcp.hypotheses.org/category/thatcamp-paris-2015), 09-11.06.2015, Institut national d’histoire de l’art, Paris
+[THATCamp Paris 2015](https://tcp.hypotheses.org/category/thatcamp-paris-2015), 09-11.06.2015, Institut national d’histoire de l’art, Paris
 
-« [Séries de problèmes lettrés et ludiques](https ://problemata.hypotheses.org/413) », journée d’étude organisée pour le groupe de recherche « Séries de problèmes » (HASTEC), 28.05.2015, Centre Alexandre-Koyré, Paris
+«&nbsp;[Séries de problèmes lettrés et ludiques](https://problemata.hypotheses.org/413)&nbsp;», journée d’étude organisée pour le groupe de recherche «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 28.05.2015, Centre Alexandre-Koyré, Paris
 
-« [L’éditeur de textes est-il un auteur ? Réflexions juridiques et scientifiques à propos de l’édition critique](https ://calenda.org/315950) », colloque organisé en collaboration avec Sébastien Barret, Paul Bertrand, Matthieu Cassin et Maïeul Rouquette, 02-03.02.2015, Institut de recherche et d’histoire des textes, Paris
+«&nbsp;[L’éditeur de textes est-il un auteur&nbsp;? Réflexions juridiques et scientifiques à propos de l’édition critique](https://calenda.org/315950)&nbsp;», colloque organisé en collaboration avec Sébastien Barret, Paul Bertrand, Matthieu Cassin et Maïeul Rouquette, 02-03.02.2015, Institut de recherche et d’histoire des textes, Paris
 
-« [Dispositifs de lecture savante (humanisme et numérique)](https ://lecture-savante.wix.com/paris-ouest) », journée d’étude organisée en collaboration avec Louise Merzeau, Anne Videau et Olivier Renaut, en partenariat avec l’Institut de recherche et d’innovation, Sens Public et l’université de Montréal, 22.01.2015, Pôle universitaire Léonard de Vinci, La Défense
+«&nbsp;[Dispositifs de lecture savante (humanisme et numérique)](https://lecture-savante.wix.com/paris-ouest)&nbsp;», journée d’étude organisée en collaboration avec Louise Merzeau, Anne Videau et Olivier Renaut, en partenariat avec l’Institut de recherche et d’innovation, Sens Public et l’université de Montréal, 22.01.2015, Pôle universitaire Léonard de Vinci, La Défense
 
-« Apprendre et enseigner quand les humanités deviennent numériques », journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse, Marie-Véronique Leroi et Jean-Luc Minel, 05.12.2014, Paris « [Rethinking Text Reuse as Digital Classicists](https ://wiki.digitalclassicist.org/Text_Reuse) », session organisée en collaboration avec Matteo Romanello et Alexandra Trachsel, colloque *Digital Humanities* 2014, 10.07.2014, ADHO, Lausanne
+«&nbsp;Apprendre et enseigner quand les humanités deviennent numériques&nbsp;», journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse, Marie-Véronique Leroi et Jean-Luc Minel, 05.12.2014, Paris «&nbsp;[Rethinking Text Reuse as Digital Classicists](https://wiki.digitalclassicist.org/Text_Reuse)&nbsp;», session organisée en collaboration avec Matteo Romanello et Alexandra Trachsel, colloque *Digital Humanities* 2014, 10.07.2014, ADHO, Lausanne
 
-« [Énigmes, questions et réponses : le sens des séries](https ://problemata.hypotheses.org/278) », journée d’étude organisée pour le groupe de recherche « Séries de problèmes » (HASTEC), 17.06.2014, Centre Alexandre-Koyré, Paris
+«&nbsp;[Énigmes, questions et réponses&nbsp;: le sens des séries](https://problemata.hypotheses.org/278)&nbsp;», journée d’étude organisée pour le groupe de recherche «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 17.06.2014, Centre Alexandre-Koyré, Paris
 
-« [Comment s’apprennent les *Digital Humanities* ?](http ://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php ?q=177) », symposium organisé en collaboration avec Claire Clivaz, congrès de l’Association internationale de pédagogie universitaire, 19.05.2014, Mons
+«&nbsp;[Comment s’apprennent les *Digital Humanities*&nbsp;?](http://hosting.umons.ac.be/php/aipu2014/C9TEST/select_depot2.php?q=177)&nbsp;», symposium organisé en collaboration avec Claire Clivaz, congrès de l’Association internationale de pédagogie universitaire, 19.05.2014, Mons
 
-« [*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https ://philologia.hypotheses.org/1508) », séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 9 séances, EHESS
+«&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1508)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 9 séances, EHESS
 
-« [La preuve par l’original. Constructions numériques de l’autorité](https ://calenda.org/268306) », journée d’étude organisée dans le cadre du programme « Cultures savantes numériques » (HASTEC) en collaboration avec Pierre-Antoine Fabre, 18.12.2013, Archives nationales, Pierrefitte-sur-Seine
+«&nbsp;[La preuve par l’original. Constructions numériques de l’autorité](https://calenda.org/268306)&nbsp;», journée d’étude organisée dans le cadre du programme «&nbsp;Cultures savantes numériques&nbsp;» (HASTEC) en collaboration avec Pierre-Antoine Fabre, 18.12.2013, Archives nationales, Pierrefitte-sur-Seine
 
-« Construire des vocabulaires à l’échelle de l’Europe. Référentiels, thésaurus et ontologies pour les humanités numériques », journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse et Jean-Luc Minel, 27.11.2013, Paris « [Variance in Textual Scholarship and Genetic Criticism – La variance en philologie et dans la critique génétique](https ://textualscholarship.eu/conference/previous-editions/) », dixième colloque de l’ESTS, organisé en collaboration avec Pierre-Marc De Biasi, Daniel Ferrer, Dirk Van Hulle et Wim Van Mierlo, 22-24.11.2013, ENS, Paris
+«&nbsp;Construire des vocabulaires à l’échelle de l’Europe. Référentiels, thésaurus et ontologies pour les humanités numériques&nbsp;», journée d’étude organisée dans le cadre de DARIAH France en collaboration avec Nadine Dardenne, Sophie David, Nicolas Larrousse et Jean-Luc Minel, 27.11.2013, Paris «&nbsp;[Variance in Textual Scholarship and Genetic Criticism – La variance en philologie et dans la critique génétique](https://textualscholarship.eu/conference/previous-editions/)&nbsp;», dixième colloque de l’ESTS, organisé en collaboration avec Pierre-Marc De Biasi, Daniel Ferrer, Dirk Van Hulle et Wim Van Mierlo, 22-24.11.2013, ENS, Paris
 
-« [Which changes are currently taking place in our research and academic culture ?](https ://dhiha.hypotheses.org/999) », session organisée en collaboration avec André Donk, Marten Düring, Sebastian Gießmann et Mareike König, colloque « Research Conditions and Digital Humanities : What are the Prospects for the Next Generation ? », 11.06.2013, Institut historique allemand de Paris
+«&nbsp;[Which changes are currently taking place in our research and academic culture&nbsp;?](https://dhiha.hypotheses.org/999)&nbsp;», session organisée en collaboration avec André Donk, Marten Düring, Sebastian Gießmann et Mareike König, colloque «&nbsp;Research Conditions and Digital Humanities&nbsp;: What are the Prospects for the Next Generation&nbsp;?&nbsp;», 11.06.2013, Institut historique allemand de Paris
 
-« [ANHIMA et les humanités numériques](http ://anhima.fr/spip.php ?article969) », journée d’étude organisée en collaboration avec Christian Jacob et Agnès Tapin, 15.04.2013, ANHIMA
+«&nbsp;[ANHIMA et les humanités numériques](http://anhima.fr/spip.php?article969)&nbsp;», journée d’étude organisée en collaboration avec Christian Jacob et Agnès Tapin, 15.04.2013, ANHIMA
 
-« [*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https ://philologia.hypotheses.org/1212) », séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 14 séances, EHESS
+«&nbsp;[*Digital Humanities*. Les transformations numériques du rapport aux savoirs](https://philologia.hypotheses.org/1212)&nbsp;», séminaire organisé en collaboration avec Marin Dacos et Pierre Mounier, 14 séances, EHESS
 
-« [Le papyrus et l’hypertexte. Athénée dans la cuisine du savoir – The Papyrus and the Hypertext. Athenaeus in the Scholarly Kitchen](https ://philologia.hypotheses.org/athenaeus/athenee-papyrus-hypertexte-05-2012) », journée d’étude organisée en collaboration avec Christian Jacob, 05.05.2012, ANHIMA
+«&nbsp;[Le papyrus et l’hypertexte. Athénée dans la cuisine du savoir – The Papyrus and the Hypertext. Athenaeus in the Scholarly Kitchen](https://philologia.hypotheses.org/athenaeus/athenee-papyrus-hypertexte-05-2012)&nbsp;», journée d’étude organisée en collaboration avec Christian Jacob, 05.05.2012, ANHIMA
 
-« Citizen Scholarship, the Resurgence of Philology and a Global Republic of Letters in the Digital New World », conférence de Gregory Crane, directeur du Perseus Project, 04.05.2012, ANHIMA et HASTEC
+«&nbsp;Citizen Scholarship, the Resurgence of Philology and a Global Republic of Letters in the Digital New World&nbsp;», conférence de Gregory Crane, directeur du Perseus Project, 04.05.2012, ANHIMA et HASTEC
 
-« [Édition savante et humanités numériques](https ://philologia.hypotheses.org/934) », séminaire de 12 séances, EHESS
+«&nbsp;[Édition savante et humanités numériques](https://philologia.hypotheses.org/934)&nbsp;», séminaire de 12 séances, EHESS
 
-« [Textes anciens et humanités numériques](https ://philologia.hypotheses.org/392) », séminaire de 6 séances, EHESS
+«&nbsp;[Textes anciens et humanités numériques](https://philologia.hypotheses.org/392)&nbsp;», séminaire de 6 séances, EHESS
 
-« Médée. Versions et interprétations d’un mythe », journées d’étude organisées en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, [03-04.11.2005](https ://calenda.org/190642) et [03.11.2006](https ://calenda.org/192138), université Paris-Est et ENS
+«&nbsp;Médée. Versions et interprétations d’un mythe&nbsp;», journées d’étude organisées en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, [03-04.11.2005](https://calenda.org/190642) et [03.11.2006](https://calenda.org/192138), université Paris-Est et ENS
 
 ### Interventions sur invitation
 
-« Méthodes lettrées : recherches antiques et expérimentations numériques », colloque « Des humanités numériques littéraires ? », à l’invitation de Didier Alexandre et Marc Douguet, Labex Obvil, 16.06.2017, Cerisy
+«&nbsp;Méthodes lettrées&nbsp;: recherches antiques et expérimentations numériques&nbsp;», colloque «&nbsp;Des humanités numériques littéraires&nbsp;?&nbsp;», à l’invitation de Didier Alexandre et Marc Douguet, Labex Obvil, 16.06.2017, Cerisy
 
-« Humanités numériques (un diptyque allégorique et cinq fragments) », table ronde « Humanités numériques : nouveaux outils, nouvelles méthodes ? », colloque « Mondes anciens, nouveaux regards », à l’invitation de Violaine Sebillotte et Dan Dana, 08.06.2017, UMR 8210 ANHIMA, Paris
+«&nbsp;Humanités numériques (un diptyque allégorique et cinq fragments)&nbsp;», table ronde «&nbsp;Humanités numériques&nbsp;: nouveaux outils, nouvelles méthodes&nbsp;?&nbsp;», colloque «&nbsp;Mondes anciens, nouveaux regards&nbsp;», à l’invitation de Violaine Sebillotte et Dan Dana, 08.06.2017, UMR 8210 ANHIMA, Paris
 
-« Humanités numériques, classiques… et littéraires ? », séminaire « Littérature et numérique. Édition de corpus : méthodes et questions » (Labex Obvil), à l’invitation de Didier Alexandre et Milad Doueihi, 27.03.2017, université Paris IV
+«&nbsp;Humanités numériques, classiques… et littéraires&nbsp;?&nbsp;», séminaire «&nbsp;Littérature et numérique. Édition de corpus&nbsp;: méthodes et questions&nbsp;» (Labex Obvil), à l’invitation de Didier Alexandre et Milad Doueihi, 27.03.2017, université Paris IV
 
-« Conclusion et propositions », journée d’étude « Enseigner les langues anciennes à l’ère digitale : apprendre par et pour les humanités numériques ? », à l’invitation de Séverine Clément-Tarantino, Charlotte Tournier et Mélanie Lucciano, Maison européenne des sciences de l’homme et de la société, 24.03.2017, Lille
+«&nbsp;Conclusion et propositions&nbsp;», journée d’étude «&nbsp;Enseigner les langues anciennes à l’ère digitale&nbsp;: apprendre par et pour les humanités numériques&nbsp;?&nbsp;», à l’invitation de Séverine Clément-Tarantino, Charlotte Tournier et Mélanie Lucciano, Maison européenne des sciences de l’homme et de la société, 24.03.2017, Lille
 
-« Humanités numériques : quelle(s) critique(s) ? », en collaboration avec Pierre Mounier, conférence inaugurale du colloque « Humanités numériques : théories, débats, approches critiques » (DH Nord 2016), à l’invitation de Sofia Papastamkou, Maison européenne des sciences de l’homme et de la société, 21.11.2016, Lille
+«&nbsp;Humanités numériques&nbsp;: quelle(s) critique(s)&nbsp;?&nbsp;», en collaboration avec Pierre Mounier, conférence inaugurale du colloque «&nbsp;Humanités numériques&nbsp;: théories, débats, approches critiques&nbsp;» (DH Nord 2016), à l’invitation de Sofia Papastamkou, Maison européenne des sciences de l’homme et de la société, 21.11.2016, Lille
 
-Table ronde « Humanités numériques : les rôles des MSH », animation en collaboration avec Fabienne Moreau, journée « Les humanités numériques dans les Maisons des Sciences de l’Homme : état des lieux et perspectives », 03.10.2016, MAE, Nanterre
+Table ronde «&nbsp;Humanités numériques&nbsp;: les rôles des MSH&nbsp;», animation en collaboration avec Fabienne Moreau, journée «&nbsp;Les humanités numériques dans les Maisons des Sciences de l’Homme&nbsp;: état des lieux et perspectives&nbsp;», 03.10.2016, MAE, Nanterre
 
-« Humanistica, les arts et les humanités numériques », table ronde conclusive « Art et humanités numériques : applications et perspectives », journée d’étude « L’objet peut-il faire la méthode ? Penser les objets artistiques à partir de méthodologies pluridisciplinaires », à l’invitation de Quentin Rioual, 10.06.2016, Paris-Ouest et ENS, Paris
+«&nbsp;Humanistica, les arts et les humanités numériques&nbsp;», table ronde conclusive «&nbsp;Art et humanités numériques&nbsp;: applications et perspectives&nbsp;», journée d’étude «&nbsp;L’objet peut-il faire la méthode&nbsp;? Penser les objets artistiques à partir de méthodologies pluridisciplinaires&nbsp;», à l’invitation de Quentin Rioual, 10.06.2016, Paris-Ouest et ENS, Paris
 
-« Quelles humanités numériques ? », séminaire du PRÉAC Images [[*& *]{}]{}Création, à l’invitation du réseau Canopé Île-de-France, 11.05.2016, Gaîté lyrique, Paris
+«&nbsp;Quelles humanités numériques&nbsp;?&nbsp;», séminaire du PRÉAC Images [[*& *]{}]{}Création, à l’invitation du réseau Canopé Île-de-France, 11.05.2016, Gaîté lyrique, Paris
 
-« Notre *Odyssée* », atelier-laboratoire « *Odyssée* : édition numérique augmentée », IDEFI-CréaTIC, à l’invitation d’Arnaud Laborderie et Ghislaine Azémard, 11.02.2016, Maison des sciences de l’homme Paris-Nord, Saint-Denis
+«&nbsp;Notre *Odyssée*&nbsp;», atelier-laboratoire «&nbsp;*Odyssée*&nbsp;: édition numérique augmentée&nbsp;», IDEFI-CréaTIC, à l’invitation d’Arnaud Laborderie et Ghislaine Azémard, 11.02.2016, Maison des sciences de l’homme Paris-Nord, Saint-Denis
 
-« Pour une histoire des humanités numériques », séminaire du Groupement d’intérêt scientifique pour l’unité des technnologies et des sciences de l’homme, à l’invitation de Jérôme Valluy, 22.01.2016, université de technologie de Compiègne
+«&nbsp;Pour une histoire des humanités numériques&nbsp;», séminaire du Groupement d’intérêt scientifique pour l’unité des technnologies et des sciences de l’homme, à l’invitation de Jérôme Valluy, 22.01.2016, université de technologie de Compiègne
 
-« Épistémologie et pratiques des humanités numériques », table ronde inaugurale du séminaire du même nom, à l’invitation de Claire Bourhis-Mariotti, Suzanne Dumouchel, Lauric Henneton et Mareike König, Institut historique allemand et universités Paris VIII et Versailles–Saint-Quentin-en-Yvelines, 15.01.2016, Institut historique allemand, Paris
+«&nbsp;Épistémologie et pratiques des humanités numériques&nbsp;», table ronde inaugurale du séminaire du même nom, à l’invitation de Claire Bourhis-Mariotti, Suzanne Dumouchel, Lauric Henneton et Mareike König, Institut historique allemand et universités Paris VIII et Versailles–Saint-Quentin-en-Yvelines, 15.01.2016, Institut historique allemand, Paris
 
-« Digital Classics in Paris », séminaire de programmation du consortium [*Sunoikisis Digital Classics*](http ://www.dh.uni-leipzig.de/wo/sunoikisisdc/), à l’invitation de Monica Berti, Alexander von Humboldt Chair of Digital Humanities (Leipzig) et Center for Hellenic Studies (Harvard University), 16.12.2015, université de Leipzig
+«&nbsp;Digital Classics in Paris&nbsp;», séminaire de programmation du consortium [*Sunoikisis Digital Classics*](http://www.dh.uni-leipzig.de/wo/sunoikisisdc/), à l’invitation de Monica Berti, Alexander von Humboldt Chair of Digital Humanities (Leipzig) et Center for Hellenic Studies (Harvard University), 16.12.2015, université de Leipzig
 
-« Humanités classiques et numériques », journées d’étude « L’enseignement de l’informatique pour les humanités et les sciences sociales », à l’invitation d’Olivier Baudon et Serge Abiteboul, Société informatique de France, 23.06.2015, Conservatoire national des arts et métiers, Paris
+«&nbsp;Humanités classiques et numériques&nbsp;», journées d’étude «&nbsp;L’enseignement de l’informatique pour les humanités et les sciences sociales&nbsp;», à l’invitation d’Olivier Baudon et Serge Abiteboul, Société informatique de France, 23.06.2015, Conservatoire national des arts et métiers, Paris
 
-« Why Digital Classics ? », DARIAH Ireland Launch Conference, à l’invitation de Susan Schreibman, 18.05.2015, National University of Ireland Maynooth
+«&nbsp;Why Digital Classics&nbsp;?&nbsp;», DARIAH Ireland Launch Conference, à l’invitation de Susan Schreibman, 18.05.2015, National University of Ireland Maynooth
 
-« Au delà des humanités numériques : les *digital studies* ? », réponse à l’intervention de Bernard Stiegler, « Débats du Centre Alexandre-Koyré », à l’invitation d’Emanuel Bertrand, 14.01.2015, Paris
+«&nbsp;Au delà des humanités numériques&nbsp;: les *digital studies*&nbsp;?&nbsp;», réponse à l’intervention de Bernard Stiegler, «&nbsp;Débats du Centre Alexandre-Koyré&nbsp;», à l’invitation d’Emanuel Bertrand, 14.01.2015, Paris
 
-« Enseigner les humanités numériques », journée d’étude en vue de la création d’une unité de recherche en humanités numériques, à l’invitation de Björn-Olav Dozo, 08.01.2015, université de Liège
+«&nbsp;Enseigner les humanités numériques&nbsp;», journée d’étude en vue de la création d’une unité de recherche en humanités numériques, à l’invitation de Björn-Olav Dozo, 08.01.2015, université de Liège
 
-« L’exploitation numérique des textes », journées d’étude « Quels contenus et quels outils pour une recherche et une édition en ligne des gisements archéologiques ? », à l’invitation de Katherine Gruel et Thierry Poibeau, UMR Archéologie et Philologie d'Orient et d'Occident et université Paris Sciences et Lettres, 20.11.2014, ENS
+«&nbsp;L’exploitation numérique des textes&nbsp;», journées d’étude «&nbsp;Quels contenus et quels outils pour une recherche et une édition en ligne des gisements archéologiques&nbsp;?&nbsp;», à l’invitation de Katherine Gruel et Thierry Poibeau, UMR Archéologie et Philologie d'Orient et d'Occident et université Paris Sciences et Lettres, 20.11.2014, ENS
 
-« [Connaître aujourd'hui. L'épistémologie problématique des humanités numériques](https ://philologia.hypotheses.org/1461) », conférence inaugurale du colloque « Humanités numériques : des outils, des méthodes, une culture » (DH Nord 2014), à l'invitation de Cynthia Pedroja et Fatiha Idmhand, Maison européenne des sciences de l'homme et de la société, 26.05.2014, Lille
+«&nbsp;[Connaître aujourd'hui. L'épistémologie problématique des humanités numériques](https://philologia.hypotheses.org/1461)&nbsp;», conférence inaugurale du colloque «&nbsp;Humanités numériques&nbsp;: des outils, des méthodes, une culture&nbsp;» (DH Nord 2014), à l'invitation de Cynthia Pedroja et Fatiha Idmhand, Maison européenne des sciences de l'homme et de la société, 26.05.2014, Lille
 
-« Y a-t-il des *Digital Classics* ? », journée d'étude « Traduire, transposer, transmettre 2. Les études classiques à l'ère numérique », à l'invitation d'Anne-Catherine Baudoin et Charles Delattre, 30.04.2014, ENS
+«&nbsp;Y a-t-il des *Digital Classics*&nbsp;?&nbsp;», journée d'étude «&nbsp;Traduire, transposer, transmettre 2. Les études classiques à l'ère numérique&nbsp;», à l'invitation d'Anne-Catherine Baudoin et Charles Delattre, 30.04.2014, ENS
 
-« Les réseaux d'Athénée. Structures visibles et invisibles », séminaire « Circulation des savoirs et structuration des réseaux savants dans l'Empire gréco-romain : acteurs, modalités, dynamiques », à l'invitation du laboratoire « Patrimoine, Littérature, Histoire », 19.03.2014, université Toulouse II-Le Mirail
+«&nbsp;Les réseaux d'Athénée. Structures visibles et invisibles&nbsp;», séminaire «&nbsp;Circulation des savoirs et structuration des réseaux savants dans l'Empire gréco-romain&nbsp;: acteurs, modalités, dynamiques&nbsp;», à l'invitation du laboratoire «&nbsp;Patrimoine, Littérature, Histoire&nbsp;», 19.03.2014, université Toulouse II-Le Mirail
 
-« *Philologie à venir* (2010-) », journée d'étude « À vos blogs ! Publier un carnet de recherche en archéologie et en ethnologie », programme « ArcheoNum. L'archéologie dans les humanités numériques », à l'invitation de Virginie Fromageot-Laniepce et Anne-Violaine Szabados, 04.10.2013, Maison archéologie et ethnologie René-Ginouvès, Paris-Ouest
+«&nbsp;*Philologie à venir* (2010-)&nbsp;», journée d'étude «&nbsp;À vos blogs&nbsp;! Publier un carnet de recherche en archéologie et en ethnologie&nbsp;», programme «&nbsp;ArcheoNum. L'archéologie dans les humanités numériques&nbsp;», à l'invitation de Virginie Fromageot-Laniepce et Anne-Violaine Szabados, 04.10.2013, Maison archéologie et ethnologie René-Ginouvès, Paris-Ouest
 
-« Y a-t-il des *Digital Classics* ? », séance « Humanités numériques », séminaire européen du Groupe d'études et de recherche interdisciplinaire en information et communication, à l'invitation de Laurence Favier et Widad Mustafa El Hadi, 12.04.2013, université Lille III
+«&nbsp;Y a-t-il des *Digital Classics*&nbsp;?&nbsp;», séance «&nbsp;Humanités numériques&nbsp;», séminaire européen du Groupe d'études et de recherche interdisciplinaire en information et communication, à l'invitation de Laurence Favier et Widad Mustafa El Hadi, 12.04.2013, université Lille III
 
-« Le nom des humanités numériques », séance « La technique à la rencontre des humanités : plus qu'un objet, un défi pour les *Digital Humanities* ? », séminaire « Muséologie, muséographie et nouvelles formes d'adresse au public », à l'invitation d'Alexandre Monnin, 15.01.2013, Institut de recherche et d'innovation, Centre Pompidou
+«&nbsp;Le nom des humanités numériques&nbsp;», séance «&nbsp;La technique à la rencontre des humanités&nbsp;: plus qu'un objet, un défi pour les *Digital Humanities*&nbsp;?&nbsp;», séminaire «&nbsp;Muséologie, muséographie et nouvelles formes d'adresse au public&nbsp;», à l'invitation d'Alexandre Monnin, 15.01.2013, Institut de recherche et d'innovation, Centre Pompidou
 
-« [Études humanistes et culture numérique](https ://webtv.ac-versailles.fr/spip.php ?article964) » (table ronde), colloque « Les métamorphoses de l'œuvre et de l'écriture à l'heure du numérique : vers un renouveau des humanités ? », à l'invitation de Catherine Becchetti-Bizot, 21.11.2012, Bibliothèque nationale de France et Conservatoire national des arts et métiers
+«&nbsp;[Études humanistes et culture numérique](https://webtv.ac-versailles.fr/spip.php?article964)&nbsp;» (table ronde), colloque «&nbsp;Les métamorphoses de l'œuvre et de l'écriture à l'heure du numérique&nbsp;: vers un renouveau des humanités&nbsp;?&nbsp;», à l'invitation de Catherine Becchetti-Bizot, 21.11.2012, Bibliothèque nationale de France et Conservatoire national des arts et métiers
 
-« [Que peuvent apporter les humanités numériques aux humanités ?](http ://savoirsenmultimedia.ens.fr/expose.php ?id=1354) » (table ronde conclusive), colloque »Humanités numériques outre-Atlantique : édition des textes et recherche interdisciplinaire », à l'invitation de Barbara Cassin et Rossella Saetta Cottone, Laboratoire d'excellence Transfers et Center for Hellenic Studies, 01.06.2012, ENS
+«&nbsp;[Que peuvent apporter les humanités numériques aux humanités&nbsp;?](http://savoirsenmultimedia.ens.fr/expose.php?id=1354)&nbsp;» (table ronde conclusive), colloque&nbsp;»Humanités numériques outre-Atlantique&nbsp;: édition des textes et recherche interdisciplinaire&nbsp;», à l'invitation de Barbara Cassin et Rossella Saetta Cottone, Laboratoire d'excellence Transfers et Center for Hellenic Studies, 01.06.2012, ENS
 
-« Cryptographie et obscurité discursive. Réflexions sur quelques exemples antiques », journées d'étude « Cryptographie. Journées d'étude en l'honneur de Laurence Caillet », à l'invitation d'Adeline Herrou et Sophie Houdart, 31.05.2012, Laboratoire d'ethnologie et de sociologie comparative, Maison archéologie et ethnologie René-Ginouvès, Paris-Ouest
+«&nbsp;Cryptographie et obscurité discursive. Réflexions sur quelques exemples antiques&nbsp;», journées d'étude «&nbsp;Cryptographie. Journées d'étude en l'honneur de Laurence Caillet&nbsp;», à l'invitation d'Adeline Herrou et Sophie Houdart, 31.05.2012, Laboratoire d'ethnologie et de sociologie comparative, Maison archéologie et ethnologie René-Ginouvès, Paris-Ouest
 
-« [News from the Hyposphere. Scholarly Blogging in France](https ://philologia.hypotheses.org/710) », journée d'étude « Weblogs in den Geisteswissenschaften, oder : Vom Entstehen einer neuen Forschungskultur », à l'invitation de Mareike König, 09.03.2012, Bayerische Akademie der Wissenschaften, Munich
+«&nbsp;[News from the Hyposphere. Scholarly Blogging in France](https://philologia.hypotheses.org/710)&nbsp;», journée d'étude «&nbsp;Weblogs in den Geisteswissenschaften, oder&nbsp;: Vom Entstehen einer neuen Forschungskultur&nbsp;», à l'invitation de Mareike König, 09.03.2012, Bayerische Akademie der Wissenschaften, Munich
 
-« L'édition numérique savante, une entreprise héroïque ? », journée d'étude « La TEI entre dévotion et libertinage. Analyse de structure de textes du <span style="font-variant :small-caps ;">xvii</span>^e^ siècle », à l'invitation de Nicole Dufournaud, Valérie Gratsac-Legendre et Cécile Soudan, 05.03.2012, EHESS
+«&nbsp;L'édition numérique savante, une entreprise héroïque&nbsp;?&nbsp;», journée d'étude «&nbsp;La TEI entre dévotion et libertinage. Analyse de structure de textes du <span style="font-variant:small-caps;">xvii</span>^e^ siècle&nbsp;», à l'invitation de Nicole Dufournaud, Valérie Gratsac-Legendre et Cécile Soudan, 05.03.2012, EHESS
 
-« [Les textes anciens et le numérique](https ://www.cndp.fr/musagora/langues-anciennes-langues-vivantes/refonder-lenseignement-du-latin-et-du-grec-second-apres-midi-de-reflexion/accueil.html) », colloque « Langues anciennes, mondes modernes. Refonder l'enseignement du latin et du grec », Direction générale de l'enseignement scolaire du ministère de l'Éducation nationale, de la jeunesse et de la vie associative, à l'invitation de l'Inspection générale de l'Éducation nationale, 01.02.2012, lycée Louis-le-Grand, Paris
+«&nbsp;[Les textes anciens et le numérique](https://www.cndp.fr/musagora/langues-anciennes-langues-vivantes/refonder-lenseignement-du-latin-et-du-grec-second-apres-midi-de-reflexion/accueil.html)&nbsp;», colloque «&nbsp;Langues anciennes, mondes modernes. Refonder l'enseignement du latin et du grec&nbsp;», Direction générale de l'enseignement scolaire du ministère de l'Éducation nationale, de la jeunesse et de la vie associative, à l'invitation de l'Inspection générale de l'Éducation nationale, 01.02.2012, lycée Louis-le-Grand, Paris
 
-« Pour une anthropologie historique des savoirs (à propos des *Lieux de savoir*) », en collaboration avec Christian Jacob, séminaire « Réinventer les Humanités », à l'invitation de Florence Dupont, Institut des Humanités de Paris, 20.01.2012, université Paris-Diderot
+«&nbsp;Pour une anthropologie historique des savoirs (à propos des *Lieux de savoir*)&nbsp;», en collaboration avec Christian Jacob, séminaire «&nbsp;Réinventer les Humanités&nbsp;», à l'invitation de Florence Dupont, Institut des Humanités de Paris, 20.01.2012, université Paris-Diderot
 
-« [Faire des humanités numériques](https ://philologia.hypotheses.org/665) », colloque « Les métamorphoses numériques du livre, 2 », à l'invitation d'Alain Giffard et de l'Agence régionale du livre Provence-Alpes-Côte d'Azur, 29.11.2011, Aix-en-Provence
+«&nbsp;[Faire des humanités numériques](https://philologia.hypotheses.org/665)&nbsp;», colloque «&nbsp;Les métamorphoses numériques du livre, 2&nbsp;», à l'invitation d'Alain Giffard et de l'Agence régionale du livre Provence-Alpes-Côte d'Azur, 29.11.2011, Aix-en-Provence
 
-« Éditer un texte grec aujourd'hui. À propos du projet *Athénée numérique* », journée d'étude « Technologies érudites de mise à disposition des savoirs : démarches actuelles et mises en perspective historique », à l'invitation d'Alain Bernard, Centre Alexandre-Koyré, 09.11.2011, Paris
+«&nbsp;Éditer un texte grec aujourd'hui. À propos du projet *Athénée numérique*&nbsp;», journée d'étude «&nbsp;Technologies érudites de mise à disposition des savoirs&nbsp;: démarches actuelles et mises en perspective historique&nbsp;», à l'invitation d'Alain Bernard, Centre Alexandre-Koyré, 09.11.2011, Paris
 
-« *Les Deipnosophistes*, un texte emprunté », journée d'étude « L'emprunt : enjeux et modalités » organisée par l'équipe « Héritages et transferts culturels », à l'invitation de Corinne Jouanno, 26.05.2011, université de Caen
+«&nbsp;*Les Deipnosophistes*, un texte emprunté&nbsp;», journée d'étude «&nbsp;L'emprunt&nbsp;: enjeux et modalités&nbsp;» organisée par l'équipe «&nbsp;Héritages et transferts culturels&nbsp;», à l'invitation de Corinne Jouanno, 26.05.2011, université de Caen
 
-« La structure des *Deipnosophistes* d'Athénée : l'exemple du livre XIV », journée d'étude « Rire, musique et desserts. Athénée, *Les Deipnosophistes*, livre XIV » organisée par l'équipe « Culture, représentations, archéologie, théâtre antique », à l'invitation de Marie-Hélène Garelli, 20.03.2007, université Toulouse II-Le Mirail
+«&nbsp;La structure des *Deipnosophistes* d'Athénée&nbsp;: l'exemple du livre XIV&nbsp;», journée d'étude «&nbsp;Rire, musique et desserts. Athénée, *Les Deipnosophistes*, livre XIV&nbsp;» organisée par l'équipe «&nbsp;Culture, représentations, archéologie, théâtre antique&nbsp;», à l'invitation de Marie-Hélène Garelli, 20.03.2007, université Toulouse II-Le Mirail
 
-« Athenaeus' *Deipnosophistai* : A Monster in the Tradition of the Literary *Sumposion* ? », conférence au département de Philologie classique, à l'invitation de Cezary Galewicz, 11.10.2004, université jagelonne de Cracovie
+«&nbsp;Athenaeus' *Deipnosophistai*&nbsp;: A Monster in the Tradition of the Literary *Sumposion*&nbsp;?&nbsp;», conférence au département de Philologie classique, à l'invitation de Cezary Galewicz, 11.10.2004, université jagelonne de Cracovie
 
-« Le Plutarque d'Athénée : masque, modèle et tradition », journée d'étude « La tradition des *Moralia* de Plutarque, de l'Antiquité au début de la Renaissance » organisée par Pascal Payen et Olivier Guerrier pour l'« Équipe de recherche sur la réception de l'Antiquité : sources, mémoire, enjeux », à l'invitation de Françoise Frazier, 30.01.2004, université Toulouse II-Le Mirail
+«&nbsp;Le Plutarque d'Athénée&nbsp;: masque, modèle et tradition&nbsp;», journée d'étude «&nbsp;La tradition des *Moralia* de Plutarque, de l'Antiquité au début de la Renaissance&nbsp;» organisée par Pascal Payen et Olivier Guerrier pour l'«&nbsp;Équipe de recherche sur la réception de l'Antiquité&nbsp;: sources, mémoire, enjeux&nbsp;», à l'invitation de Françoise Frazier, 30.01.2004, université Toulouse II-Le Mirail
 
 ### Autres interventions
 
-« How to Train Your Classicists ? Embedding Digital Scholarly Editing in a Classics Master Programme », ESTS, 06.10.2016, université d'Anvers
+«&nbsp;How to Train Your Classicists&nbsp;? Embedding Digital Scholarly Editing in a Classics Master Programme&nbsp;», ESTS, 06.10.2016, université d'Anvers
 
-« Our *Odyssey* », en collaboration avec les étudiants du master Humanités classiques et humanités numériques de Paris-Ouest, séminaire du programme *Sunoikisis Digital Classics*, 13.04.2016, en ligne
+«&nbsp;Our *Odyssey*&nbsp;», en collaboration avec les étudiants du master Humanités classiques et humanités numériques de Paris-Ouest, séminaire du programme *Sunoikisis Digital Classics*, 13.04.2016, en ligne
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Cléo Carastro, 29.03.2016, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Cléo Carastro, 29.03.2016, EHESS
 
-« How to Use a Compilation ? Athenaeus of Naucratis, His Characters, His Readers and His Editors », colloque « Users of Scholarly Editions : Editorial Anticipations of Reading, Studying and Consulting », ESTS, 19.11.2015, De Montfort University, Leicester
+«&nbsp;How to Use a Compilation&nbsp;? Athenaeus of Naucratis, His Characters, His Readers and His Editors&nbsp;», colloque «&nbsp;Users of Scholarly Editions&nbsp;: Editorial Anticipations of Reading, Studying and Consulting&nbsp;», ESTS, 19.11.2015, De Montfort University, Leicester
 
-« “La face cachée des humanités numériques” ? *Data sprint* : la sociologie des THATCamp francophones », atelier de THATCamp Paris 2015, 10.06.2015, Institut national d'histoire de l'art, Paris
+«&nbsp;“La face cachée des humanités numériques”&nbsp;? *Data sprint*&nbsp;: la sociologie des THATCamp francophones&nbsp;», atelier de THATCamp Paris 2015, 10.06.2015, Institut national d'histoire de l'art, Paris
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro, 31.03.2015, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro, 31.03.2015, EHESS
 
-« Le maniement des livres dans l'Antiquité et dans le monde byzantin : éléments de comparaison », séminaire du master Anthropologie et histoire de l'Antiquité, en collaboration avec Christian Jacob et Filippo Ronconi, à l'invitation de Marcello Carastro, 24.03.2015 et 07.04.2015, EHESS
+«&nbsp;Le maniement des livres dans l'Antiquité et dans le monde byzantin&nbsp;: éléments de comparaison&nbsp;», séminaire du master Anthropologie et histoire de l'Antiquité, en collaboration avec Christian Jacob et Filippo Ronconi, à l'invitation de Marcello Carastro, 24.03.2015 et 07.04.2015, EHESS
 
-« The Riddle as a Structuring Device in Athenaeus' *Learned Banqueters* », colloque « Textual Trails. Transmissions of Oral and Written Texts », ESTS, 01.11.2014, université d'Helsinki
+«&nbsp;The Riddle as a Structuring Device in Athenaeus' *Learned Banqueters*&nbsp;», colloque «&nbsp;Textual Trails. Transmissions of Oral and Written Texts&nbsp;», ESTS, 01.11.2014, université d'Helsinki
 
-« Pour une revue francophone en humanités numériques : quel modèle éditorial ? », atelier de THATCamp Lyon, 16.10.2014, ENS de Lyon
+«&nbsp;Pour une revue francophone en humanités numériques&nbsp;: quel modèle éditorial&nbsp;?&nbsp;», atelier de THATCamp Lyon, 16.10.2014, ENS de Lyon
 
-« Énigmes grecques : le sens des séries », journée d'étude « Énigmes, questions et réponses : le sens des séries », groupe de travail « Séries de problèmes » (HASTEC), 17.06.2014, Centre Alexandre-Koyré, Paris
+«&nbsp;Énigmes grecques&nbsp;: le sens des séries&nbsp;», journée d'étude «&nbsp;Énigmes, questions et réponses&nbsp;: le sens des séries&nbsp;», groupe de travail «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 17.06.2014, Centre Alexandre-Koyré, Paris
 
-« Les enseignements d'un séminaire de recherche en *Digital Humanities* », symposium « Comment s'apprennent les *Digital Humanities* ? », congrès de l'Association internationale de pédagogie universitaire, 19.05.2014, Mons
+«&nbsp;Les enseignements d'un séminaire de recherche en *Digital Humanities*&nbsp;», symposium «&nbsp;Comment s'apprennent les *Digital Humanities*&nbsp;?&nbsp;», congrès de l'Association internationale de pédagogie universitaire, 19.05.2014, Mons
 
-« Athénée le compilateur : questions de méthode », séminaire du master Anthropologie et histoire de l'Antiquité, en collaboration avec Christian Jacob, à l'invitation de Marcello Carastro, 08.04.2014, EHESS
+«&nbsp;Athénée le compilateur&nbsp;: questions de méthode&nbsp;», séminaire du master Anthropologie et histoire de l'Antiquité, en collaboration avec Christian Jacob, à l'invitation de Marcello Carastro, 08.04.2014, EHESS
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro, 01.04.2014, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro, 01.04.2014, EHESS
 
-« Faut-il socialiser l'édition savante ? », journée d'étude « Logos 2.0 ? Rhétorique, argumentation et nouvelles formes de délibération à l'ère du numérique », UFR PHILLIA, 26.03.2014, Paris-Ouest
+«&nbsp;Faut-il socialiser l'édition savante&nbsp;?&nbsp;», journée d'étude «&nbsp;Logos 2.0&nbsp;? Rhétorique, argumentation et nouvelles formes de délibération à l'ère du numérique&nbsp;», UFR PHILLIA, 26.03.2014, Paris-Ouest
 
-« Les humanités numériques en quête d'une définition », journée d'étude du master Technologies numériques appliquées à l'histoire, à l'invitation de Jean-Baptiste Camps, 31.01.2014, École nationale des chartes, Paris
+«&nbsp;Les humanités numériques en quête d'une définition&nbsp;», journée d'étude du master Technologies numériques appliquées à l'histoire, à l'invitation de Jean-Baptiste Camps, 31.01.2014, École nationale des chartes, Paris
 
-« Humanités numériques, humanités digitales et *Digital Humanities* », atelier de THATCamp Saint-Malo, 18.10.2013, Saint-Malo
+«&nbsp;Humanités numériques, humanités digitales et *Digital Humanities*&nbsp;», atelier de THATCamp Saint-Malo, 18.10.2013, Saint-Malo
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 02.04.2013, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 02.04.2013, EHESS
 
-« [Les humanités numériques, un espace polyphonique. Retour sur quatre ans d'existence du séminaire *Digital Humanities* à l'EHESS](https ://www.canal-u.tv/video/ehess/2_de_la_diversite_des_humanites_numeriques_une_exploration_des_pratiques.12909) », en collaboration avec Marin Dacos et Pierre Mounier, journée d'étude « De la diversité des humanités numériques : une exploration des pratiques », 25.03.2013, EHESS
+«&nbsp;[Les humanités numériques, un espace polyphonique. Retour sur quatre ans d'existence du séminaire *Digital Humanities* à l'EHESS](https://www.canal-u.tv/video/ehess/2_de_la_diversite_des_humanites_numeriques_une_exploration_des_pratiques.12909)&nbsp;», en collaboration avec Marin Dacos et Pierre Mounier, journée d'étude «&nbsp;De la diversité des humanités numériques&nbsp;: une exploration des pratiques&nbsp;», 25.03.2013, EHESS
 
-« Le nom des humanités numériques », journée d'étude du master Technologies numériques appliquées à l'histoire, à l'invitation de Florence Clavaud, 14.02.2013, École nationale des chartes, Paris
+«&nbsp;Le nom des humanités numériques&nbsp;», journée d'étude du master Technologies numériques appliquées à l'histoire, à l'invitation de Florence Clavaud, 14.02.2013, École nationale des chartes, Paris
 
-« L'obscurité, un défaut impensable ? », colloque « L'infraction stylistique et ses usages théoriques de l'Antiquité à nos jours », 24.01.2013, ENS
+«&nbsp;L'obscurité, un défaut impensable&nbsp;?&nbsp;», colloque «&nbsp;L'infraction stylistique et ses usages théoriques de l'Antiquité à nos jours&nbsp;», 24.01.2013, ENS
 
-« Editing Series of Problems : Riddles at the Crossroads », colloque « Editing Fundamentals : Historical and Literary Paradigms in Source Editing », ESTS, 24.11.2012, Amsterdam
+«&nbsp;Editing Series of Problems&nbsp;: Riddles at the Crossroads&nbsp;», colloque «&nbsp;Editing Fundamentals&nbsp;: Historical and Literary Paradigms in Source Editing&nbsp;», ESTS, 24.11.2012, Amsterdam
 
-« L'historien programmeur » (en collaboration avec Frédéric Clavert et Franziska Heimburger), « Formations et humanités numériques en France » (en collaboration avec Florence Clavaud) et « Quelles compétences et littératies pour les DH ? » (en collaboration avec Olivier Le Deuff), ateliers de [THATCamp Paris 2012](https ://books.openedition.org/editionsmsh/278), 26.09.2012, EHESS
+«&nbsp;L'historien programmeur&nbsp;» (en collaboration avec Frédéric Clavert et Franziska Heimburger), «&nbsp;Formations et humanités numériques en France&nbsp;» (en collaboration avec Florence Clavaud) et «&nbsp;Quelles compétences et littératies pour les DH&nbsp;?&nbsp;» (en collaboration avec Olivier Le Deuff), ateliers de [THATCamp Paris 2012](https://books.openedition.org/editionsmsh/278), 26.09.2012, EHESS
 
-« Énigmes grecques et séries de problèmes », journée d'étude du groupe de travail « Séries de problèmes » (HASTEC), 14.09.2012, EHESS
+«&nbsp;Énigmes grecques et séries de problèmes&nbsp;», journée d'étude du groupe de travail «&nbsp;Séries de problèmes&nbsp;» (HASTEC), 14.09.2012, EHESS
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 10.04.2012, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 10.04.2012, EHESS
 
-« Textes anciens et humanités numériques », séminaire doctoral du Centre d'étude des nouveaux espaces littéraires, à l'invitation de Marie-Anne Paveau et Vincent Ferré, 17.02.2012, université Paris-Nord
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire doctoral du Centre d'étude des nouveaux espaces littéraires, à l'invitation de Marie-Anne Paveau et Vincent Ferré, 17.02.2012, université Paris-Nord
 
-« [Science Blogging for Digital Humanists](https ://www.youtube.com/watch ?v=SshY4otrGfM) », en collaboration avec Pierre Mounier et Mareike König, THATCamp Switzerland 2011, 11.11.2011, université de Lausanne
+«&nbsp;[Science Blogging for Digital Humanists](https://www.youtube.com/watch?v=SshY4otrGfM)&nbsp;», en collaboration avec Pierre Mounier et Mareike König, THATCamp Switzerland 2011, 11.11.2011, université de Lausanne
 
-« [The Critical Step in Open Content Greek : Towards a Digital Edition of Athenaeus](https ://philologia.hypotheses.org/512) », en collaboration avec Matteo Romanello, Text Encoding Initiative Members' Meeting and Annual Conference, 13.10.2011, université de Würzburg
+«&nbsp;[The Critical Step in Open Content Greek&nbsp;: Towards a Digital Edition of Athenaeus](https://philologia.hypotheses.org/512)&nbsp;», en collaboration avec Matteo Romanello, Text Encoding Initiative Members' Meeting and Annual Conference, 13.10.2011, université de Würzburg
 
-« Encoding Athenaeus », *InterFace*, 28.07.2011, King's College et University College, Londres
+«&nbsp;Encoding Athenaeus&nbsp;», *InterFace*, 28.07.2011, King's College et University College, Londres
 
-« Textes anciens et humanités numériques », séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 10.05.2011, EHESS
+«&nbsp;Textes anciens et humanités numériques&nbsp;», séminaire de méthodologie du master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, 10.05.2011, EHESS
 
-« The Horizon of Ancient Greek Riddling : Clearchus and the Problem of Genre », colloque « Μοῦσα παίζει. Greek and Latin Technopaegnia, Riddles, Acrostichs, Poetic Puns, Metrical Curiosities, etc. », 05.05.2011, université de Varsovie
+«&nbsp;The Horizon of Ancient Greek Riddling&nbsp;: Clearchus and the Problem of Genre&nbsp;», colloque «&nbsp;Μοῦσα παίζει. Greek and Latin Technopaegnia, Riddles, Acrostichs, Poetic Puns, Metrical Curiosities, etc.&nbsp;», 05.05.2011, université de Varsovie
 
-« A Digital Edition of Athenaeus : Defining a Rationale », en collaboration avec Matteo Romanello, Classical Association Annual Conference, 18.04.2011, université de Durham
+«&nbsp;A Digital Edition of Athenaeus&nbsp;: Defining a Rationale&nbsp;», en collaboration avec Matteo Romanello, Classical Association Annual Conference, 18.04.2011, université de Durham
 
-« The Two Bodies of the Hydra : Athenaeus' Text and its Epitome », colloque « Texts Worth Editing », ESTS, 25.11.2010, Pise
+«&nbsp;The Two Bodies of the Hydra&nbsp;: Athenaeus' Text and its Epitome&nbsp;», colloque «&nbsp;Texts Worth Editing&nbsp;», ESTS, 25.11.2010, Pise
 
-« Eustathe de Thessalonique et les énigmes d'Homère », colloque « Homère rhétorique, 1. Lectures et commentaires rhétoriques d'Homère par les Anciens » organisé par Sandrine Dubel, Anne-Marie Favreau-Linder et Estelle Oudot, 28.05.2010, université Clermont-Ferrand II
+«&nbsp;Eustathe de Thessalonique et les énigmes d'Homère&nbsp;», colloque «&nbsp;Homère rhétorique, 1. Lectures et commentaires rhétoriques d'Homère par les Anciens&nbsp;» organisé par Sandrine Dubel, Anne-Marie Favreau-Linder et Estelle Oudot, 28.05.2010, université Clermont-Ferrand II
 
-« La structure des *Deipnosophistes* d'Athénée : débuts et fins de livres », séance de l'Association des études grecques, 07.12.2009, université Paris IV-Sorbonne
+«&nbsp;La structure des *Deipnosophistes* d'Athénée&nbsp;: débuts et fins de livres&nbsp;», séance de l'Association des études grecques, 07.12.2009, université Paris IV-Sorbonne
 
-« L'*ainos* d'Ulysse (*Odyssée*, XIV, 457-522) », « Session de linguistique et de littérature » de l'association CLELIA, 24.08.2009, La Baume-lès-Aix
+«&nbsp;L'*ainos* d'Ulysse (*Odyssée*, XIV, 457-522)&nbsp;», «&nbsp;Session de linguistique et de littérature&nbsp;» de l'association CLELIA, 24.08.2009, La Baume-lès-Aix
 
-« L'*ainos* archaïque : αἶνος chez Homère et dans les commentaires d'Eustathe », séminaire « Histoire des savoirs dans l'Antiquité : lecture de textes grecs » organisé par Christian Jacob, 08.02 et 04.04.2008, Centre Louis-Gernet
+«&nbsp;L'*ainos* archaïque&nbsp;: αἶνος chez Homère et dans les commentaires d'Eustathe&nbsp;», séminaire «&nbsp;Histoire des savoirs dans l'Antiquité&nbsp;: lecture de textes grecs&nbsp;» organisé par Christian Jacob, 08.02 et 04.04.2008, Centre Louis-Gernet
 
-« Lycophron diseur d'énigmes », colloque « Lycophron : éclats d'obscurité » organisé par Christophe Cusset et Évelyne Prioux, 18.01.2007, ENS Lettres et sciences humaines (Lyon) et université de Saint-Étienne
+«&nbsp;Lycophron diseur d'énigmes&nbsp;», colloque «&nbsp;Lycophron&nbsp;: éclats d'obscurité&nbsp;» organisé par Christophe Cusset et Évelyne Prioux, 18.01.2007, ENS Lettres et sciences humaines (Lyon) et université de Saint-Étienne
 
-« Nom propre et mot juste dans les énigmes grecques », « Session de linguistique et de littérature » de l'association CLELIA, 24.08.2006, Aussois
+«&nbsp;Nom propre et mot juste dans les énigmes grecques&nbsp;», «&nbsp;Session de linguistique et de littérature&nbsp;» de l'association CLELIA, 24.08.2006, Aussois
 
-« Quelques énigmes de l'*Anthologie grecque* », atelier de philologie de Pierre Judet de La Combe, 05.06.2006, EHESS
+«&nbsp;Quelques énigmes de l'*Anthologie grecque*&nbsp;», atelier de philologie de Pierre Judet de La Combe, 05.06.2006, EHESS
 
-« Les oracles de colonisation sont-ils énigmatiques ? », séminaire commun des doctorants, 31.05.2006, Centre Louis-Gernet et Centre Gustave-Glotz
+«&nbsp;Les oracles de colonisation sont-ils énigmatiques&nbsp;?&nbsp;», séminaire commun des doctorants, 31.05.2006, Centre Louis-Gernet et Centre Gustave-Glotz
 
-« Athénée et le style », journées d'étude « Les noms du style dans l'Antiquité » organisées par Pierre Chiron et Carlos Lévy, en association avec Maria Silvana Celentano et Christian Jacob, 13.05.2005, universités Paris IV-Sorbonne et Paris XII–Val-de-Marne
+«&nbsp;Athénée et le style&nbsp;», journées d'étude «&nbsp;Les noms du style dans l'Antiquité&nbsp;» organisées par Pierre Chiron et Carlos Lévy, en association avec Maria Silvana Celentano et Christian Jacob, 13.05.2005, universités Paris IV-Sorbonne et Paris XII–Val-de-Marne
 
-« Pythagoras' Riddles. The Use of the Pythagorean *Akousmata* », séminaire comparatiste « Constructing Textual Authority » organisé par Cezary Galewicz, 08.10.2004, université jagelonne de Cracovie
+«&nbsp;Pythagoras' Riddles. The Use of the Pythagorean *Akousmata*&nbsp;», séminaire comparatiste «&nbsp;Constructing Textual Authority&nbsp;» organisé par Cezary Galewicz, 08.10.2004, université jagelonne de Cracovie
 
-Préparation du projet *Lieux de savoir*, atelier du GDRI « Les mondes lettrés », 12-17.05.2004, Fondation des Treilles, Tourtour
+Préparation du projet *Lieux de savoir*, atelier du GDRI «&nbsp;Les mondes lettrés&nbsp;», 12-17.05.2004, Fondation des Treilles, Tourtour
 
-« Autour de l'énigme en Grèce ancienne : énigme et réflexivité », séminaire du GDRI « Les mondes lettrés », 10.05.2004, ENS
+«&nbsp;Autour de l'énigme en Grèce ancienne&nbsp;: énigme et réflexivité&nbsp;», séminaire du GDRI «&nbsp;Les mondes lettrés&nbsp;», 10.05.2004, ENS
 
-« La recherche d'Athénée: fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes* », « Second colloque international sur *Les Deipnosophistes* » organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
+«&nbsp;La recherche d'Athénée: fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes*&nbsp;», «&nbsp;Second colloque international sur *Les Deipnosophistes*&nbsp;» organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
 
-« Athénée, X: qu'est-ce qu'un γρῖφος ? », journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
+«&nbsp;Athénée, X: qu'est-ce qu'un γρῖφος&nbsp;?&nbsp;», journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
 
-« Les *akousmata* pythagoriciens et la tradition interprétative néoplatonicienne », atelier du GDRI « Les mondes lettrés », 17.05.2003, Fondation des Treilles, Tourtour
+«&nbsp;Les *akousmata* pythagoriciens et la tradition interprétative néoplatonicienne&nbsp;», atelier du GDRI «&nbsp;Les mondes lettrés&nbsp;», 17.05.2003, Fondation des Treilles, Tourtour
 
-« Les énigmes de Pythagore: à propos des *akousmata* », séminaire de Claude Calame, 14.05.2003, EHESS
+«&nbsp;Les énigmes de Pythagore: à propos des *akousmata*&nbsp;», séminaire de Claude Calame, 14.05.2003, EHESS
 
-« L'organisation des études classiques en France, au Royaume-Uni, en Italie et en Russie », conférence à l'invitation d'Alexei Solopov, 09.2001, université d'État de Moscou
+«&nbsp;L'organisation des études classiques en France, au Royaume-Uni, en Italie et en Russie&nbsp;», conférence à l'invitation d'Alexei Solopov, 09.2001, université d'État de Moscou
 
 ## Enseignement
 
-Depuis 2003, environ 1900 heures de cours: langue, littérature et civilisation de la Grèce antique ; méthodologie des études anciennes ; rhétorique ; humanités numériques
+Depuis 2003, environ 1900 heures de cours: langue, littérature et civilisation de la Grèce antique&nbsp;; méthodologie des études anciennes&nbsp;; rhétorique&nbsp;; humanités numériques
 
 Intervention dans le master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, EHESS
 
 [Enseignement en licence et en master, université Paris-Nanterre](https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp)
 
-« A Project-based Overview of the Digital Humanities », master 1, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, à l'invitation de Sophie Pène, CRI, universités Paris-Descartes et Paris-Diderot
+«&nbsp;A Project-based Overview of the Digital Humanities&nbsp;», master 1, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, à l'invitation de Sophie Pène, CRI, universités Paris-Descartes et Paris-Diderot
 
 Mentorat auprès d'étudiants de master 2, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, Centre de recherches interdisciplinaires \[CRI\], universités Paris-Descartes et Paris-Diderot
 
-Intervention dans le diplôme universitaire « Acteur de la transition éducative », à l'invitation de Florence Rizzo, CRI, universités Paris-Descartes et Paris-Diderot
+Intervention dans le diplôme universitaire «&nbsp;Acteur de la transition éducative&nbsp;», à l'invitation de Florence Rizzo, CRI, universités Paris-Descartes et Paris-Diderot
 
 Formation à l’usage du système de gestion de contenu WordPress pour la plateforme de carnets de recherche *Hypothèses*, université Paris XIII, PRES PSC et THATCamp Saint-Malo Intervention dans le master Technologies numériques appliquées à l'histoire, à l'invitation de Florence Clavaud et Jean-Baptiste Camps, École nationale des chartes
 
@@ -419,15 +419,15 @@ Rédacteur en chef, revue *Humanités numériques*, Humanistica Conseil scientif
 
 *Programme Committee*, colloque *Digital Humanities* 2017, ADHO *Review Editor*, revue *Frontiers in Digital Humanities*, section *Digital Literary Studies*
 
-Équipe éditoriale, collection « [Humanités numériques plurielles](https://www.reseau-terra.eu/rubrique304.html) », Terra-HN Éditions
+Équipe éditoriale, collection «&nbsp;[Humanités numériques plurielles](https://www.reseau-terra.eu/rubrique304.html)&nbsp;», Terra-HN Éditions
 
-Comité scientifique, collection « [Humanités numériques et patrimoine – *Digital Humanities and Cultural Heritage*](XXX) », Éditions de l'université Grenoble-Alpes
+Comité scientifique, collection «&nbsp;[Humanités numériques et patrimoine – *Digital Humanities and Cultural Heritage*](XXX)&nbsp;», Éditions de l'université Grenoble-Alpes
 
 Conseil scientifique, Maison des sciences de l'homme Alpes, CNRS et université Grenoble-Alpes
 
-*Special interest groups* « Ancient Greek » et « Roman », consortium [Pelagios Commons](http://commons.pelagios.org/)
+*Special interest groups* «&nbsp;Ancient Greek&nbsp;» et «&nbsp;Roman&nbsp;», consortium [Pelagios Commons](http://commons.pelagios.org/)
 
-*Task leader*, tâches « Integration of training material » et « Digital Humanities Master classes », projet H2020 « [Humanities at Scale](http://has.dariah.eu) », DARIAH
+*Task leader*, tâches «&nbsp;Integration of training material&nbsp;» et «&nbsp;Digital Humanities Master classes&nbsp;», projet H2020 «&nbsp;[Humanities at Scale](http://has.dariah.eu)&nbsp;», DARIAH
 
 Conseil documentaire des bibliothèques, ENS
 
@@ -437,25 +437,25 @@ Membre du programme [*Sunoikisis Digital Classics*](https://www.dh.uni-leipzig.d
 
 Comité de coordination, [Humanistica](http://humanisti.ca), association francophone des humanités numériques
 
-Responsable pour la France du « [Digital Humanities Course Registry](https://dh-registry.de.dariah.eu) », DARIAH
+Responsable pour la France du «&nbsp;[Digital Humanities Course Registry](https://dh-registry.de.dariah.eu)&nbsp;», DARIAH
 
 *Reviewer*, colloque *Digital Humanities* (sessions, présentations et posters), ADHO
 
 *Reviewer*, revue *Digital Scholarship in the Humanities*
 
-Conseil scientifique, collection « [Encyclopédie numérique](https://books.openedition.org/oep/127) », Centre pour l'édition électronique ouverte
+Conseil scientifique, collection «&nbsp;[Encyclopédie numérique](https://books.openedition.org/oep/127)&nbsp;», Centre pour l'édition électronique ouverte
 
 Enseignant référent, licence Humanités, Paris-Nanterre
 
-Correspondant français de l'axe « [Research and Education](http://dariah.eu/activities/research-and-education.html) » de DARIAH, TGIR Huma-Num
+Correspondant français de l'axe «&nbsp;[Research and Education](http://dariah.eu/activities/research-and-education.html)&nbsp;» de DARIAH, TGIR Huma-Num
 
-Co-responsable du groupe de travail « Community Engagement » et membre du groupe de travail « Training and Education », DARIAH
+Co-responsable du groupe de travail «&nbsp;Community Engagement&nbsp;» et membre du groupe de travail «&nbsp;Training and Education&nbsp;», DARIAH
 
-Programme « [Cultures savantes numériques](http://www.hesam.eu/labexhastec/2014/06/26/programme-collaboratif-7-cultures-savantes-numeriques/) » (co-responsable), HASTEC
+Programme «&nbsp;[Cultures savantes numériques](http://www.hesam.eu/labexhastec/2014/06/26/programme-collaboratif-7-cultures-savantes-numeriques/)&nbsp;» (co-responsable), HASTEC
 
 Commission des usagers des technologies de l'information et de la communication électronique, EHESS
 
-Séminaire « *Digital Humanities* » (co-responsable), EHESS
+Séminaire «&nbsp;*Digital Humanities*&nbsp;» (co-responsable), EHESS
 
 *Board*, European Society for Textual Scholarship
 
@@ -485,23 +485,23 @@ Comité scientifique, Kembellec Gérald et Broudoux Évelyne (éd.), *Écrilect
 
 Comité de sélection, maître de conférences en italien, humanités numériques et études médiévales, université Grenoble-Alpes
 
-Évaluation, collection « Parcours numériques », Presses de l'université de Montréal
+Évaluation, collection «&nbsp;Parcours numériques&nbsp;», Presses de l'université de Montréal
 
 Évaluation, revue *Encyclo*, université Paris VII
 
-Comité d'organisation, colloque et *EdCamp* « Les humanités numériques pour l'éducation », Institut catholique de Paris Comité d'organisation, masterclass et hackathon « Fabriquer l'interdisciplinarité », Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 « Humanités numériques: théories, débats, approches critiques », Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, « International Workshop on Semantic Web for Scientific Heritage », European Semantic Web Conference
+Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques: théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
 
 Comité d'évaluation, programme franco-allemand en sciences humaines et sociales, Agence nationale de la recherche et Deutsche Forschungsgemeinschaft
 
-Entretien dans le cadre de la mission interministérielle en charge du rapport « [Les besoins et l’offre de formation aux métiers du numérique](http://www.enseignementsup-recherche.gouv.fr/cid101306/les-besoins-et-l-offre-de-formation-aux-metiers-du-numerique.html) »
+Entretien dans le cadre de la mission interministérielle en charge du rapport «&nbsp;[Les besoins et l’offre de formation aux métiers du numérique](http://www.enseignementsup-recherche.gouv.fr/cid101306/les-besoins-et-l-offre-de-formation-aux-metiers-du-numerique.html)&nbsp;»
 
 Comité de sélection, maître de conférences en histoire grecque, anthropologie culturelle et histoire des textes, université de Nice
 
 Comité de sélection, maître de conférences en histoire et humanités numériques, université Lille III
 
-Comité scientifique, colloque « Humanités numériques et Antiquité – Digital Humanities and Antiquity », Grenoble
+Comité scientifique, colloque «&nbsp;Humanités numériques et Antiquité – Digital Humanities and Antiquity&nbsp;», Grenoble
 
-*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne: la renaissance du lecteur ?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
+*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne: la renaissance du lecteur&nbsp;?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
 
 *Reviewer*, Gabriel Bodard et Matteo Romanello (éd.), [*Digital Classics Outside the Echo Chamber: Teaching, Knowledge Exchange and Public Engagement*](https://dx.doi.org/10.5334/bat), Londres, Ubiquity Press, 2016
 
@@ -519,7 +519,7 @@ Comité de sélection, maître de conférences en ressources numériques et huma
 
 Évaluation, Fonds national de la recherche scientifique, Belgique
 
-Comité de programmation, ateliers « Innovative Teaching Methods and Practices in Digital Humanities » et « Sharing Digital Arts and Humanities Knowledge: DARIAH as an Open Space for Dialogue », colloque *Digital Humanities* 2014, ADHO, Lausanne
+Comité de programmation, ateliers «&nbsp;Innovative Teaching Methods and Practices in Digital Humanities&nbsp;» et «&nbsp;Sharing Digital Arts and Humanities Knowledge: DARIAH as an Open Space for Dialogue&nbsp;», colloque *Digital Humanities* 2014, ADHO, Lausanne
 
 Secrétaire du *Board*, [European Society for Textual Scholarship](https://www.textualscholarship.eu/)
 
@@ -527,7 +527,7 @@ Comité de coordination, [DARIAH France](http://www.huma-num.fr/international), 
 
 Groupe de travail chargé de préparer la création de l'association francophone des humanités numériques: membre fondateur d'Humanistica
 
-Comité scientifique, colloque « Les Humanités délivrées », Lausanne
+Comité scientifique, colloque «&nbsp;Les Humanités délivrées&nbsp;», Lausanne
 
 Jury, ingénieur de recherche en médiation scientifique, EHESS
 
@@ -537,7 +537,7 @@ Co-directeur, département Langues et littératures grecques et latines, Paris-O
 
 Président du jury, ingénieur de recherche en paléographie latine et humanités numériques, CNRS
 
-Comité scientifique, journées d'étude « Methods and Means for Digital Analysis of Classical and Medieval Texts and Manuscripts », Leuven et Bruxelles
+Comité scientifique, journées d'étude «&nbsp;Methods and Means for Digital Analysis of Classical and Medieval Texts and Manuscripts&nbsp;», Leuven et Bruxelles
 
 Conseil national des universités, [Langues et littératures anciennes](http://www.cpcnu.fr/web/section-08/presentation) (, suppléant nommé)
 
@@ -555,13 +555,13 @@ Niveaux divers: arabe, chinois, espagnol, grec moderne, japonais, polonais, russ
 
 ### Traduction et édition
 
-Traduction française de l'appel à communications du colloque *Digital Humanities* Traduction de l'anglais, de l'italien et de l'allemand dans le domaine des sciences humaines et sociales (histoire, philologie, anthropologie et philosophie): un livre et 17 articles traduits (Albin Michel et Belin ; *Annales*, *Critique* et autres revues)
+Traduction française de l'appel à communications du colloque *Digital Humanities* Traduction de l'anglais, de l'italien et de l'allemand dans le domaine des sciences humaines et sociales (histoire, philologie, anthropologie et philosophie): un livre et 17 articles traduits (Albin Michel et Belin&nbsp;; *Annales*, *Critique* et autres revues)
 
-Version française du logiciel [*Voyant Tools*](http://voyant-tools.org/ ?lang=fr)
+Version française du logiciel [*Voyant Tools*](http://voyant-tools.org/?lang=fr)
 
 Version francophone du site Web d'ADHO
 
-Traduction anglaise de la tribune « [Arguments pour l'accès ouvert aux résultats de la recherche](http://iloveopenaccess.org) »
+Traduction anglaise de la tribune «&nbsp;[Arguments pour l'accès ouvert aux résultats de la recherche](http://iloveopenaccess.org)&nbsp;»
 
 Traduction collective en anglais et en italien du [*Manifeste des *Digital Humanities**](https://tcp.hypotheses.org/318)
 
