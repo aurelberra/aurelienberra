@@ -1,6 +1,6 @@
 ---
 title: Curriculum vitæ
-date: 2017-07-20
+date: 2017-07-21
 publishdate: 2017-01-01
 ---
 
