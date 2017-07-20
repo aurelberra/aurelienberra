@@ -8,21 +8,14 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ---
 
-<div style="text-align: left; font-family: 'Alegreya SC', serif; margin: 2em;">
-<a href="#domaines-de-recherche">Domaines de recherche</a>
+<div id="TOC" style="text-align: left; font-family: 'Alegreya SC', serif; margin: 2em;">
+<a href="#domaines-de-recherche">Domaines de recherche</a> ~ <a href="#diplômes-et-formation">Diplômes et formation</a> ~ <a href="#emplois">Emplois</a>
 <br/>
-<a href="#diplômes-et-formation">Diplômes et formation</a>
-<br/>
-<a href="#emplois">Emplois</a>
-<br/><a href="#publications">Publications</a>
-<br/>
-<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
+<a href="#publications">Publications</a> ~ <a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
 <br/>
 <a href="#enseignement">Enseignement</a>
 <br/>
-<a href="#affiliations">Affiliations</a>
-<br/>
-<a href="#fonctions">Fonctions</a>
+<a href="#affiliations">Affiliations</a> ~ <a href="#fonctions">Fonctions</a>
 <br/>
 <a href="#langues-traduction-et-édition">Langues, traduction et édition</a>
 <br/>
@@ -31,22 +24,6 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ---
 
-<!--
-<div id="TOC">
-<ul>
-<li><a href="#domaines-de-recherche">Domaines de recherche</a></li>
-<li><a href="#diplômes-et-formation">Diplômes et formation</a></li>
-<li><a href="#emplois">Emplois</a></li>
-<li><a href="#publications">Publications</a></li>
-<li><a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a></li>
-<li><a href="#enseignement">Enseignement</a></li>
-<li><a href="#affiliations">Affiliations</a></li>
-<li><a href="#fonctions">Fonctions</a></li>
-<li><a href="#langues-traduction-et-édition">Langues, traduction et édition</a></li>
-<li><a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a></li>
-</ul>
-</div>
--->
 
 ### Domaines de recherche
 
