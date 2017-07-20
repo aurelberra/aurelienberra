@@ -9,17 +9,13 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 ---
 
 <div style="text-align: center">
-<a href="#domaines-de-recherche">Domaines de recherche</a> | <a href="#diplômes-et-formation">Diplômes et formation</a> | <a href="#emplois">Emplois</a>
-
-<a href="#publications">Publications</a> | <a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a> | <a href="#enseignement">Enseignement</a>
-
-<a href="#affiliations">Affiliations</a> | <a href="#fonctions">Fonctions</a>
-
-<a href="#langues-traduction-et-édition">Langues, traduction et édition</a> | <a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
+<a href="#domaines-de-recherche">Domaines de recherche</a>&emsp;&emsp;<a href="#diplômes-et-formation">Diplômes et formation</a>&emsp;&emsp;<a href="#emplois">Emplois</a>&emsp;&emsp;<a href="#publications">Publications</a>&emsp;&emsp;<a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a>
+<br/><a href="#enseignement">Enseignement</a>&emsp;&emsp;<a href="#affiliations">Affiliations</a>&emsp;&emsp;<a href="#fonctions">Fonctions</a>&emsp;&emsp;<a href="#langues-traduction-et-édition">Langues, traduction et édition</a>&emsp;&emsp;<a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a>
 </div>
 
 ---
 
+<!--
 <div id="TOC">
 <ul>
 <li><a href="#domaines-de-recherche">Domaines de recherche</a></li>
@@ -34,6 +30,7 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 <li><a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a></li>
 </ul>
 </div>
+-->
 
 ### Domaines de recherche
 
@@ -370,13 +367,13 @@ Préparation du projet *Lieux de savoir*, atelier du GDRI «&nbsp;Les mondes let
 
 «&nbsp;Autour de l'énigme en Grèce ancienne&nbsp;: énigme et réflexivité&nbsp;», séminaire du GDRI «&nbsp;Les mondes lettrés&nbsp;», 10.05.2004, ENS
 
-«&nbsp;La recherche d'Athénée&nbsp;:fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes*&nbsp;», «&nbsp;Second colloque international sur *Les Deipnosophistes*&nbsp;» organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
+«&nbsp;La recherche d'Athénée&nbsp;: fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes*&nbsp;», «&nbsp;Second colloque international sur *Les Deipnosophistes*&nbsp;» organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
 
-«&nbsp;Athénée, X&nbsp;:qu'est-ce qu'un γρῖφος&nbsp;?&nbsp;», journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
+«&nbsp;Athénée, X&nbsp;: qu'est-ce qu'un γρῖφος&nbsp;?&nbsp;», journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
 
 «&nbsp;Les *akousmata* pythagoriciens et la tradition interprétative néoplatonicienne&nbsp;», atelier du GDRI «&nbsp;Les mondes lettrés&nbsp;», 17.05.2003, Fondation des Treilles, Tourtour
 
-«&nbsp;Les énigmes de Pythagore&nbsp;:à propos des *akousmata*&nbsp;», séminaire de Claude Calame, 14.05.2003, EHESS
+«&nbsp;Les énigmes de Pythagore&nbsp;: à propos des *akousmata*&nbsp;», séminaire de Claude Calame, 14.05.2003, EHESS
 
 «&nbsp;L'organisation des études classiques en France, au Royaume-Uni, en Italie et en Russie&nbsp;», conférence à l'invitation d'Alexei Solopov, 09.2001, université d'État de Moscou
 
@@ -428,7 +425,7 @@ UMR 8567 Centre Louis-Gernet de recherches comparées sur les sociétés ancienn
 
 GDRI 2523 Les mondes lettrés
 
-EA 3953 Philosophie et littérature&nbsp;:textes, traditions, idées, Paris-Est (associé)
+EA 3953 Philosophie et littérature&nbsp;: textes, traditions, idées, Paris-Est (associé)
 
 ### Fonctions
 
@@ -512,7 +509,7 @@ Comité de sélection, maître de conférences en italien, humanités numériq
 
 Évaluation, revue *Encyclo*, université Paris VII
 
-Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques&nbsp;:théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
+Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques&nbsp;: théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
 
 Comité d'évaluation, programme franco-allemand en sciences humaines et sociales, Agence nationale de la recherche et Deutsche Forschungsgemeinschaft
 
@@ -524,9 +521,9 @@ Comité de sélection, maître de conférences en histoire et humanités numéri
 
 Comité scientifique, colloque «&nbsp;Humanités numériques et Antiquité – Digital Humanities and Antiquity&nbsp;», Grenoble
 
-*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne&nbsp;:la renaissance du lecteur&nbsp;?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
+*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne&nbsp;: la renaissance du lecteur&nbsp;?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
 
-*Reviewer*, Gabriel Bodard et Matteo Romanello (éd.), [*Digital Classics Outside the Echo Chamber&nbsp;:Teaching, Knowledge Exchange and Public Engagement*](https://dx.doi.org/10.5334/bat), Londres, Ubiquity Press, 2016
+*Reviewer*, Gabriel Bodard et Matteo Romanello (éd.), [*Digital Classics Outside the Echo Chamber&nbsp;: Teaching, Knowledge Exchange and Public Engagement*](https://dx.doi.org/10.5334/bat), Londres, Ubiquity Press, 2016
 
 *Executive Committee*, [EADH](http://eadh.org) (co-opté)
 
@@ -542,13 +539,13 @@ Comité de sélection, maître de conférences en ressources numériques et huma
 
 Évaluation, Fonds national de la recherche scientifique, Belgique
 
-Comité de programmation, ateliers «&nbsp;Innovative Teaching Methods and Practices in Digital Humanities&nbsp;» et «&nbsp;Sharing Digital Arts and Humanities Knowledge&nbsp;:DARIAH as an Open Space for Dialogue&nbsp;», colloque *Digital Humanities* 2014, ADHO, Lausanne
+Comité de programmation, ateliers «&nbsp;Innovative Teaching Methods and Practices in Digital Humanities&nbsp;» et «&nbsp;Sharing Digital Arts and Humanities Knowledge&nbsp;: DARIAH as an Open Space for Dialogue&nbsp;», colloque *Digital Humanities* 2014, ADHO, Lausanne
 
 Secrétaire du *Board*, [European Society for Textual Scholarship](https://www.textualscholarship.eu/)
 
 Comité de coordination, [DARIAH France](http://www.huma-num.fr/international), au sein de la TGIR Huma-Num
 
-Groupe de travail chargé de préparer la création de l'association francophone des humanités numériques&nbsp;:membre fondateur d'Humanistica
+Groupe de travail chargé de préparer la création de l'association francophone des humanités numériques&nbsp;: membre fondateur d'Humanistica
 
 Comité scientifique, colloque «&nbsp;Les Humanités délivrées&nbsp;», Lausanne
 
@@ -570,11 +567,11 @@ Directeur adjoint, département de grec, Paris-Ouest
 
 #### Langues pratiquées
 
-Lecture, écriture, conversation&nbsp;:anglais et italien
+Lecture, écriture, conversation&nbsp;: anglais et italien
 
-Lecture&nbsp;:allemand, grec ancien et latin
+Lecture&nbsp;: allemand, grec ancien et latin
 
-Niveaux divers&nbsp;:arabe, chinois, espagnol, grec moderne, japonais, polonais, russe et sanskrit
+Niveaux divers&nbsp;: arabe, chinois, espagnol, grec moderne, japonais, polonais, russe et sanskrit
 
 #### Traduction et édition
 
@@ -586,7 +583,7 @@ Version francophone du site Web d'ADHO
 
 Traduction anglaise de la tribune «&nbsp;[Arguments pour l'accès ouvert aux résultats de la recherche](http://iloveopenaccess.org)&nbsp;»
 
-Traduction collective en anglais et en italien du [*Manifeste des *Digital Humanities**](https://tcp.hypotheses.org/318)
+Traduction collective en anglais et en italien du [*Manifeste des* Digital Humanities](https://tcp.hypotheses.org/318)
 
 Travaux de correction et d'édition pour plusieurs maisons et revues
 
@@ -602,8 +599,8 @@ Sources d'information et réseaux sociaux dans le champ des humanités numériqu
 
 Corpus grecs et latins et outils d'informatique appliquée aux langues anciennes
 
-Édition électronique&nbsp;:HTML, CSS, WordPress, Hugo, K-Sup, SPIP, Lodel
+Édition électronique&nbsp;: HTML, CSS, WordPress, Hugo, K-Sup, SPIP, Lodel
 
-Encodage des corpus savants&nbsp;:XML TEI, EpiDoc, Oxygen XML Editor
+Encodage des corpus savants&nbsp;: XML TEI, EpiDoc, Oxygen XML Editor
 
 Autres langages et outils (niveaux divers): expressions rationnelles, UNIX, C, Python, R, RStudio, XPath, XSLT, XQuery, SQL, Gephi, TXM, Git, GitHub, LaTeX
