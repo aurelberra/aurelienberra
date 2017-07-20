@@ -14,41 +14,16 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 <li><a href="#diplômes-et-formation">Diplômes et formation</a></li>
 <li><a href="#emplois">Emplois</a></li>
 <li><a href="#publications">Publications</a><ul>
-<li><a href="#livres">Livres</a><ul>
-<li><a href="#en-préparation">(En préparation)</a></li>
-</ul></li>
-<li><a href="#édition-douvrages-collectifs">Édition d’ouvrages collectifs</a><ul>
-<li><a href="#en-préparation-1">(En préparation)</a></li>
-</ul></li>
-<li><a href="#publications-dans-des-ouvrages-collectifs">Publications dans des ouvrages collectifs</a><ul>
-<li><a href="#chapitres-de-livres">Chapitres de livres</a></li>
-<li><a href="#actes-de-colloques">Actes de colloques</a></li>
-</ul></li>
-<li><a href="#articles">Articles</a><ul>
-<li><a href="#articles-publiés-dans-des-revues-à-comité-de-lecture">Articles publiés dans des revues à comité de lecture</a></li>
-</ul></li>
-<li><a href="#publications-en-ligne">Publications en ligne</a></li>
-</ul></li>
 <li><a href="#colloques-journées-détude-et-séminaires">Colloques, journées d’étude et séminaires</a><ul>
-<li><a href="#organisation">Organisation</a></li>
-<li><a href="#interventions-sur-invitation">Interventions sur invitation</a></li>
-<li><a href="#autres-interventions">Autres interventions</a></li>
-</ul></li>
 <li><a href="#enseignement">Enseignement</a></li>
 <li><a href="#affiliations">Affiliations</a></li>
 <li><a href="#fonctions">Fonctions</a><ul>
-<li><a href="#fonctions-actuelles">Fonctions actuelles</a></li>
-<li><a href="#fonctions-passées">Fonctions passées</a></li>
-</ul></li>
 <li><a href="#langues-traduction-et-édition">Langues, traduction et édition</a><ul>
-<li><a href="#langues-pratiquées">Langues pratiquées</a></li>
-<li><a href="#traduction-et-édition">Traduction et édition</a></li>
-</ul></li>
 <li><a href="#compétences-informatiques-et-numériques">Compétences informatiques et numériques</a></li>
 </ul>
 </div>
 
-<h3 id="domaines-de-recherche">Domaines de recherche</h3>
+### Domaines de recherche
 
 * Énigme et discours obscur dans l’Antiquité
 * Athénée, *Les Deipnosophistes*&nbsp;: édition, traduction et commentaire
