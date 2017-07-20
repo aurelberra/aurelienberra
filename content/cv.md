@@ -18,7 +18,7 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ### Diplômes et formation
 
-Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», École des hautes études en sciences sociales \[EHESS\]\
+Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», École des hautes études en sciences sociales [EHESS]\
 [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob)
 
 Diplôme d’études approfondies, «&nbsp;Très bien&nbsp;», EHESS\
@@ -34,7 +34,7 @@ Maîtrise de lettres, université Paris-Sorbonne
 
 Licence de lettres classiques et licence d’anglais, université Paris-Sorbonne
 
-Élève fonctionnaire stagiaire de l’École normale supérieure \[ENS\]
+Élève fonctionnaire stagiaire de l’École normale supérieure [ENS]
 
 Classes préparatoires littéraires, lycée Henri-IV, Paris
 
@@ -58,7 +58,7 @@ Moniteur, université Paris-Est, Créteil
 
 Allocataire de recherche normalien, EHESS
 
-Vacataire de recherche, Centre national de la recherche scientifique \[CNRS\]
+Vacataire de recherche, Centre national de la recherche scientifique [CNRS]
 
 ### Publications
 
@@ -344,19 +344,19 @@ Préparation du projet *Lieux de savoir*, atelier du GDRI «&nbsp;Les mondes let
 
 «&nbsp;Autour de l'énigme en Grèce ancienne&nbsp;: énigme et réflexivité&nbsp;», séminaire du GDRI «&nbsp;Les mondes lettrés&nbsp;», 10.05.2004, ENS
 
-«&nbsp;La recherche d'Athénée: fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes*&nbsp;», «&nbsp;Second colloque international sur *Les Deipnosophistes*&nbsp;» organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
+«&nbsp;La recherche d'Athénée&nbsp;:fonctionnement et mise en scène de la *zêtêsis* dans *Les Deipnosophistes*&nbsp;», «&nbsp;Second colloque international sur *Les Deipnosophistes*&nbsp;» organisé par Christian Jacob et John Wilkins, 19.12.2003, Bibliothèque nationale de France
 
-«&nbsp;Athénée, X: qu'est-ce qu'un γρῖφος&nbsp;?&nbsp;», journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
+«&nbsp;Athénée, X&nbsp;:qu'est-ce qu'un γρῖφος&nbsp;?&nbsp;», journée d'étude sur *Les Deipnosophistes* organisée par Christian Jacob, 13.06.2003, Centre Louis-Gernet
 
 «&nbsp;Les *akousmata* pythagoriciens et la tradition interprétative néoplatonicienne&nbsp;», atelier du GDRI «&nbsp;Les mondes lettrés&nbsp;», 17.05.2003, Fondation des Treilles, Tourtour
 
-«&nbsp;Les énigmes de Pythagore: à propos des *akousmata*&nbsp;», séminaire de Claude Calame, 14.05.2003, EHESS
+«&nbsp;Les énigmes de Pythagore&nbsp;:à propos des *akousmata*&nbsp;», séminaire de Claude Calame, 14.05.2003, EHESS
 
 «&nbsp;L'organisation des études classiques en France, au Royaume-Uni, en Italie et en Russie&nbsp;», conférence à l'invitation d'Alexei Solopov, 09.2001, université d'État de Moscou
 
 ### Enseignement
 
-Depuis 2003, environ 1900 heures de cours: langue, littérature et civilisation de la Grèce antique&nbsp;; méthodologie des études anciennes&nbsp;; rhétorique&nbsp;; humanités numériques
+Depuis 2003, environ 1900 heures de cours&nbsp;: langue, littérature et civilisation de la Grèce antique&nbsp;; méthodologie des études anciennes&nbsp;; rhétorique&nbsp;; humanités numériques
 
 Intervention dans le master Anthropologie et histoire de l'Antiquité, à l'invitation de Marcello Carastro et Claude Calame, EHESS
 
@@ -364,7 +364,7 @@ Intervention dans le master Anthropologie et histoire de l'Antiquité, à l'invi
 
 «&nbsp;A Project-based Overview of the Digital Humanities&nbsp;», master 1, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, à l'invitation de Sophie Pène, CRI, universités Paris-Descartes et Paris-Diderot
 
-Mentorat auprès d'étudiants de master 2, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, Centre de recherches interdisciplinaires \[CRI\], universités Paris-Descartes et Paris-Diderot
+Mentorat auprès d'étudiants de master 2, spécialité *Education and technology* du master Approches interdisciplinaires de la recherche et de l’éducation, Centre de recherches interdisciplinaires [CRI], universités Paris-Descartes et Paris-Diderot
 
 Intervention dans le diplôme universitaire «&nbsp;Acteur de la transition éducative&nbsp;», à l'invitation de Florence Rizzo, CRI, universités Paris-Descartes et Paris-Diderot
 
@@ -376,21 +376,21 @@ Enseignement en licence, universités Paris-Est, de Caen, Paris-Ouest et d'Amien
 
 [International Academy of Humanities Computing and Digital Humanities](http://www.cmcl.it/humanities_computing/)
 
-[Alliance of Digital Humanities Organizations](http://adho.org) \[ADHO\]
+[Alliance of Digital Humanities Organizations](http://adho.org) [ADHO]
 
-[European Association for Digital Humanities](http://eadh.org) \[EADH\]
+[European Association for Digital Humanities](http://eadh.org) [EADH]
 
 [Humanistica](http://humanisti.ca), association francophone des humanités numériques
 
-[Digital Research Infrastructure for the Arts and Humanities](http://dariah.eu) \[DARIAH\]
+[Digital Research Infrastructure for the Arts and Humanities](http://dariah.eu) [DARIAH]
 
-[Laboratoire d'excellence Histoire et anthropologie des savoirs, des techniques et des croyances](http://www.hesam.eu/labexhastec/) \[HASTEC\] (associé)
+[Laboratoire d'excellence Histoire et anthropologie des savoirs, des techniques et des croyances](http://www.hesam.eu/labexhastec/) [HASTEC] (associé)
 
-[UMR 7041 Archéologies et sciences de l'Antiquité](http://www.arscan.fr/) \[ARSCAN\], [équipe Textes, histoire et monuments, de l'Antiquité au Moyen Âge](http://www.arscan.fr/themam/) \[THEMAM\]
+[UMR 7041 Archéologies et sciences de l'Antiquité](http://www.arscan.fr/) [ARSCAN], [équipe Textes, histoire et monuments, de l'Antiquité au Moyen Âge](http://www.arscan.fr/themam/) [THEMAM]
 
-[UMR 8210 Anthropologie et histoire des mondes antiques](http://anhima.fr) \[ANHIMA\] (associé)
+[UMR 8210 Anthropologie et histoire des mondes antiques](http://anhima.fr) [ANHIMA] (associé)
 
-[European Society for Textual Scholarship](https://www.textualscholarship.eu/) \[ESTS\]
+[European Society for Textual Scholarship](https://www.textualscholarship.eu/) [ESTS]
 
 Réseau [Digital Classicist](http://www.digitalclassicist.org/)
 
@@ -402,7 +402,7 @@ UMR 8567 Centre Louis-Gernet de recherches comparées sur les sociétés ancienn
 
 GDRI 2523 Les mondes lettrés
 
-EA 3953 Philosophie et littérature: textes, traditions, idées, Paris-Est (associé)
+EA 3953 Philosophie et littérature&nbsp;:textes, traditions, idées, Paris-Est (associé)
 
 ### Fonctions
 
@@ -486,7 +486,7 @@ Comité de sélection, maître de conférences en italien, humanités numériq
 
 Évaluation, revue *Encyclo*, université Paris VII
 
-Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques: théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
+Comité d'organisation, colloque et *EdCamp* «&nbsp;Les humanités numériques pour l'éducation&nbsp;», Institut catholique de Paris Comité d'organisation, masterclass et hackathon «&nbsp;Fabriquer l'interdisciplinarité&nbsp;», Lab School Network et Carrefour numérique$^{2}$, Cité des sciences et de l'industrie, Paris Comité scientifique, colloque DH Nord 2016 «&nbsp;Humanités numériques&nbsp;:théories, débats, approches critiques&nbsp;», Maison européenne des sciences de l'homme et de la société, Lille *Reviewer*, «&nbsp;International Workshop on Semantic Web for Scientific Heritage&nbsp;», European Semantic Web Conference
 
 Comité d'évaluation, programme franco-allemand en sciences humaines et sociales, Agence nationale de la recherche et Deutsche Forschungsgemeinschaft
 
@@ -498,9 +498,9 @@ Comité de sélection, maître de conférences en histoire et humanités numéri
 
 Comité scientifique, colloque «&nbsp;Humanités numériques et Antiquité – Digital Humanities and Antiquity&nbsp;», Grenoble
 
-*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne: la renaissance du lecteur&nbsp;?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
+*Reviewer*, Dominique Pety (éd.), [*Patrimoine littéraire en ligne&nbsp;:la renaissance du lecteur&nbsp;?*](http://www.llseti.univ-smb.fr/web/llseti/572-patrimoine-litteraire-en-ligne-la-renaissance-du-lecteur.php), Chambéry, Éditions de l'université de Savoie, 2016
 
-*Reviewer*, Gabriel Bodard et Matteo Romanello (éd.), [*Digital Classics Outside the Echo Chamber: Teaching, Knowledge Exchange and Public Engagement*](https://dx.doi.org/10.5334/bat), Londres, Ubiquity Press, 2016
+*Reviewer*, Gabriel Bodard et Matteo Romanello (éd.), [*Digital Classics Outside the Echo Chamber&nbsp;:Teaching, Knowledge Exchange and Public Engagement*](https://dx.doi.org/10.5334/bat), Londres, Ubiquity Press, 2016
 
 *Executive Committee*, [EADH](http://eadh.org) (co-opté)
 
@@ -516,13 +516,13 @@ Comité de sélection, maître de conférences en ressources numériques et huma
 
 Évaluation, Fonds national de la recherche scientifique, Belgique
 
-Comité de programmation, ateliers «&nbsp;Innovative Teaching Methods and Practices in Digital Humanities&nbsp;» et «&nbsp;Sharing Digital Arts and Humanities Knowledge: DARIAH as an Open Space for Dialogue&nbsp;», colloque *Digital Humanities* 2014, ADHO, Lausanne
+Comité de programmation, ateliers «&nbsp;Innovative Teaching Methods and Practices in Digital Humanities&nbsp;» et «&nbsp;Sharing Digital Arts and Humanities Knowledge&nbsp;:DARIAH as an Open Space for Dialogue&nbsp;», colloque *Digital Humanities* 2014, ADHO, Lausanne
 
 Secrétaire du *Board*, [European Society for Textual Scholarship](https://www.textualscholarship.eu/)
 
 Comité de coordination, [DARIAH France](http://www.huma-num.fr/international), au sein de la TGIR Huma-Num
 
-Groupe de travail chargé de préparer la création de l'association francophone des humanités numériques: membre fondateur d'Humanistica
+Groupe de travail chargé de préparer la création de l'association francophone des humanités numériques&nbsp;:membre fondateur d'Humanistica
 
 Comité scientifique, colloque «&nbsp;Les Humanités délivrées&nbsp;», Lausanne
 
@@ -544,11 +544,11 @@ Directeur adjoint, département de grec, Paris-Ouest
 
 #### Langues pratiquées
 
-Lecture, écriture, conversation: anglais et italien
+Lecture, écriture, conversation&nbsp;:anglais et italien
 
-Lecture: allemand, grec ancien et latin
+Lecture&nbsp;:allemand, grec ancien et latin
 
-Niveaux divers: arabe, chinois, espagnol, grec moderne, japonais, polonais, russe et sanskrit
+Niveaux divers&nbsp;:arabe, chinois, espagnol, grec moderne, japonais, polonais, russe et sanskrit
 
 #### Traduction et édition
 
@@ -576,8 +576,8 @@ Sources d'information et réseaux sociaux dans le champ des humanités numériqu
 
 Corpus grecs et latins et outils d'informatique appliquée aux langues anciennes
 
-Édition électronique: HTML, CSS, WordPress, Hugo, K-Sup, SPIP, Lodel
+Édition électronique&nbsp;:HTML, CSS, WordPress, Hugo, K-Sup, SPIP, Lodel
 
-Encodage des corpus savants: XML TEI, EpiDoc, Oxygen XML Editor
+Encodage des corpus savants&nbsp;:XML TEI, EpiDoc, Oxygen XML Editor
 
 Autres langages et outils (niveaux divers): expressions rationnelles, UNIX, C, Python, R, RStudio, XPath, XSLT, XQuery, SQL, Gephi, TXM, Git, GitHub, LaTeX
