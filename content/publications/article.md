@@ -1,8 +1,8 @@
 ---
-title: "Un article original"
-citation: "Un article original, 2017"
+title: "Un article"
+citation: "Un article, 2017"
 author: Aurélien Berra
-date: 2017-01-07
+date: 2017-01-01
 publishdate: 2017-01-07
 status: In Progress
 type: unpublished

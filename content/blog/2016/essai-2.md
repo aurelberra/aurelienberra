@@ -20,8 +20,8 @@ Cette croyance survivait pendant quelques secondes à mon réveil ; elle ne choq
 Je me demandais quelle heure il pouvait être ; j'entendais le sifflement des trains qui, plus ou moins éloigné, comme le chant d'un oiseau dans une forêt, relevant les distances, me décrivait l'étendue de la campagne déserte où le voyageur se hâte vers la station prochaine ; et le petit chemin qu'il suit va être gravé dans son souvenir par l'excitation qu'il doit à des lieux nouveaux, à des actes inaccoutumés, à la causerie récente et aux adieux sous la lampe étrangère qui le suivent encore dans le silence de la nuit, à la douceur prochaine du retour.
 
 <!-- <figure>
-    <img src="/images/IMG_0175.PNG" alt="Extrait">
-    <figcaption>Burke</figcaption>
+    <img src="/images/logo-paris-nanterre-couleur-cmjn.png" alt="Extrait">
+    <figcaption>PN</figcaption>
 </figure> -->
 
-![Burke](/images/IMG_0175.PNG)
+![Burke](/images/logo-paris-nanterre-couleur-cmjn.png)
