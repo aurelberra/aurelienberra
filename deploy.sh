@@ -1,10 +1,11 @@
 #!/bin/bash
 
 echo -e "--------------------------------"
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "# \033[0;32mDeploying updates to GitHub...\033[0m #"
 
 echo -e "--------------------------------"
 echo -e "\033[0;32mUpdate source repo aurelienberra\033[0m"
+echo -e "--------------------------------"
 
 git add -A # better than "git add ." according to man page
 
@@ -19,6 +20,7 @@ git push -u origin master
 
 echo -e "--------------------------------"
 echo -e "\033[0;32mUpdate repo aurelberra.github.io\033[0m"
+echo -e "--------------------------------"
 
 # Build the project
 # build public folder in github pages repo worked for me
