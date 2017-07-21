@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 echo -e "--------------------------------"
-echo -e "\033[0;32mUpdate repo aurelienberra\033[0m"
+echo -e "\033[0;32mUpdate source repo aurelienberra\033[0m"
 echo -e "--------------------------------"
 
 git add -A # better than "git add ." according to man page
