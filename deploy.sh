@@ -10,7 +10,7 @@ echo -e "--------------------------------"
 git add -A # better than "git add ." according to man page
 
 # Commit changes with provided argument or with date as message
-msg="Regenerate site `date +%Y-%m-%d\ %H:%M:%S`"
+msg="regenerate site `date +%Y-%m-%d\ %H:%M:%S`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -30,7 +30,7 @@ cd /Users/aurel/Documents/github/aurelberra.github.io
 
 git add -A
 
-msg="Regenerate site `date +%Y-%m-%d\ %H:%M:%S`"
+msg="regenerate site `date +%Y-%m-%d\ %H:%M:%S`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
