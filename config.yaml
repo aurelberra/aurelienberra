@@ -20,7 +20,7 @@ permalinks:
   blog: /blog/:year/:month/:title/
 menu:
   main:
-      - Name: "Curriculum vitæ"
+      - Name: "CV"
         URL: "/cv"
         Weight: 1
       - Name: "Publications"
