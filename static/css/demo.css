@@ -46,16 +46,26 @@ a:hover {
 
 ul {
   list-style-type: none;
-  /*list-style-position:inside;*/
   margin-left: 0em;
 }
 
+/* list layout for CV page */
 li {
   margin-left: 1em;
   text-indent: -1em;
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
+
+/* list layout for all other pages and elements */
+.units-row li {
+  margin-left: 0em;
+  text-indent: 0em;
+  margin-bottom: 0em;
+  line-height: 1.65em;
+}
+
+
 
 /* =Code
 -----------------------------------------------------------------------------*/
