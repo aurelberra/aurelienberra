@@ -9,4 +9,4 @@ filter:
   - rubypants
 ---
 
-Ce site est "ouvert". Que «dire» de « plus » ?
+Ce site est "ouvert". Que "dire" de "plus" ?
