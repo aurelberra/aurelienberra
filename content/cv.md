@@ -37,7 +37,7 @@ Vous pouvez télécharger ici [mon CV](/cv/2017-07-20_aurelien_berra_cv.pdf) (PD
 
 ### Diplômes et formation
 
-* <span style="color:grey">2008</span> Doctorat, «&nbsp;Très honorable avec félicitations&nbsp;», EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob) <!-- École des hautes études en sciences sociales [EHESS] -->
+* <span style="color:grey">2008</span> Doctorat, "Très honorable avec félicitations", EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob) <!-- École des hautes études en sciences sociales [EHESS] -->
 * <span style="color:grey">2003</span> Diplôme d’études approfondies, «&nbsp;Très bien&nbsp;», EHESS&nbsp;: *La Section sur les énigmes des* Deipnosophistes *d’Athénée de Naucratis*
 * <span style="color:grey">2001-2002</span> Séjour d’étude, Scuola Normale Superiore, Pise
 * <span style="color:grey">2000-2001</span> Séjour d’étude, Merton College, Oxford
