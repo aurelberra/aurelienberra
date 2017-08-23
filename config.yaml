@@ -13,8 +13,10 @@ indexes:
   category: "categories"
 pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
-# blackfriday:
+blackfriday:
+    smartypantsQuotesNBSP: true
 #   angledQuotes: true
+#   quotesNbsp: true @check command after update
 permalinks:
   blog: /blog/:year/:month/:title/
 menu:
