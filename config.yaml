@@ -14,9 +14,8 @@ indexes:
 pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
 blackfriday:
-    smartypantsQuotesNBSP: true
-#   angledQuotes: true
-#   quotesNbsp: true @check command after update
+  smartypantsQuotesNBSP: true
+  angledQuotes: true
 permalinks:
   blog: /blog/:year/:month/:title/
 menu:
