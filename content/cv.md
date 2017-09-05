@@ -5,7 +5,11 @@ publishdate: 2017-01-01
 type: cv
 ---
 
-Vous pouvez télécharger ici [mon CV](/cv/aurelien_berra_cv.pdf) (PDF). Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) et encore sur [Academia.edu](http://u-paris10.academia.edu/berra/CurriculumVitae). Ce qui suit est un premier essai en HTML, mais il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX…
+Vous pouvez télécharger ici la version tenue à jour de [mon CV](/cv/aurelien_berra_cv.pdf) (PDF).
+
+Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/CurriculumVitae).
+
+Ce qui suit est un premier essai en HTML, mais il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX et je n'ai pas résolu l'épineux problème de la mise à jour simultanée des deux versions. Le PDF reste donc le document de référence.
 
 ---
 
