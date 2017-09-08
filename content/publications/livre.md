@@ -7,7 +7,7 @@ author: Aurélien Berra
 kind: book
 status: Published in 2017
 type: unpublished
-published: false
+draft: true
 comments: false
 # subjects: site métabibliographie exemple
 # tag: essai livre édition
