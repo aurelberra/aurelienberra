@@ -21,15 +21,12 @@
   <div class="wrapper">
 
     <h2>Publications</h2>
-
-        Voir pour l'instant la [liste de publications dans mon CV](http://aurelienberra.org/cv/).
-
-<!--
     <div class="units-row">
-    
-      <div class="unit-50">
-        <h3>Textes publiés</h3> {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
 
+      Voir pour l'instant la [liste de publications dans mon CV](http://aurelienberra.org/cv/).
+
+      <!-- <div class="unit-50">
+        <h3>Textes publiés</h3> {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
         <div class="units-row">
           <div class="unit-10">
             <h3>{{ .Key }}</h4>
@@ -66,9 +63,11 @@
               </div>
             </div>
             {{ end }}
-          </div>
+          </div> -->
+
         </div>
-      </div> -->
+
+      </div>
 
       <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
 
