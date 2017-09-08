@@ -78,7 +78,7 @@ Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de r
 
 #### Édition d’ouvrages collectifs
 
-* [*Médée. Versions et interprétations d’un mythe*](http://pufc.univ-fcomte.fr/fiche_ouvrage.php?id_titre=2063285264), textes édités et rassemblés en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, Besançon, Presses universitaires de Franche-Comté, 2016
+* [*Médée. Versions et interprétations d’un mythe*](http://pufc.univ-fcomte.fr/cahiers-du-theatre-antique-n-2-cahiers-du-gita-n-20.html), textes édités et rassemblés en collaboration avec Blandine Cuny-Le Callet et Charles Guérin, Besançon, Presses universitaires de Franche-Comté, 2016
 
 ##### (En préparation)
 
@@ -288,7 +288,7 @@ Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de r
 * Commission pédagogique et conseil de perfectionnement, master Humanités classiques et humanités numériques, Paris-Nanterre
 * Membre du programme [*Sunoikisis Digital Classics*](https://www.dh.uni-leipzig.de/wo/sunoikisisdc/), université de Leipzig
 * <span style="color:grey">2014-</span> Comité de coordination, [Humanistica](http://humanisti.ca), association francophone des humanités numériques
-* Responsable pour la France du "[Digital Humanities Course Registry](https://dh-registry.de.dariah.eu)", DARIAH
+* Responsable pour la France du "[Digital Humanities Course Registry](https://registries.clarin-dariah.eu/courses/)", DARIAH
 * *Reviewer*, colloque *Digital Humanities* (sessions, présentations et posters), ADHO
 * *Reviewer*, revue *Digital Scholarship in the Humanities*
 * Conseil scientifique, collection "[Encyclopédie numérique](https://books.openedition.org/oep/127)", Centre pour l'édition électronique ouverte
