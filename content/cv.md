@@ -5,7 +5,7 @@ publishdate: 2017-01-01
 type: cv
 ---
 
-Vous pouvez télécharger ici la version tenue à jour de [mon CV](/cv/aurelien_berra_cv.pdf) (PDF).
+Vous pouvez télécharger ici la [version tenue à jour de mon CV](/cv/aurelien_berra_cv.pdf) (PDF).
 
 Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/).
 
