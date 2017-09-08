@@ -7,7 +7,6 @@ publishdate: 2017-01-07
 kind: book
 status: Published in 2017
 type: unpublished
-draft: true
 published: false
 comments: true
 subjects: site métabibliographie exemple
