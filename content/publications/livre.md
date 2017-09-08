@@ -2,7 +2,7 @@
 title: "*Un livre*, Paris, Futuropolis, 2017"
 citation: "*Un livre*, Paris, Futuropolis, 2017"
 author: Aurélien Berra
-date: 2017-01-01
+date: 2017-09-08
 publishdate: 2017-01-07
 kind: book
 status: Published in 2017
