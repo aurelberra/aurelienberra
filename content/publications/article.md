@@ -2,14 +2,14 @@
 title: "Un article"
 citation: "Un article, 2017"
 author: Aurélien Berra
-date: 2017-01-01
-publishdate: 2017-01-07
+# date: 2017-01-01
+# publishdate: 2017-01-07
 status: In Progress
 type: unpublished
 draft: true
-comments: true
-subjects: exemple lorem-ipsum pseudo-latin
-tag: article
+comments: false
+# subjects: exemple lorem-ipsum pseudo-latin
+# tag: article
 filter:
   - erb
   - markdown

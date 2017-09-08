@@ -2,15 +2,15 @@
 title: "*Un livre*, 2017"
 citation: "*Un livre*, 2017"
 author: Aurélien Berra
-date: 2017-09-08
-publishdate: 2017-01-07
+# date: 2017-09-08
+# publishdate: 2017-01-07
 kind: book
 status: Published in 2017
 type: unpublished
 published: false
-comments: true
-subjects: site métabibliographie exemple
-tag: essai livre édition
+comments: false
+# subjects: site métabibliographie exemple
+# tag: essai livre édition
 filter:
   - erb
   - markdown
