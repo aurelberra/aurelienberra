@@ -9,7 +9,7 @@ Vous pouvez télécharger ici la [version tenue à jour de mon CV](/cv/aurelien_
 
 Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) (et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/), où je ne mets que des liens vers des ressources ouvertes).
 
-Ce qui suit est un premier essai en HTML, mais il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX et je n'ai pas résolu l'épineux problème de la mise à jour simultanée des deux versions. Le PDF reste donc le document de référence.
+Ce qui suit est un premier essai en HTML, mais il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX et je n'ai pas résolu l'épineux problème de la mise à jour simultanée des deux versions. Le document de référence reste donc le [PDF](/cv/aurelien_berra_cv.pdf).
 
 ---
 
