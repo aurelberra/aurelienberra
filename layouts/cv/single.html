@@ -21,10 +21,10 @@
   <div class="wrapper">
 
     <h2>{{ .Title | markdownify }}</h2>
-    
-    <h5>Mis à jour le <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h5>
 
-    <br />
+    <!-- <h5>Mis à jour le <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h5>
+
+    <br /> -->
 
     {{ .Content }}
 
