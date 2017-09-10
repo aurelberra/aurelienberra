@@ -368,6 +368,6 @@ Vous pouvez télécharger ici la [version tenue à jour de mon CV](/cv/aurelien_
 * Logiciels de bureautique (LibreOffice, OpenOffice, Microsoft Office, Apple Productivity Apps, Acrobat Pro), de bibliographie (Zotero, EndNote, Sente) et d'imagerie numérique (GIMP, Photoshop, Tesseract-OCR)
 * Sources d'information et réseaux sociaux dans le champ des humanités numériques
 * Corpus grecs et latins et outils d'informatique appliquée aux langues anciennes
-* Édition électronique&nbsp;: HTML, CSS, WordPress, Hugo, K-Sup, SPIP, Lodel
+* Édition électronique&nbsp;: HTML, CSS, WordPress, SPIP, Hugo, Lodel, K-Sup
 * Encodage des corpus savants&nbsp;: XML TEI, EpiDoc, Oxygen XML Editor
-* Autres langages et outils (niveaux divers)&nbsp;: expressions rationnelles, UNIX, C, Python, R, RStudio, XPath, XSLT, XQuery, SQL, Gephi, TXM, Git, GitHub, LaTeX
+* Autres langages et outils (niveaux divers)&nbsp;: expressions rationnelles, UNIX, C, Python, R, RStudio, XPath, XSLT, XQuery, SQL, Gephi, TXM, Git, GitHub, <span style="font-family: serif; margin-right: -.7em;">L<span style="font-size: 0.7em; position: relative; top: -.25em; left: -0.5em;">A</span><span style="position: relative; left: -.5em;">T</span><span style="position: relative; top: .2em; left: -.6em;">E</span><span style="position: relative; left: -.7em;">X</span></span>
