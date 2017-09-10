@@ -40,6 +40,8 @@ a {
   text-decoration: none;
 }
 
+a[href^="#fn:"]:before{ content: ' ' }
+
 a:hover {
   text-decoration: none;
 }
