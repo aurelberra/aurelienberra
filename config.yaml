@@ -17,6 +17,7 @@ blackfriday:
   smartypants: true
   smartypantsQuotesNBSP: true
   angledQuotes: true
+footnotereturnlinkcontents: "⌃" # ↩ ↵ ⤣ ↑ ⇧ ☝︎ ↺ ▲ ^
 permalinks:
   blog: /blog/:year/:month/:title/
 menu:
