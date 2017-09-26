@@ -9,7 +9,7 @@
             <li class="hd"><span><a href="{{ $baseurl }}"><b>Aurélien Berra</b></a></span></li>
             <li><a href="{{ $baseurl }}/cv">CV</a></li>
             <li><a href="{{ $baseurl }}/publications">Publications</a></li>
-            <li><a href="{{ $baseurl }}/interventions">Interventions</a></li>
+            <!-- <li><a href="{{ $baseurl }}/interventions">Interventions</a></li> -->
             <li><a href="{{ $baseurl }}/enseignement">Enseignement</a></li>
             <li><a href="{{ $baseurl }}/blog">Blog</a></li>
           </ul>
@@ -37,13 +37,11 @@
             <a href="{{ .Permalink }}"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></a>
           </div>
           <div class="unit-66">
-            <!-- {{ if .Truncated }} {{ .Summary }} -->
+            {{ if .Truncated }} {{ .Summary }}
             <!-- <p class="text-right"><a href="{{ .RelPermalink }}">Suite…</a></p> -->
             <br />
             <nav class="navbar navbar-right"><a href="{{ .RelPermalink }}">Suite…</a></nav>
-            <!-- {{ else }} -->
-            {{ .Content }}
-            <!-- {{ end }} -->
+            {{ else }} {{ .Content }} {{ end }}
             <hr>
           </div>
         </div>
