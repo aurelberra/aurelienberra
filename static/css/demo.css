@@ -94,9 +94,9 @@ nav {
 }
 
 .navbar-right {
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   /*font-family: 'Gentium Book Basic'; }*/
-  font-family: 'Alegreya SC';
+  font-family: 'Alegreya';
   /*font-size: 100%;*/
   /*margin-top: 0.5em;*/
   /*font-style: italic;*/
