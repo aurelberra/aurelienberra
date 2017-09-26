@@ -101,13 +101,13 @@
             <!-- ORIGINAL -->
             <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "nowon.html" . }}  -->
           </li>
-          {{ end }} {{ end }} {{ end }} {{ range (where .Data.Pages.ByDate "Section" "enseignement").Reverse }} {{ $classend := (add .Date.Unix .Params.duration) }} {{ if (ge now.Unix $classend ) }} {{ if (le now.Unix (add $classend 10368000)) }}
+          {{ end }} {{ end }} {{ range (where .Data.Pages.ByDate "Section" "enseignement").Reverse }} {{ $classend := (add .Date.Unix .Params.duration) }} {{ if (ge now.Unix $classend ) }} {{ if (le now.Unix (add $classend 10368000)) }}
           <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board {{ end }}fa-fw" style="color:#b90;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }}
             <!-- <span class="badge badge-small">passé</span> -->
             <!-- ORIGINAL -->
             <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">passé</span> -->
           </li>
-          {{ end }} {{ end }} {{ end }}
+          {{ end }} {{ end }}
         </ul>
 
         <footer class="group">
