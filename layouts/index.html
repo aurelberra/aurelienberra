@@ -38,7 +38,9 @@
           </div>
           <div class="unit-66">
             {{ if .Truncated }} {{ .Summary }}
-            <p class="text-right"><a href="{{ .RelPermalink }}">Suite…</a></p>
+            <!-- <p class="text-right"><a href="{{ .RelPermalink }}">Suite…</a></p> -->
+            <br />
+            <nav class="navbar navbar-right"><a href="{{ .RelPermalink }}">Suite…</a></nav>
             {{ else }} {{ .Content }} {{ end }}
             <hr>
           </div>
@@ -67,7 +69,7 @@
         </ul>
 
         <footer class="group">
-          <nav class="navbar navbar-right"><a href="publications"> Autres publications</a></nav>
+          <nav class="navbar navbar-right"><a href="publications">Autres publications</a></nav>
         </footer>
 
         <h3>Interventions</h3>
