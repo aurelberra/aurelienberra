@@ -89,7 +89,7 @@
         <h3>Enseignement</h3>
         <ul class="compact fa-ul">
           {{ range (where .Data.Pages.ByDate "Section" "enseignement").Reverse }} {{ if (ge .Date.Unix now.Unix) }} {{ if (le .Date.Unix (add now.Unix 7776000)) }}
-          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }} <!-- {{ partial "comingsoon.html" . }} -->
+          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }}
             <!-- {{ .Date.Format "01.2006" }}&ndash;{{ .Params.enddate | dateFormat "01.2006" }}.  {{ partial "comingsoon.html" . }} -->
             <!-- FAILED ATTEMPT: start month ok, but end month bad -->
             <!-- <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }} -->
@@ -97,13 +97,13 @@
             <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }} -->
           </li>
           {{ end }} {{ end }} {{ end }} {{ range (where .Data.Pages.ByDate "Section" "enseignement").Reverse }} {{ if (le .Date.Unix now.Unix) }} {{ if (le now.Unix (add .Date.Unix .Params.duration)) }}
-          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }} <!-- {{ partial "nowon.html" . }} -->
+          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }}
             <!-- ORIGINAL -->
             <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "nowon.html" . }}  -->
           </li>
           {{ end }} {{ end }} {{ end }} {{ range (where .Data.Pages.ByDate "Section" "enseignement").Reverse }} {{ $classend := (add .Date.Unix .Params.duration) }} {{ if (ge now.Unix $classend ) }} {{ if (le now.Unix (add $classend 10368000)) }}
 
-          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }} <!-- <span class="badge badge-small">passé</span> -->
+          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-mortar-board fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify }}
             <!-- ORIGINAL -->
             <!-- {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">passé</span> -->
           </li>
