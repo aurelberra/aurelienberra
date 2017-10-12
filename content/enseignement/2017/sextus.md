@@ -1,7 +1,7 @@
 ---
 title: Sextus Empiricus, *Contre les moralistes*
 host: université Paris-Nanterre
-description: Traduction : préparation à l'oral de l'agrégation de philosophie
+description: "Traduction : préparation à l'oral de l'agrégation de philosophie"
 date: 2017-10-16
 enddate: 2017-12-18
 duration: 7776000
