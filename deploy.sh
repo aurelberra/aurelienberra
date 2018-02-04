@@ -7,6 +7,7 @@ echo -e "--------------------------------"
 echo -e "\033[0;32mUpdate source repo aurelienberra\033[0m"
 echo -e "--------------------------------"
 
+cd /Users/aurel/Documents/github/aurelienberra
 git add -A # better than "git add ." according to man page
 
 # Commit changes with provided argument or with date as message
