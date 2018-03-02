@@ -24,7 +24,7 @@ echo -e "\033[0;32mUpdate repo aurelberra.github.io\033[0m"
 echo -e "--------------------------------"
 
 # Build the project
-# build public folder in github pages repo worked for me
+# building public folder in github pages repo worked for me
 # hugo
 hugo -d /Users/aurel/Documents/github/aurelberra.github.io
 cd /Users/aurel/Documents/github/aurelberra.github.io
