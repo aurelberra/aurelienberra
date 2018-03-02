@@ -1,14 +1,12 @@
 ---
 metadataformat: "yaml"
-title: "aurelienberra.org" # Aurélien Berra
+title: "aurelienberra.org"
 baseurl: "https://aurelienberra.org"
-# baseurl: "http://aurelienberra.org"
-# baseurl: "https://aurelberra.github.io"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
-pygmentsuseclasses: true # check
+pygmentsuseclasses: true
 canonifyurls: true
 indexes:
   category: "categories"
@@ -18,7 +16,7 @@ blackfriday:
   smartypants: true
   smartypantsQuotesNBSP: true
   angledQuotes: true
-footnotereturnlinkcontents: "⌃" # ↩ ↵ ⤣ ↑ ⇧ ☝︎ ↺ ▲ ^
+footnotereturnlinkcontents: "⌃"
 permalinks:
   blog: /blog/:year/:month/:title/
 menu:
@@ -27,13 +25,10 @@ menu:
         URL: "/cv"
         Weight: 1
       - Name: "Publications"
-        URL: "/publications" # writing
+        URL: "/publications"
         Weight: 2
-#      - Name: "Interventions"
-#        URL: "/interventions" # talks
-#        Weight: 3
       - Name: "Enseignement"
-        URL: "/enseignement" # teaching
+        URL: "/enseignement"
         Weight: 3
       - Name: "Blog"
         URL: "/blog"
