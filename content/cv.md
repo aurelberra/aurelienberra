@@ -5,6 +5,8 @@ publishdate: 2017-01-01
 type: cv
 ---
 
+<iframe src = "/ViewerJS/#../static/cv/aurelien_berra_cv.pdf" width='400' height='300' allowfullscreen webkitallowfullscreen></iframe>
+
 Vous pouvez télécharger ici la [version actuelle de mon CV](/cv/aurelien_berra_cv.pdf) (PDF). Il est disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra) (et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/), où je ne mets que des liens vers des ressources ouvertes).
 
 Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX et que je n'ai pas résolu l'épineux problème de la mise à jour simultanée des deux versions, le document de référence reste le [PDF](/cv/aurelien_berra_cv.pdf).
