@@ -21,19 +21,19 @@ permalinks:
   blog: /blog/:year/:month/:title/
 menu:
   main:
-      - Name: "CV"
-        URL: "/cv"
-        Weight: 1
-      - Name: "Publications"
-        URL: "/publications"
-        Weight: 2
-      - Name: "Enseignement"
-        URL: "/enseignement"
-        Weight: 3
-      - Name: "Blog"
-        URL: "/blog"
-        Weight: 4
-      - Name: "XXX"
-        URL: "/xxx"
-        Weight: 5
+      - name: "CV"
+        url: "/cv"
+        weight: 1
+      - name: "Publications"
+        url: "/publications"
+        weight: 2
+      - name: "Enseignement"
+        url: "/enseignement"
+        weight: 3
+      - name: "Blog"
+        url: "/blog"
+        weight: 4
+      - name: "XXX"
+        url: "/xxx"
+        weight: 5
 ...
