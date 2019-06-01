@@ -22,7 +22,13 @@
 
     <h2>Enseignement</h2>
     <div class="units-row">
-      <div class="unit-70">
+
+        <div class="unit-100">
+          <p>Voir la <a href="https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp">liste détaillée</a> de mes cours à l’université Paris-Nanterre.</p>
+        </div>
+
+    <!-- 2019-06-01 Simplify for the time being -->
+      <!-- <div class="unit-70">
         {{ range .Data.Pages.GroupByDate "2006" }}
         <div class="units-row">
           <div class="unit-10">
@@ -35,8 +41,6 @@
                 <a href="{{ .Permalink }}">
                   <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>,
                   <time>{{ .Params.host }}
-                  <!-- <time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} – {{ .Params.enddate}}</time> -->
-                  <!-- de {{ .Date.Format "January" }} à {{ .Params.enddate | dateFormat "January" }}</time>,  -->
               </li>
               {{ end }}
             </ul>
@@ -46,10 +50,8 @@
       </div>
       <div class="unit-30">
         <p>Voir également la <a href="https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp">liste détaillée</a> de mes cours à l’université Paris-Nanterre.</p>
-      </div>
+      </div> -->
     </div>
-  </div>
-
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
