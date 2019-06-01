@@ -8,7 +8,9 @@ publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true
 canonifyurls: true
-taxonomies: "categories"
+disableKinds:
+- taxonomy
+- taxonomyTerm
 pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
 blackfriday:
