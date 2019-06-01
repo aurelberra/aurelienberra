@@ -8,7 +8,7 @@ publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true
 canonifyurls: true
-indexes:
+taxonomies:
   category: "categories"
 pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
