@@ -11,7 +11,7 @@ canonifyurls: true
 taxonomies:
   category: "categories"
 pluralizelisttitles: "false"
-defaultcontentlanguage: "fr"
+DefaultContentLanguage: fr
 blackfriday:
   smartypants: true
   smartypantsQuotesNBSP: true
