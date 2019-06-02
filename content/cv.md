@@ -11,6 +11,8 @@ Vous pouvez télécharger ici la [version actuelle de mon CV](/cv/aurelien_berra
 
 <!-- zoom values: "auto", "page-actual", "page-width", float value -->
 
+<!-- 2019-06-01 Simplify for the time being
+
 <div style="text-align: center; margin-bottom: 2em; font-family: 'Alegreya SC', serif;"><a href="/cv/aurelien_berra_cv.pdf">Télécharger le PDF</a></div>
 
 Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de rivaliser avec la typographie d'un document préparé sous LaTeX et que je n'ai pas résolu l'épineux problème de la mise à jour simultanée des deux versions, le document de référence, tenu à jour, reste le PDF.
@@ -45,7 +47,7 @@ Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de r
 
 ### Diplômes et formation
 
-* <span style="color:grey">2008</span> Doctorat, "Très honorable avec félicitations", EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob) <!-- École des hautes études en sciences sociales [EHESS] -->
+* <span style="color:grey">2008</span> Doctorat, "Très honorable avec félicitations", EHESS&nbsp;: [*Théorie et pratique de l’énigme en Grèce ancienne*](https://tel.archives-ouvertes.fr/tel-00674183) (dir. Christian Jacob)
 * <span style="color:grey">2003</span> Diplôme d’études approfondies, "Très bien", EHESS&nbsp;: *La Section sur les énigmes des* Deipnosophistes *d’Athénée de Naucratis*
 * <span style="color:grey">2001-2002</span> Séjour d’étude, Scuola Normale Superiore, Pise
 * <span style="color:grey">2000-2001</span> Séjour d’étude, Merton College, Oxford
@@ -379,3 +381,4 @@ Ce qui suit est un premier essai en HTML. Cependant, comme il est difficile de r
 * Édition électronique&nbsp;: HTML, CSS, WordPress, SPIP, Hugo, Lodel, K-Sup
 * Encodage des corpus savants&nbsp;: XML TEI, EpiDoc, Oxygen XML Editor
 * Autres langages et outils (niveaux divers)&nbsp;: expressions rationnelles, UNIX, C, Python, R, RStudio, XPath, XSLT, XQuery, SQL, Gephi, TXM, Voyant Tools, Git, GitHub, <span style="font-family: serif; margin-right: -.7em;">L<span style="font-size: 0.7em; position: relative; top: -.25em; left: -0.5em;">A</span><span style="position: relative; left: -.5em;">T</span><span style="position: relative; top: .2em; left: -.6em;">E</span><span style="position: relative; left: -.7em;">X</span></span>
+-->
