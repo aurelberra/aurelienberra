@@ -19,7 +19,13 @@
   </div>
 
   <div class="wrapper">
-    <div class="units-row">
+
+    <h2>{{ .Title | markdownify }}</h2>
+
+    {{ .Content }}
+
+    <!-- 2019-06-01 Simplify for the time being -->
+    <!-- <div class="units-row">
       <div class="unit-20">&nbsp;</div>
       <div class="unit-60">
         <h2>{{ .Title | markdownify }}</h2>
@@ -37,8 +43,8 @@
         <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }}
         <a href="{{ $baseurl }}/publications">Liste des publications</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
       </div>
+    </div> -->
 
-    </div>
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}

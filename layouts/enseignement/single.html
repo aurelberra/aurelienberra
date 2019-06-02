@@ -19,16 +19,22 @@
   </div>
 
   <div class="wrapper">
-    <div class="units-row">
+
+    <h2>{{ .Title | markdownify }}</h2>
+
+    {{ .Content }}
+
+    <!-- 2019-06-01 Simplify for the time being -->
+    <!-- <div class="units-row">
       <div class="unit-20">&nbsp;</div>
       <div class="unit-60">
         <h2>{{ .Title | markdownify }}</h2>
       </div>
     </div>
     <div class="units-row">
+
       <div class="unit-20 dateblock">
-        <p>À partir du <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>, {{ .Params.host }} {{ if ge .Date.Unix now.Unix }}{{ if (le .Date.Unix (add now.Unix 7776000)) }}<span
-              class="badge badge-small badge-yellow">à venir</span>{{ end }}{{ end }} {{ if (le .Date.Unix now.Unix) }}{{ if (le now.Unix (add .Date.Unix .Params.duration)) }}<span class="badge badge-small badge-green">en cours</span>{{ end }}{{ end }}</p>
+        <p>À partir du <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>, {{ .Params.host }} {{ if ge .Date.Unix now.Unix }}{{ if (le .Date.Unix (add now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">à venir</span>{{ end }}{{ end }} {{ if (le .Date.Unix now.Unix) }}{{ if (le now.Unix (add .Date.Unix .Params.duration)) }}<span class="badge badge-small badge-green">en cours</span>{{ end }}{{ end }}</p>
       </div>
       <div class="unit-60">{{ .Content }}
 
@@ -36,8 +42,8 @@
         <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }}
         <a href="{{ $baseurl }}/enseignement">Liste des cours</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
       </div>
+    </div> -->
 
-    </div>
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
