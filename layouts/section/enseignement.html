@@ -21,14 +21,16 @@
   <div class="wrapper">
 
     <h2>Enseignement</h2>
+
     <div class="units-row">
 
-        <div class="unit-100">
-          <p>Voir la <a href="https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp">liste détaillée</a> de mes cours à l’université Paris-Nanterre.</p>
-        </div>
+      <div class="unit-100">
+        <p>Voir la <a href="https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp">liste détaillée</a> de mes cours à l’université Paris-Nanterre.</p>
+      </div>
 
-    <!-- 2019-06-01 Simplify for the time being -->
-      <!-- <div class="unit-70">
+      <!-- 2019-06-01 Simplify for the time being -->
+      <!--
+      <div class="unit-70">
         {{ range .Data.Pages.GroupByDate "2006" }}
         <div class="units-row">
           <div class="unit-10">
@@ -51,10 +53,12 @@
       <div class="unit-30">
         <p>Voir également la <a href="https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp">liste détaillée</a> de mes cours à l’université Paris-Nanterre.</p>
       </div> -->
+
     </div>
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>

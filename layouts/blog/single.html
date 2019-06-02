@@ -22,11 +22,13 @@
     <div class="units-row">
       <div class="unit-20">&nbsp;</div>
       <div class="unit-60">
-        <h2>{{ .Title | markdownify }}</h2></div>
+        <h2>{{ .Title | markdownify }}</h2>
+      </div>
     </div>
     <div class="units-row">
       <div class="unit-20 dateblock">{{if not (isset .Params "grlog") }}
-        <h5><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h5> {{ else }}&nbsp;{{ end }}</div>
+        <h5><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></h5> {{ else }}&nbsp;{{ end }}
+      </div>
       <div class="unit-60">
         {{ .Content }} {{ partial "tweetlink.html" . }}
 
@@ -40,6 +42,7 @@
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>

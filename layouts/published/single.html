@@ -22,7 +22,8 @@
     <div class="units-row">
       <div class="unit-20">&nbsp;</div>
       <div class="unit-60">
-        <h2>{{ .Title | markdownify | safeHTML }}</a></h2></div>
+        <h2>{{ .Title | markdownify | safeHTML }}</h2>
+      </div>
     </div>
     <div class="units-row">
       <div class="unit-20 dateblock">
@@ -34,7 +35,8 @@
       <div class="unit-60">
         {{ .Content }} {{ partial "tweetlink_published.html" . }}
 
-        <hr> {{ if .PrevInSection }} <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }} <a href="{{ $baseurl }}/publications/#{{ .Date.Format "2006" }}">Liste des publications</a> {{ if .NextInSection }} / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
+        <hr> {{ if .PrevInSection }} <a href="{{.PrevInSection.Permalink}}">&lt;&nbsp;{{.PrevInSection.Title | markdownify}}</a> / {{ end }} <a href="{{ $baseurl }}/publications/#{{ .Date.Format "2006" }}">Liste des publications</a> {{ if .NextInSection }}
+        / <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title | markdownify}}&nbsp;&gt;</a> {{ end }}
 
       </div>
 
@@ -42,6 +44,7 @@
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>

@@ -21,6 +21,7 @@
   <div class="wrapper">
 
     <h2>Billets</h2>
+
     <div class="units-row">
       <div class="unit-70">
         {{ range .Data.Pages.GroupByDate "2006" }}
@@ -33,18 +34,21 @@
               {{ range .Pages }} {{if not (isset .Params "grlog") }}{{ end }}<time>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }}</time>, <a href="{{ .Permalink }}">{{ .Title | markdownify | safeHTML }}</a><br />
               {{ end }}
             </p>
-
           </div>
         </div>
         {{ end }}
       </div>
+      <!-- 2019-06-01 Simplify for the time being -->
+      <!--
       <div class="unit-30">
         <p>Liste des billets publiés sur ce site.</p>
       </div>
+    -->
     </div>
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>

@@ -63,7 +63,7 @@
         <ul class="compact fa-ul">
           {{ range first 5 (where .Data.Pages.ByDate "Section" "publications").Reverse }}
           <li><a href="{{ .Permalink }}"><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a> {{ .Params.citation | markdownify | safeHTML }}
-          {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
+            {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
           </li>
           {{ end }}
         </ul>
@@ -75,7 +75,8 @@
         <h3>Interventions</h3>
         <ul class="compact fa-ul">
           {{ range first 5 (where .Data.Pages.ByDate "Section" "interventions").Reverse }} {{ if (ge .Date.Unix now.Unix) }} {{ if (le .Date.Unix (add now.Unix 10368000)) }}
-          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify | safeHTML }}, {{ .Params.host | safeHTML }}, <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> {{ partial "comingsoon.html" . }}
+          <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify | safeHTML }}, {{ .Params.host | safeHTML }}, <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ index $.Site.Data.mois (printf "%d" .Date.Month) }}
+              {{ .Date.Year }}</time> {{ partial "comingsoon.html" . }}
           </li>
           {{ end }} {{ end }} {{ if (ge now.Unix .Date.Unix ) }} {{ if (le now.Unix (add .Date.Unix 12368000)) }}
           <li><a href="{{ .Permalink }}"><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i></a>{{ .Title | markdownify | safeHTML }}, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}).
@@ -119,6 +120,7 @@
   </div>
 
   <hr class="separator"> {{ partial "whatisthis.html" . }} {{ partial "foot.html" . }}
+
 </body>
 
 </html>
