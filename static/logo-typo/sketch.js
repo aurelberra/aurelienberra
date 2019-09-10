@@ -2,8 +2,41 @@
 lesTypo = [];
 
 function preload() {
-   lesTypo.push(loadFont('assets/AlegreyaSC-Regular.otf'));
-   lesTypo.push(loadFont('assets/font.otf'));
+   lesTypo.push(loadFont('Alegreya-Regular.ttf'));
+   lesTypo.push(loadFont('AlegreyaSans-Regular.otf'));
+   lesTypo.push(loadFont('ArnoPro-Regular.otf'));
+   lesTypo.push(loadFont('Calluna-Regular-webfont.ttf'));
+   lesTypo.push(loadFont('CallunaSans-Regular.ttf'));
+   lesTypo.push(loadFont('ChaparralPro-Regular.otf'));
+   lesTypo.push(loadFont('Cousine-Regular.ttf'));
+   lesTypo.push(loadFont('EBGaramond12-Regular.ttf'));
+   lesTypo.push(loadFont('FiraCode-Regular.otf'));
+   lesTypo.push(loadFont('FiraMono-Regular.otf'));
+   lesTypo.push(loadFont('FiraSans-Regular.otf'));
+   lesTypo.push(loadFont('FuturaStd-Book.otf'));
+   lesTypo.push(loadFont('GentiumPlus-R.ttf'));
+   lesTypo.push(loadFont('Georgia.ttf'));
+   lesTypo.push(loadFont('GFSBaskerville.otf'));
+   lesTypo.push(loadFont('GFSBodoni.ttf'));
+   lesTypo.push(loadFont('GFSDidot.ttf'));
+   lesTypo.push(loadFont('GillSansStd.otf'));
+   lesTypo.push(loadFont('Junicode.ttf'));
+   lesTypo.push(loadFont('Lato-Regular.ttf'));
+   lesTypo.push(loadFont('LibertinusMono-Regular.otf'));
+   lesTypo.push(loadFont('LibertinusSans-Regular.otf'));
+   lesTypo.push(loadFont('LibertinusSerif-Regular.otf'));
+   lesTypo.push(loadFont('NotoSans-Regular.ttf'));
+   lesTypo.push(loadFont('NotoSerif-Regular.ttf'));
+   lesTypo.push(loadFont('OpenSans-Regular.ttf'));
+   lesTypo.push(loadFont('Roboto-Regular.ttf'));
+   lesTypo.push(loadFont('RobotoSlab-Regular.ttf'));
+   lesTypo.push(loadFont('RockwellStd.otf'));
+   lesTypo.push(loadFont('SourceCodePro-Regular.otf'));
+   lesTypo.push(loadFont('SourceSansPro-Regular.ttf'));
+   lesTypo.push(loadFont('SourceSerifPro-Regular.otf'));
+   lesTypo.push(loadFont('TisaPro-Medi.otf'));
+   lesTypo.push(loadFont('Ubuntu-R.ttf'));
+   lesTypo.push(loadFont('Vollkorn-Regular.otf'));
 }   
 
 largeur = 600;
