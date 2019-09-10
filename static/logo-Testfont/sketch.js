@@ -2,7 +2,7 @@
 lesTypo = [];
 
 function preload() {
-  lesTypo.push(loadFont('assets/AlegreyaSC-Regular.otf'));
+  lesTypo.push(loadFont('assets/font.otf'));
 }   
 
 largeur = 600;
