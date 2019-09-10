@@ -4,8 +4,6 @@ lesTypo = [];
 function preload() {
    lesTypo.push(loadFont('assets/AlegreyaSC-Regular.otf'));
    lesTypo.push(loadFont('assets/font.otf'));
-   lesTypo.push(loadFont('assets/Futura.ttc'));
-   lesTypo.push(loadFont('assets/GillSans.ttc'));
 }   
 
 largeur = 600;
