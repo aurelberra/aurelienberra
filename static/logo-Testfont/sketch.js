@@ -2,7 +2,8 @@
 lesTypo = [];
 
 function preload() {
-  lesTypo.push(loadFont('assets/font.otf'));
+  // lesTypo.push(loadFont('assets/font.otf'));
+  lesTypo.push(loadFont('assets/Futura.ttc'));
 }   
 
 largeur = 600;
