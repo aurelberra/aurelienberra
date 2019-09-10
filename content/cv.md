@@ -5,7 +5,7 @@ publishdate: 2017-01-01
 type: cv
 ---
 
-Vous pouvez télécharger ici la [version actuelle de mon CV](/cv/aurelien_berra_cv.pdf), disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra)<!-- (et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/), où je ne mets que des liens vers des ressources ouvertes) -->.
+Vous pouvez télécharger ici la [version actuelle de mon CV](/cv/aurelien_berra_cv.pdf), qui est également disponible sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra)<!-- (et l'était auparavant sur [Academia.edu](http://u-paris10.academia.edu/berra/), où je ne mets que des liens vers des ressources ouvertes) -->.
 
 <iframe style="margin-top: 2em; margin-bottom: 2em;" src = "https://aurelienberra.org/ViewerJS/?zoom=page-width&title=Aurélien Berra CV#../cv/aurelien_berra_cv.pdf" width='100%' height='900' allowfullscreen webkitallowfullscreen></iframe>
 
