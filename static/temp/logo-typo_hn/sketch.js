@@ -1,26 +1,28 @@
 lesTypo = [];
 
 function preload() {
-   lesTypo.push(loadFont('assets/AJensonPro-Regular.otf'));
-   lesTypo.push(loadFont('assets/Alegreya-Regular.ttf'));
-   lesTypo.push(loadFont('assets/BauhausStd-Medium.otf'));
-   lesTypo.push(loadFont('assets/Calluna-Regular-webfont.ttf'));
-   lesTypo.push(loadFont('assets/ChaparralPro-Regular.otf'));
-   lesTypo.push(loadFont('assets/Cormorant-Regular.ttf'));
+   lesTypo.push(loadFont('assets/RockwellStd.otf'));
+   lesTypo.push(loadFont('assets/GFSDidot.ttf'));
    lesTypo.push(loadFont('assets/EBGaramond12-Regular.ttf'));
    lesTypo.push(loadFont('assets/FuturaStd-Book.otf'));
-   lesTypo.push(loadFont('assets/GentiumPlus-R.ttf'));
-   lesTypo.push(loadFont('assets/LibertinusSans-Regular.otf'));
-   lesTypo.push(loadFont('assets/LibertinusSerif-Regular.otf'));
-   lesTypo.push(loadFont('assets/NotoSerif-Regular.ttf'));
-   lesTypo.push(loadFont('assets/RobotoSlab-Regular.ttf'));
-   lesTypo.push(loadFont('assets/Ubuntu-R.ttf'));
-   lesTypo.push(loadFont('assets/Vollkorn-Regular.otf'));
-   lesTypo.push(loadFont('assets/ZapfChanceryStd-Roman.otf'));
-   lesTypo.push(loadFont('assets/TimesLTStd-Roman.otf'));
-   lesTypo.push(loadFont('assets/GFSDidot.ttf'));
-   lesTypo.push(loadFont('assets/RockwellStd.otf'));
    lesTypo.push(loadFont('assets/Georgia Italic.ttf'));
+   lesTypo.push(loadFont('assets/LibertinusSans-Regular.otf'));
+   lesTypo.push(loadFont('assets/OptimaLTStd.otf'));
+   lesTypo.push(loadFont('assets/LibertinusSerif-Regular.otf'));
+   lesTypo.push(loadFont('assets/TimesLTStd-Roman.otf'));
+   lesTypo.push(loadFont('assets/Vollkorn-Regular.otf'));
+   lesTypo.push(loadFont('assets/Ubuntu-R.ttf'));
+   lesTypo.push(loadFont('assets/BauhausStd-Medium.otf'));
+   lesTypo.push(loadFont('assets/GentiumPlus-R.ttf'));
+   lesTypo.push(loadFont('assets/Alegreya-Regular.ttf'));
+   lesTypo.push(loadFont('assets/Calluna-Regular-webfont.ttf'));
+   lesTypo.push(loadFont('assets/ChaparralPro-Regular.otf'));
+   lesTypo.push(loadFont('assets/NotoSerif-Regular.ttf'));
+   lesTypo.push(loadFont('assets/Cormorant-Regular.ttf'));
+   lesTypo.push(loadFont('assets/AmericanTypewriterStd-Med.otf'));
+   lesTypo.push(loadFont('assets/RobotoSlab-Regular.ttf'));
+   lesTypo.push(loadFont('assets/ZapfChanceryStd-Roman.otf'));
+   lesTypo.push(loadFont('assets/AJensonPro-Regular.otf'));
    // lesTypo.push(loadFont('assets/AvenirLTStd-Roman.otf'));
    // lesTypo.push(loadFont('assets/CourierStd.otf'));
    // lesTypo.push(loadFont('assets/GFSBodoni.ttf'));
@@ -54,9 +56,6 @@ function setup() {
   textFont(lesTypo[0]);
     
 }
-
-
-
 
 
 function draw() {
@@ -113,6 +112,4 @@ function mousePressed() {
   // }else if(typoV === 3){
   //    textFont(typo3);
   // }
-
 }
-
