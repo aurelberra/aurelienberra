@@ -1,42 +1,37 @@
-
 lesTypo = [];
 
 function preload() {
+   lesTypo.push(loadFont('assets/AJensonPro-Regular.otf'));
    lesTypo.push(loadFont('assets/Alegreya-Regular.ttf'));
-   lesTypo.push(loadFont('assets/AlegreyaSans-Regular.otf'));
-   lesTypo.push(loadFont('assets/ArnoPro-Regular.otf'));
+   lesTypo.push(loadFont('assets/BauhausStd-Medium.otf'));
    lesTypo.push(loadFont('assets/Calluna-Regular-webfont.ttf'));
-   lesTypo.push(loadFont('assets/CallunaSans-Regular.ttf'));
    lesTypo.push(loadFont('assets/ChaparralPro-Regular.otf'));
-   lesTypo.push(loadFont('assets/Cousine-Regular.ttf'));
+   lesTypo.push(loadFont('assets/Cormorant-Regular.ttf'));
    lesTypo.push(loadFont('assets/EBGaramond12-Regular.ttf'));
-   lesTypo.push(loadFont('assets/FiraCode-Regular.otf'));
-   lesTypo.push(loadFont('assets/FiraMono-Regular.otf'));
-   lesTypo.push(loadFont('assets/FiraSans-Regular.otf'));
    lesTypo.push(loadFont('assets/FuturaStd-Book.otf'));
    lesTypo.push(loadFont('assets/GentiumPlus-R.ttf'));
-   lesTypo.push(loadFont('assets/Georgia.ttf'));
-   lesTypo.push(loadFont('assets/GFSBaskerville.otf'));
-   lesTypo.push(loadFont('assets/GFSBodoni.ttf'));
-   lesTypo.push(loadFont('assets/GFSDidot.ttf'));
-   lesTypo.push(loadFont('assets/GillSansStd.otf'));
-   lesTypo.push(loadFont('assets/Junicode.ttf'));
-   lesTypo.push(loadFont('assets/Lato-Regular.ttf'));
-   lesTypo.push(loadFont('assets/LibertinusMono-Regular.otf'));
    lesTypo.push(loadFont('assets/LibertinusSans-Regular.otf'));
    lesTypo.push(loadFont('assets/LibertinusSerif-Regular.otf'));
-   lesTypo.push(loadFont('assets/NotoSans-Regular.ttf'));
    lesTypo.push(loadFont('assets/NotoSerif-Regular.ttf'));
-   lesTypo.push(loadFont('assets/OpenSans-Regular.ttf'));
-   lesTypo.push(loadFont('assets/Roboto-Regular.ttf'));
    lesTypo.push(loadFont('assets/RobotoSlab-Regular.ttf'));
-   lesTypo.push(loadFont('assets/RockwellStd.otf'));
-   lesTypo.push(loadFont('assets/SourceCodePro-Regular.otf'));
-   lesTypo.push(loadFont('assets/SourceSansPro-Regular.ttf'));
-   lesTypo.push(loadFont('assets/SourceSerifPro-Regular.otf'));
-   lesTypo.push(loadFont('assets/TisaPro-Medi.otf'));
    lesTypo.push(loadFont('assets/Ubuntu-R.ttf'));
    lesTypo.push(loadFont('assets/Vollkorn-Regular.otf'));
+   lesTypo.push(loadFont('assets/ZapfChanceryStd-Roman.otf'));
+   lesTypo.push(loadFont('assets/TimesLTStd-Roman.otf'));
+   lesTypo.push(loadFont('assets/GFSDidot.ttf'));
+   lesTypo.push(loadFont('assets/RockwellStd.otf'));
+   lesTypo.push(loadFont('assets/Georgia Italic.ttf'));
+   // lesTypo.push(loadFont('assets/AvenirLTStd-Roman.otf'));
+   // lesTypo.push(loadFont('assets/CourierStd.otf'));
+   // lesTypo.push(loadFont('assets/GFSBodoni.ttf'));
+   // lesTypo.push(loadFont('assets/HelveticaNeueLTStd-Roman.otf'));
+   // lesTypo.push(loadFont('assets/Junicode.ttf'));
+   // lesTypo.push(loadFont('assets/Lato-Regular.ttf'));
+   // lesTypo.push(loadFont('assets/MyriadPro-Regular.otf'));
+   // lesTypo.push(loadFont('assets/OpenSans-Regular.ttf'));
+   // lesTypo.push(loadFont('assets/SourceSerifPro-Regular.otf'));
+   // lesTypo.push(loadFont('assets/TisaPro-Medi.otf'));
+   // lesTypo.push(loadFont('assets/UniversLTStd.otf'));
 }   
 
 largeur = 600;
@@ -52,11 +47,11 @@ letter = 'h';
 
 function setup() {
 
-    createCanvas(largeur, 400);
+  createCanvas(largeur, 400);
   fill(255);
   stroke(0);
   strokeWeight(0.5);
-   textFont(lesTypo[0]);
+  textFont(lesTypo[0]);
     
 }
 
@@ -66,13 +61,13 @@ function setup() {
 
 function draw() {
     background(255);
-
     if(mouseY<400 && mouseY>0){
  strokeWeight(mouseY/200+0.5);
 }
   textSize(200);
   x = x0;
 y = y0;
+stroke('#254093'); // add REVUE HN color
 
 if(mouseX<largeur && mouseX>0){
     etapes = ceil(mouseX/largeur*40)+5;
