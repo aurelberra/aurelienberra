@@ -1,6 +1,6 @@
 lesTypo = [];
 
-fontNames = ['Rockwell', 'GFS Didot', 'EB Garamond', 'Futura', 'Georgia Italic', 'Libertinus Sans', 'Optima', 'Libertinus Serif', 'Times', 'Vollkorn', 'Ubuntu', 'Bauhaus', 'Gentium Plus', 'Alegreya', 'Calluna', 'Chaparral Pro', 'Noto Serif', 'Cormorant', 'American Typewriter', 'Roboto Slab', 'Zapf Chancery', 'Jenson Pro'];
+fontNames = ['Rockwell', 'GFS Didot', 'EB Garamond', 'Futura', 'Georgia Italic', 'Libertinus Sans', 'Optima', 'Libertinus Serif', 'Times', 'Vollkorn', 'Ubuntu', 'Bauhaus', 'Gentium Plus', 'Alegreya', 'Calluna', 'Chaparral Pro', 'Noto Serif', 'Cormorant', 'American Typewriter', 'Roboto Slab', 'Zapf Chancery', 'Jenson Pro', 'CMU Typewriter Text', 'Courier', 'Lucida Typewriter Std'];
 
 function preload() {
     lesTypo.push(loadFont('assets/RockwellStd.otf'));
@@ -25,8 +25,10 @@ function preload() {
     lesTypo.push(loadFont('assets/RobotoSlab-Regular.ttf'));
     lesTypo.push(loadFont('assets/ZapfChanceryStd-Roman.otf'));
     lesTypo.push(loadFont('assets/AJensonPro-Regular.otf'));
+    lesTypo.push(loadFont('assets/cmuntt.ttf'));
+    lesTypo.push(loadFont('assets/CourierStd.otf'));
+    lesTypo.push(loadFont('assets/LucidaTypewriterStd.otf'));
     // lesTypo.push(loadFont('assets/AvenirLTStd-Roman.otf'));
-    // lesTypo.push(loadFont('assets/CourierStd.otf'));
     // lesTypo.push(loadFont('assets/GFSBodoni.ttf'));
     // lesTypo.push(loadFont('assets/HelveticaNeueLTStd-Roman.otf'));
     // lesTypo.push(loadFont('assets/Junicode.ttf'));
