@@ -7,7 +7,7 @@ type: cv
 
 Vous pouvez télécharger ici la [version actuelle de mon CV](/cv/aurelien_berra_cv.pdf), disponible également sur [HAL-SHS](https://cv.archives-ouvertes.fr/aurelien-berra).
 
-<iframe style="margin-top: 2em; margin-bottom: 2em;" src = "https://aurelienberra.org/ViewerJS/?zoom=page-width&title=CV Aurélien Berra#../cv/aurelien_berra_cv.pdf" width='100%' height='900' allowfullscreen webkitallowfullscreen></iframe>
+<iframe style="margin-top: 2em; margin-bottom: 2em;" src = "https://aurelienberra.org/ViewerJS/?zoom=page-width&title=CV Aurélien Berra#https://aurelienberra.org/ViewerJS/?zoom=page-width&title=CV%20Aur%C3%A9lien%20Berra#https://aurelienberra.org//cv/aurelien_berra_cv.pdf" width='100%' height='900' allowfullscreen webkitallowfullscreen></iframe>
 
 <!-- zoom values: "auto", "page-actual", "page-width", float value -->
 
