@@ -7,4 +7,4 @@ duration: 776000
 type: enseignement
 ---
 
-Voir la [liste détaillée](https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp) de mes cours à l’université Paris-Nanterre.
+Voir la [liste détaillée de mes cours](https://www.parisnanterre.fr/enseignements-assures-par-aurelien-berra-422367.kjsp) à l’université Paris-Nanterre, ainsi que la [section « Enseignement » de mon CV](http://aurelienberra.org/cv/).
