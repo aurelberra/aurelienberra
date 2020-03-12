@@ -1,0 +1,690 @@
+@import "yui-cssreset.css";
+
+/*
+screen.css
+version: 2012-09
+*/
+
+body {font:75%/1.5 Verdana, sans-serif; padding:2em 0 0}
+abbr {cursor:help}
+strong {font-weight:bold; font-style:inherit}
+em {font-style:italic; font-weight:inherit}
+table {background:#FFF;}
+td {font-size:.916em; padding:.458em; border:1px solid #CCC}
+hr, .hidden {visibility:hidden;overflow:hidden;margin:0;padding:0;width:0;height:0;line-height:0;font-size:0}
+sup {vertical-align:top}
+sub {vertical-align:bottom}
+a {word-wrap:break-word}
+
+/* structure *************************************************************** */
+#access {position:absolute; visibility:hidden}
+#header {position:relative; padding:2.5em 0 4.5em 0}
+#footer {clear:both; width:60em; padding:0 0 5em 15em}
+#wrapper {position:relative; width:75em; margin:0 auto}
+#content {position:relative; z-index:2; width:60em; float:right}
+#main {position:relative; z-index:3; padding:0 6em 6em 6em;	width:48em; min-height:130em}
+#nav, #toolbox, #logos {width:15em; float:left}
+
+/* entête ****************************************************************** */
+#siteName {width:60em; margin:0 auto; padding:0 0 0 15em}
+#siteBaseline {font:1.5em Georgia, serif; width:40em; margin:0 auto; padding-left:10em}
+
+/* pied de page ************************************************************ */
+#footer p {font:.833em/1.8 Verdana, sans-serif;text-align:center}
+
+/* accueil ***************************************************************** */
+#front {padding:0 0 1.5em 0}
+#front h1 {margin:0 -6em; padding:1.5em 6em}
+#front h1 span.text {font:normal 1.833em/1.636 Georgia, serif}
+#front p {font:1.166em/1.5 Georgia, serif; margin:1.285em 0}
+
+#homeSummary h1 {margin:0 -6em 1.5em -6em; padding:1.5em 6em}
+#homeSummary h1 span.text {font-weight:bold; text-transform:lowercase}
+#homeSummary h1 span.number, #homeSummary h1 span.title {font:normal 1.666em/1.35 Georgia, serif}
+
+/* syndication ************************************************************* */
+#content.withSyndication #main {float:left; padding-right:3em; width:36em}
+#content.withSyndication #pageHeader, #content.withSyndication #publiHeader, #content.withSyndication #homeSummary h1,
+#content.withSyndication h2.section, #content.withSyndication #shortcuts {margin-right:-3em; padding-right:3em}
+#content.withSyndication #front h1 {margin-right:-18em; padding-right:18em}
+
+
+#news {margin-left:45em; width:15em}
+#news h1 {padding:1.5em 0;position:absolute}
+#syndication{margin-top:.9em}
+#index #news h1 {padding:1.5em 0;position:relative}
+#index #syndication{margin-top:0}
+#news h1 span.text {visibility:hidden; font:normal 1.833em/1.636 Georgia, serif}
+#news h2 {font:bold .916em/1.309 Verdana, sans-serif; padding:.8em 1.091em 1.309em 1.091em}
+#news ul {margin:1.25em 1.25em 2.5em 1.25em; font:.833em/1.2 Verdana, sans-serif}
+#news ul ul {font-size:1em; margin:.8em 0}
+#news li {margin:1em 0; list-style:none}
+
+/* index ******************************************************************* */
+h1 span.indexType {font:italic .78em Georgia, serif}
+div.entries {clear:left; margin:3em 0; overflow:hidden}
+div.entries h2 {float:left; width:1.1em; font:normal 6em/1.1 Verdana, sans-serif; text-transform:uppercase}
+div.entries h2 a {display:block}
+div.entries ul ul {margin:.5em 0 0}
+div.entries li {margin:0 0 1em 0;list-style:none}
+div.entries li li {font-size:.916em; margin:0 0 .458em 0; padding:0 0 0 1.25em; background:url(../images/child.png) no-repeat 0 .272em}
+div.entries li li li {font-size:1em}
+div.entries.alpha {margin:0 -6em 0 0; padding:.5em 6em 5em 0}
+div.entries.alpha ul {float:right; width:39em; margin:.8em 0 0}
+div.entries.alpha li {font-size:.916em}
+span.count {color:#888; font:.916em Verdana, sans-serif}
+
+#alphabet,#subshortcuts {line-height:1.25em; margin:1.5em -6em 2.5em 0; padding:.5em 6em .5em 0; overflow:hidden}
+#alphabet a, #alphabet span{display:block; float:left; width:1.25em; height:1.25em; padding:.2em; font-weight:bold; text-align:center}
+#subshortcuts a, #subshortcuts span {padding:.2em; font-weight:bold; text-align:center}
+
+/* image.html ************************************************************** */
+dl.file {margin:3em 0 0}
+dl.file dt {font-weight:bold; margin:1.5em 0 0}
+dl.file dd {margin:0}
+dl.file dd.caption {margin:1.5em 0 0}
+dl.file dd.description {}
+dl.file dd.link {color:#666}
+
+/* individu.html *********************************************************** */
+.individus #photo {margin:3em 0 1.5em}
+.individus dl#contact {margin:2em 0 0}
+.individus dl#contact dt {font-weight:bold; margin:1.5em 0 0}
+.individus dl#contact dd {margin:0}
+
+/* sommaire **************************************************************** */
+#publiHeader {margin:0 -6em 1.5em -6em; padding:1.5em 6em}
+body.publications #shortcuts {margin-top:-1.5em}
+#publiHeader h1 .number {display:block; font-weight:bold}
+#publiHeader h1 .period {font-weight:normal}
+#publiHeader h1 .title {font:1.833em/1.227 Georgia, serif}
+#publiSubtitle {margin:1em 0 0}
+#homeSummary #publiSubtitle {font:normal 1.416em/1.058 Georgia, serif; margin:.352em 0 1.058em}
+#publiAltertitle {font:italic 1.666em/1.35 Georgia, serif; margin:.588em 0 0}
+#publiAltertitle em{font-style:normal}
+#homeSummary #publiAltertitle {margin:.5em 0 .882em 0}
+#publiDate {font-size:.916em; margin:1.636em 0}
+#publiDirector {font-size:.916em; margin:0 0 1.636em 0}
+#homeSummary #publiDirector {margin-top:0}
+
+#publiIntroduction p {line-height:1.5; margin:0 0 1.5em}
+#publiISBN, #publiDescription, #publiOrderLink {margin:1em 0 0}
+#ndlr,#historique {margin-top:1em;}
+#ndlr h2,#historique h2 {font-weight:bold;font-size:0.916em;}
+#ndlr div, #historique div {color:#666; margin:0 0 1em; font:1em/1.5 Georgia, serif; text-align:justify}
+
+ul.summary {clear:both; margin:0 0 3em; overflow:hidden}
+ul ul.summary, #annexes ul.summary {margin-top:0}
+ul.summary li {margin:2em 0 0; list-style:none; position:relative}
+ul.summary div.texte li {margin:0 0 0 3em; list-style:square; text-align:left}
+ul.summary li.liens p, ul.summary div.texte {margin:1.091em 0 0; font:.916em Verdana, sans-serif}
+ul.summary .subtitle {font:normal 1.416em Georgia, serif; margin:.2em 0 0}
+ul.summary .altertitle {font:italic normal 1.166em Georgia, serif; margin:.25em 0 0}
+ul.summary .altertitle em {font-style:normal}
+ul.summary .director {font-size:.916em; margin:2.181em 0 0}
+ul.summary .author, dt.author {font-size:.916em; margin-bottom:.363em}
+ul.summary .author +.author {margin-top:-.363em;}
+ul.summary .title, dd.title {font:normal 1.166em Georgia, serif; margin:.285em 0 0}
+ul.summary li.textes .subtitle, ul.summary li.fichiers .subtitle, dd.subtitle {font:.916em Verdana, sans-serif; margin:.363em 0 0}
+ul.summary li.textes .altertitle, ul.summary li.fichiers .altertitle {font:italic normal .916em Verdana, sans-serif; margin:.363em 0 0}
+ul.summary li.textes .altertitle em, ul.summary li.fichiers .altertitle em {font-style:normal}
+ul.summary li.textes .description {font:.916em Verdana, sans-serif; margin:.363em 0 0}
+
+ul.summary.collection .number {font:bold .916em Verdana, sans-serif}
+ul.summary.collection .subtitle {font:.916em Verdana, sans-serif; margin:0}
+ul.summary.collection .introduction {font:.916em Verdana, sans-serif; margin:0}
+
+#numeros ul.summary li.withcover{padding-left:9em; padding-bottom:1em}
+#numeros ul.summary li.withcover img {position:absolute; top:.5em; left:0; border:1px solid #e2e2e2}
+#numeros ul.summary li.withcover {clear:left;min-height:100px;}
+
+div.in, dd.in {font-size:.916em; margin:.2em 0 0 0; color:#999}
+ul.documents div.in {font-size:1em; margin:0}
+
+span.fullText {font:.75em Verdana, sans-serif; color:#888}
+ul.documents span.fullText {font-size:1em}
+
+/* article ***************************************************************** */
+#docHeader {position:relative; margin:0 -6em; padding:0 6em 1.5em}
+#docTopParent {margin:0 -6em; padding:1.5em 10em 1.5em 6em}
+#docSubParent {margin:0 -6em; padding:.8em 6em}
+#docSubParent span.title {font:1.2em Georgia, serif}
+#docNumber{font: 0.916em Verdana,sans-serif; margin: 1.176em 0 -1.176em}
+#docTitle {font:normal 1.666em/1.2 Georgia, serif; margin:1.35em 0 0}
+#docAltertitle {font:italic normal 1.166em/1.5 Georgia, serif; margin:1.176em 0 0}
+#docAltertitle em {font-style:normal}
+#docSubtitle {font:normal 1.166em/1.2 Georgia, serif; margin:.3em 0 0}
+#docContributors {margin:2em 0 0}
+#docAuthor+#docTranslator, #docEditor+#docTranslator, #docAuthor+#docEditor{margin:.5em 0 0}
+#docTranslator strong {font-weight:normal}
+#docURL {margin:.25em 0 0}
+#docDate {margin:1.5em 0 0}
+#docPagination {font-size:.833em; margin:1.8em 0 0}
+#docReference {margin:1.5em 0 0}
+#docImage {position:relative; z-index:50; font:.833em Verdana, sans-serif; margin:0 1.8em 1.8em 0}
+#docImage img {display:block}
+#text #docImage {float:left}
+#docBody {position:relative; padding:0 8em 0 0}
+
+div.text {clear:both; margin:3em 0 0; line-height:1.5; text-align:justify}
+.excerpt div.text {margin:0}
+
+
+/* sections */
+div.section {position:relative;	margin:3em 0}
+div.section#abstract, div.section#entries, div.section#toc, div.section#docAddendum {margin:1.5em 0}
+div.section#text {clear:left; margin:3em -14em 3em -6em; padding:0 14em 0 6em}
+
+h2.section {margin:0 -6em 0 0; padding:.5em 6em .5em 0}
+h3.section {font-weight:bold; padding:.5em 0}
+#docBody h2.section {margin:0 -14em 1.5em 0; padding-right:14em}
+#docBody #docAddendum h2.section, #docBody #text h2.section {margin-bottom:0}
+#pageBody h2.section {margin:3em -6em 0 0}
+h2.section span.text {font:normal 1.416em Georgia, serif}
+#docBody #docAddendum h2.section span.text {font:italic normal 1.25em Georgia, serif}
+ul.summary li.annexes h2.section span.text {font-size:1.25em}
+#text h2.section span.text {display:block; font-size:1.666em; margin:0 -8.4em 0 -3.6em; padding:0 8.4em 0 3.6em}
+#text h3.section {margin:2em 0 1em}
+
+/* texte différé */
+#textDeferred {margin:1.5em 0}
+#textDeferred strong {font:italic normal 1.666em Georgia, serif}
+
+/* raccourcis */
+#shortcuts{clear:both; margin:0 -6em; padding:.5em 2em; background:url(../images/bg.png) no-repeat -287px -386px}
+#docBody #shortcuts {margin:0 -14em 2em -6em}
+#shortcuts a{font-size:.833em; white-space:nowrap}
+#shortcuts em {font-size:.833em; font-style:normal}
+
+/* résumés */
+#abstract h3 {font:1em/1.5 Georgia, serif}
+#abstract p {clear:left; font:1em/1.5 Georgia, serif; margin:0; text-align:justify}
+
+/* entrées d'index */
+#entries div.index {font-size:.916em; margin:1.091em 0 0}
+#entries div.index h3 {display:inline; margin-right:.4em; font-weight:bold}
+
+/* plan */
+#toc div {font-size:.916em; margin:.545em 0}
+div.tocSection1 {font-weight:bold}
+div.tocSection2 {padding-left:1em}
+div.tocSection3 {padding-left:2em}
+div.tocSection4 {padding-left:3em}
+div.tocSection5 {padding-left:4em}
+div.tocSection6 {padding-left:5em}
+
+/* addendum */
+#docAddendum p {font-size:.916em; margin:1.091em 0}
+
+/* notes */
+#note p, #note div.endnotebody, #notes p, #notes div.footnotebody {font-size:.916em; margin:1.636em 0 0; text-align:justify}
+
+/*Documents annexes */
+#annexes ul.annexes .credits, #annexes ul.annexes .description, #annexes ul.annexes .legende {font-size:.916em; margin:0 0 .5em 0; text-align:justify}
+#annexes ul.annexes img {float:left; margin:0 1.5em 0 0; padding-top:.4em}
+#annexes ul.annexes li {margin:0 0 1.636em 0}
+#annexes ul.annexes li.vignette{min-height:100px}
+
+/* citation */
+#quotation p {font-size:.916em; margin:0}
+#quotation h3 {font-size:.916em; font-weight:bold; margin:1.091em 0 0}
+#quotation strong {font-weight:normal}
+
+/* auteurs */
+.authors h3 {font:bold .916em Verdana, sans-serif; margin:1.091em 0 0}
+.authors h4 {color:#333; font:italic normal 1.093em Georgia, serif; margin:.923em 0 0}
+.authors ul, .authors p {font-size:.916em}
+.authors ul.documents {margin:0 0 2.181em}
+.authors ul.documents li {list-style:none; margin:1.091em 0 0}
+.authors p {margin:0 0 1.091em 0}
+
+/* licence */
+#license h3, #license p {font-size:.916em}
+#license #licenseIcon {margin:1.091em 0}
+
+/* niveaux de titre */
+div.text h1 {font:normal 2.166em/1.2 Georgia, serif; margin:.923em 0 .461em; text-align:left}
+div.text h2 {font:1.833em/1.2 Georgia, serif; margin:1.636em 0 .545em; text-align:left}
+div.text h3 {font:bold 1.333em/1.2 Georgia, serif; margin:2.25em 0 .75em; text-align:left}
+div.text h4 {font:bold 1em/1.2 Verdana, sans-serif; margin:3em 0 1em; text-align:left}
+div.text h5 {font:normal 1em/1.2 Verdana, sans-serif; margin:1em 0; text-align:left}
+div.text h6 {font:normal .916em/1.2 Verdana, sans-serif; margin:1.091em 0; text-align:left}
+
+/* listes */
+div.text ul, div.text ol {margin:1em 0 1em 4em; text-align:left}
+div.text li {font:.916em/1.636 Verdana, sans-serif}
+div.text ul {list-style-type:square}
+div.text ol {list-style-type:decimal}
+div.text ul > li {list-style-type:inherit}
+div.text ol > li {list-style-type:inherit}
+div.text ul.sidenotes li {background:none; padding-left:0}
+
+/* notes marginales */
+div.textandnotes {position:relative}
+div.text ul.sidenotes {position:absolute; top:0; right:-12.5em; width:11em; margin:0; overflow:visible;}
+div.text ul.sidenotes li {margin:.2em 0 1.44em 0; font:.833em/1.44 Verdana, sans-serif; text-align:left; list-style-type:none}
+div.text ul.sidenotes .num {font-weight:bold}
+
+/* images */
+#content a img {display:block}
+
+/* styles internes ********************************************************* */
+p.encadre {padding:1em; background:#F2F2F2}
+p.separateur, p.sparateur {margin:1em 0; text-align:center}
+p.dedicace {margin:1em 0}
+p.remerciements {margin:1em 0; padding:0 4em; font-style:italic}
+p.remerciements em {font-style:normal}
+p.epigraphe, p.pigraphe {font:.916em/1.309 Verdana, sans-serif; margin:1.636em 0 1.636em 12em; text-align:right}
+p.titreillustration {color:#666; font:bold .916em/1.309 Verdana, sans-serif; margin:3.272em 0 .545em 0; text-align:left}
+p.legendeillustration {color:#666; font:.916em/1.309 Verdana, sans-serif; margin:.545em 0 1.091em 0; padding-right:12px; text-align:left}
+p.crditillustration,p.creditillustration, p.crditsillustration {color:#999; font:.916em/1.309 Verdana, sans-serif; margin:.545em 0 1.091em 0; padding-right:12px; text-align:left}
+p.question {margin:1em 0; color:#666}
+p.texte, p.annexe, p.reponse, p.bibliographie {margin:1em 0; position:relative}
+td p.texte, td p.annexe, div.textIcon p.texte {margin:0; text-align:left; line-height:1.309}
+p.paragraphesansretrait {margin:1em 0; text-indent:0}
+p.citation, p.quotations, p.quotation {font:.916em/1.636 Verdana, sans-serif; margin:1.091em 0; padding:0 0 0 4.363em; text-align:left}
+p.citationbis {color:#666; font:.916em/1.636 Verdana, sans-serif; margin:1.091em 0; padding:0 0 0 4.363em; text-align:left}
+p.citationter {color:#888; font:.916em/1.636 Verdana, sans-serif; margin:1.091em 0; padding:0 0 0 4.363em; text-align:left}
+p.puces {margin:0; text-align:left}
+p.code {margin:.75em 0; padding:.75em; font:1.333em/1.125 monospace; background:#F4F4F4; text-align:left}
+span.paranumber {display:block; position:absolute; top:0; left:-6em; width:6em; text-align:center; color:#999}
+
+/* appels de notes */
+a.footnotedefinition, a.endnotedefinition, a.FootnoteSymbol {font-weight:bold; padding-right:.4em}
+a.footnotecall, a.endnotecall {font:bold .833em Verdana, sans-serif; padding-left:.3em; vertical-align:top}
+#docTitle a.footnotecall, #docTitle a.endnotecall {font-size:.5em}
+#docSubtitle a.footnotecall, #docSubtitle a.endnotecall {font-size:.708em}
+h1 a.footnotecall, h1 a.endnotecall {font-size:.386em}
+h2 a.footnotecall, h2 a.endnotecall {font-size:.472em}
+h3 a.footnotecall, h3 a.endnotecall {font-size:.708em}
+
+/* redimensionnement du texte */
+.wResizable.medium {font-size:1em} /* 12px */
+.wResizable.large {font-size:1.25em} /* 15px */
+.wResizable.largest {font-size:1.5em} /* 18px */
+
+.wResizable.medium span.paranumber {left:-6em; width:6em}
+.wResizable.large span.paranumber {left:-4.8em; width:4.8em}
+.wResizable.largest span.paranumber {left:-4em; width:4em}
+
+.wResizable.medium ul.sidenotes {right:-12.5em; width:11em}
+.wResizable.large ul.sidenotes {right:-10em; width:8.8em}
+.wResizable.largest ul.sidenotes {right:-8.333em; width:7.333em}
+
+/* navigation ************************************************************** */
+#nav h2 {font:bold .916em/1.454 Verdana, sans-serif; padding:.454em .454em .454em 1.091em}
+#nav h2#allIssues {padding:.454em .454em 1.636em 1.091em}
+#nav h3 {padding:0 0 .4em 0}
+#nav ul {margin:0 0 0 1em; padding:1em 0}
+#nav ul ul {margin:0; padding:1em 0 0}
+#nav li {list-style:square; font:.833em/1.2 Verdana, sans-serif; margin:0 1.2em 1em 1.2em}
+#nav li li {list-style:none; font-size:1em; margin:0}
+#navSyndication li {list-style:none; margin-left:0;display:inline-block}
+#navSyndication img {vertical-align:text-bottom}
+#logos ul {margin:0; text-align:center}
+#logos li {list-style:none; text-align:center; margin:0 0 3em 0}
+
+/* boutons Suivant/Précédent */
+.navEntities {position:absolute; z-index:9; right:2.083em}
+.navEntities.top {top:1.2em}
+.navEntities.bottom {bottom:1.2em}
+.navEntities span.separator {visibility:hidden; position:absolute}
+.navEntities a {display:block; float:left; margin-left:2px; width:23px; padding-top:23px; background:url(../images/widgets.png) no-repeat 0 0; height:0; font-size:0; line-height:0; overflow:hidden}
+.navEntities a.goContents {background-position:0 -50px}
+.navEntities a.goPrev {background-position:-22px -50px}
+.navEntities a.goNext {background-position:-44px -50px}
+.navEntities a.goContents:hover {background-position:0 -73px}
+.navEntities a.goPrev:hover {background-position:-22px -73px}
+.navEntities a.goNext:hover {background-position:-44px -73px}
+
+/* widgets ***************************************************************** */
+#widgets {position:relative; overflow:hidden; padding:1em 0 0}
+#widgets a {display:block; float:right; width:23px; height:0; padding-top:24px; background:url(../images/widgets.png) no-repeat 0 0; overflow:hidden}
+#widgets a.current {padding-top:23px; border-bottom:3px solid #f00}
+
+/* boutons Taille du texte */
+a#wTextSize-medium {background-position:-69px 0}
+a#wTextSize-large {background-position:-92px 0}
+a#wTextSize-largest {background-position:-115px 0}
+a#wTextSize-medium:hover {background-position:-69px -24px}
+a#wTextSize-large:hover {background-position:-92px -24px}
+a#wTextSize-largest:hover {background-position:-115px -24px}
+
+/* bouton Imprimer */
+a#wPrint {width:34px; margin-left:2px}
+a#wSend  {width:33px; background-position:-34px 0}
+a#wPrint:hover {background-position:0 -24px}
+a#wSend:hover  {background-position:-34px -24px}
+
+/* bouton Télécharger */
+a#wDownload {display:block; float:left}
+#widgets a#wDownload {background:url(../images/widgets.png) no-repeat}
+#widgets a#wDownload.facsimile {background-position:-138px 0; width:auto; height:24px; padding:0 6px 0 100px; border-right:1px solid #9E9E9E}
+#widgets a#wDownload.facsimile:hover {background-position:-138px -24px}
+#widgets a#wDownload.pdf {background-position:-138px -48px; width:92px; height:0; padding:24px 0 0; overflow:hidden}
+#widgets a#wDownload.pdf:hover {background-position:-138px -72px}
+a#wDownload span.fileinfo {color:#666; font:10px/24px Verdana, sans-serif}
+a#wDownload:hover span.fileinfo {color:#444}
+
+/* bouton Haut de page */
+a.go-top {display:block; width:15px; height:15px; overflow:hidden; text-indent:-9999em; position:absolute; z-index:9; top:.833em; right:-12.5em; background:url(../images/widgets.png) no-repeat -69px -100px}
+#text a.go-top {top:3em; right:1.5em}
+
+/* bouton Retour index */
+a.go-back {font:.916em/15px Verdana, sans-serif; padding-left:13px; background:url(../images/widgets.png) no-repeat 0 -193px}
+
+/* plan du site ************************************************************ */
+#siteMap {margin:1.5em 0}
+#siteMap h2.section {margin:3em -6em 1.5em 0}
+#siteMap li {list-style:none; margin:1em 0 0}
+#siteMap li li {font-size:.916em; margin:1.091em 0 0}
+#siteMap li li li {font-size:1em; margin:.545em 0 0 1.636em; padding:0 0 0 1.25em; background:url(../images/child.png) no-repeat 0 .272em}
+
+/* divers ****************************************************************** */
+#pageHeader {margin:0 -6em; padding:2em 6em}
+#pageHeader h1 span.text {font:normal 1.8em/1.2 Georgia, serif}
+#pageBody {position:relative; margin:3em 0 0}
+body.indexes #pageBody {margin:0}
+body#years #pageBody, body#lang #pageBody{margin:0}
+
+#file img, #docImage img {margin-top:.5em; margin-bottom:.5em}
+div.photo img {display:block; margin:0 0 1.5em  0}
+
+/* formulaires ************************************************************* */
+#toolbox button, #loginbox button {width:18px; height:18px; text-indent:-9999em; overflow:hidden}
+button {cursor:pointer; padding:0; border:none; background:url(../images/widgets.png) no-repeat}
+
+#main form {margin-top:1.5em}
+#main label {display:block; margin:.5em 0}
+#main label em {font-size:.9em; color:#999}
+#main button {padding:.25em 0 .25em 20px; text-transform:uppercase; color:#666; background:#FFF url(../images/widgets.png) no-repeat 0 -236px}
+#main button:hover, #main button:focus {color:#000; outline:none}
+#main input, #main select, #main textarea {text-align:left; margin:0 1em 1.5em 0; border:1px solid #DDD}
+#main input:focus, #main select:focus, #main textarea:focus {border-color:#AAA; outline:none}
+
+/* accès restreint */
+#loginbox fieldset {background:#CECECE}
+#loginbox {position:relative; z-index:5}
+#loginbox div {padding:1em}
+#loginbox strong.error {display:block; padding:0 0 1em 0}
+#loginbox form {position:relative}
+#loginbox label {font-size:.916em}
+#loginbox input {margin:.3em 0 1em 0; width:13em; border:none; padding:2px 0}
+#loginbox legend {font-size:.916em; font-weight:bold}
+#loginbox legend span {display:block; width:14.2em; padding:.87em 1.091em; background:url(../images/bg.png) no-repeat right -172px}
+#loginbox.log-in legend span {background-position:right 0px; cursor:pointer}
+#loginbox button {float:right; margin:0 0 1em .5em}
+#loginbox .submit {background-position:-87px -64px}
+#loginbox .submit:hover {background-position:-87px -82px}
+#loginbox .cancel {background-position:-105px -64px}
+#loginbox .cancel:hover {background-position:-105px -82px}
+#loginbox .username {font-size:.916em}
+
+#loginBlock {position:relative; padding:1em 1em 0 1em}
+#loginBlock.fixed, /* compat */
+html.js #loginBlock {position:relative; padding:1em 1em 0 1em;}
+
+/* recherche */
+#search p {padding:1.5em 1em}
+#search button {background-position:-69px -64px; vertical-align:bottom}
+#search button:hover {background-position:-69px -82px}
+#search input#q {width:11em; font:.833em Verdana, sans-serif; border:1px solid #FFF; padding:2px 0}
+
+#feed a.button {display:block; float:left; padding:0 6px 0 29px; height:23px; font:10px/23px Verdana, sans-serif; text-transform:uppercase; cursor:pointer;}
+
+/* signaler.html *********************************************************** */
+#signaler dt {margin:1em 0 0}
+#signaler dd, #signaler dd p {margin:0; color:#666}
+#sendTo {margin:3em -6em; padding:2em 6em; background:url(../images/bg-section-shadow.png) repeat-x left top; position:relative}
+
+/* lien.html *************************************************************** */
+#feed ul {clear:left; padding:1px 0 0; font-size:.916em}
+#feed li {margin:1.636em 0 0; list-style:none}
+#feed li p {margin:0}
+
+/* backend ************************************************************ */
+#backend #pageBody ul{margin:0}
+#backend #pageBody ul li{margin:0 0 1em 0; padding:0 0 0 22px;list-style:none;background:#FFF url(../images/social-icons/rss.png) no-repeat left top}
+
+/* COULEURS ET FONDS ******************************************************* */
+body {color:#000; background:#E3E3E3}
+
+#header {color:#FFF; background:#454545}
+#siteName a {color:#FFF; font:italic 2.6em Georgia, serif}
+/*
+#siteName {background:transparent url(../images/sitename-nq8.png) no-repeat 15em 0; padding:0 6px}
+#siteName a {display:block; margin-left:15em; width:272px; padding-top:90px; height:0; overflow:hidden}
+*/
+
+#wrapper {background:url(../images/bg-vertical.png) repeat-y 15em 0; padding:0 8px}
+#footer {color:#000; background:#E3E3E3 url(../images/bg-horizontal.png) no-repeat 15em 0; margin-left:-8px}
+#footer p {margin-right:-8px; padding-left:8px}
+#footer p.first {background:url(../images/bg-horizontal.png) no-repeat right -588px; padding:3em 0 .2em 0}
+
+#toolbox {color:#888; background-color:#D6D6D6}
+#loginbox, #loginbox div, #loginbox legend span {color:#888; background-color:#D6D6D6; padding-bottom:1em}
+#loginbox legend span {border-bottom:1px solid #BCBCBC}
+#loginbox legend span:hover {color:#900}
+#loginbox div {background:#CECECE !important; color:#666 !important}
+
+#nav div {color:#888; background:#D6D6D6}
+#nav {background:url(../images/bg-horizontal.png) no-repeat 0px bottom #D6D6D6; padding-bottom:4em}
+#logos {background:url(../images/bg-vertical.png) no-repeat right top; padding-top:3em; margin-top:-10px}
+#logos a,#navSyndication li a {opacity:.9; background:none}
+#logos a:hover, #navSyndication li a:hover {opacity:1}
+
+
+#nav h2 {color:#888; background:#D6D6D6; border-bottom:1px solid #BCBCBC}
+#nav h2#allIssues {border:none}
+#nav h3 {color:#000}
+#nav li {color:#999}
+#nav li strong.year {color:#000}
+
+#content {margin-top:-3em}
+#content.withSyndication {background:url(../images/bg-syndication.png) repeat-y 45em 0}
+#main {background:#FFF}
+
+#front h1 {color:#444; background:#F2F2F2 url(../images/bg-pageheader.png) no-repeat 1.35em 12px; border-bottom:1px solid #EAEAEA; padding-top:1.5em; padding-bottom:1.416em}
+#news h2 {color:#666; background:#F2F2F2 url(../images/bg-syndication.png) no-repeat -1200px bottom}
+
+#homeSummary h1 {color:#999; background:#F2F2F2 url(../images/bg-pageheader.png) no-repeat 1.5em -772px; border-top:1px solid #FFF; border-bottom:1px solid #EAEAEA}
+#homeSummary #publiSubtitle {color:#999}
+#homeSummary #publiIntroduction {color:#444}
+
+#pageHeader  {color:#444; background:#F2F2F2 url(../images/bg-pageheader.png) no-repeat 1.35em 12px; border-bottom:1px solid #EAEAEA}
+#publiHeader {color:#444; background:#F2F2F2 url(../images/bg-pageheader.png) no-repeat 1.35em -388px; border-bottom:1px solid #EAEAEA}
+#publiHeader h1 .number {color:#666}
+#publiHeader h1 .period {color:#888}
+#publiSubtitle {color:#666}
+#publiAltertitle {color:#999}
+#publiDate {color:#666}
+#publiDirector {color:#666}
+#publiDirector strong {color:#444}
+#publiInformation {color:#888}
+
+ul.summary .subtitle {color:#AAA}
+ul.summary .altertitle {color:#999}
+ul.summary .director {color:#666}
+ul.summary .director strong {color:#444}
+ul.summary .author, dt.author {color:#000}
+ul.summary li.textes .subtitle, ul.summary li.fichiers .subtitle, dd.subtitle {color:#666}
+ul.summary li.textes .description {color:#888}
+ul.summary.collection .subtitle {color:#666}
+
+#alphabet,#subshortcuts {border-top:1px solid #E4E4E4}
+div.entries.alpha {border-top:1px solid #E4E4E4}
+
+
+#docHeader {color:#666; background:#F6F6F6; border-bottom:1px solid #EAEAEA}
+#docTopParent {color:#666; background:#FFF url(../images/bg-pageheader.png) no-repeat 1.35em -1288px; border-bottom:1px solid #EAEAEA}
+#docSubParent {color:#444; background:#F9F9F9; border-bottom:1px solid #E9E9E9}
+#docNumber{color: #888888}
+#docTitle, #abstract h3 {color:#B10000}
+#docAltertitle {color:#999}
+#docSubtitle {color:#000}
+#docPagination {color:#999}
+#docImage {color:#888}
+
+div.section#text {background:#FFF url(../images/bg-section-shadow.png) repeat-x bottom left; padding-bottom:5em}
+h2.section {border:solid #E4E4E4; border-width:1px 0}
+h3.section {color:#333; border-bottom:1px solid #E4E4E4}
+#docBody #text h2.section {border:none}
+#docBody #text h2.section span.text {background:#FFF url(../images/bg-section-shadow.png) repeat-x top left; padding-top:1.176em}
+#docBody #docAddendum h2.section {border-width:0 0 1px 0}
+
+#textDeferred strong {color:#999}
+#textDeferred strong.alert {color:#FF7200}
+
+#widgets {border-top:1px solid #E4E4E4}
+
+#shortcuts {color:#B10000; background-color:#F2F2F2; border-top:1px solid #FFF}
+#shortcuts em {color:#999}
+
+.authors h3, .authors ul, .authors p {color:#666}
+ul.sidenotes li {color:#888}
+
+#search input#q {color:#888; background:#FFF; border-color:#FFF}
+#search input#q:focus {color:#333; outline:none}
+
+#feed ul {color:#666}
+#file img, #docImage img, #publiInformation img, div.photo img {border:1px solid #999}
+
+.error {color:#C00}
+.alert {color:#FF7200}
+.excerpt {color:#555}
+
+/* LIENS ******************************************************************* */
+a {color:#900; text-decoration:none}
+a:hover {color:#D00; text-decoration:none}
+
+/* navigation */
+#nav a {color:#000}
+#nav a .title {color:#666}
+#nav #allIssues a {background:url(../images/widgets.png) no-repeat right -192px; padding-right:12px}
+#nav a:hover, #nav a:hover .title, #nav #allIssues a:hover {color:#900; background-color:#E4E4E4}
+
+/* syndication */
+#news a {color:#666}
+#news a:hover {color:#900; background:#FFF}
+#news a.external {color:#000}
+#news a.external:hover {color:#900}
+#news a.external strong {font-weight:normal}
+
+/* index */
+div.entries a {color:#000}
+div.entries a:hover {color:#900}
+div.entries li li li a {color:#666}
+div.entries li li li a:hover {color:#900}
+#alphabet a, #subshortcuts a{color:#666}
+#alphabet a:hover, #subshortcuts a:hover {color:#900; background:#F2F2F2}
+#alphabet span, #subshortcuts span{color:#CCC}
+
+/* plan du site */
+#siteMap a {color:#000}
+#siteMap a:hover {color:#900}
+#siteMap li li li a {color:#666}
+#siteMap li li li a:hover {color:#900}
+
+/* article */
+#docTopParent a {color:#888}
+#docTopParent a:hover, #docTopParent a:hover .number {color:#900}
+#docSubParent a {color:#444}
+#docSubParent a:hover {color:#900}
+#docURL a {color:#444}
+#docURL a:hover {color:#900}
+#docImage a {color:#888}
+#docImage a:hover {color:#900}
+
+#shortcuts a {color:#000}
+#shortcuts a:hover {color:#900; background:#FFF}
+
+#widgets a.current {border-color:#900}
+
+#entries a {color:#000}
+#entries a:hover {color:#900}
+
+#toc div.tocSection1, #toc div.tocSection2 {color:#444}
+#toc div.tocSection3, #toc div.tocSection4 {color:#666}
+#toc div.tocSection5, #toc div.tocSection6 {color:#999}
+
+div.text.facsimile {color:#D6D6D6; background:url(../images/widgets.png) no-repeat -440px 0; padding:13px 0 13px 13px; margin-left:-13px}
+div.text.facsimile a {font:normal 1.416em/.941 Georgia, serif; padding:13px 0 13px 40px}
+div.text.facsimile .fileinfo {color:#666}
+
+a.footnotecall, a.endnotecall, a.FootnoteSymbol, a.footnotedefinition, a.endnotedefinition {color:#900}
+a.footnotecall:hover, a.endnotecall:hover, a.FootnoteSymbol:hover, a.footnotedefinition:hover, a.endnotedefinition:hover {color:#D00}
+
+.authors .details a {color:#666}
+.authors .details a:hover {color:#900}
+
+/* pied de page */
+#footer a {color:#666}
+#footer a:hover {color:#900; background:#F5F5F5}
+
+/* sommaire */
+ul.summary .title a {color:#900}
+ul.summary.collection a .number {color:#000}
+ul.summary.collection a .period {color:#000}
+ul.summary .title a:hover, dd.title a:hover {color:#D00}
+
+#publiInformation a {color:#888}
+#publiInformation a:hover {color:#900}
+
+/* accueil */
+#homeSummary h1 a {color:#444}
+#homeSummary h1 a:hover .number, #homeSummary h1 a:hover .period, #homeSummary h1 a:hover .title {color:#900}
+
+/* boutons */
+a.go-top {background-color:#000}
+a.go-top:hover {background-color:#900}
+a.go-back {color:#000}
+a.go-back:hover {color:#900}
+a.button {color:#666; background:url(../images/button-submit.png) no-repeat 0 0; border-right:1px solid #9E9E9E}
+a.button:hover {color:#333; background-position:0 -23px}
+#feed a.button {background:url(../images/widgets.png) no-repeat -139px -96px; border-right:1px solid #BBB}
+#feed a.button:hover {background-position:-139px -119px;}
+
+/* paru dans */
+div.in a, dd.in a {color:#999}
+div.in a:hover, dd.in a:hover {color:#900}
+
+/* STYLES SUPPLÉMENTAIRES ************************************************** */
+
+/* filtre média */
+div.media{color:#666; font:.916em/1.309 Verdana, sans-serif;}
+div.media .auteurs, div.media .licence ,div.media .credit, div.media .creditsillustration, div.media .urlaccesmedia,
+div.media div.description, div.media div.legendeillustration  {margin:.545em 0 .545em 0; text-align:left;}
+div.media div.titreillustration {font-weight:bold; margin:3.272em 0 .545em 0; text-align:left;}
+
+/* onglets */
+html.js div.abstract {display:none}
+div.tabMenu {font-size:.833em; margin:1.8em 0 0; color:#666; border-left:1px solid #D7D7D7; margin-left:0; overflow:hidden}
+div.tabMenu a {color:#888; background:#EDEDED url(../images/bg.png) no-repeat right -500px; border-left:1px solid #D7D7D7; margin-left:-1px; display:block; float:left; padding:.2em 1.2em .3em}
+div.tabMenu a:hover, div.tabMenu a:focus {color:#900; outline:none}
+div.tabMenu a.active {color:#888; background-color:#FFF; background-position:right -600px; font-style:normal; cursor:default}
+div.tabContent {clear:none; overflow:hidden}
+div.tabMenu ~ div.tabContent {border-left:1px solid #D7D7D7; padding:1em 0 0 1em}
+div.tabContent {color:#666; font-family:Georgia, serif;}
+div.tabContent p {margin:0 0 1em;}
+
+/* correctifs */
+#text table {margin:1em 0 !important}
+#publiInformation {float:left; width:200px; font:.833em Verdana, sans-serif; overflow:hidden; margin:0}
+#publiIntroduction, #publiInformation img {margin:0; max-width:none}
+#publiIntroduction + #shortcuts {margin-top:1.5em}
+
+/* traductions */
+#docTranslations {margin:1.5em 0 0}
+#docTranslations dt {font-size:.916em; line-height:1.636; margin:.545em 0 0}
+ul.summary .title, dd.title, ul.summary .traduction, dd.traduction {margin:.285em 0 0}
+ul.summary .traduction a, dd.traduction a {color:#C30}
+ul.summary .traduction a:hover, dd.traduction a:hover {color:#D00}
+
+/* zoom images : couleur des icônes */
+div.textIconAccess a {background-color:#900 !important}
+div.textIconAccess a:hover {background-color:#C00 !important}
+
+/* taille des petites capitales sur Webkit (cf. http://bullmandesign.com/quick-tips/make-small-caps-behave-in-webkit-browsers) */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	span[style*="font-variant:small-caps"] {font-size:105%}
+}

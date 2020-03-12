@@ -1,0 +1,95 @@
+/* Breadcrumb */
+
+div#breadcrumb {
+    color: #333;
+    line-height: 24px;
+    vertical-align: middle;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    min-width: 1050px;
+    font-family: Sans, Verdana !important;
+    font-size: 11px;
+}
+
+div#breadcrumb #crumbs, div#breadcrumb>div>div {
+    position: absolute;
+    top: 0;
+}
+
+div#breadcrumb p {
+    margin: 0;
+    font-size: inherit;
+    line-height: 24px;
+    min-height: 24px;
+    vertical-align: middle;
+}
+
+div#breadcrumb span.separator,
+div#breadcrumb a {
+    color: #505050;
+    border: none;
+}
+
+div#breadcrumb a:hover {
+    color: #fff;
+}
+
+div#breadcrumb a:first-child {
+    background: url('../images/openbarre-home.png') no-repeat 13px 50%;
+    padding-left: 60px;
+}
+
+div#breadcrumb strong.current {
+    font-weight: normal
+}
+
+/* Sélection de langue */
+
+div#breadcrumb form {
+    font-size: 10px;
+    text-align: right;
+    line-height: 24px;
+    vertical-align: middle;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+div#breadcrumb label {
+    display: none;
+}
+
+div#breadcrumb select {
+    color: #666;
+    border: solid 1px #bdbdbd;
+    background: #f5f5f5;
+    font-size: 10px;
+}
+
+/* hacks ie7 */
+/**:first-child+html #openbarre ul#context li ul li>a,
+*:first-child+html #openbarre ul#context li ul li>div,
+*:first-child+html #openbarre ul#context li ul li>dl {
+    padding: 5px 25px;
+}
+
+*:first-child+html #openbarre ul#context .freedl {
+    padding: 12.5px 0 25px 50px;
+}
+
+*:first-child+html #openbarre ul#context a.dl {
+    padding: 7.5px 0 15px 75px;
+}*/
+
+/* nouveau sélecteur de langue */
+#siteLang {width:1024px;text-align:right;margin:0 auto}
+#siteLang li {display:inline-block;width:20px;height:16px;text-align:center;text-transform:uppercase;font:normal 10px/16px verdana,sans-serif;}
+#siteLang li .selected {display:block;width:20px;height:16px;text-align:center;background:url(../images/bg-lang.png) no-repeat 0 -20px;color:#FFF}
+#siteLang li  a:first-child {padding-left:0 !important}
+#siteLang li  a {display:block;width:20px;height:16px;text-align:center;background:url(../images/bg-lang.png) no-repeat 0 0 !important;color:#525252}
+#siteLang li  a:hover {background:url(../images/bg-lang.png) no-repeat 0 -20px !important;color:#FFF} 
+/* hack ie7 */
+#siteLang li {zoom:1;*display:inline;*margin-top:4px;*margin-left:4px}
+#breadcrumb #siteLang ul { margin: 0; }
+
