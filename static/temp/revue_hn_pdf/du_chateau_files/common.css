@@ -1,0 +1,64 @@
+/********* DOI **************/
+#doi {margin-bottom:1em;}
+/*Affichage DOI - article.html */
+#docHeader #doi {color: #666; margin: 1em 0 0;}
+
+/*********PDF/ePub***********/
+
+/* bouton Télécharger article */
+#widgets #wDownload {display:block; float:left}
+#widgets #wDownload {background:url(../images/widgets.png) no-repeat}
+#widgets #wDownload.facsimile {background-position:-138px 0; width:auto; height:24px; padding:0 6px 0 100px; border-right:1px solid #9E9E9E}
+#widgets #wDownload.pdf {background-position:-138px -48px; width:92px; height:0; padding:24px 0 0; overflow:hidden}
+#widgets #wDownload span.fileinfo {color:#666; font:10px/24px Verdana, sans-serif}
+#widgets #wDownload.facsimile.waiting {background:url(../images/facsimile-waiting.gif) no-repeat; background-position:0; width:auto; height:24px; padding:0 6px 0 100px; border-right:1px solid #9E9E9E}
+#widgets #wDownload.pdf.waiting {background:url(../images/pdf-waiting.gif) no-repeat; background-position:0; width:92px; height:0; padding:24px 0 0; overflow:hidden}
+#widgets div#wDownload.pdf.error {background: url(../images/dl.png) no-repeat; background-position: 0px -120px; padding: 0 6px 0 100px; height: 24px; width: auto; border-right: 1px solid #9E9E9E;}
+#widgets div#wDownload.facsimile.error {background: url(../images/dl.png) no-repeat; background-position: 0px -48px; padding: 0 6px 0 100px; height: 24px; width: auto; border-right: 1px solid #9E9E9E;}
+#widgets div#wDownload.pdf.unavailable {background: url(../images/dl.png) no-repeat; background-position: 0px -120px; padding: 24px 0 0; height: 0; width: 92px; overflow:hidden;}
+#widgets div#wDownload.facsimile.unavailable {background: url(../images/dl.png) no-repeat; background-position: 0px -48px; }
+
+#widgets div.dl {float:left;width:calc(100% - 170px);}
+#widgets div.dl > div.main {display:flex;}
+#widgets div.dl > div.main > div {flex:initial;}
+#widgets div.dl > div.main > #wDownload {margin-right:10px;}
+#widgets div.dl > div.main > div.accesstype.freemium {margin-right:3px;background: url(../images/freemium.png) no-repeat 0 1px;height:24px;width:64px;}
+#widgets div.dl > div.main > div.info {background: url(../images/freemium.png) no-repeat -66px 1px;height:24px;width:22px;cursor:pointer;}
+#widgets div.dl > div.main > div.accesstype.freemium > span,  div.dl > div.main > div.info > span {display: none;}
+#widgets div.dl > div.accessdetails {margin:5px 0}
+#widgets.border-bottom {border-bottom:solid 1px #bababa;}
+#widgets div.dl a {display:initial; float:initial; width:initial; height:initial; padding-top:initial; background:initial; overflow:initial}
+
+/* Download - sommaire.html */
+body.publications #shortcuts.dl {margin-top:0;}
+body.publications #pdf > a#pdfDownload, body.publications #epub > a#epubDownload {display:inline-block;}
+body.publications #idDl {margin-bottom:2em;}
+body.publications #epubDownload {background: url(../images/dl.png) no-repeat 0 -144px;width:92px; height: 0px;padding: 24px 0 0;}
+body.publications a#epubDownload:hover {background-position: 0 -168px;}
+body.publications #epubDownload > span {display:none;}
+body.publications #pdfDownload {background:url(../images/widgets.png) no-repeat}
+body.publications #pdfDownload.facsimile {background-position:-138px 0; width:auto; height:24px; padding:0 6px 0 100px; border-right:1px solid #9E9E9E}
+body.publications a#pdfDownload.facsimile:hover {background-position:-138px -24px}
+body.publications #pdfDownload.facsimile span.fileinfo {color:#666; font:10px/24px Verdana, sans-serif}
+body.publications a#pdfDownload.facsimile:hover span.fileinfo {color:#444}
+body.publications #pdfDownload.pdf {background-position:-138px -48px; display: block;width:92px; height: 0px;padding: 24px 0 0;float: none; }
+body.publications a#pdfDownload.pdf:hover {background-position:-138px -72px}
+body.publications #pdfDownload.pdf span.fileinfo {display:none;}
+body.publications #pdfDownload.pdf.error {background: url(../images/dl.png) no-repeat; background-position: 0px -120px; padding: 0 6px 0 100px; height: 24px; width: auto; border-right: 1px solid #9E9E9E;}
+body.publications #pdfDownload.pdf.unavailable {background: url(../images/dl.png) no-repeat; background-position: 0px -120px; padding: 24px 0 0; height: 0; width: 92px; overflow:hidden;}
+body.publications #pdfDownload.facsimile.unavailable, body.publications #pdfDownload.facsimile.error {background: url(../images/dl.png) no-repeat; background-position: 0px -48px; }
+body.publications #epubDownload.unavailable, body.publications #epubDownload.error {background-position: 0px -192px;}
+
+body.publications #pdfDownload.facsimile.waiting {background:url(../images/facsimile-waiting.gif) no-repeat; background-position:0; width:auto; height:24px; padding:0 6px 0 100px; border-right:1px solid #9E9E9E}
+body.publications #pdfDownload.pdf.waiting {background:url(../images/pdf-waiting.gif) no-repeat; background-position:0; width:92px; height:0; padding:24px 0 0; overflow:hidden}
+body.publications #epubDownload.waiting {background:url(../images/epub-waiting.gif) no-repeat; background-position:0; width:92px; height:0; padding:24px 0 0; overflow:hidden}
+
+body.publications div.dl > div.main {display:flex;}
+body.publications div.dl > div.main > div {flex:initial;}
+body.publications div.dl > div.accessdetails {margin:5px 0}
+body.publications div.dl.border-bottom {border-bottom:solid 1px #bababa;}
+body.publications div.dl > div.main > #pdf, body.publications div.dl > div.main > #epub {margin-right:10px;line-height:1;}
+body.publications div.dl > div.main > div.accesstype.freemium {margin-right:3px;background: url(../images/freemium.png) no-repeat 0 1px;height:24px;width:64px;}
+body.publications div.dl > div.main > div.accesstype.freemium > span {display:none;}
+body.publications div.dl > div.main > div.info {background: url(../images/freemium.png) no-repeat -66px 1px;height:24px;width:22px;cursor:pointer;}
+

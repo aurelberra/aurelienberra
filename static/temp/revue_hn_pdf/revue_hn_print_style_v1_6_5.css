@@ -1,0 +1,999 @@
+/*
+Revue Humanités numériques (http://www.humanisti.ca/revue)
+Version 1.6.5 (2020-06-16)
+*/
+
+/* Police principale */
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Bold.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Bold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Bold%20Italic.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Bold%20Italic.woff) format("woff");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Semibold.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Semibold.woff) format("woff");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Semibold%20Italic.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Semibold%20Italic.woff) format("woff");
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Book.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Book.woff) format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Book%20Italic.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Book%20Italic.woff) format("woff");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Regular.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Regular.woff) format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Noe Text";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Regular%20Italic.eot) format("eot"), url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/Noe%20Text%20Regular%20Italic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic
+}
+
+/* Polices pour les caractères grecs et cyrilliques */
+@font-face {
+    font-family: "Libertinus Serif";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LibertinusSerif-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LibertinusSerif-Italic.otf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LibertinusSerif-Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LibertinusSerif-BoldItalic.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+@font-face {
+    font-family: "Libertinus Mono";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LibertinusMono-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+@font-face {
+    font-family: "Liberation Mono";
+    src: url(https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/fonts/LiberationMono-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0370-03FF, U+1F00-1FFF, U+0004??;
+}
+
+/* Éléments à ne pas imprimer */
+#openbarre,
+#partenaires,
+#access,
+#toolbox,
+#nav,
+#news,
+#footer,
+#widgets,
+#shortcuts,
+#navAbstracts,
+#toc,
+#alphabet,
+hr,
+#cleo,
+#breadcrumb,
+#lodel-desk,
+#siteContext,
+#warning,
+#publiInformation a,
+div.navEntities,
+a.go-top,
+a.go-back,
+a.fullSize,
+ul.sidenotes,
+#logos,
+.textIconAccess,
+.textIconWrap span,
+div.doi_box,
+div.formated_bibl_container,
+#lodel-globalDesk .loggedUsers,
+#lodelGlobalDeskDisplayer,
+div.tabMenu,
+h4,
+ul.documents,
+.toolbar,
+iframe {
+    display: none
+}
+
+/* Réglages généraux */
+body {
+    width: 19cm;
+    margin: 0 auto;
+    padding: 0;
+    color: #000;
+}
+
+@page {
+    margin: 1cm;
+}
+
+p{
+    text-align-last: left;
+}
+
+/* Coupures */
+p {
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    /* Commandes des spécifications du W3C pas encore implémentées dans tous les navigateurs.
+    Spécifications : https://www.w3.org/TR/css-text-4/
+    Pour Firefox : https://bugzilla.mozilla.org/show_bug.cgi?id=1521723 */
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+}
+
+/* Coupures et Paged.js. */
+.texte.pagedjs_hyphen {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.texte[data-last-split-element="true"] {
+    text-align-last: justify;
+}
+
+span[data-last-split-element="true"] {
+    text-align-last: justify;
+    /* Compromis : pas de coupure, mais justification correcte en fin de page. */
+    hyphens: none;
+}
+
+/* En-tête et métadonnées */
+#header {
+    margin: auto 0;
+    margin-bottom: auto;
+    padding: 0;
+    margin-bottom: 0.1cm;
+    height: 5cm;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0em;
+    background: url('https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/image/ligne.svg') repeat-x bottom;
+}
+
+#header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+}
+
+#header #siteName {
+    padding-left: 7cm;
+    background: url('https://aurelienberra.org/temp/revue_hn_maquette_css_for_print/assets/image/humanites_numeriques-v-19M-.png');
+    background-size: contain;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    padding-left: 3.75cm;
+    height: 3.2cm;
+    margin-left: .5cm;
+}
+
+#header #siteName:after {
+    content: 'humanités numériques';
+    font-size: 18pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100pt;
+    width: 1em
+}
+
+h1#siteName a {
+    display: none;
+    font: 600 24pt/1.2 "Libertinus Serif", "Noe Text", Georgia, serif;
+}
+
+#docHeader .numero {
+    margin-left: -1cm;
+    font: 7pt/1 "Liberation Mono", "PT Mono", monospace;
+    color: #234093;
+}
+
+#docTopParent {
+    margin-left: -1cm;
+    line-height: 1;
+}
+
+#docTopParent a span.number {
+    font: 9pt/1 "Liberation Mono", "PT Mono", monospace;
+    color: #234093;
+}
+
+#docTopParent a span.title {
+    font: 11pt/1 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #234093;
+    line-height: 1.5;
+}
+
+#docSubParent {
+    font: 7pt/1.3 "Liberation Mono", "PT Mono", monospace;
+    text-transform: uppercase;
+    margin-top: 3pt;
+    color: #234093;
+    margin-left: -1cm;
+}
+
+#docTitle {
+    font: normal 600 21pt/1 "Libertinus Serif", "Noe Text", Georgia, serif;
+    padding: 10pt 0 0;
+    margin: 40pt 0 0;
+    color: #234093;
+}
+
+#docAltertitle {
+    font: normal 300 13pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    margin-top: 2pt;
+    color: #234093;
+}
+
+#docSubtitle {
+    font: normal 300 13pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #234093;
+    margin-top: 2pt;
+}
+
+#docAuthor,
+#docAuthor strong {
+    font: normal 600 13pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #234093;
+    margin-bottom: 0pt;
+    margin-top: 20pt;
+}
+
+/* Réglages généraux (suite) */
+#outerWrapper {
+    margin-left: 1cm;
+    width: 13.2cm;
+}
+
+p.paragraphesansretrait {
+    text-indent: 0;
+    position: relative;
+    margin: 0;
+}
+
+#text {
+    text-align: justify;
+    position: relative;
+    margin-top: 5em;
+}
+
+#text>h2.section {
+    display: none;
+}
+
+.text a {
+    font-family: "Noe Text", serif;
+    text-decoration: none;
+    color: #234093;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: inherit;
+    overflow-wrap: break-word;
+}
+
+sup {
+    vertical-align: super;
+    line-height: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #234093;
+    font-family: "Libertinus Serif", "Noe Text", Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 9pt;
+    margin-top: 9pt;
+    position: relative;
+    text-align-last: auto;
+}
+
+h1>a,
+h2>a,
+h3>a,
+h4>a,
+h5>a,
+h6>a {
+    font: inherit;
+    margin: 0;
+}
+
+div.text {
+    position: relative;
+}
+
+div.text h1,
+div.text h2 {
+    font-family: "Libertinus Serif", "Noe Text", Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    font-size: 18pt;
+    line-height: 1;
+    margin: 0;
+    text-align: left;
+}
+
+/* Titres dans le texte intégral */
+div.text h1 {
+    margin-top: 29pt;
+    margin-bottom: 9pt;
+}
+
+div.text h2 {
+    font-size: 14pt;
+    margin-top: 20pt;
+    margin-bottom: 9pt;
+    font-weight: 600;
+}
+
+div.text h3 {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+div.text h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-bottom: 6pt;
+    font-style: italic;
+}
+
+div.text h5 {
+    font-size: 11pt;
+    font-weight: 400;
+    margin-bottom: 6pt;
+    color: #000000;
+}
+
+p,
+p.texte {
+    color: #000000;
+    font-family: "Noe Text", serif;
+    font-size: 11pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: justify;
+    text-indent: 0;
+}
+
+p.texte strong {
+    font-weight: 600
+}
+
+/* Alinéa */
+p.texte, p.texte+p.texte,
+.textandnotes+p.texte,
+.textandnotes+.textandnotes p.texte,
+p.texte+.textandnotes p.texte {
+    text-indent: 12pt;
+} /*p.texte added to harmonise*/
+
+.wResizable.medium span.paranumber {
+    left: none;
+    width: none;
+}
+
+span.paranumber {
+    color: #234093;
+    font-size: 7pt;
+    font-family: "PT Mono", monospace;
+    position: absolute;
+    margin-left: -28pt;
+    line-height: 12pt;
+}
+
+p.texte .paranumber, p.texte+p.texte .paranumber,
+.textandnotes+p.texte .paranumber,
+.textandnotes+.textandnotes p.texte .paranumber,
+p.texte+.textandnotes p.texte .paranumber {
+    margin-left: -52pt;
+} /*p.texte .paranumber added to harmonise*/
+
+/* Éviter les titres orphelins */
+h1+div.textandnotes,
+h2+div.textandnotes,
+h3+div.textandnotes,
+h4+div.textandnotes,
+h5+div.textandnotes,
+h6+div.textandnotes {
+    page-break-before: avoid;
+    page-break-inside: auto;
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+h1+p,
+h2+p,
+h3+p,
+h4+p,
+h5+p,
+h6+p {
+    page-break-before: avoid;
+    page-break-inside: auto;
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+p {
+    widows: 3;
+    orphans: 3;
+}
+
+#entries {
+    page-break-inside: avoid;
+}
+
+div.textIcon {
+    page-break-inside: avoid;
+    margin-top: 9pt;
+    margin-bottom: 20pt;
+}
+
+div.quotation {
+    page-break-inside: avoid;
+}
+
+/* Métadonnées diverses */
+h2.section {
+    margin-top: 20pt;
+    padding-top: 10pt;
+    font: normal 600 12pt/1 "Libertinus Serif", "Noe Text", Georgia, serif;
+}
+
+#publiAltertitle,
+#docAltertitle,
+#docPagination,
+#docReference {
+    margin: 2pt 0 0;
+}
+
+#publiAltertitle div,
+#docAltertitle div {
+    margin-top: 5pt;
+    font-style: italic;
+    font-size: 16pt;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #234093;
+}
+
+#docReference p {
+    margin: 0;
+}
+
+#quotation p {
+    font: normal normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #000000;
+    text-align: justify;
+}
+
+#authors p {
+    font: normal normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #000000;
+    text-align: justify;
+}
+
+#license p {
+    font: normal normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Résumés */
+#abstract h3 {
+    font: normal bold 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    margin: 10pt 0 0;
+}
+
+#abstract p {
+    margin: 0 0 10pt 0;
+    text-align: justify;
+    text-indent: 12pt; /*added to harmonise*/
+}
+
+/* Mots clés */
+#entries div.index h3 {
+    color: #234093;
+    font-family: "Liberation Mono", "PT Mono", monospace;
+    font-size: 7pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    margin-right: 5pt;
+}
+
+/* Section « Pour citer cet article » */
+#quotation h3 {
+    display: none
+}
+
+#quotation p {
+    margin: 0 0 10pt 0;
+}
+
+#quotation strong {
+    font-weight: normal;
+}
+
+/* Encadrés */
+p.encadre {
+    font: normal 10pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: justify;
+    border: 1px solid #234093;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Citations */
+blockquote {
+    margin: 1em 1.5em;
+}
+
+p.citation {
+    font: normal 10pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: justify;
+}
+
+p.citationbis {
+    font: normal 10pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: justify;
+}
+
+p.citationter {
+    font: italic 10pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: justify;
+}
+
+p.citation strong,
+p.citationbis strong,
+p.citationter strong {
+    font-weight: 600;
+}
+
+/* Listes */
+p.puces {
+    text-align: left;
+    margin: 0;
+}
+
+#text ul li p {
+    text-indent: 0pt;
+    margin-bottom: 3pt;
+    text-align: left;
+}
+
+#text ol li p {
+    text-indent: 15pt;
+    margin-bottom: 3pt;
+    text-align: left;
+}
+
+ul.texte {
+    display: block;
+    list-style-type: disc;
+    margin: 5pt 0 5pt;
+    padding-left: 12pt;
+    margin-left: 12pt; /*added*/
+    line-height: 1.2;
+}
+
+#text ol {
+    padding-left: 12pt;
+    list-style: none;
+    counter-reset: li;
+    margin: 5pt 0 5pt;
+    line-height: 1.2;
+}
+
+#text ol li {
+    list-style: none;
+    counter-increment: li;
+}
+
+#text ol li::before {
+    /*content: counter(li);*/
+    content: "."counter(li);
+    color: 000;
+    display: inline-block;
+    width: 1em;
+    /*margin-left: -1.5em;*/
+    margin-left: 0em;
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl;
+    position: absolute;
+    /*font-weight: 400;*/
+    /*font-variant-numeric: lining-nums;*/
+    font-variant-numeric: oldstyle-nums;
+    font-size: 11pt;
+    line-height: 1.2;
+    font-family: "Noe Text", serif;
+}
+
+/* Illustrations */
+p.titreillustration {
+    color: #234093;
+    font: bold 7pt "Liberation Mono", "PT Mono", monospace;
+    text-align: left;
+    margin: 10pt 0 10pt 0;
+    text-transform: uppercase;
+}
+
+p.legendeillustration {
+    color: #234093;
+    font: normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: left;
+    margin: 10pt 0 3pt 0;
+}
+
+p.crditillustration,
+p.crditsillustration,
+p.creditillustration {
+    color: #234093;
+    font: normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: left;
+    font-weight: 300;
+    margin: 0pt 0 10pt 0;
+}
+
+/* Tableaux, dont tableau des illustrations */
+#docImages {
+    color: #234093;
+}
+
+table {
+    margin: 10pt 0;
+    border-spacing: 0px;
+}
+
+table tr {
+    vertical-align: top;
+}
+
+table th {
+    font: normal normal 7pt/1.2 "Liberation Mono", "PT Mono", monospace;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 3pt;
+    padding-right: 5pt;
+    color: #234093;
+}
+
+table td {
+    font: 9pt/1.2 "Libertinus Serif", "Noe Text", Georgia, serif;
+    padding: 4pt;
+    padding-top: 2.5pt;
+    border-color: #234093 !important;
+}
+
+table td,
+table td p,
+table td p.texte {
+    font-size: 9pt;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#text td p {
+    text-indent: 0pt;
+}
+
+.titre td {
+    font: bold 7pt/1.3 "Liberation Mono", "PT Mono", monospace;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.info td {
+    font: 8pt/1.2 "Liberation Mono", "PT Mono", monospace;
+    padding-top: 2.5pt;
+}
+
+/* Notes de bas de page */
+p.notesbaspage {
+    font: normal normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #000000;
+    text-align: justify;
+}
+
+a.footnotecall,
+a.endnotecall {
+    font: normal 600 100%/0 "Noe Text", Georgia, serif;
+    color: #234093;
+    margin-left: 2pt;
+    text-decoration: none;
+    vertical-align: super;
+    line-height: 0;
+    font-size: 70%;
+}
+
+a.FootnoteSymbol {
+    font: normal normal 8pt/1 "Noe Text", Georgia, serif;
+    font-weight: 600;
+    color: #234093;
+    margin-right: 3pt;
+}
+
+/* Réglages divers */
+p.titreillustration a.footnotecall,
+p.titreillustration a.endnotecall {
+    font-size: 90%;
+}
+
+/* Bibliographie */
+p.bibliographie {
+    font: normal normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Liens */
+a {
+    /*font-family: "Liberation Mono", "PT Mono", monospace;*/
+    font-family: "Noe Text", serif;
+    text-decoration: none;
+    /*color: inherit;*/
+    color: #234093;
+    /*font-size: 90%;*/
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: inherit;
+    overflow-wrap: break-word;
+    font-variant-numeric: lining-nums;
+}
+
+/* Code */
+p.code {
+    font-family: "Liberation Mono", "PT Mono", monospace;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.70em;
+    line-height: 1.4;
+    background: #F4F4F4;
+    text-align: left;
+    padding: 0pt 15pt;
+}
+
+p.code+p.code {
+    padding-top: 0;
+    padding-bottom: 0pt;
+    margin-top: 0
+}
+
+p.texte+p.code,
+.textandnotes p.texte+p.code {
+    padding-top: 10pt;
+    margin-top: 5pt
+}
+
+p.code+p.texte,
+p.code+.textandnotes p.texte {
+    padding-top: 10pt;
+    margin-top: 0
+}
+
+/*taille de la police*/
+pre {
+    /*font-size: 55%; Firefox*/
+    font-size: 50%; /*Safari*/
+}
+
+/*police*/
+.syntaxhighlighter * {
+    background-color: white !important;
+    font-family: 'Liberation Mono', 'PT Mono', Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;"
+}
+
+/*police des numéros de ligne*/
+td.gutter * {
+    font-family: 'Liberation Mono', 'PT Mono', Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;"
+}
+
+/*interligne*/
+.syntaxhighlighter div {
+    line-height: 1.2 !important;
+}
+
+/* Éléments divers */
+p.separateur,
+p.sparateur {
+    text-align: center;
+}
+
+p.dedicace {}
+
+p.remerciements {}
+
+p.epigraphe,
+p.pigraphe {
+    text-align: right;
+    font-size: 10pt;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+p.question {
+    font: normal 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+}
+
+p.texte,
+p.annexe,
+p.annexes, /*added – but li markers remain*/
+p.reponse,
+p.bibliographie {
+    position: relative;
+    margin: 0;
+}
+
+#publiTitle,
+#docTitle {
+    font-size: 18pt;
+    line-height: 1.1
+}
+
+#publiSubtitle,
+    {
+    font-size: 16pt;
+    margin: 3pt 0 5pt 0;
+}
+
+#abstract,
+#bibliography,
+#annexe,
+#annexes, /*added – but li markers remain*/
+#notes {
+    font: 9.5pt/1.2 "Libertinus Serif", "Noe Text", Georgia, serif;
+    text-align: justify;
+}
+
+#quotation,
+#authors,
+#license {
+    font: 9pt/1.2 "Libertinus Serif", "Noe Text", Georgia, serif;
+    page-break-after: avoid;
+    widows: 3;
+    orphans: 3;
+}
+
+#bibliography p,
+#annexe p,
+#annexes p, /*added – but li markers remain*/
+#notes p {
+    margin: 0 0 5pt 0;
+}
+
+/* Couper les liens trop longs */
+#bibliography a,
+#illustrations a,
+#notes a {
+    word-break: break-all;
+}
+
+#errata h2.section,
+#dedication h2.section,
+#ndlr h2.section,
+#ndla h2.section {
+    border: none;
+    margin: 0;
+    font: normal bold 9pt/1.3 "Libertinus Serif", "Noe Text", Georgia, serif;
+}
+
+#entries div,
+#errata p,
+#dedication p,
+#ndlr p,
+#ndla p {
+    color: #234093;
+    font: 9pt/1.3 "Liberation Mono", "PT Mono", monospace;
+    margin-bottom: 10pt;
+}
+
+/* Ne pas afficher la rubrique "Articles du même auteur" */
+h4,
+ul.documents {
+    display: none
+}

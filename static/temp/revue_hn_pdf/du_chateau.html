@@ -1,0 +1,1370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <script type="text/javascript">document.documentElement.className = 'js';</script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-language" content="fr" />
+    <title>Modélisation des connaissances et technologies du Web sémantique : deux applications au patrimoine culturel</title>
+    <meta name="url" content="http://edt-journals.openedition.org/revuehn/510" />
+    <link rel="icon" type="image/png" href="https://static-origin.openedition.org/journals/images/favicon.png" />
+    <meta name="generator" content="Lodel 1.0" />
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+    <link rel="schema.MARCREL" href="http://www.loc.gov/loc.terms/relators/"/>
+    <meta name="DC.type" content="Text" />
+    <meta name="DC.format" content="text/html" />
+    <meta name="DC.identifier" scheme="URI" content="http://edt-journals.openedition.org/revuehn/510" />
+    <meta name="DC.title" content="Modélisation des connaissances et technologies du Web sémantique : deux applications au patrimoine culturel" />
+    <meta name="DC.publisher" content="Humanistica" />
+    <meta name="DC.language" scheme="RFC3066" content="fr" />
+    <meta name="DC.type" content="journalArticle" />
+    <meta name="author" content="du Château, Stefan" />
+    <meta name="DC.creator" content="du Château, Stefan" />
+    <meta name="author" content="Mercier-Laurent, Eunika" />
+    <meta name="DC.creator" content="Mercier-Laurent, Eunika" />
+    <meta name="author" content="Bricault, Laurent" />
+    <meta name="DC.creator" content="Bricault, Laurent" />
+    <meta name="author" content="Boulanger, Danielle" />
+    <meta name="DC.creator" content="Boulanger, Danielle" />
+    <meta name="keywords" content="XML-TEI, modélisation des connaissances, web sémantique, patrimoine culturel, ontologies, semantic Web, ontology, knowledge management, cultural heritage" />
+    <meta name="description" xml:lang="fr" lang="fr" content="Cet article souligne l’importance de l’approche « gestion des connaissances » dans la numérisation du patrimoine culturel. Nous présentons un système hybride pour l’automatisation du cycle de collecte et de stockage d’informations et de connaissances pour les recherches futures. Ce système composé de plusieurs modules permet le recueil d’informations à partir d’un dictaphone en respectant un système descriptif défini, la transcription automatique de l’oral vers le texte, l’analyse linguistique, l’extraction d’informations et, enfin, le peuplement semi-automatique d’une ontologie de domaine selon un modèle conceptuel prédéfini. L’utilisation d’une extension ontologique est également présentée dans une application basée sur une architecture XML pour valoriser le patrimoine culturel dans le domaine de l’épigraphie grecque et latine. " />
+    <meta name="DC.description" xml:lang="fr" lang="fr" content="Cet article souligne l’importance de l’approche « gestion des connaissances » dans la numérisation du patrimoine culturel. Nous présentons un système hybride pour l’automatisation du cycle de collecte et de stockage d’informations et de connaissances pour les recherches futures. Ce système composé de plusieurs modules permet le recueil d’informations à partir d’un dictaphone en respectant un système descriptif défini, la transcription automatique de l’oral vers le texte, l’analyse linguistique, l’extraction d’informations et, enfin, le peuplement semi-automatique d’une ontologie de domaine selon un modèle conceptuel prédéfini. L’utilisation d’une extension ontologique est également présentée dans une application basée sur une architecture XML pour valoriser le patrimoine culturel dans le domaine de l’épigraphie grecque et latine. " />
+    <meta name="keywords" xml:lang="fr" lang="fr" content="XML-TEI, modélisation des connaissances, web sémantique, patrimoine culturel, ontologies" />
+    <meta name="description" xml:lang="en" lang="en" content="This article highlights the importance of a knowledge management approach for the digitization of cultural heritage. We present a hybrid system automatizing the cycle of information and knowledge collecting and storing for future research. This system is composed of several modules, and enables to gather information from a dictaphone according to a specified descriptive system, automatically transcribe oral information, perform linguistic analysis and information extraction, as well as semi-automatically populate a domain ontology in accordance with a predefined conceptual model. The use of an ontological extension is also presented, through an application based on an XML architecture to valorize cultural heritage in the field of Greek and Latin epigraphy. " />
+    <meta name="DC.description" xml:lang="en" lang="en" content="This article highlights the importance of a knowledge management approach for the digitization of cultural heritage. We present a hybrid system automatizing the cycle of information and knowledge collecting and storing for future research. This system is composed of several modules, and enables to gather information from a dictaphone according to a specified descriptive system, automatically transcribe oral information, perform linguistic analysis and information extraction, as well as semi-automatically populate a domain ontology in accordance with a predefined conceptual model. The use of an ontological extension is also presented, through an application based on an XML architecture to valorize cultural heritage in the field of Greek and Latin epigraphy. " />
+    <meta name="keywords" xml:lang="en" lang="en" content="semantic Web, XML-TEI, ontology, knowledge management, cultural heritage" />
+    <meta name="DC.subject" xml:lang="fr" lang="fr" content="
+XML-TEI, modélisation des connaissances, web sémantique, patrimoine culturel, ontologies" />
+    <meta name="DC.subject" xml:lang="en" lang="en" content="
+semantic Web, XML-TEI, ontology, knowledge management, cultural heritage" />
+    <meta name="DC.date" scheme="W3CDTF" content="2020-06-01" />
+    <meta name="DC.rights" content="Les contenus de la revue Humanités numériques sont mis à disposition selon les termes de la Licence Creative Commons Attribution 4.0 International." />
+    <meta name="DC.relation.isPartOf" content="Humanités numériques, 2 | 2020  Varia " />
+    <meta name="DC.source" content="http://edt-journals.openedition.org/revuehn" />
+    <meta name="citation_journal_title" content="Humanités numériques" />
+    <meta name="citation_publisher" content="Humanistica" />
+    <meta name="citation_authors" content="du Château, Stefan; Mercier-Laurent, Eunika; Bricault, Laurent; Boulanger, Danielle" />
+    <meta name="citation_title" content="Modélisation des connaissances et technologies du Web sémantique : deux applications au patrimoine culturel" />
+    <meta name="citation_publication_date" content="2020/06/01" />
+    <meta name="citation_online_date" content="2020/06/01" />
+    <meta name="citation_issue" content="2" />
+    <meta name="citation_language" content="fr" />
+    <meta name="citation_keywords" content="XML-TEI; modélisation des connaissances; web sémantique; patrimoine culturel; ontologies; semantic Web; ontology; knowledge management; cultural heritage" />
+    <meta name="citation_abstract" xml:lang="fr" lang="fr" content="Cet article souligne l’importance de l’approche « gestion des connaissances » dans la numérisation du patrimoine culturel. Nous présentons un système hybride pour l’automatisation du cycle de collecte et de stockage d’informations et de connaissances pour les recherches futures. Ce système composé de plusieurs modules permet le recueil d’informations à partir d’un dictaphone en respectant un système descriptif défini, la transcription automatique de l’oral vers le texte, l’analyse linguistique, l’extraction d’informations et, enfin, le peuplement semi-automatique d’une ontologie de domaine selon un modèle conceptuel prédéfini. L’utilisation d’une extension ontologique est également présentée dans une application basée sur une architecture XML pour valoriser le patrimoine culturel dans le domaine de l’épigraphie grecque et latine." />
+    <meta name="citation_abstract" xml:lang="en" lang="en" content="This article highlights the importance of a knowledge management approach for the digitization of cultural heritage. We present a hybrid system automatizing the cycle of information and knowledge collecting and storing for future research. This system is composed of several modules, and enables to gather information from a dictaphone according to a specified descriptive system, automatically transcribe oral information, perform linguistic analysis and information extraction, as well as semi-automatically populate a domain ontology in accordance with a predefined conceptual model. The use of an ontological extension is also presented, through an application based on an XML architecture to valorize cultural heritage in the field of Greek and Latin epigraphy." />
+    <meta name="citation_abstract_html_url" content="http://edt-journals.openedition.org/revuehn/510" />
+    <meta name="citation_fulltext_html_url" content="http://edt-journals.openedition.org/revuehn/510" />
+    <meta name="DC.description.tableOfContents" content="&lt;h1&gt;Plan&lt;/h1&gt;&lt;h1&gt;Introduction&lt;/h1&gt;&lt;h1&gt;État de l’art&lt;/h1&gt;&lt;h1&gt;Méthode&lt;/h1&gt;&lt;h1&gt;Nature des connaissances en sciences historiques &lt;/h1&gt;&lt;h2&gt;Domaine du patrimoine historique&lt;/h2&gt;&lt;h2&gt;Étude du contexte&lt;/h2&gt;&lt;h2&gt;Espace et temps&lt;/h2&gt;&lt;h2&gt;Événement&lt;/h2&gt;&lt;h1&gt;Modèles de connaissances dans le domaine du patrimoine historique&lt;/h1&gt;&lt;h2&gt;Ontologies&lt;/h2&gt;&lt;h2&gt;Alignement ontologique&lt;/h2&gt;&lt;h1&gt;Implémentation du modèle conceptuel&lt;/h1&gt;&lt;h1&gt;Deux exemples d’application&lt;/h1&gt;&lt;h2&gt;Simplicius&lt;/h2&gt;&lt;h3&gt;SDI&lt;/h3&gt;&lt;h3&gt;CIDOC-CRM&lt;/h3&gt;&lt;h3&gt;Architecture de Simplicius&lt;/h3&gt;&lt;h3&gt;Génération de l’ontologie de domaine&lt;/h3&gt;&lt;h3&gt;Exemple d’utilisation de Simplicius&lt;/h3&gt;&lt;h2&gt;Ricis&lt;/h2&gt;&lt;h3&gt;Architecture&lt;/h3&gt;&lt;h3&gt;Mapping TEI avec l’ontologie Dublin Core&lt;/h3&gt;&lt;h3&gt;Liens entre TEI et GeoNames&lt;/h3&gt;&lt;h1&gt;Conclusion&lt;/h1&gt;"/>
+    <link title="schema(PRISM)" rel="schema.prism" href="http://prismstandard.org/namespaces/basic/2.0/"/>
+    <meta name="prism.url" content="http://edt-journals.openedition.org/revuehn/510"/>
+    <meta name="prism.publicationName" content="Humanités numériques"/>
+    <meta name="prism.number" content="2"/>
+    <meta name="prism.issueName" content="Varia"/>
+    <meta name="prism.publicationDate" content="2020-06-01T00:00:00+02:00"/>
+    <meta name="prism.teaser" content="Introduction Le développement rapide des technologies (capacité de stockage, rapidité des traitements, rapidité des transferts), appuyé par des initiatives institutionnelles pour la numérisation du patrimoine dans le domaine des sciences humaines et sociales (numérisations massives et ouverture des données [Domange 2013]), a considérablement modifié les usages et notre approche de ce nouvel univers. Les sciences humaines et sociales utilisent de plus en plus les technologies numériques. Un pr..."/>
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:site" content="@OpenEditionActu" />
+    <meta property="og:url" content="http://edt-journals.openedition.org/revuehn/510" />
+    <meta property="og:title" content="Modélisation des connaissances et technologies du Web sémantique : ..." />
+    <meta property="og:description" content="Introduction Le développement rapide des technologies (capacité de stockage, rapidité des traitements, rapidité des transferts), appuyé par des initiatives institutionnelles pour la numérisation du..." />
+    <link rel="alternate" type="application/rss+xml" title="Humanités numériques, Numéros" href="backend?format=rssnumeros" />
+    <link rel="alternate" type="application/rss+xml" title="Humanités numériques, Documents" href="backend?format=rssdocuments" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/cleo.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/bibliographie.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/image.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./revue_hn_print_style_v1_6_5.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./revue_hn_print_style_v1_6_5.css" media="print">
+    <script src="paged.polyfill.js"></script>
+  </head>
+  <body id="article-510" class="textes article ltr">
+
+
+
+
+<script type="text/javascript" src="/share/js/interface.js"></script>
+
+<style type="text/css">
+@import url("/share/css/styles_desk.css");
+#lodel-desk{
+background-image: url("/share/images/bg_top.png");
+background-repeat: repeat-x;
+}
+#lodel-desk ul li a{
+background: #0096b7 url("/share/images/bg_li_group1.png") top left no-repeat;
+}
+#lodel-desk ul li a:hover{
+border:none;
+}
+#lodel-desk ul li.admin a{
+background: #0075ab url("/share/images/bg_li_admin_group1.png") top left no-repeat;
+}
+#lodel-desk ul li a.actif, #lodel-desk ul li a:hover{
+background: #e18600 url("/share/images/bg_li_group1_on.png") top left no-repeat;
+}
+#lodel-desk ul.group2 a#logout{
+background: transparent url("/share/images/bg_logout.png") top left no-repeat;
+}
+#lodel-desk ul.group2 a#clearcache, #lodel-desk ul.group2 a#recalcultpl{
+background: transparent url("/share/images/bg_clearcache.png") top left no-repeat;
+}
+#lodel-desk ul.group1 li.site a{
+width:100px;
+}
+ul.listEntities li ul li div.entityIcons{
+background-image: url("/share/images/tree.gif");
+background-position: 0 .5ex;
+background-repeat: no-repeat;
+}
+div.loggedUsers{
+padding-left:1em;
+font-size: 90%;
+padding-top:.2em;
+text-align:left;
+background-color:#E5E8E3;
+}
+
+div.loggedUsers span#loggedUsers {
+display:none;
+}
+div#lodelGlobalDeskDisplayer {
+text-align:middle;
+background-color:#E5E8E3;
+width:100%;
+}
+div#lodelGlobalDeskDisplayer a {
+display:block;
+}
+div#lodelGlobalDeskDisplayer a:hover {
+border:none;
+}
+img#lodelGlobalDeskDisplayer-img {
+border:none;
+margin:0 50%;
+}
+.selectred { background-color: red; }
+.selectorange { background-color: orange; }
+.selectgreen { background-color: green; }
+select#cache {
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #333333;
+font-family:"Courier New",Courier,mono;
+font-size:110%;
+}
+</style>
+<div id="lodel-globalDesk" style="display:block;">
+<div id="lodel-desk">
+<h1 id="lodel"><img src="/share/images/lodel.png" alt="Lodel, logiciel d'édition électronique"/></h1>
+<ul  class="group1">
+<li>
+<a href="lodel/edition/index.php" title="Édition">
+Édition</a>
+</li>
+
+<li>
+<a href="lodel/edition/index.php?page=dashboard_queue" title="Tableau de bord">
+Tableau de bord</a>
+</li>
+
+<li>
+<a href="lodel/edition/index.php?page=dashboard_statistics" title="Informations sur le site">Information</a>
+</li>
+
+
+
+
+<li>
+<a href="lodel/admin/index.php?do=list&amp;lo=entries&amp;idtype=241">Index</a>
+</li>
+
+<li class="site">
+<a class="actif" href="index.html"  title="Site">
+Site</a>
+</li>
+
+<li class="admin">
+<a href="lodel/admin/index.php" title="Administration">
+Administration</a>
+</li>
+<li>
+<a href="lodel/admin/index.php?do=list&amp;lo=internal_messaging" title="Messagerie interne">Messagerie interne</a>
+</li><li><a href="./?do=_checklist_view&amp;document=510" title="Checklist">Checklist</a></li>
+</ul>
+
+<ul class="group2">
+<li>
+<a href="lodel/admin/logout.php" id="logout" title="Déconnexion">Déconnexion</a>
+</li>
+<li>
+<a id="clearcache" class="inactif" title="Vider le cache">
+Vider le cache</a>
+</li>
+</ul>
+
+<ul id="deskContext">
+<li><a>&nbsp;</a></li>
+<li>
+<form id="lightSearchForm" action="http://edt-journals.openedition.org/revuehn/lodel/edition/search.html" method="get">
+<fieldset>
+<input class="text" type="text" name="query" value="Chercher" onfocus="if(this.value == 'Chercher')this.value=''"/>
+<input class="lightSearch" type="submit" name="submit_s" value="Ok" />
+</fieldset>
+</form></li>
+</ul>
+
+<table class="infos">
+
+
+
+
+
+<tr>
+<th>Site</th>
+<td>revuehn</td>
+</tr><tr>
+<th>Utilisateur</th>
+<td>berra <em>(
+Éditeur)</em>
+</td>
+</tr>
+</table>
+
+</div>
+
+<div id="siteContext">
+<ul class="entitiesPath">
+<li><a href="http://edt-journals.openedition.org/revuehn/lodel/edition/index.php">Racine</a></li>
+<li> &gt; <a href="http://edt-journals.openedition.org/revuehn/lodel/edition/index.php?id=263">Numéros</a> </li>
+<li> &gt; <a href="http://edt-journals.openedition.org/revuehn/lodel/edition/index.php?id=407">Varia</a> </li>
+<li class="this"> &gt; Modélisation des connaissances et technologies du ...</li>
+</ul>
+<ul id="actionsOnEntitiesPath">
+<li class="entitieTitle">
+<div class="entityIcons">
+<img class="statusIcon" src="/share/images/unpublished.gif" alt="Prêt à publier" title="Prêt à publier" />
+<img src="lodel/icons/texte.gif" alt=""  class="associatedIcon" />
+</div>
+<div class="entityTitle">
+Modélisation des connaissances et technologies du Web sémantique : deux applicat... <em>(article)</em>
+</div>
+
+</li>
+<li>
+<ul class="actions">
+<li>&nbsp;</li>
+<li><strong><span class="inactif">Voir</span></strong></li>
+<li><a href="http://edt-journals.openedition.org/revuehn/lodel/edition/index.php?do=view&amp;id=510">Éditer</a></li>
+<li>                   
+   
+    
+                   <a href="http://edt-journals.openedition.org/revuehn/lodel/edition/index.php?do=publish&amp;id=510&amp;status=1&amp;idparent=407">Publier</a>
+   </li>
+
+<li><span class="inactif">Supprimer</span></li>
+</ul>
+</li>
+</ul>
+<ul class="entitiesPath site">
+<li><a href="index.html">Racine</a></li>
+<li> &gt; <a href="263">Numéros</a> </li>
+<li> &gt; <a href="407">Varia</a> </li>
+<li class="this"> &gt; Modélisation des connaissances et technologies du ...</li>
+</ul>
+</div>
+</div>
+<div id="lodelGlobalDeskDisplayer">
+<a href="#" onclick="javascript:manageDesk('/share', 'Réduire le tableau de bord', 'Afficher le tableau de bord', 'revuehn', 'Erreur : votre navigateur ne supporte pas l\'objet XMLHTTPRequest.', 'Erreur pendant la sauvegarde du status du tableau de bord');return false;">
+<img src="/share/images/fleche_haut_gris.png" id="lodelGlobalDeskDisplayer-img" alt="Réduire le tableau de bord" title="Réduire le tableau de bord" />
+</a>
+</div>
+    <div id="lodel-container">
+      <div id="access"><a href="#nav">Navigation</a>&#160;&#8211; <a href="http://edt-journals.openedition.org/revuehn/?page=map">Plan du site</a></div><!-- #access -->
+      <div id="header">
+        <h1 id="siteName" class="ltr"><a title="Accueil" href="http://edt-journals.openedition.org/revuehn"><span>Humanités numériques</span><img src="custom/sitename.png" alt="Humanités numériques" /></a></h1>
+      </div><!-- #header -->
+      <div id="breadcrumb">
+        <div id="siteLang">
+          <ul>
+            <li><span class="selected">fr</span></li>
+            <li><a href="/revuehn/510?lang=en" title="English">en</a></li>
+          </ul>
+        </div>
+        <p id="crumbs"><a class="home" href="index.html">Accueil</a><span class="separator"> &#62; </span><a href="263">Numéros</a><span class="separator"> &#62; </span><a href="407">2</a><span class="separator"> &#62; </span><strong class="current">Modélisation des connaissances et...</strong></p>
+      </div><!-- #breadcrumb -->
+      <div id="outerWrapper">
+        <div id="wrapper">
+          <div id="toolbox">        
+            <form id="search" action="https://search.openedition.org/results" method="get">
+              <p>
+                <input type="text" id="q" name="q" value="Recherche" />
+                <button type="submit" title="Chercher">Chercher</button>
+              </p>
+            </form>
+          </div>
+          <div id="content">
+            <div id="main">
+              <div class="navEntities top"><a rev="contents" class="goContents" href="407" title="2 | 2020  Varia">Sommaire</a><span class="separator"> - </span><a rev="prev" class="goPrev" href="462" title="Terminologie et ontologie pour les humanités numériques : le cas des vêtements de la Grèce antique">Document précédent</a><span class="separator"> - </span><a rel="next" class="goNext" href="471" title="Une chaîne d’extraction pour l’enrichissement de bases de données archéologiques">Document suivant</a></div><!-- .navEntities top -->
+              <div id="docHeader">
+                <div id="docTopParent" class="numero parent-1"><a href="407"><span class="number">2<span class="period">&nbsp;|&nbsp;2020</span></span><br /><span class="title" dir="ltr">Varia</span></a></div>
+                <h1 id="docTitle" class="directionltr"><span class="text">Modélisation des connaissances et technologies du Web sémantique : deux applications au patrimoine culturel</span></h1>
+                <div id="docAltertitle" class="directionltr">
+                  <div lang="en"><span xml:lang="en" lang="en"><span xml:lang="en" lang="en">Knowledge Modelling and Semantic Web Technologies: Two Applications to Cultural Heritage</span></span></div>
+                </div>
+                <div id="docContributors">
+                  <div id="docAuthor"> <strong>Stefan <span class="familyName">du Château</span>, Eunika <span class="familyName">Mercier-Laurent</span>, Laurent <span class="familyName">Bricault</span> et Danielle <span class="familyName">Boulanger</span></strong></div>
+                </div>
+              </div><!-- #docHeader -->
+              <div id="docBody">
+                <div id="shortcuts"><a href="#abstract">Résumé</a>&nbsp;| <a href="#entries">Index</a>&nbsp;| <a href="#toc">Plan</a>&nbsp;| <a href="#text">Texte</a>&nbsp;| <a href="#bibliography">Bibliographie</a>&nbsp;| <a href="#notes">Notes</a>&nbsp;| <a href="#quotation">Citation</a>&nbsp;| <a href="#authors">Auteurs</a></div>
+                <div id="abstract" class="section">
+                  <h2 class="section"><span class="text">Résumés</span></h2>      
+                  <div class="tabMenu"><a href="#abstract-510-fr" hreflang="fr" class="active">Français</a>&#32;<a href="#abstract-510-en" hreflang="en">English</a>&#32;</div>
+                  <div id="abstract-510-fr" class="tabContent ltr" lang="fr" xml:lang="fr">
+                    <p class="resume">Cet article souligne l’importance de l’approche « gestion des connaissances » dans la numérisation du patrimoine culturel. Nous présentons un système hybride pour l’automatisation du cycle de collecte et de stockage d’informations et de connaissances pour les recherches futures. Ce système composé de plusieurs modules permet le recueil d’informations à partir d’un dictaphone en respectant un système descriptif défini, la transcription automatique de l’oral vers le texte, l’analyse linguistique, l’extraction d’informations et, enfin, le peuplement semi-automatique d’une ontologie de domaine selon un modèle conceptuel prédéfini. L’utilisation d’une extension ontologique est également présentée dans une application basée sur une architecture XML pour valoriser le patrimoine culturel dans le domaine de l’épigraphie grecque et latine.</p>
+                  </div>
+                  <div id="abstract-510-en" class="tabContent hidden ltr" lang="en" xml:lang="en">
+                    <p class="resume"><span xml:lang="en" lang="en">This article highlights the importance of a knowledge management approach for the digitization of cultural heritage. </span><span xml:lang="en" lang="en">We present </span><span xml:lang="en" lang="en">a hybrid system automatizing the cycle of information and knowledge collecting and storing for future research. This system is composed of several modules, and enables to gather information from a dictaphone according to a specified descriptive system, automatically transcribe oral information, perform linguistic analysis and information extraction, as well as semi-automatically populate a domain ontology in accordance with a predefined conceptual model. The use of an ontological extension is also presented, through an application based on an XML architecture to valorize cultural heritage in the field of Greek and Latin epigraphy.</span></p>
+                  </div><a class="go-top" href="#article-510">Haut de page</a></div><!-- #abstract -->
+                <div id="entries" class="section">
+                  <h2 class="section"><span class="text">Entrées d’index</span></h2>
+                  <div class="index ltr">
+                    <h3>Mots-clés:&#32;</h3><a href="519">modélisation des connaissances</a>, <a href="520">web sémantique</a>, <a href="521">patrimoine culturel</a>, <a href="522">ontologies</a>, <a href="455">XML-TEI</a></div>
+                  <div class="index ltr">
+                    <h3>Keywords:&#32;</h3><a href="523">knowledge management</a>, <a href="432">semantic Web</a>, <a href="524">cultural heritage</a>, <a href="468">ontology</a>, <a href="460">XML-TEI</a></div><a class="go-top" href="#article-510">Haut de page</a></div><!-- #entries -->
+                <div id="toc" class="section">
+                  <h2 class="section directionltr"><span class="text">Plan</span></h2>
+                  <div class="tocSection1"><a href="#tocto1n1" id="tocfrom1n1">Introduction</a></div>
+                  <div class="tocSection1"><a href="#tocto1n2" id="tocfrom1n2">État de l’art</a></div>
+                  <div class="tocSection1"><a href="#tocto1n3" id="tocfrom1n3">Méthode</a></div>
+                  <div class="tocSection1"><a href="#tocto1n4" id="tocfrom1n4">Nature des connaissances en sciences historiques </a></div>
+                  <div class="tocSection2"><a href="#tocto2n1" id="tocfrom2n1">Domaine du patrimoine historique</a></div>
+                  <div class="tocSection2"><a href="#tocto2n2" id="tocfrom2n2">Étude du contexte</a></div>
+                  <div class="tocSection2"><a href="#tocto2n3" id="tocfrom2n3">Espace et temps</a></div>
+                  <div class="tocSection2"><a href="#tocto2n4" id="tocfrom2n4">Événement</a></div>
+                  <div class="tocSection1"><a href="#tocto1n5" id="tocfrom1n5">Modèles de connaissances dans le domaine du patrimoine historique</a></div>
+                  <div class="tocSection2"><a href="#tocto2n5" id="tocfrom2n5">Ontologies</a></div>
+                  <div class="tocSection2"><a href="#tocto2n6" id="tocfrom2n6">Alignement ontologique</a></div>
+                  <div class="tocSection1"><a href="#tocto1n6" id="tocfrom1n6">Implémentation du modèle conceptuel</a></div>
+                  <div class="tocSection1"><a href="#tocto1n7" id="tocfrom1n7">Deux exemples d’application</a></div>
+                  <div class="tocSection2"><a href="#tocto2n7" id="tocfrom2n7">Simplicius</a></div>
+                  <div class="tocSection3"><a href="#tocto3n1" id="tocfrom3n1">SDI</a></div>
+                  <div class="tocSection3"><a href="#tocto3n2" id="tocfrom3n2">CIDOC-CRM</a></div>
+                  <div class="tocSection3"><a href="#tocto3n3" id="tocfrom3n3">Architecture de Simplicius</a></div>
+                  <div class="tocSection3"><a href="#tocto3n4" id="tocfrom3n4">Génération de l’ontologie de domaine</a></div>
+                  <div class="tocSection3"><a href="#tocto3n5" id="tocfrom3n5">Exemple d’utilisation de Simplicius</a></div>
+                  <div class="tocSection2"><a href="#tocto2n8" id="tocfrom2n8">Ricis</a></div>
+                  <div class="tocSection3"><a href="#tocto3n6" id="tocfrom3n6">Architecture</a></div>
+                  <div class="tocSection3"><a href="#tocto3n7" id="tocfrom3n7">Mapping TEI avec l’ontologie Dublin Core</a></div>
+                  <div class="tocSection3"><a href="#tocto3n8" id="tocfrom3n8">Liens entre TEI et GeoNames</a></div>
+                  <div class="tocSection1"><a href="#tocto1n8" id="tocfrom1n8">Conclusion</a></div><a class="go-top" href="#article-510">Haut de page</a></div><!-- #toc -->
+                <div id="text" class="section ltr">
+                  <h2 class="section"><span class="text">Texte intégral</span></h2>
+                  <div id="widgets" class="withTextSize"><a id="wSend" href="mailto:?subject=Mod%C3%A9lisation%20des%20connaissances%20et%20technologies%20du%20Web%20s%C3%A9mantique%C2%A0%3A%20deux%20applications%20au%20patrimoine%20culturel&amp;body=Mod%C3%A9lisation%20des%20connaissances%20et%20technologies%20du%20Web%20s%C3%A9mantique%C2%A0%3A%20deux%20applications%20au%20patrimoine%20culturel%20%0AHumanit%C3%A9s%20num%C3%A9riques%20%0Ahttp%3A%2F%2Fedt-journals.openedition.org%2Frevuehn%2F510%20%0A%0ACet%20article%20souligne%20l%E2%80%99importance%20de%20l%E2%80%99approche%20%C2%AB%C2%A0gestion%20des%20connaissances%C2%A0%C2%BB%20dans%20la%20num%C3%A9risation%20du%20patrimoine%20culturel.%20Nous%20pr%C3%A9sentons%20un%20syst%C3%A8me%20hybride%20pour%20l%E2%80%99automatisation%20du%20cycle%20de%20collecte%20et%20de%20stockage%20d%E2%80%99informations%20et%20de%20connaissances%20pour%20les%20recherches%20futures.%20Ce%20syst%C3%A8me%20compos%C3%A9%20de%20plusieurs%20modules%20permet%20le%20recueil%20d%E2%80%99informations%20%C3%A0%20partir%20d%E2%80%99un%20dictaphone%20en%20respectant%20un%20syst%C3%A8me%20descriptif%20d%C3%A9fini%2C%20la%20transcription%20automatique%20de%20l%E2%80%99oral%20vers%20le%20texte%2C%20l%E2%80%99analyse%20linguistiqu...%20%0A%0AStefan%20du%C2%A0Ch%C3%A2teau%2C%20Eunika%20Mercier-Laurent%2C%20Laurent%20Bricault%20et%20Danielle%20Boulanger%2C%20%C2%AB%20Mod%C3%A9lisation%20des%20connaissances%20et%20technologies%20du%20Web%20s%C3%A9mantique%C2%A0%3A%20deux%20applications%20au%20patrimoine%20culturel%20%C2%BB%2C%20%20Humanit%C3%A9s%20num%C3%A9riques%20%5BEn%20ligne%5D%2C%202%20%7C%202020%2C%20mis%20en%20ligne%20le%2001%20juin%202020%2C%20consult%C3%A9%20le%2017%20juin%202020.%20URL%20%3A%20http%3A%2F%2Fedt-journals.openedition.org%2Frevuehn%2F510%20%0A%0A" title="Signaler ce document">Signaler ce document</a></div><!-- #widgets -->
+                  <div class="text wResizable ">
+                    <h1 class="texte"><a href="#tocfrom1n1" id="tocto1n1">Introduction</a></h1>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">1</span> <a href="http://www.horizon2020.gouv.fr/cid74427/horizon-2020-clic.html">http://www.horizon2020.gouv.fr/cid74427/horizon-2020-clic.html</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">1</span>Le développement rapide des technologies (capacité de stockage, rapidité des traitements, rapidité des transferts), appuyé par des initiatives institutionnelles pour la numérisation du patrimoine dans le domaine des sciences humaines et sociales (numérisations massives et ouverture des données [Domange 2013]), a considérablement modifié les usages et notre approche de ce nouvel univers. Les sciences humaines et sociales utilisent de plus en plus les technologies numériques. Un programme de financement de la recherche et de l’innovation de l’Union européenne pour la période 2014-2020<a class="footnotecall" id="bodyftn1" href="#ftn1">1</a>, nommé « Horizon 2020 », a été en partie consacré aux nouvelles technologies et aux sciences humaines et sociales.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">2</span>Une dynamique s’est installée entre ces technologies et les usagers ; de nouvelles propositions d’usages venant des utilisateurs amènent des évolutions et incitent à la création de nouveaux dispositifs numériques qui, à leur tour, fécondent l’imaginaire et créent de nouveaux besoins. Cette interconnexion entre les sciences humaines et sociales et les technologies numériques porte désormais le nom d’« humanités numériques » (Dacos et Mounier 2014).</p>
+                    <p class="texte"><span class="paranumber">3</span>À côté de pratiques et réalisations traditionnelles, telles que la description d’œuvres à l’aide de fiches et de mots-clés inscrits dans des bases de données relationnelles, de nouvelles tendances – numérisation massive des collections, mise en réseau de bases existantes, création de portails thématiques, génération d’atlas numériques géolocalisés, développement de modèles 3D – produisent une grande quantité de données. Face à cette masse considérable de données, d’informations et de connaissances offertes à l’homme ou créées par lui, la logique « papier » et les bases de données relationnelles sont désormais totalement insuffisantes. Une autre logique s’impose – celle qui appréhende comment les utilisateurs vont pouvoir ou vouloir exploiter cette richesse, sans en connaître nécessairement le contenu. Le paradigme à mettre en place est celui du Web sémantique, un monde ouvert, qui par opposition au monde fermé des bases de données traditionnelles, permet l’exploration intelligente des données, des interconnexions sans interventions humaines, des inférences.</p>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">2</span> <a href="https://www.w3.org/standards/techs/skos#w3c_all">https://www.w3.org/standards/techs/skos#w3c_all</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">4</span>Les initiatives visant la numérisation du patrimoine culturel dans un souci de partage et d’interconnexion intelligente des données sont de plus en plus nombreuses. Nous pouvons mentionner dans ce contexte la création et l’utilisation d’ontologies appliquées aux œuvres du patrimoine culturel. Il est important de souligner, dans ces réalisations, l’utilisation à différents niveaux des technologies du Web sémantique : OWL, RDF, RDF(S), SPARQL, ou encore vocabulaires au format SKOS<a class="footnotecall" id="bodyftn2" href="#ftn2">2</a>.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">5</span>Dans la suite de cet article, nous développerons les problématiques de gestion des connaissances dans le domaine du patrimoine culturel, d’utilisation des ontologies et de l’alignement ontologique.</p>
+                    <p class="texte"><span class="paranumber">6</span>Après un état de l’art (partie 2), nous présenterons la méthode que nous avons utilisée (partie 3), suivie de la nature des connaissances dans le domaine du patrimoine culturel (partie 4), et enfin nous évoquerons l’utilisation des ontologies et de l’alignement ontologique (partie 5).</p>
+                    <p class="texte"><span class="paranumber">7</span>Ces propos seront illustrés par deux exemples de réalisations :</p>
+                    <ul class="texte">
+                      <li>
+                        <p class="texte">Simplicius, une application qui permet de gérer le cycle complet de la gestion des connaissances (recueil, traitement, utilisation) en patrimoine culturel. C’est un système hybride qui s’appuie à la fois sur les techniques de traitement du signal, le traitement du langage naturel et la modélisation des connaissances.</p>
+                      </li>
+                      <li>
+                        <p class="texte">Ricis, une application de valorisation des connaissances dans le domaine de l’épigraphie grecque et latine. Elle illustrera un cas particulièrement signifiant d’alignement ontologique.</p>
+                      </li>
+                    </ul>
+                    <h1 class="texte"><a href="#tocfrom1n2" id="tocto1n2">État de l’art</a></h1>
+                    <p class="texte"><span class="paranumber">8</span>Depuis plus de cinquante ans, les chercheurs en intelligence artificielle ont proposé et expérimenté diverses méthodes et techniques pour traiter des connaissances. Des techniques de modélisation des connaissances ont démontré leur utilité en particulier dans le contexte des inférences.</p>
+                    <p class="texte"><span class="paranumber">9</span>La modélisation des connaissances est une tâche difficile, voire impossible avec des systèmes d’information traditionnels comme les bases de données relationnelles, dont le schéma et les structures de données sont déterminés par les besoins d’une application particulière. Le modèle reste trop souvent hermétique, rigide et difficile à faire évoluer. Les technologies en question peuvent être efficaces pour rechercher l’information, à condition d’utiliser les descripteurs qui ont servi pour indexer cette information. Il est donc préférable de connaître le contenu de la base avant de l’interroger. Dans le contexte du World Wide Web, ces applications posent le problème de l’interopérabilité et de leur visibilité par des moteurs d’indexation (Bergman 2001). L’utilisation de modèles plus souples, ouverts et interopérables tels que les ontologies sont une réponse aux insuffisances des systèmes du type base de données relationnelles.</p>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">3</span> <a href="http://www.cidoc-crm.org/">http://www.cidoc-crm.org/</a>.</li>
+                        <li><span class="num">4</span> <a href="https://www.w3.org/2004/02/skos/">https://www.w3.org/2004/02/skos/</a>.</li>
+                        <li><span class="num">5</span> <a href="http://www.geonames.org/">http://www.geonames.org/</a>.</li>
+                        <li><span class="num">6</span> <a href="http://dublincore.org/">http://dublincore.org/</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">10</span>Les principales contributions dans le domaine de la modélisation des connaissances pour le patrimoine culturel et correspondant à nos besoins sont le modèle conceptuel CIDOC-CRM<a class="footnotecall" id="bodyftn3" href="#ftn3">3</a> (Crofts <em>et al.</em> 2010), SKOS (Simple Knowledge Organization System<a class="footnotecall" id="bodyftn4" href="#ftn4">4</a>), GeoNames (GN<a class="footnotecall" id="bodyftn5" href="#ftn5">5</a>) et Dublin Core<a class="footnotecall" id="bodyftn6" href="#ftn6">6</a>.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">11</span>CIDOC-CRM est un modèle conceptuel qui propose un ensemble de classes, de propriétés et de relations qui couvrent toutes les informations requises pour la documentation scientifique du patrimoine culturel.</p>
+                    <blockquote>
+                      <p class="citation">Le domaine couvert par le CRM peut se définir comme l’ensemble des informations requises pour la documentation scientifique des fonds de patrimoine culturel, afin de permettre à grande échelle l’échange d’informations et l’intégration de ressources hétérogènes (Crofts <em>et al.</em> 2002 ; traduction des auteurs).</p>
+                    </blockquote>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">7</span> <a href="https://fr.wikipedia.org/wiki/Simple_Knowledge_Organization_System">https://fr.wikipedia.org/wiki/Simple_Knowledge_Organization_System</a>.</li>
+                        <li><span class="num">8</span> <a href="https://fr.wikipedia.org/wiki/Dublin_Core">https://fr.wikipedia.org/wiki/Dublin_Core</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">12</span>SKOS est un outil « pour représenter des thésaurus, classifications ou d’autres types de vocabulaires contrôlés ou de langues documentaires. S’appuyant sur le modèle de données RDF, son objectif principal est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web sémantique<a class="footnotecall" id="bodyftn7" href="#ftn7">7</a> ». GeoNames est une base de données géographiques contenant plus de 7,5 millions de lieux géographiques. Les données de la base sont accessibles gratuitement via Internet, sous une licence Creative Commons. Chaque caractéristique d’un lieu est référencée dans GeoNames en tant que ressource Web et est identifiée par une URI qui offre l’accès à l’ontologie GeoNames au format RDF. Le Dublin Core est un ensemble de quinze propriétés à utiliser dans la description des ressources. Dublin Core a été développé « pour permettre une interopérabilité minimale entre des systèmes conçus indépendamment les uns des autres<a class="footnotecall" id="bodyftn8" href="#ftn8">8</a> ».</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">13</span>L’intérêt pour la numérisation du patrimoine culturel, les avancées des technologies de management et la volonté d’ouverture et de partage des connaissances se sont traduits par la réalisation d’un certain nombre de projets qui visent l’interopérabilité et l’accès intelligent aux ressources culturelles numériques. Nous pouvons citer ici plusieurs programmes :</p>
+                    <ul class="texte">
+                      <li>
+                        <div class="textandnotes">
+                          <ul class="sidenotes">
+                            <li><span class="num">9</span> <a href="http://www.cs.vu.nl/STITCH/">http://www.cs.vu.nl/STITCH/</a>.</li>
+                          </ul>
+                          <p class="texte">STITCH<a class="footnotecall" id="bodyftn9" href="#ftn9">9</a> permet l’interconnexion des collections des enluminures de la Bibliothèque royale des Pays-Bas avec celles de la Bibliothèque nationale de France.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="textandnotes">
+                          <ul class="sidenotes">
+                            <li><span class="num">10</span> <a href="http://pro.europeana.eu/">http://pro.europeana.eu/</a>.</li>
+                          </ul>
+                          <p class="texte">Europeana<a class="footnotecall" id="bodyftn10" href="#ftn10">10</a> regroupe de très nombreuses institutions européennes afin de fournir un large catalogue de recherche des données du patrimoine culturel.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="textandnotes">
+                          <ul class="sidenotes">
+                            <li><span class="num">11</span> En 2016, TelPlus a intégré le portail Europeana.</li>
+                            <li><span class="num">12</span> <a href="http://rameau.bnf.fr/">http://rameau.bnf.fr/</a>.</li>
+                          </ul>
+                          <p class="texte">TelPlus<a class="footnotecall" id="bodyftn11" href="#ftn11">11</a> offre un accès aux ressources de 47 bibliothèques nationales d’Europe ; il est à noter que dans le cadre de ce dernier projet, le répertoire d’autorité-matière encyclopédique et alphabétique unifié RAMEAU<a class="footnotecall" id="bodyftn12" href="#ftn12">12</a> a été traduit en format RDF-SKOS.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="textandnotes">
+                          <ul class="sidenotes">
+                            <li><span class="num">13</span> <a href="http://data.bnf.fr/semanticweb">http://data.bnf.fr/semanticweb</a>.</li>
+                          </ul>
+                          <p class="texte">Plus récemment, le projet data.bnf.fr<a class="footnotecall" id="bodyftn13" href="#ftn13">13</a> a pour ambition de fédérer les données de différents catalogues de la Bibliothèque nationale de France, ainsi que certaines ressources disponibles sur le Web.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <p class="texte">Loebbecke et Thaller (2005) décrivent les initiatives européennes visant à créer des systèmes coopératifs pour la gestion du patrimoine culturel et introduisent les « Digital Autonomous Cultural Objects », une architecture pour accéder à des ressources numérisées.</p>
+                      </li>
+                      <li>
+                        <p class="texte">Carugati <em>et al.</em> (2005) proposent un cadre pour le développement de sites Web dans le domaine du patrimoine culturel.</p>
+                      </li>
+                    </ul>
+                    <p class="texte"><span class="paranumber">14</span>Depuis l’origine de l’intelligence artificielle, de nombreux chercheurs ont travaillé sur diverses méthodes d’acquisition et de modélisation des connaissances, sur l’analyse linguistique, sur les problématiques du traitement du signal et de compréhension de la parole. À notre connaissance, il n’existe pas de travaux qui intègrent l’utilisation du traitement du signal dans le cycle complet de gestion des connaissances.</p>
+                    <p class="texte"><span class="paranumber">15</span>Le premier ordinateur personnel doté d’une interface vocale était Star of Xerox (Baecker <em>et al</em>. 1995). Le poste de travail similaire appelé « Buroviseur », construit à l’INRIA en 1981 (Ellis et Naffah 1987 ; Mercier-Laurent 2011), était sans doute le premier en Europe offrant également une interface vocale. L’interface vocale a été expérimentée pour l’acquisition de connaissances dans les systèmes experts (Balaram 1988) et pour le dialogue homme-machine dans les systèmes d’apprentissage machine (Kaufman et Michalski 1986).</p>
+                    <p class="texte"><span class="paranumber">16</span>Les technologies de traitement du langage sont maintenant matures et leur qualité est suffisante pour les applications fonctionnant avec un vocabulaire étendu d’environ 60 000 mots (Haton <em>et al.</em> 2006). Cependant, la qualité des enregistrements dépend de l’environnement acoustique (silencieux ou bruyant), de la qualité de l’appareil de dictée et d’enregistrement ainsi que de la technologie appliquée.</p>
+                    <p class="texte"><span class="paranumber">17</span>L’interface conversationnelle développée au laboratoire Heudiasyc (Paraiso et Barthès 2004) illustre le dialogue entre l’homme et un agent assistant cognitif dont le rôle est d’exécuter des tâches plus ou moins complexes commandées oralement par l’utilisateur. Ce système utilise des ontologies pour délimiter et définir précisément le domaine d’application et limiter par la même occasion l’espace de dialogue. Les ontologies ont été utilisées également pour aider à l’interprétation des énoncés et comme aide aux raisonnements.</p>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">14</span> <a href="https://www.ibm.com/power/solutions/cognitive-computing">https://www.ibm.com/power/solutions/cognitive-computing</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">18</span>Basé sur les algorithmes d’« apprentissage automatique », le système cognitif Watson<a class="footnotecall" id="bodyftn14" href="#ftn14">14</a>, conçu par des chercheurs d’IBM, est capable de comprendre les données, de communiquer avec les utilisateurs et de répondre aux questions posées en langage naturel.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">19</span>Aujourd’hui, l’interface vocale est très couramment utilisée, grâce la démocratisation des smartphones, et cela non seulement comme une interface de dictée mais également dans les applications de type dialogue homme-machine.</p>
+                    <h1 class="texte"><a href="#tocfrom1n3" id="tocto1n3">Méthode</a></h1>
+                    <p class="texte"><span class="paranumber">20</span>Pour concevoir notre système, nous nous inspirons de la méthode proposée par Amidon (2001), et élargie par Mercier-Laurent (2007), qui est une approche globale, systémique et holistique de la résolution des problèmes.</p>
+                    <p class="texte"><span class="paranumber">21</span>Globale, car les informations et les connaissances qui se dégagent d’un objet du patrimoine culturel dans un contexte particulier ne peuvent être comprises qu’à travers les connaissances accumulées par un chercheur et les connaissances des autres sciences mises à sa disposition.</p>
+                    <p class="texte"><span class="paranumber">22</span>Systémique, car l’entreprise (ou organisation) étendue est un ensemble de systèmes communicants qui exercent une influence les uns sur les autres.</p>
+                    <p class="texte"><span class="paranumber">23</span>Holistique, car la même approche s’applique aussi bien à un individu qui doit cultiver les attitudes du <em>knowledge management</em> qu’à une organisation, quelle que soit sa taille.</p>
+                    <p class="texte"><span class="paranumber">24</span>C’est une approche qui nous paraît mieux adaptée à la création de systèmes à base de connaissances, précisément parce qu’elle s’intéresse aux flux des connaissances engendrées par les individus et les systèmes communicants à différents niveaux.</p>
+                    <p class="texte"><span class="paranumber">25</span>Dans le processus de résolution d’un problème, la méthode proposée par Amidon (2001) et Mercier-Laurent (2007), préconise le respect des points suivants :</p>
+                    <ul class="texte">
+                      <li>
+                        <p class="texte">Comprendre le problème dans son contexte</p>
+                      </li>
+                      <li>
+                        <p class="texte">Comprendre la nature des connaissances en jeu, en vue d’une modélisation et d’une généralisation pour une réutilisation future</p>
+                      </li>
+                      <li>
+                        <p class="texte">Associer des utilisateurs à la démarche dès le début du projet (innovation avec le « client »)</p>
+                      </li>
+                      <li>
+                        <p class="texte">Découvrir les besoins en travaillant avec l’utilisateur (ou en l’observant), anticiper en proposant des fonctionnalités offertes par les techniques, en faire valider l’utilité par l’utilisateur</p>
+                      </li>
+                      <li>
+                        <p class="texte">Choisir des modèles et des outils adéquats</p>
+                      </li>
+                      <li>
+                        <p class="texte">Construire (ensemble) des modèles réutilisables</p>
+                      </li>
+                      <li>
+                        <p class="texte">Implémenter la connaissance modélisée dans l’ordinateur </p>
+                      </li>
+                      <li>
+                        <p class="texte">Construire et valider le système (interactions homme-machine [IHM], techniques, hybridation)</p>
+                      </li>
+                      <li>
+                        <p class="texte">Apprendre, enrichir, partager (collectif), intégrer le retour d’expérience</p>
+                      </li>
+                      <li>
+                        <p class="texte">Valoriser les personnes qui partagent leurs connaissances</p>
+                      </li>
+                    </ul>
+                    <h1 class="texte"><a href="#tocfrom1n4" id="tocto1n4">Nature des connaissances en sciences historiques </a></h1>
+                    <p class="texte"><span class="paranumber">26</span>Le problème récurrent en ingénierie des connaissances est l’efficacité du recueil des informations et des connaissances auprès de sources reconnues comme fiables d’un point de vue scientifique – c’est-à-dire des experts humains, des corpus textuels ou des applications informatiques (bases de données) qui couvrent les connaissances d’un domaine. Différentes méthodes de recueil peuvent être utilisées, en fonction de la situation donnée, des traitements prévus et des résultats escomptés.</p>
+                    <p class="texte"><span class="paranumber">27</span>Dans le domaine des sciences humaines et en particulier des sciences historiques, on considère que la connaissance est toujours guidée par un certain sens que l’on prête préalablement à l’objet étudié. L’étude historique est conditionnée par la production antérieure de la connaissance : « une circularité logique s’engage dans laquelle les sciences humaines produisent la connaissance à partir d’un sens préalable et en même temps interprètent le sens à partir de la connaissance » (Brogowski 1997). L’étude des sources primaires (Benjamin 2004) – archives, registres paroissiaux, photothèques, glyptothèques, médailliers… – et secondaires (Benjamin 2004) – littérature du domaine, cartographie… – produites par les chercheurs du domaine a un apport primordial dans l’évolution de la connaissance en sciences historiques.</p>
+                    <h2 class="texte"><a href="#tocfrom2n1" id="tocto2n1">Domaine du patrimoine historique</a></h2>
+                    <p class="texte"><span class="paranumber">28</span>Intuitivement, nous pouvons affirmer que la connaissance dans le domaine du patrimoine historique est :</p>
+                    <ul class="texte">
+                      <li>
+                        <p class="texte">incrémentale, parce qu’elle s’appuie sur les connaissances déjà acquises pour évoluer</p>
+                      </li>
+                      <li>
+                        <p class="texte">dépendante du contexte, parce que la création et l’existence d’un objet du patrimoine culturel sont rarement le fruit du hasard ; de même, son emplacement dans un lieu est souvent le fruit d’une intention et l’étude du contexte permet de comprendre l’histoire de l’objet : on pourra même parler de biographie culturelle de l’objet (Kopytoff 1986)</p>
+                      </li>
+                      <li>
+                        <p class="texte">pluridisciplinaire, parce que l’étude matérielle et immatérielle de l’objet nécessite l’apport des autres sciences</p>
+                      </li>
+                    </ul>
+                    <h2 class="texte"><a href="#tocfrom2n2" id="tocto2n2">Étude du contexte</a></h2>
+                    <p class="texte"><span class="paranumber">29</span>La perception de sens qui émane d’un objet historique dépend aussi bien du contexte de l’objet étudié que des connaissances déjà acquises. L’interprétation des données et des informations sur un objet étudié est fortement influencée par l’étude de son contexte, interne et externe ; elle est primordiale dans nombre de domaines patrimoniaux (archéologie, épigraphie, archives…) où l’interprétation des informations et donc la constitution des connaissances ne peuvent véritablement s’opérer hors contexte.</p>
+                    <p class="texte"><span class="paranumber">30</span>Pour consolider les connaissances sur un artefact, il faut pouvoir créer un va-et-vient permanent entre les connaissances liées au contexte, celles associées à d’autres objets trouvés dans le même contexte, les informations sur l’objet étudié ainsi que sur la mise en série des objets.</p>
+                    <h2 class="texte"><a href="#tocfrom2n3" id="tocto2n3">Espace et temps</a></h2>
+                    <p class="texte"><span class="paranumber">31</span>Les notions sous-jacentes au contexte, qui le définissent voire se confondent avec lui, sont le temps et l’espace. L’étude du contexte spatio-temporel constitue le point de référence pour toute analyse historique.</p>
+                    <p class="texte"><span class="paranumber">32</span>Le temps, dans les domaines des sciences historiques, prend une dimension particulière. Notre passé, et donc l’histoire, sont mesurables grâce une notion de temps élargie. Outre la datation exacte, il peut exprimer la chronologie, les notions de période, de début et de fin, de proximité temporelle, les intervalles temporels (mots-clés « avant », « touche », « recouvre », « débute », « pendant », « termine », « égale » , etc.).</p>
+                    <p class="texte"><span class="paranumber">33</span>Les relations géospatiales, telles que la topologie, les directions, la distance, permettent de situer un objet par rapport à des points de référence, par rapport à d’autres objets.</p>
+                    <h2 class="texte"><a href="#tocfrom2n4" id="tocto2n4">Événement</a></h2>
+                    <p class="texte"><span class="paranumber">34</span>L’existence d’une œuvre du patrimoine est ponctuée par des événements de création, de restauration, d’appropriation, de modification, de déplacement, de destruction, de resémantisation. Ces événements sont en forte corrélation avec l’espace, le temps et les acteurs ; ainsi l’événement de création a eu lieu à un moment donné, dans un lieu donné, et a été accompli par un créateur.</p>
+                    <p class="texte"><span class="paranumber">35</span>L’anthropologie historique a élargi notre regard, en nous invitant à davantage tenir compte de la matérialité des objets et de leur environnement, des contextes successifs dans lesquels ils évoluent. De ce point de vue « émique » cherchant à analyser les médias figurés de « l’intérieur », de nouvelles questions surgissent. Comment l’objet a-t-il été élaboré ? Selon quels choix figuratifs, intellectuels, utilitaires ? Pour répondre à quelles intentions ? Pour exprimer quel message ? Où était-il destiné à être exposé ? Comment a-t-il été perçu, comment a-t-il agi dans cet environnement ? À quelle fonction, à quelle pratique concrète a-t-il répondu ? Autant de questions historiques dont la réponse dépend des circonstances, des milieux dans lesquels le monument ou l’objet a évolué, et donc naturellement des acteurs qui l’ont commandité, fabriqué, utilisé ou observé, bref de son réseau socioculturel, jusqu’à ce que le chercheur en sciences humaines transforme l’objet en document.</p>
+                    <h1 class="texte"><a href="#tocfrom1n5" id="tocto1n5">Modèles de connaissances dans le domaine du patrimoine historique</a></h1>
+                    <p class="texte"><span class="paranumber">36</span>Un modèle est une abstraction permettant de rendre plus visibles certains aspects du « monde ». Il est nécessairement réducteur au sens où il est adapté à la résolution de tâches bien spécifiques, dans le cadre d’un domaine particulier.</p>
+                    <p class="texte"><span class="paranumber">37</span>L’élaboration d’un modèle doit se faire généralement en collaboration étroite avec les experts du domaine. Il doit également tenir compte de l’existant numérique « traditionnel », par exemple sous forme de bases de données, accessibles uniquement à travers l’interrogation par des mots-clés.</p>
+                    <p class="texte"><span class="paranumber">38</span>Nous sommes donc en présence de flux de connaissances dont la maîtrise rend indispensable la prise en compte :</p>
+                    <ul class="texte">
+                      <li>
+                        <p class="texte">des individus (chercheurs) avec leurs connaissances et leurs expériences</p>
+                      </li>
+                      <li>
+                        <p class="texte">des connaissances des disciplines connexes</p>
+                      </li>
+                      <li>
+                        <p class="texte">de l’existant (le système descriptif, les bases de données, les lexiques…)</p>
+                      </li>
+                      <li>
+                        <p class="texte">des modèles</p>
+                      </li>
+                      <li>
+                        <p class="texte">des interactions qui peuvent exister entre ces différents éléments</p>
+                      </li>
+                    </ul>
+                    <p class="texte"><span class="paranumber">39</span>La nature de la connaissance – son évolutivité, son caractère incrémental, sa forte dépendance au contexte, son hétérogénéité – rend indispensable l’utilisation de modèles souples, ouverts et interopérables, répondant aux principes logiques de l’Open World Assumption (« hypothèse du monde ouvert »), selon lesquels les connaissances à représenter peuvent ne pas être entièrement connues, pourront être complétées, ou pour certaines, être déduites des assertions existantes.</p>
+                    <p class="texte"><span class="paranumber">40</span>L’indépendance vis-à-vis du modèle applicatif ainsi que l’atomicité des concepts favorisent l’utilisation des ontologies dans un contexte évolutif et facilitent l’interopérabilité.</p>
+                    <h2 class="texte"><a href="#tocfrom2n5" id="tocto2n5">Ontologies</a></h2>
+                    <p class="texte"><span class="paranumber">41</span>Une ontologie est un ensemble de classes d’objets avec leurs propriétés, lesquelles incluent des attributs (chaîne de caractères, dates, numéros) et des relations (avec d’autres ressources identifiées par des International Resource Identifiers [IRI]), définis à l’aide d’un langage formel par un ensemble d’acteurs et pour un domaine spécifique.</p>
+                    <p class="texte"><span class="paranumber">42</span>La notion de classe se réfère à la représentation des objets dans le monde réel, concret ou abstrait. Les caractéristiques de chaque objet sont exprimées par des attributs. Les relations représentent les interdépendances et les interactions entre ces objets du monde réel. Ce sont des liens de spécialisation, de composition, d’appartenance ou de relations spatiales.</p>
+                    <p class="texte"><span class="paranumber">43</span>Gruber (1993) a défini une ontologie comme suit : « Une ontologie est une spécification explicite et formelle d’une conceptualisation par consensus. »</p>
+                    <p class="texte"><span class="paranumber">44</span>Comme nous l’avons souligné ci-dessus, un modèle conceptuel est nécessairement réducteur, dans la mesure où il est adapté à l’exécution de tâches très spécifiques, et cela dans le cadre d’un domaine particulier. C’est précisément cette « réduction » des concepts d’un domaine à leur expression nécessaire et suffisante qui rend leur interprétation possible et permet leur partage et leur échange entre les différents acteurs. Le partage et l’échange des connaissances entre les différents acteurs est l’un des points fondamentaux d’un modèle ontologique ; c’est ce que Guarino (1998) appelle l’engagement ontologique : « L’engagement ontologique est une garantie de cohérence entre une ontologie et un domaine. »</p>
+                    <h2 class="texte"><a href="#tocfrom2n6" id="tocto2n6">Alignement ontologique</a></h2>
+                    <p class="texte"><span class="paranumber">45</span>L’ouverture massive des données sur le Web, et en particulier des données culturelles, est devenu une source inépuisable d’investigations pour le <em>knowledge management</em>. Les ressources ontologiques de plus en plus nombreuses d’un ou plusieurs domaines sont des vecteurs d’élargissement et d’interconnexion des connaissances. Participer à ce mouvement signifie ainsi, entre autres choses, pouvoir s’interconnecter avec des ressources déjà existantes.</p>
+                    <p class="texte"><span class="paranumber">46</span>Deux ou plusieurs ontologies peuvent être interconnectées en utilisant les techniques d’alignement (Shvaiko et Euzenat 2013), qui consistent à trouver des correspondances entre les entités (classes d’objets, propriétés ou instances) de ces ontologies. Si l’idée d’une ontologie universelle semble difficile à mettre en œuvre, l’interopérabilité des systèmes ou des modèles différents, grâce à la « coopération ontologique » ou bien l’alignement des ontologies, permettrait l’ouverture et le dialogue entre connaissances dans différents domaines.</p>
+                    <p class="texte"><span class="paranumber">47</span>L’alignement des ontologies est le processus d’association sémantique des entités qui les composent. La correspondance entre les classes d’objets de différentes ontologies est assurée grâce au calcul de similarité (Ziani <em>et al.</em> 2011), utilisant des méthodes structurelles qui tiennent compte des similitudes de ces classes d’objets selon leur structure interne : la restriction, les cardinalités des attributs. Il est également possible d’utiliser des ressources terminologiques pour établir les similitudes des entités textuelles ou des méthodes linguistiques qui calculent les liens sémantiques entre les concepts.</p>
+                    <p class="texte"><span class="paranumber">48</span>En l’absence de méthodes automatiques ou semi-automatiques, la spécification des équivalences entre les concepts des différentes ontologies peut être effectuée manuellement.</p>
+                    <h1 class="texte"><a href="#tocfrom1n6" id="tocto1n6">Implémentation du modèle conceptuel</a></h1>
+                    <p class="texte"><span class="paranumber">49</span>La modélisation des connaissances peut être présentée comme un processus assurant la traduction de la connaissance non exploitable par un système informatique – par exemple la connaissance détenue par un expert – vers la forme exploitable par un système informatique et appliquée à un domaine particulier.</p>
+                    <p class="texte"><span class="paranumber">50</span>L’idée est de décrire dans un domaine l’ensemble des individus et des dépendances qui peuvent exister entre ces individus, sous la forme de logiques de description, de graphes conceptuels ou encore d’ontologies qui correspondent à un plus haut niveau d’abstraction.</p>
+                    <p class="texte"><span class="paranumber">51</span>Dans le contexte du Web sémantique, trois standards sont proposés par W3C. Le premier, RDF (Ressources Description Framework), qui est à la base d’une mise en œuvre de la représentation des connaissances, permet de décrire la sémantique des données de façon à ce qu’elles puissent être comprises et exploitées par des ordinateurs. Le fondement de la structure RDF est le triplet permettant de relier une ressource à une propriété et à la valeur de cette propriété.</p>
+                    <p class="texte"><span class="paranumber">52</span>Il s’agit en réalité d’un graphe étiqueté dont les deux nœuds sont fournis par le sujet et l’objet, alors que l’arc du graphe est créé par le prédicat.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 1. Triplet RDF</p><a href="du_chateau_files/img-1-small580.png" rel="iconSet"><img src="du_chateau_files/img-1-small480.png" alt="Figure 1. Triplet RDF" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-1-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-1.png">Original (png, 27k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">53</span>Le nœud Objet pourra avoir une valeur littérale ou être lui-même une ressource à décrire donnant ainsi le point de départ d’un nouvel arc.</p>
+                    <p class="texte"><span class="paranumber">54</span>L’atout important d’un graphe RDF est qu’il est flexible, ouvert et extensible. Il est possible d’ajouter un nouveau triplet pour définir une nouvelle ressource ou enrichir une ressource déjà existante.</p>
+                    <p class="texte"><span class="paranumber">55</span>Le deuxième standard, RDF Schema, permet de déclarer les propriétés des ressources et le type de ressources. Il constitue une extension sémantique de RDF et permet de décrire des ensembles de ressources appelés classes et des relations entre ces ressources. Les classes et les propriétés sont organisées grâce à des relations subClassOf et subPropertyOf.</p>
+                    <p class="texte"><span class="paranumber">56</span>Enfin, OWL (Web Ontology Language) est un standard de W3C pour représenter des ontologies sur le Web. Par rapport à RDF, il apporte un nouveau vocabulaire avec une sémantique formelle pour décrire les classes et les propriétés, comme par exemple la disjonction, les cardinalités, les égalités, la symétrie, la transitivité. OWL est une extension à la fois de RDF et de la logique de description. Tout comme en logique de description, OWL permet des inférences :</p>
+                    <ul class="texte">
+                      <li>
+                        <p class="texte">vérifier la satisfaisabilité d’un concept C par rapport à une terminologie T</p>
+                      </li>
+                      <li>
+                        <p class="texte">trouver les relations de subsomption entre les concepts</p>
+                      </li>
+                      <li>
+                        <p class="texte">trouver les relations d’équivalence entre les concepts</p>
+                      </li>
+                      <li>
+                        <p class="texte">vérifier la disjonction des concepts</p>
+                      </li>
+                    </ul>
+                    <p class="texte"><span class="paranumber">57</span>Ainsi certaines informations pourront être déduites mêmes si elles ne sont pas explicitées dans le modèle.</p>
+                    <h1 class="texte"><a href="#tocfrom1n7" id="tocto1n7">Deux exemples d’application</a></h1>
+                    <p class="texte"><span class="paranumber">58</span>Pour illustrer ces considérations sur la modélisation des connaissances – espace, temps, événements – ainsi que la transition d’un modèle composé des champs descriptifs d’une base de données traditionnelle au modèle basé sur la connaissance, nous présentons deux applications dans le domaine du patrimoine culturel.</p>
+                    <h2 class="texte"><a href="#tocfrom2n7" id="tocto2n7">Simplicius</a></h2>
+                    <p class="texte"><span class="paranumber">59</span>L’objectif de l’application Simplicius (du Château, 2012) est d’assurer la génération d’une ontologie du domaine selon un modèle conceptuel prédéfini – dans notre cas, il s’agit du modèle CIDOC-CRM – à partir d’informations et de connaissances recueillies à l’aide d’un dictaphone, en respectant le Système descriptif de l’inventaire (SDI).</p>
+                    <p class="texte"><span class="paranumber">60</span>Dans ce processus, le chercheur joue le rôle d’un médiateur. Il communique sous forme de description orale les informations et les connaissances qu’il est en mesure de restituer, grâce à l’étude de l’objet dans son contexte, en fonction de sa propre connaissance et de la connaissance mise à sa disposition par d’autres sciences.</p>
+                    <h3 class="texte"><a href="#tocfrom3n1" id="tocto3n1">SDI</a></h3>
+                    <p class="texte"><span class="paranumber">61</span>Le SDI organise les informations émanant des œuvres en une structure fine composée de champs ou rubriques de type : Date, Auteur, Titre. Il spécifie non seulement les types d’informations qui sont essentielles pour décrire un objet culturel, mais apporte également des précisions sur le vocabulaire – pouvant être contrôlé par un thésaurus – à utiliser pour décrire les différentes caractéristiques de l’objet. La structure du SDI reflète la structure des bases de données relationnelles sous-jacentes.</p>
+                    <h3 class="texte"><a href="#tocfrom3n2" id="tocto3n2">CIDOC-CRM</a></h3>
+                    <p class="texte"><span class="paranumber">62</span>C’est un modèle orienté objet, c’est donc à l’intérieur de ce contexte que sont définis les éléments (Classe, Propriété, Notes d’application) qui entrent dans sa composition.</p>
+                    <p class="texte"><span class="paranumber">63</span>Dans sa version actuelle, CIDOC-CRM définit près de 90 classes ou entités et 130 propriétés. Ce qui permet d’exprimer l’ensemble des événements qui pourraient arriver à une œuvre d’art, depuis sa création jusqu’au moment où elle sera documentée par le système. Toutes les phases de modification, de restauration, de déplacement pourront être exprimées. La description des parties constituantes de l’œuvre et des relations entre ses parties est également possible.</p>
+                    <p class="texte"><span class="paranumber">64</span>Le modèle de CIDOC-CRM est évolutif et a été traduit en différents formats, tels que RDF, DAML, OIL et OWL. Il est centré sur la notion d’événement qui s’est déroulé à un moment donné, dans un lieu donné et en présence de quelque chose. Le schéma de la figure 2 présente cette dépendance entre événement, date, lieu et acteur (participant à l’événement).</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 2. La modélisation d’un événement dans CIDOC-CRM</p><a href="du_chateau_files/img-2-small580.png" rel="iconSet"><img src="du_chateau_files/img-2-small480.png" alt="Figure 2. La modélisation d’un événement dans CIDOC-CRM" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-2-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-2.png">Original (png, 53k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <h3 class="texte"><a href="#tocfrom3n3" id="tocto3n3">Architecture de Simplicius</a></h3>
+                    <p class="texte"><span class="paranumber">65</span>C’est une architecture hybride, qui s’appuie sur plusieurs technologies, à la frontière de plusieurs domaines : le traitement du signal, l’analyse linguistique, l’extraction et la modélisation des connaissances.</p>
+                    <p class="texte"><span class="paranumber">66</span>Pour extraire l’information et la connaissance contenues dans la description orale du chercheur et les formaliser de façon à ce qu’elles soient lisibles par un ordinateur, nous proposons de passer par trois étapes fonctionnelles.</p>
+                    <p class="texte"><span class="paranumber">67</span>La première étape, illustrée par la figure 3, permet la description orale des objets du patrimoine et de leur contexte par l’expert du domaine. Cette description orale de l’objet se fait en fonction du système descriptif établi à l’avance et connu de l’expert. Les informations que l’expert dictera en décrivant un objet du patrimoine seront donc guidées par une grille descriptive « virtuelle ». Cette première étape remplace donc les modes de recueil d’informations traditionnels tels que l’interview d’un expert fait par un cogniticien sur la base de fiches questions-réponses.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 3. Description orale des objets du patrimoine</p><a href="du_chateau_files/img-3-small580.png" rel="iconSet"><img src="du_chateau_files/img-3-small480.png" alt="Figure 3. Description orale des objets du patrimoine" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-3-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-3.png">Original (png, 227k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">68</span>La deuxième étape, présentée par la figure 4, consiste en l’extraction d’informations à partir des fichiers texte produits à l’étape précédente. Cette étape utilise principalement l’analyse linguistique pour détecter les phrases et les termes contenant des informations définies par le système descriptif en vue de leur intégration dans le modèle conceptuel.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 4. Extraction d’informations à partir des fichiers textes</p><a href="du_chateau_files/img-4-small580.png" rel="iconSet"><img src="du_chateau_files/img-4-small480.png" alt="Figure 4. Extraction d’informations à partir des fichiers textes" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-4-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-4.png">Original (png, 82k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">69</span>La troisième étape, illustrée par la figure 5, permet de générer automatiquement une composante d’ontologie du patrimoine culturel, en se basant sur les informations extraites à la deuxième étape de la méthode et sur le modèle conceptuel préalablement défini. C’est une étape qui doit donc assurer le passage de l’information définie par le système descriptif et extrait à l’étape précédente vers un modèle de connaissance.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 5. Génération automatique d’une composante d’ontologie</p><a href="du_chateau_files/img-5-small580.png" rel="iconSet"><img src="du_chateau_files/img-5-small480.png" alt="Figure 5. Génération automatique d’une composante d’ontologie" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-5-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-5.png">Original (png, 91k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <h3 class="texte"><a href="#tocfrom3n4" id="tocto3n4">Génération de l’ontologie de domaine</a></h3>
+                    <p class="texte"><span class="paranumber">70</span>La génération de l’ontologie du domaine correspond à l’instanciation des concepts et des relations du modèle CIDOC-CRM, en rapport avec les caractéristiques de l’œuvre étudiée.</p>
+                    <p class="texte"><span class="paranumber">71</span>L’existence d’une œuvre du patrimoine culturel est ponctuée par un certain nombre d’événements tels que sa création, son acquisition, éventuellement des déplacements, des modifications, sa destruction. Il s’agit là d’une information riche qui dépasse par son ampleur les renseignements pouvant être dictés lors de l’inventaire sur le terrain. De plus, l’information sur l’œuvre peut être complétée par un travail d’archives et évoluer avec le temps.</p>
+                    <p class="texte"><span class="paranumber">72</span>L’information représentée par une grille de type SDI (Verdier 1999) est plus pauvre que celle représentée par une ontologie. Il est impossible, par exemple, de contextualiser une information. La sémantique de l’information n’est pas non plus exprimée explicitement ; on la connaît uniquement par convention. Par exemple, le champ DATE correspond à la date de création de l’objet. Dans une ontologie, au contraire, l’information est contextualisée et sa sémantique est explicitée grâce à des relations.</p>
+                    <p class="texte"><span class="paranumber">73</span>La figure 6 illustre le passage d’une information implicite du modèle SDI vers l’information explicite du modèle CIDOC-CRM.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 6. Exemple de correspondance entre le modèle SDI et le modèle CIDOC-CRM</p><a href="du_chateau_files/img-6-small580.jpg" rel="iconSet"><img src="du_chateau_files/img-6-small480.jpg" alt="Figure 6. Exemple de correspondance entre le modèle SDI et le modèle CIDOC-CRM" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-6-small580.jpg">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-6.jpg">Original (jpeg, 53k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">74</span>Le passage du modèle défini par le système descriptif de l’inventaire vers l’ontologie CIDOC-CRM, se fera grâce à la recherche des champs du système descriptif de l’inventaire dont le contenu peut être considéré comme une instance d’une des classes de l’ontologie CIDOC-CRM.</p>
+                    <p class="texte"><span class="paranumber">75</span>Par souci de clarté et de meilleure lecture par l’utilisateur habitué à la nomenclature du SDI, nous avons créé à partir du modèle CIDOC-CRM un modèle dans lequel nous avons défini les équivalences entre les différents champs du SDI et certaines classes de CIDOC-CRM.</p>
+                    <p class="texte"><span class="paranumber">76</span>Pour intégrer dans CIDOC-CRM le vocabulaire des thésaurus défini par SDI, nous utilisons leurs représentations conceptuelles réalisées en format SKOS.</p>
+                    <p class="texte"><span class="paranumber">77</span>L’exemple ci-dessous illustre l’extrait du lien entre le concept DENO (Dénomination) défini dans le thésaurus au format SKOS et le modèle CIDOC-CRM.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 7. Exemple du lien entre le thésaurus au format SKOS et le modèle CIDOC-CRM</p><a href="du_chateau_files/img-7-small580.png" rel="iconSet"><img src="du_chateau_files/img-7-small480.png" alt="Figure 7. Exemple du lien entre le thésaurus au format SKOS et le modèle CIDOC-CRM" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-7-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-7.png">Original (png, 299k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">78</span>L’ensemble des concepts et relations de l’ontologie CIDOC-CRM que nous utilisons, les équivalences entre CIDOC-CRM et SDI ainsi que l’intégration du thésaurus au format SKOS sont représentés par le schéma de la figure 8.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 8. Schéma représentant le modèle utilisé dans Simplicius</p><a href="du_chateau_files/img-8-small580.jpg" rel="iconSet"><img src="du_chateau_files/img-8-small480.jpg" alt="Figure 8. Schéma représentant le modèle utilisé dans Simplicius" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-8-small580.jpg">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-8.jpg">Original (jpeg, 998k)</a></div>
+                      <p class="legendeillustration">Les rectangles clairs représentent les champs du SDI que nous avons déclarés comme équivalents à certaines classes du CIDOC-CRM, représentées sur le schéma dans un rectangle plus foncé. Les rectangles contenant le préfixe « SKOS: » représentent un concept du thésaurus au format SKOS. Le signe ≡ indique la relation d’équivalence, le signe ⊇ indique la relation de subsomption.</p>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">79</span>Dans le cas où l’information nécessaire à la création de l’ontologie CRM n’existerait pas dans le système descriptif de l’inventaire, il faut soit l’extraire du texte retranscrit, si le locuteur a pris le soin de la dicter, soit la saisir au moment de la validation de l’information extraite automatiquement par le système.</p>
+                    <h3 class="texte"><a href="#tocfrom3n5" id="tocto3n5">Exemple d’utilisation de Simplicius</a></h3>
+                    <p class="texte"><span class="paranumber">80</span>Nous présentons ici les différents traitements et résultats de l’application Simplicius, basés sur un cas concret. Il s’agit de la description d’un tableau.</p>
+                    <p class="texte"><span class="paranumber">81</span>Voici le texte issu de la description réalisée par un chercheur en patrimoine (transcription automatique de la parole) :</p>
+                    <blockquote>
+                      <p class="citation">Dans le département des Pyrénées-Orientales dans l’église paroissiale de la commune de La Llagonne. Ce tableau représentant Saint Vincent lors de son martyre noyé dans le Tibre. Le tableau est accroché à 2 m du sol. Il s’agit d’une peinture à l’huile sur toiles encadrées pas dans un cadre en bois peint. Les dimensions du tableau sont de 2 m × 2 m. Il n’est pas signé. C’est un tableau qui date du <span style="font-variant:small-caps;">xvii</span><sup>e</sup> siècle. Son état de conservation est assez bon. Il est protégé au titre des monuments historiques.</p>
+                    </blockquote>
+                    <p class="texte"><span class="paranumber">82</span>Le résultat de l’extraction d’informations proposée par le système à partir du texte est le suivant :</p>
+                    <table id="Table1" dir="ltr" class="texte">
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">DENOMINATION</p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Tableau</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">EMPLACEMENT </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">à 2 m du sol.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">EDIFICE </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">église paroissiale</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">COMMUNE </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">La Llagonne</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">MATERIAUX </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">bois peint, peinture à l’huile</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">CATEGORIE </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Peinture</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">DIMENSION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">2 m</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">DIMENSION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">2 m</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">REPRESENTATION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Martyre</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">REPRESENTATION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">le Tibre</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">REPRESENTATION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Saint Vincent</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">PRECISION-REPRESENTATION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Ce tableau représentant Saint Vincent lors de son martyre noyé dans le Tibre.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">SIECLE </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">XVIIe siècle</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">PRECISION-INSCRIPTION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Il n’est pas signé.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">ETAT </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">assez bon.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">PRECISION-ETAT </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Son état de conservation est assez bon.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;">
+                          <p class="texte">DESCRIPTION </p>
+                        </td>
+                        <td style="border:none;">
+                          <p class="texte">Il s’agit d’une peinture à l’huile sur toiles encadrées pas dans un cadre en bois peint.</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p class="texte"><span class="paranumber">83</span>Enfin, la modélisation tirée de la description qui a été dictée est représentée dans la figure 9.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 9. Schéma de modélisation issu de la description dictée</p><a href="du_chateau_files/img-9-small580.jpg" rel="iconSet"><img src="du_chateau_files/img-9-small480.jpg" alt="Figure 9. Schéma de modélisation issu de la description dictée" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-9-small580.jpg">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-9.jpg">Original (jpeg, 107k)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <h2 class="texte"><a href="#tocfrom2n8" id="tocto2n8">Ricis</a></h2>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">15</span> <a href="http://ricis.huma-num.fr/index.html">http://ricis.huma-num.fr/index.html</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">84</span>Ricis<a class="footnotecall" id="bodyftn15" href="#ftn15">15</a> (Bricault 2005) est une application qui recueille les inscriptions concernant les cultes isiaques, à savoir les cultes de divinités égyptiennes ayant essaimé dans l’ensemble du bassin méditerranéen entre le <span style="font-variant:small-caps;">iv</span><sup>e</sup> s. av. J.-C. et le <span style="font-variant:small-caps;">iv</span><sup>e</sup> s. apr. J.-C. Elle réunira à terme les quelque 2 500 textes épigraphiques relatifs aux cultes isiaques : 2 000 inscriptions mises au jour hors d’Égypte, 500 provenant de la vallée du Nil.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">85</span>Il s’agit d’une application de valorisation d’un fonds déjà partiellement publié (1 750 inscriptions) en trois volumes dans les Mémoires de l’Académie des inscriptions et belles-lettres.</p>
+                    <h3 class="texte"><a href="#tocfrom3n6" id="tocto3n6">Architecture</a></h3>
+                    <div class="textandnotes">
+                      <ul class="sidenotes">
+                        <li><span class="num">16</span> <a href="http://www.stoa.org/epidoc/gl/latest/intro-intro-fr.html">http://www.stoa.org/epidoc/gl/latest/intro-intro-fr.html</a>.</li>
+                      </ul>
+                      <p class="texte"><span class="paranumber">86</span>Pour rester compatible avec des applications existantes dans le domaine de l’épigraphie, nous avons suivi les recommandations d’EpiDoc<a class="footnotecall" id="bodyftn16" href="#ftn16">16</a> et utilisé un schéma XML-TEI (Burnard 2015) qui reste actuellement une norme pour l’encodage des textes.</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">87</span>Dans la structure TEI, la fiche-type est composée d’un en-tête qui regroupe des méta-informations de type documentaire : titre, auteur, éditeur, support, lieux de provenance et de conservation, dates de production et de (re)découverte, etc. ; d’une partie qui reprend le corpus en grec ou en latin (pour 99 % des textes, car il existe aussi des inscriptions en néo-punique, en nabatéen, en sud-arabique et, dans une deuxième phase, celles en égyptien démotique seront intégrées), avec traduction en français et commentaire linéaire, suivi des références bibliographiques ; enfin, les images des supports sur lesquels ces inscriptions ont été gravées peuvent être insérées dans la fiche.</p>
+                    <p class="texte"><span class="paranumber">88</span>La structure TEI utilisée par l’application Ricis est présentée dans la figure 10.</p>
+                    <div class="textIcon">
+                      <p class="titreillustration">Figure 10. Représentation de la structure TEI utilisée dans l’application Ricis</p><a href="du_chateau_files/img-10-small580.png" rel="iconSet"><img src="du_chateau_files/img-10-small480.png" alt="Figure 10. Représentation de la structure TEI utilisée dans l’application Ricis" /></a><div class="textIconAccess"><a rel="nofollow" class="iconZoom" href="du_chateau_files/img-10-small580.png">Agrandir</a> <a rel="nofollow" class="iconOrig" href="du_chateau_files/img-10.png">Original (png, 7,6M)</a></div>
+                      <p class="creditillustration">Réalisation : Stefan du Château</p>
+                    </div>
+                    <p class="texte"><span class="paranumber">89</span>Les fiches au format TEI avec des ressources externes sont déposées dans une base de données orientée XML eXist-db, interrogeable avec le langage XQuery. Le principal inconvénient de cette solution est sa fermeture à une exploitation dans le contexte du Web de données. En effet, l’expressivité du schéma XML, à lui seul, n’est pas suffisant pour placer cette application dans le contexte du Web sémantique. Pour pallier à cet inconvénient nous avons procédé à la réalisation d’un « mapping » entre des données du modèle TEI et des éléments de l’ontologie Dublin Core correspondants.</p>
+                    <h3 class="texte"><a href="#tocfrom3n7" id="tocto3n7">Mapping TEI avec l’ontologie Dublin Core</a></h3>
+                    <p class="texte"><span class="paranumber">90</span>Pour effectuer le mapping entre les fiches au format TEI et Dublin Core, nous avons utilisé des éléments de TEI dont la sémantique n’est pas ambiguë. Il s’agit des éléments contenus dans l’en-tête &lt;teiHeader&gt; : titre, auteur, éditeur, datation, institution de conservation, numéro d’inventaire. Les éléments Dublin Core<em> </em>intégrés sont dc:title, dc:creator, dc:publisher, dc:identifier, dc:date, dc:subject. Les fiches Ricis sont saisies et enregistrées au format TEI manuellement, grâce à l’interface spécifique réalisée à cet effet ; ainsi, toute ambiguïté sémantique est exclue au moment de la saisie.</p>
+                    <p class="texte"><span class="paranumber">91</span>Une fois la totalité de la fiche saisie et après validation par l’utilisateur, les éléments de l’ontologie<em> </em>sont ajoutés dans la fiche TEI :</p>
+                    <p class="paragraphesansretrait">        </p>
+                    <pre><code class="brush: xml;">            
+&lt;xenoData&gt;
+  &lt;rdf:RDF&gt;
+    &lt;rdf:Description rdf:about="http://ricis.humanum.fr/​​tei/​5010161.xml"&gt;
+      &lt;dc:title&gt;Epitaphe de Cantinea Procla&lt;/dc:title&gt;
+      &lt;dc:creator&gt;Laurent Bricault&lt;/dc:creator&gt;
+      &lt;dc:date&gt;Milieu-fin du Ier s. p.C.&lt;/dc:date&gt;
+      &lt;dc:identifier&gt;Roma, Museo Nazionale Romano. Terme di Diocleziano,
+        inv. 125406&lt;/dc:identifier&gt;
+      &lt;dc:subject&gt;Epitaphe de Cantinea Procla&lt;/dc:subject&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/rdf:RDF&gt;
+&lt;/xenoData&gt;
+        </code></pre>
+                    <p class="texte"><span class="paranumber">92</span>L’élément <em>&lt;xenoData&gt;</em> fournit un « élément conteneur », dans lequel peuvent être placées les métadonnées dans des formats extérieurs au schéma TEI, par exemple RDF ou Dublin Core,<em> </em>et qui peut ouvrir « les portes » au moissonnage des fiches par des moteurs d’indexation. Le formalisme RDF et des éléments de l’ontologie Dublin Core permettent également l’intégration des liens entre certaines fiches de l’application Ricis et leurs pendants disponibles sur le Web.</p>
+                    <p class="texte"><span class="paranumber">93</span>L’exemple ci-dessous décrit une ressource disponible sur le serveur de l’université de Bologne et accessible grâce à l’URL <a href="https://igcyr.unibo.it/gvcyr041">https://igcyr.unibo.it/​gvcyr041</a>.</p>
+                    <p class="paragraphesansretrait">        </p>
+                    <pre><code class="brush: xml;">            
+&lt;xenoData&gt;
+  &lt;rdf:RDF&gt;
+    &lt;rdf:Description rdf:about="https://igcyr.unibo.it/​​gvcyr041"&gt;
+      &lt;dc:title&gt;Dedication and hymn to Isis and Serapis&lt;/dc:title&gt;
+      &lt;dc:date&gt;Milieu-fin du Ier s. p.C.&lt;/dc:date&gt;
+      &lt;dc:identifier&gt;https://igcyr.unibo.it/​​gvcyr041&lt;/​dc:identifier&gt;
+      &lt;dc:publisher&gt;Université de Bologne&lt;/dc:publisher&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/rdf:RDF&gt;
+&lt;/xenoData&gt;
+        </code></pre>
+                    <p class="texte"><span class="paranumber">94</span>Le préfixe <em>dc</em> est lié à l’espace de noms http://purl.org/​dc/​elements/​1.1/​ alors que le préfixe <em>rdf</em> est lié à l’espace de noms http://www.w3.org/​1999/​02/​22-rdf-syntaxe-ns#. Dans ces exemples, l’attribut <em>about</em> de l’élément <em>rdf:Description</em> contient l’URI indiquant la ressource à laquelle se réfèrent les métadonnées qui y sont contenues.</p>
+                    <h3 class="texte"><a href="#tocfrom3n8" id="tocto3n8">Liens entre TEI et GeoNames</a></h3>
+                    <p class="texte"><span class="paranumber">95</span>Une des caractéristiques des œuvres numérisées et déposées dans l’application Ricis est leur lieu de création, qui est identifié en TEI par la balise <em>&lt;</em><em>placeName&gt;.</em> Cette information est saisie manuellement et donc dépourvue de toute ambiguïté sémantique.</p>
+                    <p class="texte"><span class="paranumber">96</span>Le lien avec l’ontologie <em>GeoNames </em>– à ce sujet voir Ciotti <em>et al.</em> (2014) – se fait grâce à l’URI stockée dans l’attribut <em>ref</em> de l’élément <em>&lt;</em><em>placeName&gt;</em>, qui contient les coordonnées (longitude et latitude) du lieu, comme l’illustre l’exemple ci-dessous :</p>
+                    <p class="paragraphesansretrait">        </p>
+                    <pre><code class="brush: xml;">            
+&lt;origPlace&gt;
+  &lt;placeName
+    ref="http://www.geonames.org/​​maps/​google_37.979_23.716.html"
+    type="moderne"&gt;Roma
+  &lt;/placeName&gt;
+&lt;/origPlace&gt;
+        </code></pre>
+                    <p class="texte"><span class="paranumber">97</span>L’insertion des coordonnées géographiques est automatisée, grâce à l’interrogation de la base <em>GeoNames</em>, à l’aide du descripteur correspondant au lieu de création.</p>
+                    <h1 class="texte"><a href="#tocfrom1n8" id="tocto1n8">Conclusion</a></h1>
+                    <p class="texte"><span class="paranumber">98</span>Alors que la plupart des processus de numérisation traditionnels sont basés sur les données (scan, OCR, etc.) et que leur gestion s’effectue via des bases de données relationnelles, l’approche par la « gestion des connaissances » est un mode de numérisation durable, plus économique (<em>green software</em>), mais qui nécessite une démarche utilisateur : il faut déterminer comment et par qui ce patrimoine sera utilisé.</p>
+                    <p class="texte"><span class="paranumber">99</span>La numérisation massive du patrimoine culturel exige une méthode appropriée, facilitant non seulement l’acquisition mais aussi une exploration intuitive. Les nouvelles façons d’explorer ces ressources numériques sont déjà en place ou bien sont en développement.</p>
+                    <p class="texte"><span class="paranumber">100</span>Dans la perspective d’une utilisation intelligente, il est important de respecter un certain nombre de normes et de préceptes : formats ouverts, indépendance des médias, interopérabilité et compatibilité avec le paradigme Web des données.</p>
+                    <p class="texte"><span class="paranumber">101</span>Le suivi de l’évolution des œuvres dans le temps et l’espace, en comparant leurs attributs, en les confrontant à d’autres sources de connaissances appartenant à d’autres domaines, constitue un fondement solide pour le développement de nouvelles connaissances dans le domaine du patrimoine culturel.</p>
+                    <p class="texte"><span class="paranumber">102</span>Les deux applications que nous avons réalisées et présentées ci-dessus, Simplicius et Ricis, sont le reflet de ces deux réalités. La première de ces applications, Simplicius, permet la numérisation du patrimoine culturel directement dans un format compatible avec des systèmes à base de connaissances. L’originalité de ce système se situe au niveau du lien qu’il établit entre plusieurs domaines de recherche : le traitement du signal, l’acquisition et la modélisation des connaissances et le traitement automatique de la langue.</p>
+                    <p class="texte"><span class="paranumber">103</span>L’application Ricis illustre une autre réalité encore très répandue : le besoin d’adapter un schéma XML-TEI en lui intégrant l’ontologie Dublin Core, afin de le rendre compatible avec le Web des données et d’autoriser l’interconnexion avec des ressources déjà existantes et dispersées.</p>
+                    <p class="texte"><span class="paranumber">104</span>Dans les deux cas, la coopération ontologique (Ziani <em>et al.</em> 2010 ; Talens et Boulanger 2010) a permis l’ouverture et le dialogue entre les connaissances de différents domaines.</p>
+                  </div><!-- .text wResizable --><a class="go-top" href="#article-510">Haut de page</a></div><!-- #text -->
+                <div id="bibliography" class="section">
+                  <h2 class="section"><span class="text">Bibliographie</span></h2>
+                  <div class="text">                                                            
+                    <p class="bibliographie">Amidon, Debra M. 2001. <em>Innovation et management des connaissances</em>. <span xml:lang="en" lang="en">Paris : Éditions d’organisation.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Baecker, Ronald M., Jonathan Grudin, William A.S. Buxton et Saul Greenberg. 1995. </span><em><span xml:lang="en" lang="en">Readings in Human-Computer Interaction : Toward the Year 2000</span></em><span xml:lang="en" lang="en">. San Francisco : Morgan Kaufmann Publishers.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Balaram, M. 1988. « PC Version of a Knowledge-Based Expert System with Voice Interface ». Dans IEA/AIE ’88 : Proceedings of the 1st International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems, 2 : 1168-1173.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Benjamin, Jules R. 2004. </span><em><span xml:lang="en" lang="en">A Student’s Guide to History</span></em><span xml:lang="en" lang="en">. New York : Bedford/St. Martin’s.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Bergman, Michael K. 2001. « The Deep Web : Surfacing Hidden Value ». </span><em><span xml:lang="en" lang="en">Journal of Electronic Publishing</span></em><span xml:lang="en" lang="en"> 7 (1). </span><a href="http://dx.doi.org/10.3998/3336451.0007.104"><span xml:lang="en" lang="en">http://dx.doi.org/10.3998/3336451.0007.104</span></a><span xml:lang="en" lang="en">.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Bricault, Laurent. </span>2005. Recueil des inscriptions concernant les cultes isiaques (RICIS). Paris : De Boccard.</p>
+                    <p class="bibliographie">Brogowski, Leszek. 1997. <em>Dilthey. Conscience et histoire</em>. Paris : PUF.</p>
+                    <p class="bibliographie">Burnard, Lou. 2015. <em>Qu’est-ce que la Text Encoding Initiative ?</em> <span xml:lang="en" lang="en">Marseille : OpenEdition Press. </span><a href="http://books.openedition.org/oep/1237"><span xml:lang="en" lang="en">http://books.openedition.org/oep/1237</span></a><span xml:lang="en" lang="en">.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Carugati, Andrea, Elias A. Hadzilias et Nathalie T.M. Demoulin. 2005. « Setting the Framework for Developing E-Government Services on Cultural Heritage ». Dans </span><em><span xml:lang="en" lang="en">Proceedings of the 13th</span></em><sup><em><span xml:lang="en" lang="en"> </span></em></sup><em><span xml:lang="en" lang="en">European Conference on Information Systems : Information Systems in a Rapidly Changing Economy</span></em><span xml:lang="en" lang="en">. </span>Regensburg, Germany.</p>
+                    <p class="bibliographie">Château, Stefan du, Danielle Boulanger et Eunika Mercier-Laurent. <span xml:lang="en" lang="en">2012. « Managing the Domain Knowledge : Application to Cultural Patrimony ». </span><em><span xml:lang="en" lang="en">Knowledge Management Research &amp; Practice</span></em><span xml:lang="en" lang="en"> 10 (4) : 312-325. </span><a href="https://doi.org/10.1057/kmrp.2012.22">https://doi.org/10.1057/kmrp.2012.22</a>.</p>
+                    <p class="bibliographie">Ciotti, Fabio, Maurizio Lana et Francesca Tomasi. <span xml:lang="en" lang="en">2014. « TEI, Ontologies, Linked Open Data : Geolat and Beyond ». </span><em><span xml:lang="en" lang="en">Journal of the Text Encoding Initiative</span></em><span xml:lang="en" lang="en"> 8. </span><a href="https://doi.org/10.4000/jtei.1365"><span xml:lang="en" lang="en">https://doi.org/10.4000/jtei.1365</span></a><span xml:lang="en" lang="en">.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Crofts, Nick, Martin Doerr, Tony Gill, Stephen Stead et Matthew Stiff. 2002. « Definition of the CIDOC Object-Oriented Conceptual Reference Model ». ICOM/CIDOC.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Crofts, Nick, Martin Doerr, Tony Gill, Stephen Stead et Matthew Stiff. 2010. « Definition of the CIDOC Object-Oriented Conceptual Reference Model ». ICOM/CIDOC CRM Special Interest Group.</span></p>
+                    <p class="bibliographie">Dacos, Marin et Pierre Mounier. 2014. « Humanités numériques. État des lieux et positionnement de la recherche française dans le contexte international ». Paris : Institut français et ministère des Affaires étrangères.</p>
+                    <p class="bibliographie">Domange, Camille. 2013. « Ouverture et partage des données publiques culturelles pour une (r)évolution numérique du secteur culturel ». Paris, ministère de la Culture et de la Communication, https://www.culture.gouv.fr/Espace-documentation/Rapports/Open-Data-ouverture-et-partage-des-donnees-publiques-culturelles.</p>
+                    <p class="bibliographie">Ellis, Clarence A. et Najah Naffah. <span xml:lang="en" lang="en">1987. </span><em><span xml:lang="en" lang="en">Design of Office Information Systems</span></em><span xml:lang="en" lang="en">. Berlin : Springer-Verlag.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Gruber, Thomas. 1993. « A Translation Approach to Portable Ontology Specifications ». </span><em><span xml:lang="en" lang="en">Knowledge Acquisition</span></em><span xml:lang="en" lang="en"> 5 (2) : 199-220.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Guarino, Nicola. 1998. « Formal Ontology and Information Systems ». Dans </span><em><span xml:lang="en" lang="en">Proceedings of FOIS’98 : Formal Ontology in Information Systems</span></em><span xml:lang="en" lang="en">. </span>Amsterdam : IOS Press.</p>
+                    <p class="bibliographie">Haton, Jean-Paul, Christophe Cerisara, Dominique Fohr, Yves Laprie et Kamel Smaili. 2006. <em>Reconnaissance automatique de la parole. Du signal à son interprétation</em>. <span xml:lang="en" lang="en">Paris : Dunod.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Kaufman, Kenneth A. et Ryszard S. Michalski. 1986. « EMERALD : an Integrated System of Machine Learning and Discovery Programs to Support AI Education and Experimental Research ». Center for Artificial Intelligence, George Mason University.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Kopytoff, Igor. 1986. « The Cultural Biography of Things : Commodization as Process ». Dans </span><em><span xml:lang="en" lang="en">The Social Life of Things. Commodities in Cultural Perspective</span></em><span xml:lang="en" lang="en">, édité par Arjun Appadurai, 64-92. Cambridge : Cambridge University Press.</span></p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Loebbecke, Claudia et Manfred Thaller. 2005. « Preserving Europe’s Cultural Heritage in the Digital World ». Dans </span><em><span xml:lang="en" lang="en">Proceedings of the 13th European Conference on Information Systems : Information Systems in a Rapidly Changing Economy</span></em><span xml:lang="en" lang="en">. </span>Regensburg, Germany.</p>
+                    <p class="bibliographie">Mercier-Laurent, Eunika. 2007. « Rôle de l’ordinateur dans le processus global de l’innovation à partir de connaissances ». Mémoire d’habilitation à diriger des recherches en informatique, Lyon : université Lyon3.</p>
+                    <p class="bibliographie"><span xml:lang="en" lang="en">Mercier-Laurent, Eunika. 2011. </span><em><span xml:lang="en" lang="en">Innovation Ecosystems</span></em><span xml:lang="en" lang="en">. Wiley-ISTE.</span></p>
+                    <p class="bibliographie">Paraiso, Emerson et Jean-Paul Barthès. 2004. « Architecture d’une interface conversationnelle pour les agents assistants personnels ». Dans <em>Actes de la journée AGENTAL « Agents et Langue »</em>. Paris : Association Atala.</p>
+                    <p class="bibliographie">Shvaiko, Pavel et Jérôme Euzenat. <span xml:lang="en" lang="en">2013. « Ontology Matching : State of the Art and Future Challenges ». </span><em><span xml:lang="en" lang="en">IEEE Transactions on Knowledge and Data Engineering</span></em><span xml:lang="en" lang="en"> 25 (1) : 158-176.</span><span xml:lang="en" lang="en"> </span><a href="https://doi.org/10.1109/TKDE.2011.253"><span xml:lang="en" lang="en">https://doi.org/10.1109/TKDE.2011.253</span></a><span xml:lang="en" lang="en">.</span></p>
+                    <p class="bibliographie">Verdier, Hélène, éd. 1999. « Système descriptif des objets mobiliers ». Éditions du patrimoine.</p>
+                    <p class="bibliographie">Talens, Guilaine et Danielle Boulanger. 2010. « Evolutive Ontologies by Versioning ». <span xml:lang="en" lang="en">Dans </span><em><span xml:lang="en" lang="en">Proceedings of the 4th International Conference on Research Challenges in Information Science</span></em><span xml:lang="en" lang="en">. </span>Nice.</p>
+                    <p class="bibliographie">Ziani, Mina, Danielle Boulanger et Guilaine Talens. 2010. « Système d’aide à l’alignement d’ontologies métier ». Dans <em>Actes du 28</em><sup><em>e</em></sup><em> congrès INFORSID</em>. Marseille.</p>
+                    <p class="bibliographie">Ziani, Mina, Danielle Boulanger et Guilaine Talens. 2011. « Système d’aide à l’alignement d’ontologies métier ». <em>Ingénierie des systèmes d’information</em> 16 (1) : 89-112.</p>                            </div><a class="go-top" href="#article-510">Haut de page</a></div><!-- #bibliography -->
+                <div id="notes" class="section">
+                  <h2 class="section"><span class="text">Notes</span></h2>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn1" id="ftn1">1</a> <a href="http://www.horizon2020.gouv.fr/cid74427/horizon-2020-clic.html">http://www.horizon2020.gouv.fr/cid74427/horizon-2020-clic.html</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn2" id="ftn2">2</a> <a href="https://www.w3.org/standards/techs/skos#w3c_all">https://www.w3.org/standards/techs/skos#w3c_all</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn3" id="ftn3">3</a> <a href="http://www.cidoc-crm.org/">http://www.cidoc-crm.org/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn4" id="ftn4">4</a> <a href="https://www.w3.org/2004/02/skos/">https://www.w3.org/2004/02/skos/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn5" id="ftn5">5</a> <a href="http://www.geonames.org/">http://www.geonames.org/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn6" id="ftn6">6</a> <a href="http://dublincore.org/">http://dublincore.org/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn7" id="ftn7">7</a> <a href="https://fr.wikipedia.org/wiki/Simple_Knowledge_Organization_System">https://fr.wikipedia.org/wiki/Simple_Knowledge_Organization_System</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn8" id="ftn8">8</a> <a href="https://fr.wikipedia.org/wiki/Dublin_Core">https://fr.wikipedia.org/wiki/Dublin_Core</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn9" id="ftn9">9</a> <a href="http://www.cs.vu.nl/STITCH/">http://www.cs.vu.nl/STITCH/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn10" id="ftn10">10</a> <a href="http://pro.europeana.eu/">http://pro.europeana.eu/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn11" id="ftn11">11</a> En 2016, TelPlus a intégré le portail Europeana.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn12" id="ftn12">12</a> <a href="http://rameau.bnf.fr/">http://rameau.bnf.fr/</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn13" id="ftn13">13</a> <a href="http://data.bnf.fr/semanticweb">http://data.bnf.fr/semanticweb</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn14" id="ftn14">14</a> <a href="https://www.ibm.com/power/solutions/cognitive-computing">https://www.ibm.com/power/solutions/cognitive-computing</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn15" id="ftn15">15</a> <a href="http://ricis.huma-num.fr/index.html">http://ricis.huma-num.fr/index.html</a>.</p>
+                  <p class="notesbaspage"><a class="FootnoteSymbol" href="#bodyftn16" id="ftn16">16</a> <a href="http://www.stoa.org/epidoc/gl/latest/intro-intro-fr.html">http://www.stoa.org/epidoc/gl/latest/intro-intro-fr.html</a>.</p><a class="go-top" href="#article-510">Haut de page</a></div><!-- #notes -->
+                <div id="illustrations" class="section">
+                  <h2 class="section"><span class="text">Table des illustrations</span></h2>
+                  <table id="docImages">
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-1-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 1. Triplet RDF</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-1.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-1.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 27k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-2-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 2. La modélisation d’un événement dans CIDOC-CRM</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-2.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-2.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 53k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-3-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 3. Description orale des objets du patrimoine</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-3.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-3.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 227k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-4-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 4. Extraction d’informations à partir des fichiers textes</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-4.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-4.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 82k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-5-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 5. Génération automatique d’une composante d’ontologie</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-5.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-5.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 91k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-6-small64.jpg" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 6. Exemple de correspondance entre le modèle SDI et le modèle CIDOC-CRM</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-6.jpg">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-6.jpg</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/jpeg, 53k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-7-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 7. Exemple du lien entre le thésaurus au format SKOS et le modèle CIDOC-CRM</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-7.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-7.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 299k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="6"><img alt="" src="docannexe/image/510/img-8-small64.jpg" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 8. Schéma représentant le modèle utilisé dans Simplicius</td>
+                      </tr>
+                      <tr class="legende">
+                        <th scope="row">Légende</th>
+                        <td class="directionltr">Les rectangles clairs représentent les champs du SDI que nous avons déclarés comme équivalents à certaines classes du CIDOC-CRM, représentées sur le schéma dans un rectangle plus foncé. Les rectangles contenant le préfixe « SKOS: » représentent un concept du thésaurus au format SKOS. Le signe ≡ indique la relation d’équivalence, le signe ⊇ indique la relation de subsomption.</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-8.jpg">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-8.jpg</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/jpeg, 998k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-9-small64.jpg" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 9. Schéma de modélisation issu de la description dictée</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-9.jpg">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-9.jpg</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/jpeg, 107k</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="image">
+                        <th colspan="2" rowspan="5"><img alt="" src="docannexe/image/510/img-10-small64.png" /></th>
+                      </tr>
+                      <tr class="titre">
+                        <th scope="row">Titre</th>
+                        <td class="directionltr">Figure 10. Représentation de la structure TEI utilisée dans l’application Ricis</td>
+                      </tr>
+                      <tr class="credits">
+                        <th scope="row">Crédits</th>
+                        <td class="directionltr">Réalisation : Stefan du Château</td>
+                      </tr>
+                      <tr class="source">
+                        <th scope="row"><abbr title="Uniform Resource Locator" lang="en" xml:lang="en">URL</abbr></th>
+                        <td><a href="du_chateau_files/img-10.png">http://edt-journals.openedition.org/revuehn/docannexe/image/510/img-10.png</a></td>
+                      </tr>
+                      <tr class="info">
+                        <th scope="row">Fichier</th>
+                        <td>image/png, 7,6M</td>
+                      </tr>
+                    </tbody>
+                  </table><a class="go-top" href="#article-510">Haut de page</a></div><!-- #illustrations -->
+                <div id="quotation" class="section">
+                  <h2 class="section"><span class="text">Pour citer cet article</span></h2>
+                  <h3>Référence électronique</h3>
+                  <p> <strong>Stefan <span class="familyName">du Château</span>, Eunika <span class="familyName">Mercier-Laurent</span>, Laurent <span class="familyName">Bricault</span> et Danielle <span class="familyName">Boulanger</span></strong>, <span dir="ltr">«&nbsp;Modélisation des connaissances et technologies du Web sémantique : deux applications au patrimoine culturel&nbsp;»</span>,&#160;<em>Humanités numériques</em> [En ligne], 2&nbsp;|&nbsp;2020, mis en ligne le <span dir="ltr">01 juin 2020</span>, consulté le <span dir="ltr">17 juin 2020</span>. <span dir="ltr">URL&nbsp;</span>: http://edt-journals.openedition.org/revuehn/510</p><a class="go-top" href="#article-510">Haut de page</a></div><!-- #quotation -->
+                <div id="authors" class="section authors">
+                  <h2 class="section"><span class="text">Auteurs</span></h2>
+                  <h3><a href="525">Stefan <span class="familyName">du Château</span></a></h3><span class="directionltr"><p class="description">Département Documentation, archives, médiathèque et édition, université Toulouse – Jean-Jaurès, Toulouse, France<br/>Maître de conférences en sciences de l’information et de la communication. Recherches en management des connaissances dans le domaine du patrimoine culturel au laboratoire d’études et de recherches appliquées en sciences sociales (LERASS) dans l’équipe Médiapolis Grecom.<br/>stefan.du-chateau.@univ-tlse2.fr </p></span>
+                  <h3><a href="512">Eunika <span class="familyName">Mercier-Laurent</span></a></h3><span class="directionltr"><p class="description">Chercheur associé URCA-Crestic, université de Reims Champagne-Ardenne, Reims, France.<br/>Ingénieur en électronique, docteur en automatique et traitement de l’information, habilité à diriger des recherches en informatique. Recherches en intelligence artificielle appliquée à la résolution des problèmes complexes, <em>knowledge management</em> et écosystèmes de l’innovation.<br/>eunika.mercier-laurent@univ-reims.fr</p></span>
+                  <h3><a href="513">Laurent <span class="familyName">Bricault</span></a></h3><span class="directionltr"><p class="description">UR PLH, université Toulouse – Jean-Jaurès, Toulouse, France.<br/>Professeur d’histoire romaine, spécialiste des religions du monde méditerranéen antique. Membre de l’Institut universitaire de France et membre de l’équipe de recherche sur la réception de l’Antiquité : sources, mémoire, enjeux (ÉRASME) du laboratoire Patrimoine littérature histoire (PLH) à l’université Toulouse – Jean-Jaurès.<br/>laurent.bricault@univ-tlse2.fr</p></span>
+                  <h3><a href="514">Danielle <span class="familyName">Boulanger</span></a></h3><span class="directionltr"><p class="description">UR Centre de recherche IAE Lyon Magellan, Université Lyon 3 Jean-Moulin, Lyon, France.<br/>Professeur émérite en informatique, classe exceptionnelle. Recherches en interopérabilité des sources d’information et de connaissances, sécurité des systèmes d’information, systèmes multi-agents, coopération et alignement d’ontologies, évolution du Web de données.<br/>danielle.boulanger@univ-lyon3.fr </p></span><a class="go-top" href="#article-510">Haut de page</a></div><!-- #authors -->
+                <div id="license" class="section">
+                  <h2 class="section"><span class="text">Droits d’auteur</span></h2>
+                  <p class="directionltr"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/88x31.png" /></a><br />Les contenus de la revue <em>Humanités numériques</em> sont mis à disposition selon les termes de la <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.</p><a class="go-top" href="#article-510">Haut de page</a></div><!-- #license --></div><!-- #docBody -->
+              <div class="navEntities bottom"><a rev="contents" class="goContents" href="407" title="2 | 2020  Varia">Sommaire</a><span class="separator"> - </span><a rev="prev" class="goPrev" href="462" title="Terminologie et ontologie pour les humanités numériques : le cas des vêtements de la Grèce antique">Document précédent</a><span class="separator"> - </span><a rel="next" class="goNext" href="471" title="Une chaîne d’extraction pour l’enrichissement de bases de données archéologiques">Document suivant</a></div><!-- .navEntities bottom --></div><!-- #main --></div><!-- #content-->
+          <div id="nav">  
+            <h1 class="hidden">Navigation</h1>  
+            <div id="navEntries">    
+              <h2>Index</h2>    
+              <ul></ul>  </div><!-- #navEntries -->  
+            <div id="navIssues">            
+              <h2>Numéros en texte intégral</h2>    
+              <ul class="issues">      
+                <li><a href="407"><span class="number">2&nbsp;| 2020</span></a></li>      
+                <li><a href="280"><span class="number">1&nbsp;| 2020</span></a></li>    </ul>    
+              <h2 id="allIssues"><a href="263">Tous les numéros</a></h2>  </div><!-- #navIssues -->  
+            <div id="navCollectionsSecondary">    
+              <h2>La revue</h2>    
+              <ul>      
+                <li><a href="267">Présentation</a></li>      
+                <li><a href="269">Les comités</a></li>      
+                <li><a href="278">Instructions aux auteurs</a></li>    </ul>    
+              <h2>Informations</h2>    
+              <ul>      
+                <li><a href="270">Contact</a></li>      
+                <li><a href="271"><span xml:lang="fr" lang="fr">Crédits du site</span></a></li>      
+                <li><a href="http://edt-journals.openedition.org/revuehn?page=informations">Politiques de publication</a></li>    </ul>    
+              <h2>Appels à contribution</h2>    
+              <ul>      
+                <li><a href="551">Appels en cours</a></li>      
+                <li><a href="552">Appels clos</a></li>    </ul>  </div><!-- #navCollectionsSecondary -->  
+            <div id="navSyndication">    
+              <h2>Suivez-nous</h2>    
+              <ul>      
+                <li><a href="https://www.facebook.com/RevueHN/" title="Facebook"><img alt="Facebook" src="images/social-icons/facebook.png" /></a></li>      
+                <li><a href="https://twitter.com/RevueHN" title="Twitter"><img alt="Twitter" src="images/social-icons/twitter.png" /></a></li>      
+                <li><a href="http://edt-journals.openedition.org/revuehn/backend" title="Flux RSS"><img alt="Flux RSS" src="images/social-icons/rss.png" width="16" height="16" /></a></li>    </ul>  </div>  
+            <div id="navNewsletters">    
+              <h2>Lettres d’information</h2>    
+              <ul>      
+                <li><a href="http://newsletter.openedition.org">La Lettre d’OpenEdition</a></li>    </ul>  </div>
+          </div><!-- #nav -->
+          <div id="logos">  
+            <h2 class="hidden">Affiliations/partenaires</h2>  
+            <ul>    
+              <li><a href="http://www.humanisti.ca/" title="Humanistica, l’association francophone des humanités numériques"><img alt="Logo Humanistica, l’association francophone des humanités numériques" src="docannexe/image/553/humanistica_logo_extended-small120.png" width="120" height="39" /></a></li>    
+              <li><a href="https://www.mshb.fr/" title="Maison des sciences de l'homme en Bretagne"><img alt="Logo Maison des sciences de l'homme en Bretagne" src="docannexe/image/556/logo_mshb_rouge-small120.png" width="120" height="51" /></a></li>    
+              <li><a href="https://inshs.cnrs.fr/" title="Institut des sciences humaines et sociales du CNRS"><img alt="Logo Institut des sciences humaines et sociales du CNRS" src="docannexe/image/555/logo_cnrs.png" width="50" height="50" /></a></li>    
+              <li><a href="https://adho.org/" title="Alliance of Digital Humanities Organizations"><img alt="Logo Alliance of Digital Humanities Organizations" src="docannexe/image/554/adho_logo_large-small120.png" width="120" height="42" /></a></li>    
+              <li><a href="http://journals.openedition.org/" title="OpenEdition Journals"><img alt="OpenEdition Journals" src="images/logo-oej.png" /></a></li>  </ul>
+          </div><!-- #logos -->
+          <div id="footer">  
+            <p class="first"><a href="http://edt-journals.openedition.org/revuehn/?page=map">Plan du site</a>&#160;&#8211; <a href="270">Contact</a>&#160;&#8211; <a href="271"><span xml:lang="fr" lang="fr">Crédits du site</span></a>&#160;&#8211; <a href="http://edt-journals.openedition.org/revuehn/?page=backend">Flux de syndication</a></p>  
+            <p class="last"><a href="http://journals.openedition.org/">Nous adhérons à OpenEdition</a>&#160;&#8211; <a href="http://www.lodel.org/">Édité avec Lodel</a>&#160;&#8211; <a href="http://edt-journals.openedition.org/revuehn/lodel/">Accès réservé</a></p>
+          </div><!-- #footer --></div><!-- #wrapper --></div><!-- #outerWrapper -->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/common.min.js"></script>
+      <script type="text/javascript">//<![CDATA[
+var translations = {
+// Widgets
+strWidget: {
+largest: "Taille du texte : très grande",
+large  : "Taille du texte : grande",
+medium : "Taille du texte : normale",
+print  : "Imprimer ce document"
+},
+// Zoom images
+strTextIcon: {
+prev     : "Précédent",
+next     : "Suivant",
+close    : "Fermer",
+original : "Original",
+magnify  : "Agrandir"
+},
+// Divers
+strArticle: {
+illustrations : "Illustrations"
+}
+};
+//]]></script>
+      <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+      <script type="text/javascript" src="js/article.min.js"></script><!-- syntaxhighlighter --><!-- Include required JS files -->
+      <script src='js/syntaxhighlighter_3.0.83/scripts/shCore.js' type='text/javascript'></script><!-- At least one brush, here we choose XML. You need to include a brush for every language you want to highlight -->
+      <script src='js/syntaxhighlighter_3.0.83/scripts/shBrushXml.js' type='text/javascript'></script>
+      <script src='js/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js' type='text/javascript'></script>
+      <script src='js/syntaxhighlighter_3.0.83/scripts/shBrushPlain.js' type='text/javascript'></script><!-- Include *at least* the core style and default theme -->
+      <link href="js/syntaxhighlighter_3.0.83/styles/shCoreEclipse.css" rel="stylesheet" type="text/css" />
+      <link href="css/shThemeCleo.css" rel="stylesheet" type="text/css" />
+      <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+      <script type="text/javascript">SyntaxHighlighter.config.tagName = "code";
+SyntaxHighlighter.all()</script> 
+      <script type="text/javascript" src="https://static-origin.openedition.org/openbarre/js/cleo.js?date=2014-12-01"></script>
+      <script type="text/javascript" src="https://static-origin.openedition.org/js/jquery.jsonp-latest.min.js"></script>
+      <script type="text/javascript"><!--
+    jQuery(document).ready(function($) {
+ if ( $.fn.fancybox == undefined ) {
+            $.getScript("https://static-origin.openedition.org/js/fancybox/jquery.fancybox-1.3.1.js", function() {
+                $('a.iframe').fancybox();
+            });
+        } else {
+            $('a.iframe').fancybox();
+        }
+        authurl=
+        $.jsonp({
+            url: ('https://auth.openedition.org/authenticate'),
+            callbackParameter: 'callback',
+            success: function(data) {
+                $('#authdata').html('<img src="'+data.favicon+'"> <a href="'+data.url+'">'+data.name+'</a>');
+},
+            error: function(data){
+                //$('#authdata').html('guest, <a href="https://auth.openedition.org">sign in</a>');
+}
+        });
+        $('#plateformes li').live('touchend', function(e) {});
+        $('input[name=q]').focus(function() {
+            if ( $(this).attr('value') == 'Rechercher' ) {
+                $(this).attr('value', '');
+            }
+        });
+    });
+function getCookieValue(c_name) {
+  if (document.cookie.length>0) {
+    c_start = document.cookie.indexOf(c_name + "=");
+    if (c_start!=-1) {
+      c_start = c_start + c_name.length+1;
+      c_end = document.cookie.indexOf(";",c_start);
+      if (c_end==-1) c_end = document.cookie.length;
+      return unescape(document.cookie.substring(c_start,c_end));
+    }
+  }
+  return "";
+}
+jQuery(document).ready(function($) {
+    $(function() {
+        var splitdomain = window.location.hostname.split('.');
+if (splitdomain.length > 2) { splitdomain.shift(); }
+        var currentdomain = splitdomain.join('.');
+        var privacyPolicyUpd = new Date('2018-06-25T10:00:00'); 
+        var privacyCookieValue=getCookieValue("__privacyalert");
+        var acceptedPrivacyDate;
+        if (privacyCookieValue!="") {
+            var acceptedPrivacyDate = new Date(Date.parse(privacyCookieValue));
+        }
+        if (privacyCookieValue == "" || acceptedPrivacyDate < privacyPolicyUpd){
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var displayedDate = privacyPolicyUpd.toLocaleDateString("fr-FR", options);
+            var language="fr_FR";
+    var langattr = language == "fr_FR"? "fr" : "en";
+    $("<div>").html("<span class=\"privacytext\">Ce site utilise des cookies et collecte des informations personnelles vous concernant.<br />Pour plus de pr&eacute;cisions, nous vous invitons &agrave; consulter notre <a href=\"https://www.openedition.org/19362?lang="+langattr+"\">politique de confidentialit&eacute;</a> (mise &agrave; jour le "+displayedDate+").<br />En poursuivant votre navigation, vous acceptez l'utilisation des cookies.</span><span class=\"closeprivacynotice\">Fermer</span>").attr("id", "privacynotice").appendTo("body");
+            $(".closeprivacynotice").click(function() {
+                var expDate = new Date();
+                expDate.setTime(expDate.getTime() + (365 * 24 * 3600 * 1000));
+                var curDate = new Date();
+                curDate.setTime(curDate.getTime());
+                document.cookie = "__privacyalert="+curDate.toUTCString() +";expires=" + expDate.toUTCString() + ";domain="+currentdomain+";path=/";
+                $("#privacynotice").remove();
+            });
+        }
+    });
+});
+--></script>
+        <div id="openbarre">  
+          <div class="openedition">    
+            <div>      
+              <div class="first">        <a href="http://www.openedition.org">OpenEdition</a>        <ul class="submenu nav-toggle-show">          
+                  <li>            <span>OpenEdition Books</span>            <ul>              
+                      <li><a href="http://books.openedition.org"><span class="title">OpenEdition Books</span>Livres en sciences humaines et sociales</a></li>              
+                      <li><a href="http://books.openedition.org/catalogue">Livres</a></li>              
+                      <li><a href="http://books.openedition.org/publishers">&Eacute;diteurs</a></li>              
+                      <li><a href="http://books.openedition.org">En savoir plus</a></li>            </ul>          </li>
+                  <li>            <span>OpenEdition Journals</span>            <ul>                
+                      <li><a href="http://journals.openedition.org"><span class="title">OpenEdition Journals</span>Revues en sciences humaines et sociales</a></li>                
+                      <li><a href="http://www.openedition.org/catalogue-journals">Les revues</a></li>                
+                      <li><a href="http://journals.openedition.org/6438">En savoir plus</a></li>            </ul>          </li>
+                  <li>            <span>Calenda</span>            <ul>                
+                      <li><a href="http://calenda.org"><span class="title">Calenda</span>Annonces scientifiques</a></li>                
+                      <li><a href="http://calenda.org/search">Acc&eacute;der aux annonces</a></li>                
+                      <li><a href="http://calenda.org/about">En savoir plus</a></li>            </ul>          </li>
+                  <li>                <span>Hypoth&egrave;ses</span>                <ul>                    
+                      <li><a href="http://hypotheses.org"><span class="title">Hypoth&egrave;ses</span>Carnets de recherche</a></li>                    
+                      <li><a href="http://www.openedition.org/catalogue-notebooks">Catalogue des carnets</a></li>                </ul>          </li>        </ul>      </div>      
+              <div class="last nav-toggle-show">        
+                <ul class="submenu">          
+                  <li>            <span>Lettre</span>            <ul>                
+                      <li><a href="http://newsletter.openedition.org"><span class="title">Lettre</span>S'abonner &agrave; la Lettre d'OpenEdition</a></li>            </ul>          </li>
+                  <li>            <a href="http://www.openedition.org/14043">OpenEdition Freemium</a>          </li>        </ul>        
+                <div class="align-right">          
+                  <form action="https://search.openedition.org/results" method="get">            
+                    <fieldset>              
+                      <div>                
+                        <input name="q" type="text" />
+                        <button type="submit" class="icons icon-search"><span>Rechercher</span></button>              </div>            </fieldset>          </form>        </div>      </div>    </div>  </div>    
+          <div class="context nav-toggle-show">    
+            <div class="title-share">        
+              <ul class="submenu">            
+                <li class="bg-nav">                    <span class="icons icon-info"><span>Informations</span></span>                    <ul>                                                                    </ul>                </li>                                                            
+                <li class="bg-nav last">                            <span>DOI / R&eacute;f&eacute;rences</span>                            <ul>                                                                                                                                    
+                    <li><a class="iframe" href="510?format=citation">Citer cette r&eacute;f&eacute;rence</a></li>                                                            </ul>                        </li><!-- /DOI / Références -->                                        
+                <li class="bg-nav last" id="dlLinks"></li>                                                                                                                                                                                                                                                        </ul>        
+              <ul class="share">            
+                <li class="icons icon-twitter"><a href="http://twitter.com/share?text=Mod%C3%A9lisation+des+connaissances+et+technologies+du+Web+s%C3%A9mantique%C2%A0%3A+deux+applications+au+patrimoine+culturel&amp;url=&amp;via=OpenEditionActu" class="twitter button-wrap"><span>Twitter</span></a></li>            
+                <li class="icons icon-facebook"><a href="https://www.facebook.com/sharer.php?u=Mod%C3%A9lisation+des+connaissances+et+technologies+du+Web+s%C3%A9mantique%C2%A0%3A+deux+applications+au+patrimoine+culturel&amp;title=" class="facebook button-wrap"><span>Facebook</span></a></li>            
+                <li class="icons icon-google-plus"><a href="https://plus.google.com/share?url=Mod%C3%A9lisation+des+connaissances+et+technologies+du+Web+s%C3%A9mantique%C2%A0%3A+deux+applications+au+patrimoine+culturel&amp;title=" class="google button-wrap"><span>Google +</span></a></li>        </ul>    </div>    
+            <div class="align-right">        
+              <div id="authdata"></div>    </div>  </div>  
+          <button class="icons icon-nav"></button>    <!--[if lte IE 9]>        
+          <link rel="stylesheet" href="https://static-origin.openedition.org/openbarre/css/ie_openbarre.css">    <![endif]--></div>
+        </div>
+      </body>
+    </html>
