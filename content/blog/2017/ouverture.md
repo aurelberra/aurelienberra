@@ -17,4 +17,4 @@ Ensuite, la satisfaction d'un plaisir *geek* et ergonomique&nbsp;: découvrir le
 
 En pratique, il était facile de remonter l'URL du CV hébergé ici et de voir le site, même si je le tenais dans la pénombre. Le voici donc, dans la pleine lumière du Web et toujours en chantier. Bienvenue !
 
-[^hugo]: Une note pour dire du bien de Hugo&nbsp;: non seulement "*one of the most popular open-source static site generators*", mais aussi un projet dont l'un des principaux contributeurs a réagi en quelques heures pour introduire la transformation automatique des *dumb quotes* en guillemets français pourvus de leurs espaces insécables. Que demander de plus ?
+[^hugo]: Une note pour dire du bien de Hugo&nbsp;: non seulement « *one of the most popular open-source static site generators* », mais aussi un projet dont l'un des principaux contributeurs a réagi en quelques heures pour introduire la transformation automatique des *dumb quotes* en guillemets français pourvus de leurs espaces insécables. Que demander de plus ?
