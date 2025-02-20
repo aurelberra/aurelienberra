@@ -9,8 +9,7 @@ builddrafts: false
 pygmentsuseclasses: true
 canonifyurls: true
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
 pluralizelisttitles: "false"
 defaultcontentlanguage: "fr"
 blackfriday:
@@ -22,19 +21,18 @@ permalinks:
   blog: /blog/:year/:month/:title/
 menu:
   main:
-      - name: "CV"
-        url: "/cv"
-        weight: 1
-      - name: "Publications"
-        url: "/publications"
-        weight: 2
-      - name: "Enseignement"
-        url: "/enseignement"
-        weight: 3
-      - name: "Blog"
-        url: "/blog"
-        weight: 4
-      - name: "XXX"
-        url: "/xxx"
-        weight: 5
-...
+    - name: "CV"
+      url: "/cv"
+      weight: 1
+    - name: "Publications"
+      url: "/publications"
+      weight: 2
+    - name: "Enseignement"
+      url: "/enseignement"
+      weight: 3
+    - name: "Blog"
+      url: "/blog"
+      weight: 4
+    - name: "XXX"
+      url: "/xxx"
+      weight: 5
